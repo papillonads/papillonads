@@ -1,1 +1,0 @@
-export { ApplicationArchitecture } from './ApplicationArchitecture'

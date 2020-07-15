@@ -1,3 +1,0 @@
-# ApplicationArchitecture
-
-📝 Coming soon 🐬

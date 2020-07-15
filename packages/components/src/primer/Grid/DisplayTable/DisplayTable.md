@@ -1,3 +1,0 @@
-# DisplayTable
-
-📝 Coming soon 🐬

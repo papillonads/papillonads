@@ -1,1 +1,0 @@
-export { DisplayTable } from './DisplayTable'

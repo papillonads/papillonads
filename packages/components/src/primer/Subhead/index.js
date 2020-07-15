@@ -1,1 +1,0 @@
-export { Subhead } from './Subhead'

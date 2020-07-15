@@ -1,1 +1,0 @@
-export { AssetIcon } from './AssetIcon'

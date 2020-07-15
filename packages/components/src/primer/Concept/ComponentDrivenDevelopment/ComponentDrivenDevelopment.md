@@ -1,3 +1,0 @@
-# ComponentDrivenDevelopment
-
-📝 Coming soon 🐬

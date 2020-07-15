@@ -1,3 +1,0 @@
-# FlexGrid
-
-📝 Coming soon 🐬
