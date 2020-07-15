@@ -1,0 +1,275 @@
+/* stylelint-disable no-descending-specificity */
+@import '~@papillonads/css/build/content/settings/colors';
+@import '~@papillonads/css/build/content/settings/typography';
+@import '~@papillonads/css/build/content/settings/transitions';
+@import '~@papillonads/css/build/content/settings/shadows';
+@import '~@papillonads/css/build/content/settings/z-index';
+
+.Button:focus {
+  // composes: focus-border--default from a11y.scss
+  outline: none;
+  border: 1px solid $color-primary;
+  box-shadow: $glow-primary;
+}
+
+.Button,
+.Button:link {
+  box-sizing: border-box;
+  height: calc(1rem * (40 / #{$font-base-default}));
+  display: inline-block;
+  padding: 0;
+  border: calc(1rem * (1 / #{$font-base-default})) solid #{$color-element-dark};
+  border-radius: calc(1rem * (2 / #{$font-base-default}));
+  font-family: $font-stack-primary;
+  font-size: calc(1rem * (14 / #{$font-base-default}));
+  overflow: hidden;
+  background-size: 100% 200%;
+  transition: background $transition-duration-default $transition-easing-default,
+    opacity $transition-duration-default $transition-easing-default, border-color $transition-duration-default $transition-easing-default;
+  vertical-align: middle;
+  text-decoration: none;
+
+  &:hover:not(.Button--disabled) {
+    cursor: pointer;
+  }
+}
+
+.Button__icon {
+  min-width: calc(1rem * (18 / #{$font-base-default}));
+}
+
+.Button--full-width {
+  width: 100%;
+}
+
+.Button--muted {
+  background-color: $color-element-light;
+
+  &:hover:not(.Button--disabled),
+  &:focus:not(.Button--disabled) {
+    background-color: $color-element-mid;
+  }
+
+  &:active:not(.Button--disabled),
+  &.Button--is-active:not(.Button--disabled) {
+    transition: none;
+    background-color: $color-element-dark;
+  }
+}
+
+.Button--naked {
+  background-color: transparent;
+  border: none;
+
+  &:hover:not(.Button--disabled),
+  &:focus:not(.Button--disabled) {
+    background-color: $color-element-light;
+  }
+
+  &:active:not(.Button--disabled),
+  &.Button--is-active:not(.Button--disabled) {
+    transition: none;
+    background-color: $color-element-mid;
+  }
+
+  &.Button:link {
+    border: none;
+  }
+}
+
+.Button--primary {
+  border-color: $color-blue-dark;
+  background-image: linear-gradient(to top, $color-blue-base, $color-blue-light);
+  background-color: $color-blue-base;
+  background-size: 100% 200%;
+
+  &:hover:not(.Button--disabled),
+  &:focus:not(.Button--disabled) {
+    background-position: 0 100%;
+  }
+
+  &:focus:not(.Button--disabled) {
+    border-color: $color-blue-dark;
+    box-shadow: $glow-primary;
+  }
+
+  &:active:not(.Button--disabled),
+  &.Button--is-active:not(.Button--disabled) {
+    transition: none;
+    background-image: none;
+    background-color: $color-blue-dark;
+  }
+
+  & .Button__label {
+    color: $color-element-lightest;
+  }
+
+  &.Button:link {
+    border-color: $color-blue-dark;
+  }
+}
+
+.Button--positive {
+  border-color: $color-green-dark;
+  background-image: linear-gradient(to top, $color-green-base, $color-green-light);
+  background-size: 100% 200%;
+
+  &:hover:not(.Button--disabled),
+  &:focus:not(.Button--disabled) {
+    background-position: 0 100%;
+  }
+
+  &:focus:not(.Button--disabled) {
+    border-color: $color-green-dark;
+    box-shadow: $glow-positive;
+  }
+
+  &:active:not(.Button--disabled),
+  &.Button--is-active:not(.Button--disabled) {
+    transition: none;
+    background-image: none;
+    background-color: $color-green-dark;
+  }
+
+  & .Button__label {
+    color: $color-element-lightest;
+  }
+
+  &.Button:link {
+    border-color: $color-green-dark;
+  }
+}
+
+.Button--negative {
+  border-color: $color-red-dark;
+  background-image: linear-gradient(to top, $color-red-base, $color-red-light);
+  background-size: 100% 200%;
+
+  &:hover:not(.Button--disabled),
+  &:focus:not(.Button--disabled) {
+    background-position: 0 100%;
+  }
+
+  &:focus:not(.Button--disabled) {
+    border-color: $color-red-dark;
+    box-shadow: $glow-negative;
+  }
+
+  &:active:not(.Button--disabled),
+  &.Button--is-active:not(.Button--disabled) {
+    transition: none;
+    background-image: none;
+    background-color: $color-red-dark;
+  }
+
+  & .Button__label {
+    color: $color-element-lightest;
+  }
+
+  &.Button:link {
+    border-color: $color-red-dark;
+  }
+}
+
+.Button--warning {
+  border-color: $color-orange-dark;
+  background-image: linear-gradient(to top, $color-orange-base, $color-orange-light);
+  background-size: 100% 200%;
+
+  &:hover:not(.Button--disabled),
+  &:focus:not(.Button--disabled) {
+    background-position: 0 100%;
+  }
+
+  &:focus:not(.Button--disabled) {
+    border-color: $color-orange-dark;
+    box-shadow: $glow-warning;
+  }
+
+  &:active:not(.Button--disabled),
+  &.Button--is-active:not(.Button--disabled) {
+    transition: none;
+    background-image: none;
+    background-color: $color-orange-dark;
+  }
+
+  & .Button__label {
+    color: $color-element-lightest;
+  }
+
+  &.Button:link {
+    border-color: $color-orange-dark;
+  }
+}
+
+.Button--disabled {
+  opacity: 0.5;
+  &:hover {
+    cursor: not-allowed;
+  }
+}
+
+.Button__inner-wrapper {
+  display: flex;
+  height: 100%;
+  z-index: $z-index-default;
+  padding: 0 calc(1rem * (14 / #{$font-base-default}));
+  align-items: center;
+  justify-content: center;
+}
+
+.Button__label {
+  margin: 0 calc(1rem * (4 / #{$font-base-default}));
+  color: $color-text-mid;
+  line-height: 2;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.Button--small,
+.Button--small:link {
+  height: calc(1rem * (30 / #{$font-base-default}));
+
+  & .Button__inner-wrapper {
+    padding: 0 calc(1rem * (10 / #{$font-base-default}));
+  }
+
+  & .Button__label {
+    font-size: calc(1rem * (14 / #{$font-base-default}));
+  }
+}
+
+.Button--large {
+  height: calc(1rem * (48 / #{$font-base-default}));
+  & .Button__label {
+    line-height: 1;
+    margin: 0.25rem;
+    font-size: 1.15rem;
+  }
+}
+
+.Button__spinner {
+  transition: opacity, width $transition-duration-default $transition-easing-default;
+}
+
+.Button--spinner--enter {
+  opacity: 0;
+  width: 0;
+}
+
+.Button--spinner-active {
+  opacity: 1;
+  width: 14px;
+}
+
+.Button--spinner--exit {
+  opacity: 1;
+  width: 14px;
+}
+
+.Button--spinner-exit-active {
+  opacity: 0;
+  width: 0;
+}
+/* stylelint-enable no-descending-specificity */

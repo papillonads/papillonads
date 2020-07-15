@@ -1,0 +1,11 @@
+@import '~@papillonads/css/build/content/settings/colors';
+@import '~@papillonads/css/build/content/settings/dimensions';
+
+.EditorToolbar {
+  display: flex;
+  border: 1px solid $color-element-dark;
+  background-color: $color-element-lightest;
+  padding: $spacing-xs;
+  border-radius: 3px 3px 0 0;
+  align-items: center;
+}

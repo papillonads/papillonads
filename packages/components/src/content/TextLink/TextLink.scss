@@ -1,0 +1,139 @@
+/* stylelint-disable no-descending-specificity */
+@import '~@papillonads/css/build/content/settings/colors';
+@import '~@papillonads/css/build/content/settings/typography';
+@import '~@papillonads/css/build/content/settings/transitions';
+@import '~@papillonads/css/build/content/settings/shadows';
+
+.TextLink {
+  // composes: focus-outline--default from a11y.scss
+  // outline: 1px solid $color-primary;
+  border-radius: 2px;
+  // box-shadow: $glow-primary;
+}
+
+.TextLink,
+.TextLink:link {
+  display: inline;
+  align-items: center;
+  box-sizing: border-box;
+  border: 0;
+  padding: 0;
+  font-family: $font-stack-primary;
+  font-size: $font-size-m;
+  text-decoration: underline;
+  background: none;
+  transition: color $transition-duration-short $transition-easing-default;
+  appearance: none;
+  white-space: normal;
+  text-align: left;
+
+  & > span {
+    outline: 0;
+    display: inherit;
+  }
+
+  &:hover,
+  &:focus {
+    color: $color-text-dark;
+    cursor: pointer;
+  }
+}
+
+.TextLink--primary,
+.TextLink--primary:link {
+  color: $color-blue-base;
+}
+
+.TextLink--positive,
+.TextLink--positive:link {
+  color: $color-green-base;
+}
+
+.TextLink--negative,
+.TextLink--negative:link {
+  color: $color-red-base;
+}
+
+.TextLink--secondary,
+.TextLink--secondary:link {
+  color: $color-text-mid;
+}
+
+.TextLink--muted,
+.TextLink--muted:link {
+  color: $color-text-light;
+}
+
+.TextLink--disabled,
+.TextLink--disabled:link {
+  opacity: 0.5;
+
+  &:hover {
+    cursor: not-allowed;
+  }
+
+  &.TextLink--primary:hover {
+    & .TextLink__icon {
+      fill: $color-blue-base;
+    }
+
+    color: $color-blue-base;
+  }
+
+  &.TextLink--positive:hover {
+    & .TextLink__icon {
+      fill: $color-green-base;
+    }
+
+    color: $color-green-base;
+  }
+
+  &.TextLink--negative:hover {
+    & .TextLink__icon {
+      fill: $color-red-base;
+    }
+
+    color: $color-red-base;
+  }
+
+  &.TextLink--secondary:hover {
+    & .TextLink__icon {
+      fill: $color-text-mid;
+    }
+
+    color: $color-text-mid;
+  }
+
+  &.TextLink--muted:hover {
+    & .TextLink__icon {
+      fill: $color-text-light;
+    }
+
+    color: $color-text-light;
+  }
+}
+
+.TextLink__icon {
+  vertical-align: middle;
+  transition: fill $transition-duration-short $transition-easing-default;
+  position: relative;
+  bottom: 1px; /* For optical alignment of icon with TextLink text */
+}
+
+.TextLink:hover .TextLink__icon,
+.TextLink:focus .TextLink__icon,
+.TextLink:hover .TextLink__icon:link,
+.TextLink:focus .TextLink__icon:link {
+  fill: $color-text-dark;
+}
+
+.TextLink__icon-wrapper {
+  display: inline;
+  margin-right: 4px;
+}
+
+.TextLink__icon-wrapper--right {
+  display: inline;
+  margin-left: 4px;
+}
+/* stylelint-enable no-descending-specificity */

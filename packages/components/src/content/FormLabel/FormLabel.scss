@@ -1,0 +1,19 @@
+@import '~@papillonads/css/build/content/settings/colors';
+@import '~@papillonads/css/build/content/settings/typography';
+@import '~@papillonads/css/build/content/settings/transitions';
+
+.FormLabel {
+  display: inline-block;
+  font-family: $font-stack-primary;
+  font-size: $font-size-m;
+  color: $color-text-dark;
+  font-weight: $font-weight-medium;
+  line-height: $line-height-default;
+  margin-bottom: calc(1rem * (8 / 16));
+}
+
+.FormLabel__required-text {
+  color: $color-text-lightest;
+  font-weight: $font-weight-normal;
+  margin-left: calc(1rem * (4 / 16));
+}

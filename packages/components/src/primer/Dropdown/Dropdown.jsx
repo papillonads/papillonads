@@ -1,0 +1,77 @@
+import React from 'react'
+import cx from 'classnames'
+import { v1 as uuidv1 } from 'uuid'
+import detailsUtilityStyles from '@papillonads/css/build/primer/utilities/details.scss'
+import displayStyles from '@papillonads/css/build/primer/utilities/visibility-display.scss'
+import layoutStyles from '@papillonads/css/build/primer/utilities/layout.scss'
+import flexboxStyles from '@papillonads/css/build/primer/utilities/flexbox.scss'
+import { hooks, array as arrayLibrary } from '@papillonads/library'
+import buttonStyles from '../Button/Button.scss'
+import { propTypes, defaultProps } from './Dropdown.prop'
+import styles from './Dropdown.scss'
+
+export function Dropdown({ className, summary, ariaAttr, items, onClick }) {
+  if (!items) {
+    return null
+  }
+
+  const { getIndexItems, getIndexItemsWithSelected } = arrayLibrary
+  const indexItems = getIndexItems(items)
+  const details = hooks.react.useRef(null)
+
+  return (
+    <div className={className}>
+      <details
+        ref={details}
+        className={cx(
+          styles.dropdown,
+          detailsUtilityStyles['details-reset'],
+          detailsUtilityStyles['details-overlay'],
+          displayStyles['d-inline-block'],
+        )}
+      >
+        <summary className={cx(buttonStyles.btn)} aria-haspopup={ariaAttr?.haspopup}>
+          <div className={cx(displayStyles['d-flex'], flexboxStyles['flex-justify-between'], flexboxStyles['flex-items-center'])}>
+            <div>{summary}</div> <div className={styles['dropdown-caret']} />
+          </div>
+        </summary>
+
+        <ul className={cx(styles['dropdown-menu'], styles['dropdown-menu-se'], layoutStyles['width-full'])}>
+          {indexItems.map((indexItem) => {
+            const { href, text, isSelected } = indexItem
+
+            const itemOtherProps = isSelected ? { ...{ 'aria-current': ariaAttr?.current } } : null
+
+            return (
+              <li key={uuidv1()}>
+                <a
+                  onClick={(e) => {
+                    e.preventDefault()
+                    const newIndexItems = getIndexItemsWithSelected(indexItems, indexItem)
+                    onClick({
+                      summary: text,
+                      ariaAttr,
+                      items: newIndexItems.map((newIndexItem) => {
+                        return (({ id, href, text, isSelected }) => ({ id, href, text, isSelected }))(newIndexItem) // eslint-disable-line
+                      }),
+                    })
+                    details.current.removeAttribute('open')
+                  }}
+                  className={styles['dropdown-item']}
+                  href={href}
+                  {...itemOtherProps}
+                >
+                  {text}
+                </a>
+              </li>
+            )
+          })}
+        </ul>
+      </details>
+    </div>
+  )
+}
+
+Dropdown.propTypes = propTypes
+
+Dropdown.defaultProps = defaultProps
