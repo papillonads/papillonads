@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> Render must match renderDefault() 1`] = `
+<input
+  aria-label="Repository description"
+  className="form-control"
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  onKeyUp={[Function]}
+  placeholder="Fantastic placeholder"
+  type="text"
+/>
+`;
