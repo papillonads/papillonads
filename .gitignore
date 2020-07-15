@@ -39,3 +39,4 @@ packages/temp/node_modules
 # NPM Papillon Ads Library Package
 packages/library/build
 packages/library/node_modules
+packages/library/.npmrc
