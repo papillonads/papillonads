@@ -224,8 +224,7 @@ export function ProductMicrosites({ className }) {
         ﹘<a href="https://github.com/papillonads/marketplace/blob/master/package.json">package.json</a>
       </div>
       <div>
-        ﹘
-        <a href="https://github.com/papillonads/marketplace/blob/master/packages/core/src/store/client.js">store/client.js</a>
+        ﹘<a href="https://github.com/papillonads/marketplace/blob/master/packages/core/src/store/client.js">store/client.js</a>
       </div>
       <div>
         ﹘<a href="https://github.com/papillonads/marketplace/blob/master/packages/core/src/store/base.js">store/base.js</a>
