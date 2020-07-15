@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DisplayTable /> Render must match renderDefault() 1`] = `
+Array [
+  <div
+    className="d-table col-12 bg-blue-light"
+  >
+    <div
+      className="col-2 d-table-cell border p-2 h6"
+    >
+      isSelected
+    </div>
+    <div
+      className="col-2 d-table-cell border p-2 h6"
+    >
+      date-created
+    </div>
+    <div
+      className="col-2 d-table-cell border p-2 h6"
+    >
+      date-modified
+    </div>
+    <div
+      className="col-2 d-table-cell border p-2 h6"
+    >
+      kind
+    </div>
+    <div
+      className="col-2 d-table-cell border p-2 h6"
+    >
+      name
+    </div>
+    <div
+      className="col-2 d-table-cell border p-2 h6"
+    >
+      size
+    </div>
+  </div>,
+  <div
+    className="d-table col-12"
+  >
+    <div
+      className="col-2 d-table-cell border p-2"
+    />
+    <div
+      className="col-2 d-table-cell border p-2"
+    >
+      Sat May 07 2016
+    </div>
+    <div
+      className="col-2 d-table-cell border p-2"
+    >
+      Fri Sep 05 2014
+    </div>
+    <div
+      className="col-2 d-table-cell border p-2"
+    >
+      Internet security certificate
+    </div>
+    <div
+      className="col-2 d-table-cell border p-2"
+    >
+      DTmnIjnVyaK.cer
+    </div>
+    <div
+      className="col-2 d-table-cell border p-2"
+    >
+      760 terabyte (TB)
+    </div>
+  </div>,
+]
+`;
