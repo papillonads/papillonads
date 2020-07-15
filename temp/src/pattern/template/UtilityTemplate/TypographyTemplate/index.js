@@ -1,0 +1,1 @@
+export { TypographyTemplate } from './TypographyTemplate'

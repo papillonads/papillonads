@@ -1,0 +1,1 @@
+export { DetailsTemplate } from './DetailsTemplate'

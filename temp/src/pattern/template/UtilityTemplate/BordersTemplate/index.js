@@ -1,0 +1,1 @@
+export { BordersTemplate } from './BordersTemplate'
