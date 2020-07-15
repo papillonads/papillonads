@@ -1,0 +1,22 @@
+@import '~@papillonads/css/build/content/settings/colors';
+@import '~@papillonads/css/build/content/settings/typography';
+@import '~@papillonads/css/build/content/settings/transitions';
+
+.ValidationMessage {
+  display: flex;
+  align-items: center;
+}
+
+.ValidationMessage__icon {
+  margin-right: calc(1rem * (7 / #{$font-base-default}));
+  margin-bottom: calc(1rem * (1 / #{$font-base-default}));
+}
+
+.ValidationMessage__text {
+  display: inline-block;
+  font-size: $font-size-m;
+  font-family: $font-stack-primary;
+  color: $color-negative;
+  margin: 0;
+  line-height: $line-height-default;
+}
