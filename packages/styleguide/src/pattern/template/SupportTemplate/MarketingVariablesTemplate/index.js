@@ -1,0 +1,1 @@
+export { MarketingVariablesTemplate } from './MarketingVariablesTemplate'

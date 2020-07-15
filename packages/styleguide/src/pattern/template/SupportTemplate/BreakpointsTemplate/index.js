@@ -1,0 +1,1 @@
+export { BreakpointsTemplate } from './BreakpointsTemplate'
