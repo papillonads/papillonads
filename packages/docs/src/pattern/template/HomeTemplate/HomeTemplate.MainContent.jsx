@@ -8,7 +8,7 @@ export function MainContent() {
           <div className="">
             <h1 className="f000-light mb-4">Papillon Ads</h1>
 
-            <div className="f2-light pb-4">Marketplace Microsites Documentation</div>
+            <div className="f2-light pb-4">Design System Documentation</div>
           </div>
         </div>
       </div>
