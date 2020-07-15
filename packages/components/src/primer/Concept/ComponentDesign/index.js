@@ -1,0 +1,1 @@
+export { ComponentDesign } from './ComponentDesign'
