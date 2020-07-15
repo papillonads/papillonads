@@ -1,0 +1,12 @@
+@import '~@papillonads/css/build/content/settings/colors';
+@import '~@papillonads/css/build/content/settings/typography';
+@import '~@papillonads/css/build/content/settings/transitions';
+
+.ControlledInput {
+  display: inline-block;
+  font-size: $font-size-m;
+}
+
+.ControlledInput--disabled {
+  cursor: not-allowed;
+}
