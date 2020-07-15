@@ -1,0 +1,7 @@
+export { appRootRoute } from './app'
+export { docsPageRoute } from './docs'
+export { gettingStartedPageRoute } from './gettingStarted'
+export { supportPageRoute } from './support'
+export { utilityPageRoute } from './utility'
+export { objectsPageRoute } from './objects'
+export { notFoundPageRoute } from './notFound'

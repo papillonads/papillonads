@@ -1,0 +1,1 @@
+export { GettingStartedTemplate } from './GettingStartedTemplate'
