@@ -1,0 +1,26 @@
+{
+  "name": "@papillonads/components",
+  "version": "0.0.0",
+  "description": "Papillon Ads Components",
+  "homepage": "https://github.com/papillonads/papillonads#readme",
+  "repository": "https://github.com/papillonads/papillonads/packages/components",
+  "main": "build/index.js",
+  "module": "src/index.js",
+  "files": [
+    "build",
+    "README.md"
+  ],
+  "scripts": {
+    "clean-up": "rm -rf build node_modules package-lock.json",
+    "install-packages": "npm install",
+    "install-papillonads-latest": "npm i \"@papillonads/css\"@latest && npm i \"@papillonads/library\"@latest",
+    "remove-test-folders": "rm -rf src/**/**/__tests__ && rm -rf src/**/**/**/__tests__ && rm -rf src/primer/Concept",
+    "remove-snapshot-folders": "rm -rf src/**/**/__tests__/__snapshots__",
+    "remove-build-folder": "rm -rf build",
+    "transpile": "babel --copy-files --no-copy-ignored --out-dir build src --ignore **/__tests__",
+    "remove-markdown-files": "find build -maxdepth 3 -type f -name \"*.md\" -delete",
+    "build": "npm-run-all remove-snapshot-folders remove-build-folder transpile remove-markdown-files",
+    "release": "npm publish"
+  },
+  "dependencies": {}
+}
