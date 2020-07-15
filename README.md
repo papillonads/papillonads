@@ -35,9 +35,7 @@
     <a href="https://www.npmjs.com/org/papillonads">
       <img src="https://img.shields.io/npm/v/@papillonads/components.svg" alt="npm badge">
       <img src="https://avatars0.githubusercontent.com/u/6078720" alt="npm logo" width="20vw" height="20vh">
-    </a>  
-  </p>
-  <p align="center">
+    </a>
     <a href="https://github.com/facebook/jest">
       <img src="https://img.shields.io/badge/TDD-5B5B5B.svg" alt="tdd badge">
       <img src="https://camo.githubusercontent.com/46e8585e8b6fa7127ff3ab166cadf78bb074103d/68747470733a2f2f6a6573746a732e696f2f696d672f6a6573742d62616467652e737667" alt="jest badge">
