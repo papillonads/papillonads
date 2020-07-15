@@ -39,7 +39,3 @@ packages/temp/node_modules
 # NPM Papillon Ads Library Package
 packages/library/build
 packages/library/node_modules
-
-# NPM Papillon Ads Temp Package
-packages/temp/build
-packages/temp/node_modules

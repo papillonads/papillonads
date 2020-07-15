@@ -45,8 +45,3 @@ packages/temp/node_modules
 packages/library/package-lock.json
 packages/library/build
 packages/library/node_modules
-
-# NPM Papillon Ads Temp Package
-packages/temp/package-lock.json
-packages/temp/build
-packages/temp/node_modules
