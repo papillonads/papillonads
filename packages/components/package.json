@@ -1,6 +1,6 @@
 {
   "name": "@papillonads/components",
-  "version": "0.0.0",
+  "version": "1.2.0",
   "description": "Papillon Ads Components",
   "homepage": "https://github.com/papillonads/papillonads#readme",
   "repository": "https://github.com/papillonads/papillonads/packages/components",
@@ -21,6 +21,5 @@
     "remove-markdown-files": "find build -maxdepth 3 -type f -name \"*.md\" -delete",
     "build": "npm-run-all remove-snapshot-folders remove-build-folder transpile remove-markdown-files",
     "release": "npm publish"
-  },
-  "dependencies": {}
+  }
 }
