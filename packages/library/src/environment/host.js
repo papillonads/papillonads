@@ -1,12 +1,12 @@
 export const localHost = 'localhost'
 
 export const stagingHosts = Object.freeze({
-  development: 'dev',
+  development: 'development',
   test: 'test',
-  acceptance: 'acc',
+  acceptance: 'acceptance',
 })
 
-export const productionHost = 'prod'
+export const productionHost = 'production'
 
 export const isRunningOnLocalHost = window.location.href.includes(localHost)
 
