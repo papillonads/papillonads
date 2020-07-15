@@ -1,6 +1,6 @@
 {
   "name": "papillonads-css",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Papillon Ads CSS",
   "homepage": "https://github.com/papillonads/papillonads#readme",
   "repository": "https://github.com/papillonads/papillonads/packages/css",
@@ -16,6 +16,5 @@
     "install-papillonads-latest": "echo \"css skipping install-papillonads-latest\" && exit 0",
     "build": "rm -rf build && babel --copy-files --no-copy-ignored --out-dir build src",
     "release": "npm publish"
-  },
-  "gitHead": "b34ee656cf1939f44f276abc6777f941a094ffc3"
+  }
 }
