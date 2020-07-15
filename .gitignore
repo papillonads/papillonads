@@ -20,6 +20,7 @@ node_modules
 # NPM Papillon Ads Components Package
 packages/components/build
 packages/components/node_modules
+packages/components/.npmrc
 
 # NPM Papillon Ads CSS Package
 packages/CSS/build
