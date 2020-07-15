@@ -1,0 +1,1 @@
+export { ObjectsTemplate } from './ObjectsTemplate'
