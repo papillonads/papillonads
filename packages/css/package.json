@@ -1,0 +1,20 @@
+{
+  "name": "@papillonads/css",
+  "version": "0.0.0",
+  "description": "Papillon Ads CSS",
+  "homepage": "https://github.com/papillonads/papillonads#readme",
+  "repository": "https://github.com/papillonads/papillonads/packages/css",
+  "main": "build/index.scss",
+  "module": "src/index.js",
+  "files": [
+    "build",
+    "README.md"
+  ],
+  "scripts": {
+    "clean-up": "rm -rf build node_modules package-lock.json",
+    "install-packages": "npm install",
+    "install-papillonads-latest": "echo \"css skipping install-papillonads-latest\" && exit 0",
+    "build": "rm -rf build && babel --copy-files --no-copy-ignored --out-dir build src",
+    "release": "npm publish"
+  }
+}
