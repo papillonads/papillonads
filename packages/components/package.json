@@ -1,6 +1,6 @@
 {
   "name": "@papillonads/components",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Papillon Ads Components",
   "homepage": "https://github.com/papillonads/papillonads#readme",
   "repository": "https://github.com/papillonads/papillonads/packages/components",
@@ -23,7 +23,7 @@
     "release": "npm publish"
   },
   "dependencies": {
-    "@papillonads/css": "^1.2.0",
-    "@papillonads/library": "^1.2.0"
+    "@papillonads/css": "^1.3.0",
+    "@papillonads/library": "^1.3.0"
   }
 }
