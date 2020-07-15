@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NoMatch /> Snaphot must match defaultRender 1`] = `
+<div
+  className=""
+>
+  <h3>
+    No match for 
+    fantastic-path-name
+  </h3>
+</div>
+`;
