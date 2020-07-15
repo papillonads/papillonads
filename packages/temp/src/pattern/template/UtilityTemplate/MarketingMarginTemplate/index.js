@@ -1,1 +1,0 @@
-export { MarketingMarginTemplate } from './MarketingMarginTemplate'

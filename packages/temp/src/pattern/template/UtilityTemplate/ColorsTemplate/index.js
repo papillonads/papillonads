@@ -1,1 +1,0 @@
-export { ColorsTemplate } from './ColorsTemplate'

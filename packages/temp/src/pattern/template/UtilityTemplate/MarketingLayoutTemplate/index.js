@@ -1,1 +1,0 @@
-export { MarketingLayoutTemplate } from './MarketingLayoutTemplate'

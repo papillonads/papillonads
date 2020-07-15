@@ -1,1 +1,0 @@
-export { SpacingTemplate } from './SpacingTemplate'
