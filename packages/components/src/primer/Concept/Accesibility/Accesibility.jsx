@@ -142,8 +142,8 @@ export function DesignSystemCore({ className }) {
         <a href="https://github.com/evcohen/eslint-plugin-jsx-a11y">eslint-plugin-jsx-a11y</a>
       </div>
       <div>
-        ﹘<a href="https://github.com/papillonads/papillonads/blob/master/.storybook/main.js">.storybook/main.js</a> lets Storybook make
-        use of <a href="https://github.com/storybookjs/storybook/tree/next/addons/a11y">@storybook/addon-a11y</a>
+        ﹘<a href="https://github.com/papillonads/papillonads/blob/master/.storybook/main.js">.storybook/main.js</a> lets Storybook make use
+        of <a href="https://github.com/storybookjs/storybook/tree/next/addons/a11y">@storybook/addon-a11y</a>
       </div>
       <div>
         ﹘<a href="https://github.com/papillonads/papillonads/blob/master/.storybook/preview.js">.storybook/preview.js</a> lets Storybook
