@@ -1,0 +1,42 @@
+# MacOS
+.DS_Store
+
+# Sublime Text
+app.sublime-project
+app.sublime-workspace
+
+# Storybook
+.storybook-static-develop
+.storybook-static-release
+
+# Test
+coverage
+
+# NPM Papillon Ads
+npm-debug.log
+lerna-debug.log
+node_modules
+
+# NPM Papillon Ads Components Package
+packages/components/build
+packages/components/node_modules
+
+# NPM Papillon Ads CSS Package
+packages/CSS/build
+packages/CSS/node_modules
+
+# NPM Papillon Ads Docs Package
+packages/docs/build
+packages/docs/node_modules
+
+# NPM Papillon Ads Temp Package
+packages/temp/build
+packages/temp/node_modules
+
+# NPM Papillon Ads Library Package
+packages/library/build
+packages/library/node_modules
+
+# NPM Papillon Ads Temp Package
+packages/temp/build
+packages/temp/node_modules
