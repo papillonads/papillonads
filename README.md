@@ -33,7 +33,7 @@
       </a>
     </a>
     <a href="https://www.npmjs.com/org/papillonads">
-      <img src="https://img.shields.io/badge/NPM-v1.0.0-0C7DBD.svg" alt="npm badge">
+      <img src="https://img.shields.io/npm/v/@papillonads/components.svg" alt="npm badge">
       <img src="https://avatars0.githubusercontent.com/u/6078720" alt="npm logo" width="20vw" height="20vh">
     </a>  
   </p>
