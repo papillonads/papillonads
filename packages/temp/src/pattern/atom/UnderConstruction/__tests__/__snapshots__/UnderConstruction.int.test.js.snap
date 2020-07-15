@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UnderConstruction /> Snaphot must match defaultRender 1`] = `
+<div
+  className=""
+>
+  Under construction
+   
+  <span
+    aria-label="emoji"
+    role="img"
+  >
+    🙂
+  </span>
+</div>
+`;
