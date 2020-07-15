@@ -1,9 +1,7 @@
-/* eslint no-unused-vars : 0 */
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Provider } from 'react-redux'
 import { withRouter } from 'react-router'
-import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import { a11y } from '@papillonads/library'
 import { homePageRoute, conceptPageRoute, componentsPageRoute, notFoundPageRoute } from './route'
 import { ErrorBoundary } from './pattern/atom/ErrorBoundary'
