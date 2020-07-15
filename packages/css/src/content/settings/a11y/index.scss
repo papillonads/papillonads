@@ -1,0 +1,14 @@
+@import '../colors';
+@import '../shadows';
+
+.focus-outline--default:focus {
+  outline: 1px solid $color-primary;
+  border-radius: 2px;
+  box-shadow: $glow-primary;
+}
+
+.focus-border--default:focus {
+  outline: none;
+  border: 1px solid $color-primary;
+  box-shadow: $glow-primary;
+}

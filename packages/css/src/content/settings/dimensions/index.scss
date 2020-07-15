@@ -1,0 +1,9 @@
+@import '../typography';
+@import '../../tokens/spacing';
+
+:root {
+  /* Input Widths */
+  --input-width-small: 120px;
+  --input-width-medium: 240px;
+  --input-width-large: 420px;
+}
