@@ -1,0 +1,1 @@
+export { TabFocusTrap } from './TabFocusTrap'
