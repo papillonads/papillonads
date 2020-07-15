@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NotFoundPage /> Snaphot must match asyncRender 1`] = `null`;
+
+exports[`<NotFoundPage /> Snaphot must match defaultRender 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <h3>
+      No match for 
+      fantastic-path-name
+    </h3>
+  </div>
+  Back to 
+  <div>
+    some link
+  </div>
+</div>
+`;
