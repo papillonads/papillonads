@@ -42,7 +42,7 @@ module.exports = {
     '!packages/library/**/store/**',
     '!packages/library/**/string/**',
     '!packages/docs/**',
-    '!packages/temp/**',
+    '!packages/styleguide/**',
   ],
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   moduleNameMapper: {
