@@ -4,7 +4,7 @@
     "packages/css",
     "packages/docs",
     "packages/library",
-    "packages/temp"
+    "packages/styleguide"
   ],
   "version": "1.4.0"
 }
