@@ -1,1 +1,0 @@
-export { DetailsTemplate } from './DetailsTemplate'

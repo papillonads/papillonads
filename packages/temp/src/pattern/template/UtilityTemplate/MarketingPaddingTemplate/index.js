@@ -1,1 +1,0 @@
-export { MarketingPaddingTemplate } from './MarketingPaddingTemplate'

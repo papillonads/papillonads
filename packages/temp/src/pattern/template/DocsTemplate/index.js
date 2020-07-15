@@ -1,1 +1,0 @@
-export { DocsTemplate } from './DocsTemplate'
