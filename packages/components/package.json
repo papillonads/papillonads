@@ -21,5 +21,9 @@
     "remove-markdown-files": "find build -maxdepth 3 -type f -name \"*.md\" -delete",
     "build": "npm-run-all remove-snapshot-folders remove-build-folder transpile remove-markdown-files",
     "release": "npm publish"
+  },
+  "dependencies": {
+    "@papillonads/css": "^1.2.0",
+    "@papillonads/library": "^1.2.0"
   }
 }
