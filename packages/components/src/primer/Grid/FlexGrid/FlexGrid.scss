@@ -1,0 +1,13 @@
+.item {
+  &:hover {
+    cursor: pointer;
+    user-select: none;
+  }
+}
+
+input[type='checkbox'] {
+  &:hover {
+    cursor: pointer;
+    user-select: none;
+  }
+}
