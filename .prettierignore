@@ -35,11 +35,11 @@ packages/docs/package-lock.json
 packages/docs/build
 packages/docs/node_modules
 
-# NPM Papillon Ads Temp Package
-packages/temp/src/asset/*
-packages/temp/package-lock.json
-packages/temp/build
-packages/temp/node_modules
+# NPM Papillon Ads Styleguide Package
+packages/styleguide/src/asset/*
+packages/styleguide/package-lock.json
+packages/styleguide/build
+packages/styleguide/node_modules
 
 # NPM Papillon Ads Library Package
 packages/library/package-lock.json

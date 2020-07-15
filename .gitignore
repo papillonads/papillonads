@@ -32,9 +32,9 @@ packages/CSS/.npmrc
 packages/docs/build
 packages/docs/node_modules
 
-# NPM Papillon Ads Temp Package
-packages/temp/build
-packages/temp/node_modules
+# NPM Papillon Ads Styleguide Package
+packages/styleguide/build
+packages/styleguide/node_modules
 
 # NPM Papillon Ads Library Package
 packages/library/build
