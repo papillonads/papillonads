@@ -1,1 +1,0 @@
-export { MarketingBordersTemplate } from './MarketingBordersTemplate'

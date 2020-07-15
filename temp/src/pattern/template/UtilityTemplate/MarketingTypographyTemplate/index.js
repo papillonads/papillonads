@@ -1,1 +1,0 @@
-export { MarketingTypographyTemplate } from './MarketingTypographyTemplate'
