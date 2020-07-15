@@ -1,1 +1,0 @@
-export { SupportTemplate } from './SupportTemplate'

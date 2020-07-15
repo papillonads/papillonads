@@ -1,1 +1,0 @@
-export { BoxShadowTemplate } from './BoxShadowTemplate'

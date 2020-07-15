@@ -1,1 +1,0 @@
-export { AnimationsTemplate } from './AnimationsTemplate'

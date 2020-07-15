@@ -1,1 +1,0 @@
-export { MarketingFiltersTemplate } from './MarketingFiltersTemplate'
