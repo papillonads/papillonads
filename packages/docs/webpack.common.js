@@ -7,7 +7,7 @@ const MODERN_CONFIG = 'modern'
 
 // node modules
 const path = require('path')
-const merge = require('webpack-merge')
+const merge = require('webpack-merge').merge
 
 // webpack plugins
 const ManifestPlugin = require('webpack-manifest-plugin')

@@ -12,7 +12,7 @@ const MODERN_CONFIG = 'modern'
 // node modules
 const git = require('git-rev-sync')
 const glob = require('glob-all')
-const merge = require('webpack-merge')
+const merge = require('webpack-merge').merge
 const moment = require('moment')
 const path = require('path')
 const webpack = require('webpack')
