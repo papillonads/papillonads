@@ -1,5 +1,5 @@
 <div id="logo" align="center">
-  <img width="300px" height="250px" src=".docs/image/logo.png">
+  <img width="300px" height="250px" src=".docs/image/logo.jpg">
 </div>
 
 <h1 id="heading" align="center">Papillon Ads</h1>
