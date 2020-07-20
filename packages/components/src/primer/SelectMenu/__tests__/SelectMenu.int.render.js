@@ -24,11 +24,18 @@ export const items = [
 ]
 
 export function renderCustom(onClick) {
-  return <SelectMenu summary={summary} icon={iconName.ChevronDown} title={title} ariaAttr={ariaAttr} items={items} onClick={onClick} />
+  return <SelectMenu summary={summary} icon={iconName.ChevronDown16} title={title} ariaAttr={ariaAttr} items={items} onClick={onClick} />
 }
 
 export function renderDefault() {
   return (
-    <SelectMenu summary={summary} icon={iconName.ChevronDown} title={title} ariaAttr={ariaAttr} items={items} onClick={action('onClick')} />
+    <SelectMenu
+      summary={summary}
+      icon={iconName.ChevronDown16}
+      title={title}
+      ariaAttr={ariaAttr}
+      items={items}
+      onClick={action('onClick')}
+    />
   )
 }
