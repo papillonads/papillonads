@@ -64,9 +64,9 @@ export function FlexGrid({ className, items, idIndex, isSelectedIndex, selection
 
           if (sort.index === nameIndex && sort.value === name) {
             if (sort.order === sortOrder.ascending) {
-              sortComponent = <Icon icon={iconName.TriangleUp} size={iconSize.small} />
+              sortComponent = <Icon icon={iconName.TriangleUp16} size={iconSize.small} />
             } else {
-              sortComponent = <Icon icon={iconName.TriangleDown} size={iconSize.small} />
+              sortComponent = <Icon icon={iconName.TriangleDown16} size={iconSize.small} />
             }
           }
 

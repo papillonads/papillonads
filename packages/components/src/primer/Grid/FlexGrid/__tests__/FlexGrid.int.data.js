@@ -7,7 +7,7 @@ export const data = [
     isSelected: false,
     kind: 'PostScript file',
     name: {
-      icon: 'File',
+      icon: 'File16',
       value: 'y8P.ps',
     },
     path: [
@@ -32,7 +32,7 @@ export const data = [
     isSelected: false,
     kind: 'Perl script file',
     name: {
-      icon: 'File',
+      icon: 'File16',
       value: 'Pj9m.cgi',
     },
     path: [
@@ -57,7 +57,7 @@ export const data = [
     isSelected: false,
     kind: 'PSD image',
     name: {
-      icon: 'File',
+      icon: 'File16',
       value: 'mRGfhp.psd',
     },
     path: [
@@ -82,7 +82,7 @@ export const data = [
     isSelected: false,
     kind: 'Active Server Page file',
     name: {
-      icon: 'File',
+      icon: 'File16',
       value: 'FBrXhyh736LIV.aspx',
     },
     path: [
@@ -109,7 +109,7 @@ export const data = [
         isSelected: false,
         kind: 'PostScript file',
         name: {
-          icon: 'File',
+          icon: 'File16',
           value: 'OJNhlbZ8WMjuly.ps',
         },
         path: [
@@ -138,7 +138,7 @@ export const data = [
     isSelected: false,
     kind: 'Folder',
     name: {
-      icon: 'FileDirectory',
+      icon: 'FileDirectory16',
       value: 'beylpO7v',
     },
     path: [
@@ -163,7 +163,7 @@ export const data = [
     isSelected: false,
     kind: 'Database file',
     name: {
-      icon: 'File',
+      icon: 'File16',
       value: 'aD9iiQhkj.db',
     },
     path: [
@@ -188,7 +188,7 @@ export const data = [
     isSelected: false,
     kind: 'Apple Mail e-mail file',
     name: {
-      icon: 'File',
+      icon: 'File16',
       value: '9kcUYOj65.emlx',
     },
     path: [
@@ -215,7 +215,7 @@ export const data = [
         isSelected: false,
         kind: 'Internet security certificate',
         name: {
-          icon: 'File',
+          icon: 'File16',
           value: 'DTmnIjnVyaK.cer',
         },
         path: [
@@ -244,7 +244,7 @@ export const data = [
     isSelected: false,
     kind: 'Folder',
     name: {
-      icon: 'FileDirectory',
+      icon: 'FileDirectory16',
       value: '7',
     },
     path: [
@@ -269,7 +269,7 @@ export const data = [
     isSelected: false,
     kind: 'Microsoft Excel file with macros',
     name: {
-      icon: 'File',
+      icon: 'File16',
       value: '1NplEr0hHjFnTmW.xlsm',
     },
     path: [
