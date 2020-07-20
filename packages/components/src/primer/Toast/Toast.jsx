@@ -16,15 +16,15 @@ export function Toast({ className, variant, text, isDismissable, onClick }) {
         })}
       >
         <span className={styles['Toast-icon']}>
-          {variant === toastVariant.info && <Icon icon={iconName.Info} />}
-          {variant === toastVariant.success && <Icon icon={iconName.Check} />}
-          {variant === toastVariant.warning && <Icon icon={iconName.Alert} />}
-          {variant === toastVariant.error && <Icon icon={iconName.Stop} />}
+          {variant === toastVariant.info && <Icon icon={iconName.Info16} />}
+          {variant === toastVariant.success && <Icon icon={iconName.Check16} />}
+          {variant === toastVariant.warning && <Icon icon={iconName.Alert16} />}
+          {variant === toastVariant.error && <Icon icon={iconName.Stop16} />}
         </span>
         <span className={styles['Toast-content']}>{text}</span>
         {isDismissable && (
           <button type="button" className={styles['Toast-dismissButton']} onClick={onClick}>
-            <Icon icon={iconName.X} size={iconSize.small} />
+            <Icon icon={iconName.X16} size={iconSize.small} />
           </button>
         )}
       </div>
