@@ -23,10 +23,10 @@ export const defaultItems = [
 ]
 
 export const iconItems = [
-  { href: '#url', icon: iconName.Tools, text: 'Account', isSelected: true },
-  { href: '#url', icon: iconName.Person, text: 'Profile', isSelected: false },
-  { href: '#url', icon: iconName.Mail, text: 'Emails', isSelected: false },
-  { href: '#url', icon: iconName.RadioTower, text: 'Notifications', isSelected: false },
+  { href: '#url', icon: iconName.Tools16, text: 'Account', isSelected: true },
+  { href: '#url', icon: iconName.Person16, text: 'Profile', isSelected: false },
+  { href: '#url', icon: iconName.Mail16, text: 'Emails', isSelected: false },
+  { href: '#url', icon: iconName.Broadcast16, text: 'Notifications', isSelected: false },
 ]
 
 export function renderCustom(onClick) {
