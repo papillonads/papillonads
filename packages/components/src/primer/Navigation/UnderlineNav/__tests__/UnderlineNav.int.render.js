@@ -31,10 +31,10 @@ export const anchorItems = [
 ]
 
 export const iconItems = [
-  { href: '#url', icon: iconName.Tools, html: <span>Item 1</span>, isSelected: true },
+  { href: '#url', icon: iconName.Tools16, html: <span>Item 1</span>, isSelected: true },
   {
     href: '#url',
-    icon: iconName.Tools,
+    icon: iconName.Tools16,
     html: (
       <React.Fragment>
         <span>Item 2</span>
@@ -43,15 +43,15 @@ export const iconItems = [
     ),
     isSelected: false,
   },
-  { href: '#url', icon: iconName.Tools, html: <span>Item 3</span>, isSelected: false },
-  { href: '#url', icon: iconName.Tools, html: <span>Item 4</span>, isSelected: false },
+  { href: '#url', icon: iconName.Tools16, html: <span>Item 3</span>, isSelected: false },
+  { href: '#url', icon: iconName.Tools16, html: <span>Item 4</span>, isSelected: false },
 ]
 
 export const fullContainerItems = [
-  { href: '#url', icon: iconName.Tools, html: <span>Item 1</span>, isSelected: true },
+  { href: '#url', icon: iconName.Tools16, html: <span>Item 1</span>, isSelected: true },
   {
     href: '#url',
-    icon: iconName.Tools,
+    icon: iconName.Tools16,
     html: (
       <React.Fragment>
         <span>Item 2</span>
@@ -60,8 +60,8 @@ export const fullContainerItems = [
     ),
     isSelected: false,
   },
-  { href: '#url', icon: iconName.Tools, html: <span>Item 3</span>, isSelected: false },
-  { href: '#url', icon: iconName.Tools, html: <span>Item 4</span>, isSelected: false },
+  { href: '#url', icon: iconName.Tools16, html: <span>Item 3</span>, isSelected: false },
+  { href: '#url', icon: iconName.Tools16, html: <span>Item 4</span>, isSelected: false },
 ]
 
 const actionButton = (
