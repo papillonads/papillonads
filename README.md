@@ -132,6 +132,14 @@
       <img src=".docs/image/ie11-logo.jpg" alt="ie11 logo" width="20vw" height="20vh">
     </a>
   </p>
+  <p align="center">
+    <a href="https://github.com/papillonads/papillonads/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/papillonads/papillonads?color=0088ff" />
+    </a>
+    <a href="https://github.com/papillonads/papillonads/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/papillonads/papillonads?color=0088ff" />
+    </a>
+  </p>
 </div>
 
 <h2 id="status" style="color: #006400;">🗿 Status</h2>
