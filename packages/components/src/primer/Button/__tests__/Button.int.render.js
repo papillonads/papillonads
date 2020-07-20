@@ -8,8 +8,8 @@ const Button =
     ? require('../../../index').primer.Button.Button
     : require('../../../../build').primer.Button.Button
 
-const plusIconLeftAligned = { name: iconName.Plus, alignment: iconAlignment.left }
-const plusIconRightAligned = { name: iconName.Plus, alignment: iconAlignment.right }
+const plusIconLeftAligned = { name: iconName.Plus16, alignment: iconAlignment.left }
+const plusIconRightAligned = { name: iconName.Plus16, alignment: iconAlignment.right }
 
 export function renderCustom(element, onClick) {
   return <Button text="Custom button" element={element} onClick={onClick} />
