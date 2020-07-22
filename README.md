@@ -6,6 +6,26 @@
 
 <div id="badges" align="center">
   <p align="center">
+    <a aria-label="downloads" href="https://npm-stat.com/charts.html?package=@papillonads/components&from=2018-10-13">
+      <img alt="" src="https://img.shields.io/npm/dm/@papillonads/components.svg">
+    </a>
+    <a aria-label="last commit" href="https://github.com/papillonads/papillonads/commits/master">
+      <img alt="" src="https://img.shields.io/github/last-commit/papillonads/papillonads.svg">
+    </a>
+    <a aria-label="contributors graph" href="https://github.com/papillonads/papillonads/graphs/contributors">
+      <img src="https://img.shields.io/github/contributors/papillonads/papillonads.svg">
+    </a>
+    <a aria-label="license" href="https://github.com/papillonads/papillonads/blob/master/LICENSE">
+      <img src="https://img.shields.io/github/license/papillonads/papillonads.svg" alt="">
+    </a>
+    <a href="https://github.com/papillonads/papillonads/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/papillonads/papillonads?color=0088ff" />
+    </a>
+    <a href="https://github.com/papillonads/papillonads/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/papillonads/papillonads?color=0088ff" />
+    </a>
+  </p>
+  <p align="center">
     <a href="https://github.com/webpack/">
       <img src="https://img.shields.io/badge/Bundle-Webpack-5299C8.svg" alt="webpack badge">
       <img src="https://avatars1.githubusercontent.com/u/2105791" alt="webpack logo" width="35vw" height="35vh">
@@ -130,14 +150,6 @@
     </a>
     <a href="https://github.com/MicrosoftEdge">
       <img src=".docs/image/ie11-logo.jpg" alt="ie11 logo" width="20vw" height="20vh">
-    </a>
-  </p>
-  <p align="center">
-    <a href="https://github.com/papillonads/papillonads/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/papillonads/papillonads?color=0088ff" />
-    </a>
-    <a href="https://github.com/papillonads/papillonads/pulls">
-      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/papillonads/papillonads?color=0088ff" />
     </a>
   </p>
 </div>
