@@ -4,6 +4,7 @@ import { AvatarsTemplate as Avatars } from './AvatarsTemplate'
 import { BlankslateTemplate as Blankslate } from './BlankslateTemplate'
 import { BoxTemplate as Box } from './BoxTemplate'
 import { BoxOverlayTemplate as BoxOverlay } from './BoxOverlayTemplate'
+import { BoxedGroupsTemplate as BoxedGroups } from './BoxedGroupsTemplate'
 
 export const ComponentsTemplate = {
   Components,
@@ -12,4 +13,5 @@ export const ComponentsTemplate = {
   Blankslate,
   Box,
   BoxOverlay,
+  BoxedGroups,
 }
