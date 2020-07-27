@@ -6,6 +6,7 @@ import { Compiling } from './Compiling'
 import { ComponentDesign } from './ComponentDesign'
 import { ComponentDrivenDevelopment } from './ComponentDrivenDevelopment'
 import { ContinuousDelivery } from './ContinuousDelivery'
+import { Microsite } from './Microsite'
 
 export const Concept = {
   Accesibility,
@@ -16,4 +17,5 @@ export const Concept = {
   ComponentDesign,
   ComponentDrivenDevelopment,
   ContinuousDelivery,
+  Microsite,
 }
