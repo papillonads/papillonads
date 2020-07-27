@@ -5,6 +5,7 @@ import { AsyncBlankslatePage as AsyncBlankslate, BlankslatePage as Blankslate } 
 import { AsyncBoxPage as AsyncBox, BoxPage as Box } from './BoxPage'
 import { AsyncBoxOverlayPage as AsyncBoxOverlay, BoxOverlayPage as BoxOverlay } from './BoxOverlayPage'
 import { AsyncBoxedGroupsPage as AsyncBoxedGroups, BoxedGroupsPage as BoxedGroups } from './BoxedGroupsPage'
+import { AsyncBranchNamePage as AsyncBranchName, BranchNamePage as BranchName } from './BranchNamePage'
 
 export const ComponentsPage = {
   Components: { AsyncComponents, Components },
@@ -14,4 +15,5 @@ export const ComponentsPage = {
   Box: { AsyncBox, Box },
   BoxOverlay: { AsyncBoxOverlay, BoxOverlay },
   BoxedGroups: { AsyncBoxedGroups, BoxedGroups },
+  BranchName: { AsyncBranchName, BranchName },
 }
