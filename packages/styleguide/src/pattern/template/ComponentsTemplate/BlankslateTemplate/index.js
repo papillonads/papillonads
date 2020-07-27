@@ -1,0 +1,1 @@
+export { BlankslateTemplate } from './BlankslateTemplate'
