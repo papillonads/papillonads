@@ -7,6 +7,7 @@ import { ComponentDesign } from './ComponentDesign'
 import { ComponentDrivenDevelopment } from './ComponentDrivenDevelopment'
 import { ContinuousDelivery } from './ContinuousDelivery'
 import { Microsite } from './Microsite'
+import { Monorepo } from './Monorepo'
 
 export const Concept = {
   Accesibility,
@@ -18,4 +19,5 @@ export const Concept = {
   ComponentDrivenDevelopment,
   ContinuousDelivery,
   Microsite,
+  Monorepo,
 }
