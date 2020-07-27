@@ -4,6 +4,7 @@ import { avatarsRoute } from './avatars'
 import { blankslateRoute } from './blankslate'
 import { boxRoute } from './box'
 import { boxOverlayRoute } from './boxOverlay'
+import { boxedGroupsRoute } from './boxedGroups'
 
 export const componentsPageRoute = {
   components: componentsRoute,
@@ -12,4 +13,5 @@ export const componentsPageRoute = {
   blankslate: blankslateRoute,
   box: boxRoute,
   boxOverlay: boxOverlayRoute,
+  boxedGroups: boxedGroupsRoute,
 }

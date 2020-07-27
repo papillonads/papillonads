@@ -193,6 +193,11 @@ export function App() {
             path={componentsPageRoute.boxOverlay.path}
             component={componentsPageRoute.boxOverlay.clientComponent}
           />
+          <Route
+            exact={componentsPageRoute.boxedGroups.exact}
+            path={componentsPageRoute.boxedGroups.path}
+            component={componentsPageRoute.boxedGroups.clientComponent}
+          />
           <Route component={withRouter(notFoundPageRoute.clientComponent)} />
         </Switch>
       </BrowserRouter>
