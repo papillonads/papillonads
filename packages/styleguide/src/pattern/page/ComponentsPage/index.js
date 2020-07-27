@@ -2,10 +2,12 @@ import { AsyncComponentsPage as AsyncComponents, ComponentsPage as Components } 
 import { AsyncAlertsPage as AsyncAlerts, AlertsPage as Alerts } from './AlertsPage'
 import { AsyncAvatarsPage as AsyncAvatars, AvatarsPage as Avatars } from './AvatarsPage'
 import { AsyncBlankslatePage as AsyncBlankslate, BlankslatePage as Blankslate } from './BlankslatePage'
+import { AsyncBoxPage as AsyncBox, BoxPage as Box } from './BoxPage'
 
 export const ComponentsPage = {
   Components: { AsyncComponents, Components },
   Alerts: { AsyncAlerts, Alerts },
   Avatars: { AsyncAvatars, Avatars },
   Blankslate: { AsyncBlankslate, Blankslate },
+  Box: { AsyncBox, Box },
 }
