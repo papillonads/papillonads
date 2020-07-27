@@ -45,7 +45,7 @@ export function ProductMicrosites({ className }) {
   return (
     <div className={className}>
       <h2>📗 Papillon Ads Implementation</h2>
-      <h3>📖. Design System Core</h3>
+      <h3>📖. Product Microsites</h3>
       <h4>📃. Setup file(s)</h4>
       <div>﹘ Coming soon.</div>
       <h4>📃. Knowledge base</h4>
