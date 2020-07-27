@@ -198,6 +198,11 @@ export function App() {
             path={componentsPageRoute.boxedGroups.path}
             component={componentsPageRoute.boxedGroups.clientComponent}
           />
+          <Route
+            exact={componentsPageRoute.branchName.exact}
+            path={componentsPageRoute.branchName.path}
+            component={componentsPageRoute.branchName.clientComponent}
+          />
           <Route component={withRouter(notFoundPageRoute.clientComponent)} />
         </Switch>
       </BrowserRouter>
