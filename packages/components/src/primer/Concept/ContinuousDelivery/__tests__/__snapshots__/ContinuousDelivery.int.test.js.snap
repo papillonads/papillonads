@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ContinuousDelivery /> Render must match renderDesignSystemCore() 1`] = `
+<div
+  className={null}
+>
+  <h2>
+    📗 Papillon Ads Implementation
+  </h2>
+  <h3>
+    📖. Design System Core
+  </h3>
+  <h4>
+    📃. Setup file(s)
+  </h4>
+  <div>
+    ﹘ Coming soon.
+  </div>
+  <h4>
+    📃. Knowledge base
+  </h4>
+  <div>
+    ﹘ Coming soon.
+  </div>
+</div>
+`;
+
+exports[`<ContinuousDelivery /> Render must match renderOpenSourceDependencyProjects() 1`] = `
+<div
+  className={null}
+>
+  <h2>
+    📗 Open Source Dependency Projects
+  </h2>
+  Coming soon...
+</div>
+`;
+
+exports[`<ContinuousDelivery /> Render must match renderProductMicrosites() 1`] = `
+<div
+  className={null}
+>
+  <h2>
+    📗 Papillon Ads Implementation
+  </h2>
+  <h3>
+    📖. Design System Core
+  </h3>
+  <h4>
+    📃. Setup file(s)
+  </h4>
+  <div>
+    ﹘ Coming soon.
+  </div>
+  <h4>
+    📃. Knowledge base
+  </h4>
+  <div>
+    ﹘ Coming soon.
+  </div>
+</div>
+`;
+
+exports[`<ContinuousDelivery /> Render must match renderSpecificationsStandardsGuidelines() 1`] = `
+<div
+  className={null}
+>
+  <h2>
+    📗 Specifications/Standards/Guidelines
+  </h2>
+  Coming soon...
+</div>
+`;
