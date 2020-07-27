@@ -505,9 +505,9 @@ export function SideBar() {
             </li>
 
             <li className="">
-              <a href="/primer/components/breadcrumb/" className="position-relative f5 py-1 d-block">
+              <Link className="position-relative f5 py-1 d-block" to={componentsPageRoute.breadcrumb.path}>
                 Breadcrumbs
-              </a>
+              </Link>
             </li>
 
             <li className="">
