@@ -12,6 +12,7 @@ import {
   supportPageRoute,
   utilityPageRoute,
   objectsPageRoute,
+  componentsPageRoute,
   notFoundPageRoute,
 } from './route'
 import { ErrorBoundary } from './pattern/atom/ErrorBoundary'
@@ -161,6 +162,11 @@ export function App() {
             exact={objectsPageRoute.tableObject.exact}
             path={objectsPageRoute.tableObject.path}
             component={objectsPageRoute.tableObject.clientComponent}
+          />
+          <Route
+            exact={componentsPageRoute.components.exact}
+            path={componentsPageRoute.components.path}
+            component={componentsPageRoute.components.clientComponent}
           />
           <Route component={withRouter(notFoundPageRoute.clientComponent)} />
         </Switch>

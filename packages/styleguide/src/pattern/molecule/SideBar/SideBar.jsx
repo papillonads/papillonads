@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { sideBarDefaultProps, sideBarPropTypes } from './SideBar.prop'
-import { supportPageRoute, utilityPageRoute, objectsPageRoute } from '../../../route'
+import { supportPageRoute, utilityPageRoute, objectsPageRoute, componentsPageRoute } from '../../../route'
 
 export function SideBar() {
   return (
@@ -412,12 +412,12 @@ export function SideBar() {
         <li className="mt-4 border-bottom" />
 
         <li className="px-4 my-4">
-          <a
-            href="/primer/components/"
+          <Link
             className="position-relative f4 d-block text-gray-dark position-relative f4 d-block text-gray-dark text-bold"
+            to={componentsPageRoute.components.path}
           >
             Components
-          </a>
+          </Link>
 
           <ul className="pt-2 list-style-none">
             <li className="">
