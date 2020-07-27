@@ -188,6 +188,11 @@ export function App() {
             path={componentsPageRoute.box.path}
             component={componentsPageRoute.box.clientComponent}
           />
+          <Route
+            exact={componentsPageRoute.boxOverlay.exact}
+            path={componentsPageRoute.boxOverlay.path}
+            component={componentsPageRoute.boxOverlay.clientComponent}
+          />
           <Route component={withRouter(notFoundPageRoute.clientComponent)} />
         </Switch>
       </BrowserRouter>

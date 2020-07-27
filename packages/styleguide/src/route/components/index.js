@@ -3,6 +3,7 @@ import { alertsRoute } from './alerts'
 import { avatarsRoute } from './avatars'
 import { blankslateRoute } from './blankslate'
 import { boxRoute } from './box'
+import { boxOverlayRoute } from './boxOverlay'
 
 export const componentsPageRoute = {
   components: componentsRoute,
@@ -10,4 +11,5 @@ export const componentsPageRoute = {
   avatars: avatarsRoute,
   blankslate: blankslateRoute,
   box: boxRoute,
+  boxOverlay: boxOverlayRoute,
 }
