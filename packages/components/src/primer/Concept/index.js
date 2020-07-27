@@ -9,6 +9,7 @@ import { ContinuousDelivery } from './ContinuousDelivery'
 import { Microsite } from './Microsite'
 import { Monorepo } from './Monorepo'
 import { Rendering } from './Rendering'
+import { Routing } from './Routing'
 
 export const Concept = {
   Accesibility,
@@ -22,4 +23,5 @@ export const Concept = {
   Microsite,
   Monorepo,
   Rendering,
+  Routing,
 }
