@@ -439,7 +439,7 @@ export function SideBar() {
             </li>
 
             <li className="">
-              <a href="/primer/components/box/" className="position-relative f5 py-1 d-block">
+              <Link className="position-relative f5 py-1 d-block" to={componentsPageRoute.box.path}>
                 Box
                 <span className="position-absolute right-0">
                   <span className="text-green  tooltipped tooltipped-nw" aria-label="New release">
@@ -455,7 +455,7 @@ export function SideBar() {
                     </svg>
                   </span>
                 </span>
-              </a>
+              </Link>
             </li>
 
             <li className="">
