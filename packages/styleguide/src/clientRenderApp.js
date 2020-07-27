@@ -173,6 +173,11 @@ export function App() {
             path={componentsPageRoute.alerts.path}
             component={componentsPageRoute.alerts.clientComponent}
           />
+          <Route
+            exact={componentsPageRoute.avatars.exact}
+            path={componentsPageRoute.avatars.path}
+            component={componentsPageRoute.avatars.clientComponent}
+          />
           <Route component={withRouter(notFoundPageRoute.clientComponent)} />
         </Switch>
       </BrowserRouter>

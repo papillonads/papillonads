@@ -427,9 +427,9 @@ export function SideBar() {
             </li>
 
             <li className="">
-              <a href="/primer/components/avatars/" className="position-relative f5 py-1 d-block">
+              <Link className="position-relative f5 py-1 d-block" to={componentsPageRoute.avatars.path}>
                 Avatars
-              </a>
+              </Link>
             </li>
 
             <li className="">
