@@ -421,9 +421,9 @@ export function SideBar() {
 
           <ul className="pt-2 list-style-none">
             <li className="">
-              <a href="/primer/components/alerts/" className="position-relative f5 py-1 d-block">
+              <Link className="position-relative f5 py-1 d-block" to={componentsPageRoute.alerts.path}>
                 Alerts
-              </a>
+              </Link>
             </li>
 
             <li className="">

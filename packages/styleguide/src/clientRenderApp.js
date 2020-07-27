@@ -168,6 +168,11 @@ export function App() {
             path={componentsPageRoute.components.path}
             component={componentsPageRoute.components.clientComponent}
           />
+          <Route
+            exact={componentsPageRoute.alerts.exact}
+            path={componentsPageRoute.alerts.path}
+            component={componentsPageRoute.alerts.clientComponent}
+          />
           <Route component={withRouter(notFoundPageRoute.clientComponent)} />
         </Switch>
       </BrowserRouter>
