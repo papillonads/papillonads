@@ -5,6 +5,7 @@ import { CodeStyle } from './CodeStyle'
 import { Compiling } from './Compiling'
 import { ComponentDesign } from './ComponentDesign'
 import { ComponentDrivenDevelopment } from './ComponentDrivenDevelopment'
+import { ContinuousDelivery } from './ContinuousDelivery'
 
 export const Concept = {
   Accesibility,
@@ -14,4 +15,5 @@ export const Concept = {
   Compiling,
   ComponentDesign,
   ComponentDrivenDevelopment,
+  ContinuousDelivery,
 }
