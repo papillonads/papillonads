@@ -3,6 +3,7 @@ import { AsyncAlertsPage as AsyncAlerts, AlertsPage as Alerts } from './AlertsPa
 import { AsyncAvatarsPage as AsyncAvatars, AvatarsPage as Avatars } from './AvatarsPage'
 import { AsyncBlankslatePage as AsyncBlankslate, BlankslatePage as Blankslate } from './BlankslatePage'
 import { AsyncBoxPage as AsyncBox, BoxPage as Box } from './BoxPage'
+import { AsyncBoxOverlayPage as AsyncBoxOverlay, BoxOverlayPage as BoxOverlay } from './BoxOverlayPage'
 
 export const ComponentsPage = {
   Components: { AsyncComponents, Components },
@@ -10,4 +11,5 @@ export const ComponentsPage = {
   Avatars: { AsyncAvatars, Avatars },
   Blankslate: { AsyncBlankslate, Blankslate },
   Box: { AsyncBox, Box },
+  BoxOverlay: { AsyncBoxOverlay, BoxOverlay },
 }
