@@ -7,6 +7,7 @@ import { AsyncBoxOverlayPage as AsyncBoxOverlay, BoxOverlayPage as BoxOverlay } 
 import { AsyncBoxedGroupsPage as AsyncBoxedGroups, BoxedGroupsPage as BoxedGroups } from './BoxedGroupsPage'
 import { AsyncBranchNamePage as AsyncBranchName, BranchNamePage as BranchName } from './BranchNamePage'
 import { AsyncBreadcrumbPage as AsyncBreadcrumb, BreadcrumbPage as Breadcrumb } from './BreadcrumbPage'
+import { AsyncButtonsPage as AsyncButtons, ButtonsPage as Buttons } from './ButtonsPage'
 
 export const ComponentsPage = {
   Components: { AsyncComponents, Components },
@@ -18,4 +19,5 @@ export const ComponentsPage = {
   BoxedGroups: { AsyncBoxedGroups, BoxedGroups },
   BranchName: { AsyncBranchName, BranchName },
   Breadcrumb: { AsyncBreadcrumb, Breadcrumb },
+  Buttons: { AsyncButtons, Buttons },
 }
