@@ -10,6 +10,7 @@ import { BreadcrumbTemplate as Breadcrumb } from './BreadcrumbTemplate'
 import { ButtonsTemplate as Buttons } from './ButtonsTemplate'
 import { DropdownTemplate as Dropdown } from './DropdownTemplate'
 import { FlashBannerTemplate as FlashBanner } from './FlashBannerTemplate'
+import { FormsTemplate as Forms } from './FormsTemplate'
 
 export const ComponentsTemplate = {
   Components,
@@ -24,4 +25,5 @@ export const ComponentsTemplate = {
   Buttons,
   Dropdown,
   FlashBanner,
+  Forms,
 }

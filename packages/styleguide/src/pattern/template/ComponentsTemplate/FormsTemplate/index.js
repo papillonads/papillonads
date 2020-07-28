@@ -1,0 +1,1 @@
+export { FormsTemplate } from './FormsTemplate'
