@@ -8,6 +8,7 @@ import { BoxedGroupsTemplate as BoxedGroups } from './BoxedGroupsTemplate'
 import { BranchNameTemplate as BranchName } from './BranchNameTemplate'
 import { BreadcrumbTemplate as Breadcrumb } from './BreadcrumbTemplate'
 import { ButtonsTemplate as Buttons } from './ButtonsTemplate'
+import { DropdownTemplate as Dropdown } from './DropdownTemplate'
 
 export const ComponentsTemplate = {
   Components,
@@ -20,4 +21,5 @@ export const ComponentsTemplate = {
   BranchName,
   Breadcrumb,
   Buttons,
+  Dropdown,
 }
