@@ -223,6 +223,11 @@ export function App() {
             path={componentsPageRoute.flashBanner.path}
             component={componentsPageRoute.flashBanner.clientComponent}
           />
+          <Route
+            exact={componentsPageRoute.forms.exact}
+            path={componentsPageRoute.forms.path}
+            component={componentsPageRoute.forms.clientComponent}
+          />
           <Route component={withRouter(notFoundPageRoute.clientComponent)} />
         </Switch>
       </BrowserRouter>

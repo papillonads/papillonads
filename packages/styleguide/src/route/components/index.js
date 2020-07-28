@@ -10,6 +10,7 @@ import { breadcrumbRoute } from './breadcrumb'
 import { buttonsRoute } from './buttons'
 import { dropdownRoute } from './dropdown'
 import { flashBannerRoute } from './flashBanner'
+import { formsRoute } from './forms'
 
 export const componentsPageRoute = {
   components: componentsRoute,
@@ -24,4 +25,5 @@ export const componentsPageRoute = {
   buttons: buttonsRoute,
   dropdown: dropdownRoute,
   flashBanner: flashBannerRoute,
+  forms: formsRoute,
 }
