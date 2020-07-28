@@ -1,3 +1,3 @@
-export const buttonsTemplateDefaultProps = {}
+export const defaultProps = {}
 
-export const buttonsTemplatePropTypes = {}
+export const propTypes = {}

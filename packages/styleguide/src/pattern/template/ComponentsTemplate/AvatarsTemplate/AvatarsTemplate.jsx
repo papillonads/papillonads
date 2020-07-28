@@ -1,5 +1,5 @@
 import React from 'react'
-import { avatarsTemplateDefaultProps, avatarsTemplatePropTypes } from './AvatarsTemplate.prop'
+import { defaultProps, propTypes } from './AvatarsTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function AvatarsTemplate() {
   )
 }
 
-AvatarsTemplate.defaultProps = avatarsTemplateDefaultProps
+AvatarsTemplate.defaultProps = defaultProps
 
-AvatarsTemplate.propTypes = avatarsTemplatePropTypes
+AvatarsTemplate.propTypes = propTypes

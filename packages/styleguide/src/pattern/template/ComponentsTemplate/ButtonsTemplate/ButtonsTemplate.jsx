@@ -1,5 +1,5 @@
 import React from 'react'
-import { buttonsTemplateDefaultProps, buttonsTemplatePropTypes } from './ButtonsTemplate.prop'
+import { defaultProps, propTypes } from './ButtonsTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function ButtonsTemplate() {
   )
 }
 
-ButtonsTemplate.defaultProps = buttonsTemplateDefaultProps
+ButtonsTemplate.defaultProps = defaultProps
 
-ButtonsTemplate.propTypes = buttonsTemplatePropTypes
+ButtonsTemplate.propTypes = propTypes

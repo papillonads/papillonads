@@ -1,3 +1,3 @@
-export const alertsTemplateDefaultProps = {}
+export const defaultProps = {}
 
-export const alertsTemplatePropTypes = {}
+export const propTypes = {}

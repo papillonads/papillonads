@@ -1,5 +1,5 @@
 import React from 'react'
-import { dropdownTemplateDefaultProps, dropdownTemplatePropTypes } from './DropdownTemplate.prop'
+import { defaultProps, propTypes } from './DropdownTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function DropdownTemplate() {
   )
 }
 
-DropdownTemplate.defaultProps = dropdownTemplateDefaultProps
+DropdownTemplate.defaultProps = defaultProps
 
-DropdownTemplate.propTypes = dropdownTemplatePropTypes
+DropdownTemplate.propTypes = propTypes

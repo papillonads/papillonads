@@ -1,3 +1,3 @@
-export const branchNameTemplateDefaultProps = {}
+export const defaultProps = {}
 
-export const branchNameTemplatePropTypes = {}
+export const propTypes = {}

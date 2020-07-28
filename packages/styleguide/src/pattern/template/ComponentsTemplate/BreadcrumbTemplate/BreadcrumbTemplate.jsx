@@ -1,5 +1,5 @@
 import React from 'react'
-import { breadcrumbTemplateDefaultProps, breadcrumbTemplatePropTypes } from './BreadcrumbTemplate.prop'
+import { defaultProps, propTypes } from './BreadcrumbTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function BreadcrumbTemplate() {
   )
 }
 
-BreadcrumbTemplate.defaultProps = breadcrumbTemplateDefaultProps
+BreadcrumbTemplate.defaultProps = defaultProps
 
-BreadcrumbTemplate.propTypes = breadcrumbTemplatePropTypes
+BreadcrumbTemplate.propTypes = propTypes

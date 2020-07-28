@@ -1,5 +1,5 @@
 import React from 'react'
-import { boxOverlayTemplateDefaultProps, boxOverlayTemplatePropTypes } from './BoxOverlayTemplate.prop'
+import { defaultProps, propTypes } from './BoxOverlayTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function BoxOverlayTemplate() {
   )
 }
 
-BoxOverlayTemplate.defaultProps = boxOverlayTemplateDefaultProps
+BoxOverlayTemplate.defaultProps = defaultProps
 
-BoxOverlayTemplate.propTypes = boxOverlayTemplatePropTypes
+BoxOverlayTemplate.propTypes = propTypes

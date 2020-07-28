@@ -1,3 +1,3 @@
-export const avatarsTemplateDefaultProps = {}
+export const defaultProps = {}
 
-export const avatarsTemplatePropTypes = {}
+export const propTypes = {}

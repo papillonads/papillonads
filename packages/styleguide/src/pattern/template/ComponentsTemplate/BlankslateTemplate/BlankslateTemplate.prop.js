@@ -1,3 +1,3 @@
-export const blankslateTemplateDefaultProps = {}
+export const defaultProps = {}
 
-export const blankslateTemplatePropTypes = {}
+export const propTypes = {}

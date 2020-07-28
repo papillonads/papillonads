@@ -1,3 +1,3 @@
-export const boxedGroupsTemplateDefaultProps = {}
+export const defaultProps = {}
 
-export const boxedGroupsTemplatePropTypes = {}
+export const propTypes = {}

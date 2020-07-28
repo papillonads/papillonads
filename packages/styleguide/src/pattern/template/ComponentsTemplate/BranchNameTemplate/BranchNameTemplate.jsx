@@ -1,5 +1,5 @@
 import React from 'react'
-import { branchNameTemplateDefaultProps, branchNameTemplatePropTypes } from './BranchNameTemplate.prop'
+import { defaultProps, propTypes } from './BranchNameTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function BranchNameTemplate() {
   )
 }
 
-BranchNameTemplate.defaultProps = branchNameTemplateDefaultProps
+BranchNameTemplate.defaultProps = defaultProps
 
-BranchNameTemplate.propTypes = branchNameTemplatePropTypes
+BranchNameTemplate.propTypes = propTypes

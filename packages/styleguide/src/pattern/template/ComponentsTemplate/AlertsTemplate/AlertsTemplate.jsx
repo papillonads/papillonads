@@ -1,5 +1,5 @@
 import React from 'react'
-import { alertsTemplateDefaultProps, alertsTemplatePropTypes } from './AlertsTemplate.prop'
+import { defaultProps, propTypes } from './AlertsTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function AlertsTemplate() {
   )
 }
 
-AlertsTemplate.defaultProps = alertsTemplateDefaultProps
+AlertsTemplate.defaultProps = defaultProps
 
-AlertsTemplate.propTypes = alertsTemplatePropTypes
+AlertsTemplate.propTypes = propTypes

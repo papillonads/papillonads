@@ -1,5 +1,5 @@
 import React from 'react'
-import { boxTemplateDefaultProps, boxTemplatePropTypes } from './BoxTemplate.prop'
+import { defaultProps, propTypes } from './BoxTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function BoxTemplate() {
   )
 }
 
-BoxTemplate.defaultProps = boxTemplateDefaultProps
+BoxTemplate.defaultProps = defaultProps
 
-BoxTemplate.propTypes = boxTemplatePropTypes
+BoxTemplate.propTypes = propTypes

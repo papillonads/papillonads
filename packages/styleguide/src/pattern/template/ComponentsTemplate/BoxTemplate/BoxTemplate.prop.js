@@ -1,3 +1,3 @@
-export const boxTemplateDefaultProps = {}
+export const defaultProps = {}
 
-export const boxTemplatePropTypes = {}
+export const propTypes = {}

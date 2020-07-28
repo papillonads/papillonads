@@ -1,3 +1,3 @@
-export const flashBannerTemplateDefaultProps = {}
+export const defaultProps = {}
 
-export const flashBannerTemplatePropTypes = {}
+export const propTypes = {}

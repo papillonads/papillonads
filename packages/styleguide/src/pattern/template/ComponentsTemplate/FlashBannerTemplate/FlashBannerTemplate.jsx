@@ -1,5 +1,5 @@
 import React from 'react'
-import { flashBannerTemplateDefaultProps, flashBannerTemplatePropTypes } from './FlashBannerTemplate.prop'
+import { defaultProps, propTypes } from './FlashBannerTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function FlashBannerTemplate() {
   )
 }
 
-FlashBannerTemplate.defaultProps = flashBannerTemplateDefaultProps
+FlashBannerTemplate.defaultProps = defaultProps
 
-FlashBannerTemplate.propTypes = flashBannerTemplatePropTypes
+FlashBannerTemplate.propTypes = propTypes

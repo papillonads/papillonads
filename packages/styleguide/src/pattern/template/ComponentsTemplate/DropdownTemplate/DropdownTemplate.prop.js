@@ -1,3 +1,3 @@
-export const dropdownTemplateDefaultProps = {}
+export const defaultProps = {}
 
-export const dropdownTemplatePropTypes = {}
+export const propTypes = {}

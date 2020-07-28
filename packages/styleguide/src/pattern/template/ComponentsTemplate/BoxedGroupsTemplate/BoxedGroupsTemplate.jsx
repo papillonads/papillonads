@@ -1,5 +1,5 @@
 import React from 'react'
-import { boxedGroupsTemplateDefaultProps, boxedGroupsTemplatePropTypes } from './BoxedGroupsTemplate.prop'
+import { defaultProps, propTypes } from './BoxedGroupsTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function BoxedGroupsTemplate() {
   )
 }
 
-BoxedGroupsTemplate.defaultProps = boxedGroupsTemplateDefaultProps
+BoxedGroupsTemplate.defaultProps = defaultProps
 
-BoxedGroupsTemplate.propTypes = boxedGroupsTemplatePropTypes
+BoxedGroupsTemplate.propTypes = propTypes

@@ -1,3 +1,3 @@
-export const boxOverlayTemplateDefaultProps = {}
+export const defaultProps = {}
 
-export const boxOverlayTemplatePropTypes = {}
+export const propTypes = {}

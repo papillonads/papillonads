@@ -1,5 +1,5 @@
 import React from 'react'
-import { blankslateTemplateDefaultProps, blankslateTemplatePropTypes } from './BlankslateTemplate.prop'
+import { defaultProps, propTypes } from './BlankslateTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function BlankslateTemplate() {
   )
 }
 
-BlankslateTemplate.defaultProps = blankslateTemplateDefaultProps
+BlankslateTemplate.defaultProps = defaultProps
 
-BlankslateTemplate.propTypes = blankslateTemplatePropTypes
+BlankslateTemplate.propTypes = propTypes

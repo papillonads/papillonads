@@ -1,5 +1,5 @@
 import React from 'react'
-import { componentsTemplateDefaultProps, componentsTemplatePropTypes } from './ComponentsTemplate.prop'
+import { defaultProps, propTypes } from './ComponentsTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function ComponentsTemplate() {
   )
 }
 
-ComponentsTemplate.defaultProps = componentsTemplateDefaultProps
+ComponentsTemplate.defaultProps = defaultProps
 
-ComponentsTemplate.propTypes = componentsTemplatePropTypes
+ComponentsTemplate.propTypes = propTypes
