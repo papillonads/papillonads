@@ -1,0 +1,1 @@
+export { FlashBannerTemplate } from './FlashBannerTemplate'

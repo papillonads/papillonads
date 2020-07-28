@@ -9,6 +9,7 @@ import { BranchNameTemplate as BranchName } from './BranchNameTemplate'
 import { BreadcrumbTemplate as Breadcrumb } from './BreadcrumbTemplate'
 import { ButtonsTemplate as Buttons } from './ButtonsTemplate'
 import { DropdownTemplate as Dropdown } from './DropdownTemplate'
+import { FlashBannerTemplate as FlashBanner } from './FlashBannerTemplate'
 
 export const ComponentsTemplate = {
   Components,
@@ -22,4 +23,5 @@ export const ComponentsTemplate = {
   Breadcrumb,
   Buttons,
   Dropdown,
+  FlashBanner,
 }
