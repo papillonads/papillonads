@@ -517,9 +517,9 @@ export function SideBar() {
             </li>
 
             <li className="">
-              <a href="/primer/components/dropdown/" className="position-relative f5 py-1 d-block">
+              <Link className="position-relative f5 py-1 d-block" to={componentsPageRoute.dropdown.path}>
                 Dropdown
-              </a>
+              </Link>
             </li>
 
             <li className="">

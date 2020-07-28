@@ -8,6 +8,7 @@ import { boxedGroupsRoute } from './boxedGroups'
 import { branchNameRoute } from './branchName'
 import { breadcrumbRoute } from './breadcrumb'
 import { buttonsRoute } from './buttons'
+import { dropdownRoute } from './dropdown'
 
 export const componentsPageRoute = {
   components: componentsRoute,
@@ -20,4 +21,5 @@ export const componentsPageRoute = {
   branchName: branchNameRoute,
   breadcrumb: breadcrumbRoute,
   buttons: buttonsRoute,
+  dropdown: dropdownRoute,
 }

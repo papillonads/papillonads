@@ -213,6 +213,11 @@ export function App() {
             path={componentsPageRoute.buttons.path}
             component={componentsPageRoute.buttons.clientComponent}
           />
+          <Route
+            exact={componentsPageRoute.dropdown.exact}
+            path={componentsPageRoute.dropdown.path}
+            component={componentsPageRoute.dropdown.clientComponent}
+          />
           <Route component={withRouter(notFoundPageRoute.clientComponent)} />
         </Switch>
       </BrowserRouter>
