@@ -218,6 +218,11 @@ export function App() {
             path={componentsPageRoute.dropdown.path}
             component={componentsPageRoute.dropdown.clientComponent}
           />
+          <Route
+            exact={componentsPageRoute.flashBanner.exact}
+            path={componentsPageRoute.flashBanner.path}
+            component={componentsPageRoute.flashBanner.clientComponent}
+          />
           <Route component={withRouter(notFoundPageRoute.clientComponent)} />
         </Switch>
       </BrowserRouter>

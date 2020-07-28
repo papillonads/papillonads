@@ -523,7 +523,7 @@ export function SideBar() {
             </li>
 
             <li className="">
-              <a href="/primer/components/flash-banner/" className="position-relative f5 py-1 d-block">
+              <Link className="position-relative f5 py-1 d-block" to={componentsPageRoute.flashBanner.path}>
                 Flash banner
                 <span className="position-absolute right-0">
                   <span className="text-yellow  tooltipped tooltipped-nw" aria-label="In review">
@@ -539,7 +539,7 @@ export function SideBar() {
                     </svg>
                   </span>
                 </span>
-              </a>
+              </Link>
             </li>
 
             <li className="">

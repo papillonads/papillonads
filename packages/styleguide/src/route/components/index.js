@@ -9,6 +9,7 @@ import { branchNameRoute } from './branchName'
 import { breadcrumbRoute } from './breadcrumb'
 import { buttonsRoute } from './buttons'
 import { dropdownRoute } from './dropdown'
+import { flashBannerRoute } from './flashBanner'
 
 export const componentsPageRoute = {
   components: componentsRoute,
@@ -22,4 +23,5 @@ export const componentsPageRoute = {
   breadcrumb: breadcrumbRoute,
   buttons: buttonsRoute,
   dropdown: dropdownRoute,
+  flashBanner: flashBannerRoute,
 }
