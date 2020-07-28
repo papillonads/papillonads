@@ -7,6 +7,7 @@ import { BoxOverlayTemplate as BoxOverlay } from './BoxOverlayTemplate'
 import { BoxedGroupsTemplate as BoxedGroups } from './BoxedGroupsTemplate'
 import { BranchNameTemplate as BranchName } from './BranchNameTemplate'
 import { BreadcrumbTemplate as Breadcrumb } from './BreadcrumbTemplate'
+import { ButtonsTemplate as Buttons } from './ButtonsTemplate'
 
 export const ComponentsTemplate = {
   Components,
@@ -18,4 +19,5 @@ export const ComponentsTemplate = {
   BoxedGroups,
   BranchName,
   Breadcrumb,
+  Buttons,
 }

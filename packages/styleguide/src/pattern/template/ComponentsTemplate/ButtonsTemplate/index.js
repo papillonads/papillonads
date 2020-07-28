@@ -1,0 +1,1 @@
+export { ButtonsTemplate } from './ButtonsTemplate'
