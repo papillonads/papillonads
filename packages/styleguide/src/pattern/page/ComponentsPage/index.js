@@ -8,6 +8,7 @@ import { AsyncBoxedGroupsPage as AsyncBoxedGroups, BoxedGroupsPage as BoxedGroup
 import { AsyncBranchNamePage as AsyncBranchName, BranchNamePage as BranchName } from './BranchNamePage'
 import { AsyncBreadcrumbPage as AsyncBreadcrumb, BreadcrumbPage as Breadcrumb } from './BreadcrumbPage'
 import { AsyncButtonsPage as AsyncButtons, ButtonsPage as Buttons } from './ButtonsPage'
+import { AsyncDropdownPage as AsyncDropdown, DropdownPage as Dropdown } from './DropdownPage'
 
 export const ComponentsPage = {
   Components: { AsyncComponents, Components },
@@ -20,4 +21,5 @@ export const ComponentsPage = {
   BranchName: { AsyncBranchName, BranchName },
   Breadcrumb: { AsyncBreadcrumb, Breadcrumb },
   Buttons: { AsyncButtons, Buttons },
+  Dropdown: { AsyncDropdown, Dropdown },
 }
