@@ -208,6 +208,11 @@ export function App() {
             path={componentsPageRoute.breadcrumb.path}
             component={componentsPageRoute.breadcrumb.clientComponent}
           />
+          <Route
+            exact={componentsPageRoute.buttons.exact}
+            path={componentsPageRoute.buttons.path}
+            component={componentsPageRoute.buttons.clientComponent}
+          />
           <Route component={withRouter(notFoundPageRoute.clientComponent)} />
         </Switch>
       </BrowserRouter>
