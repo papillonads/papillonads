@@ -9,6 +9,7 @@ import { AsyncBranchNamePage as AsyncBranchName, BranchNamePage as BranchName } 
 import { AsyncBreadcrumbPage as AsyncBreadcrumb, BreadcrumbPage as Breadcrumb } from './BreadcrumbPage'
 import { AsyncButtonsPage as AsyncButtons, ButtonsPage as Buttons } from './ButtonsPage'
 import { AsyncDropdownPage as AsyncDropdown, DropdownPage as Dropdown } from './DropdownPage'
+import { AsyncFlashBannerPage as AsyncFlashBanner, FlashBannerPage as FlashBanner } from './FlashBannerPage'
 
 export const ComponentsPage = {
   Components: { AsyncComponents, Components },
@@ -22,4 +23,5 @@ export const ComponentsPage = {
   Breadcrumb: { AsyncBreadcrumb, Breadcrumb },
   Buttons: { AsyncButtons, Buttons },
   Dropdown: { AsyncDropdown, Dropdown },
+  FlashBanner: { AsyncFlashBanner, FlashBanner },
 }
