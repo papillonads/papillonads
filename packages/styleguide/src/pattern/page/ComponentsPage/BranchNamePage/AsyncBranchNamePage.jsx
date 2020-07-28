@@ -1,5 +1,5 @@
 import React from 'react'
-import { branchNamePageDefaultProps, branchNamePagePropTypes } from './BranchNamePage.prop'
+import { defaultProps, propTypes } from './BranchNamePage.prop'
 
 const LazyBranchNamePage = React.lazy(() => import('./BranchNamePage'))
 
@@ -11,6 +11,6 @@ export function AsyncBranchNamePage() {
   )
 }
 
-AsyncBranchNamePage.defaultProps = branchNamePageDefaultProps
+AsyncBranchNamePage.defaultProps = defaultProps
 
-AsyncBranchNamePage.propTypes = branchNamePagePropTypes
+AsyncBranchNamePage.propTypes = propTypes

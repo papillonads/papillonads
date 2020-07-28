@@ -1,3 +1,3 @@
-export const componentsPageDefaultProps = {}
+export const defaultProps = {}
 
-export const componentsPagePropTypes = {}
+export const propTypes = {}

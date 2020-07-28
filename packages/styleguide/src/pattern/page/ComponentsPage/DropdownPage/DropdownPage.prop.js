@@ -1,3 +1,3 @@
-export const dropdownPageDefaultProps = {}
+export const defaultProps = {}
 
-export const dropdownPagePropTypes = {}
+export const propTypes = {}

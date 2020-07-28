@@ -1,5 +1,5 @@
 import React from 'react'
-import { blankslatePageDefaultProps, blankslatePagePropTypes } from './BlankslatePage.prop'
+import { defaultProps, propTypes } from './BlankslatePage.prop'
 
 const LazyBlankslatePage = React.lazy(() => import('./BlankslatePage'))
 
@@ -11,6 +11,6 @@ export function AsyncBlankslatePage() {
   )
 }
 
-AsyncBlankslatePage.defaultProps = blankslatePageDefaultProps
+AsyncBlankslatePage.defaultProps = defaultProps
 
-AsyncBlankslatePage.propTypes = blankslatePagePropTypes
+AsyncBlankslatePage.propTypes = propTypes

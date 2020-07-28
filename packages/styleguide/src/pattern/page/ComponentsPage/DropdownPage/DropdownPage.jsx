@@ -1,14 +1,14 @@
 import React from 'react'
 import { ComponentsTemplate } from '../../../template/ComponentsTemplate'
-import { dropdownPageDefaultProps, dropdownPagePropTypes } from './DropdownPage.prop'
+import { defaultProps, propTypes } from './DropdownPage.prop'
 
 export function DropdownPage() {
   return <ComponentsTemplate.Dropdown />
 }
 
-DropdownPage.defaultProps = dropdownPageDefaultProps
+DropdownPage.defaultProps = defaultProps
 
-DropdownPage.propTypes = dropdownPagePropTypes
+DropdownPage.propTypes = propTypes
 
 // Default export is required to use with React.lazy()
 export default DropdownPage

@@ -1,5 +1,5 @@
 import React from 'react'
-import { alertsPageDefaultProps, alertsPagePropTypes } from './AlertsPage.prop'
+import { defaultProps, propTypes } from './AlertsPage.prop'
 
 const LazyAlertsPage = React.lazy(() => import('./AlertsPage'))
 
@@ -11,6 +11,6 @@ export function AsyncAlertsPage() {
   )
 }
 
-AsyncAlertsPage.defaultProps = alertsPageDefaultProps
+AsyncAlertsPage.defaultProps = defaultProps
 
-AsyncAlertsPage.propTypes = alertsPagePropTypes
+AsyncAlertsPage.propTypes = propTypes

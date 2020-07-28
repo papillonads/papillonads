@@ -1,5 +1,5 @@
 import React from 'react'
-import { avatarsPageDefaultProps, avatarsPagePropTypes } from './AvatarsPage.prop'
+import { defaultProps, propTypes } from './AvatarsPage.prop'
 
 const LazyAvatarsPage = React.lazy(() => import('./AvatarsPage'))
 
@@ -11,6 +11,6 @@ export function AsyncAvatarsPage() {
   )
 }
 
-AsyncAvatarsPage.defaultProps = avatarsPageDefaultProps
+AsyncAvatarsPage.defaultProps = defaultProps
 
-AsyncAvatarsPage.propTypes = avatarsPagePropTypes
+AsyncAvatarsPage.propTypes = propTypes

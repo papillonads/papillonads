@@ -1,3 +1,3 @@
-export const boxedGroupsPageDefaultProps = {}
+export const defaultProps = {}
 
-export const boxedGroupsPagePropTypes = {}
+export const propTypes = {}

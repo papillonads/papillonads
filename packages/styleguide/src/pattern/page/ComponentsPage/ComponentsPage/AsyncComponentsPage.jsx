@@ -1,5 +1,5 @@
 import React from 'react'
-import { componentsPageDefaultProps, componentsPagePropTypes } from './ComponentsPage.prop'
+import { defaultProps, propTypes } from './ComponentsPage.prop'
 
 const LazyComponentsPage = React.lazy(() => import('./ComponentsPage'))
 
@@ -11,6 +11,6 @@ export function AsyncComponentsPage() {
   )
 }
 
-AsyncComponentsPage.defaultProps = componentsPageDefaultProps
+AsyncComponentsPage.defaultProps = defaultProps
 
-AsyncComponentsPage.propTypes = componentsPagePropTypes
+AsyncComponentsPage.propTypes = propTypes

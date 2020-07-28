@@ -1,3 +1,3 @@
-export const breadcrumbPageDefaultProps = {}
+export const defaultProps = {}
 
-export const breadcrumbPagePropTypes = {}
+export const propTypes = {}

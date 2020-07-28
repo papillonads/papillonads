@@ -1,14 +1,14 @@
 import React from 'react'
 import { ComponentsTemplate } from '../../../template/ComponentsTemplate'
-import { flashBannerPageDefaultProps, flashBannerPagePropTypes } from './FlashBannerPage.prop'
+import { defaultProps, propTypes } from './FlashBannerPage.prop'
 
 export function FlashBannerPage() {
   return <ComponentsTemplate.FlashBanner />
 }
 
-FlashBannerPage.defaultProps = flashBannerPageDefaultProps
+FlashBannerPage.defaultProps = defaultProps
 
-FlashBannerPage.propTypes = flashBannerPagePropTypes
+FlashBannerPage.propTypes = propTypes
 
 // Default export is required to use with React.lazy()
 export default FlashBannerPage

@@ -1,14 +1,14 @@
 import React from 'react'
 import { ComponentsTemplate } from '../../../template/ComponentsTemplate'
-import { branchNamePageDefaultProps, branchNamePagePropTypes } from './BranchNamePage.prop'
+import { defaultProps, propTypes } from './BranchNamePage.prop'
 
 export function BranchNamePage() {
   return <ComponentsTemplate.BranchName />
 }
 
-BranchNamePage.defaultProps = branchNamePageDefaultProps
+BranchNamePage.defaultProps = defaultProps
 
-BranchNamePage.propTypes = branchNamePagePropTypes
+BranchNamePage.propTypes = propTypes
 
 // Default export is required to use with React.lazy()
 export default BranchNamePage

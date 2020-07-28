@@ -1,3 +1,3 @@
-export const branchNamePageDefaultProps = {}
+export const defaultProps = {}
 
-export const branchNamePagePropTypes = {}
+export const propTypes = {}

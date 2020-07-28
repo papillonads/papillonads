@@ -1,5 +1,5 @@
 import React from 'react'
-import { breadcrumbPageDefaultProps, breadcrumbPagePropTypes } from './BreadcrumbPage.prop'
+import { defaultProps, propTypes } from './BreadcrumbPage.prop'
 
 const LazyBreadcrumbPage = React.lazy(() => import('./BreadcrumbPage'))
 
@@ -11,6 +11,6 @@ export function AsyncBreadcrumbPage() {
   )
 }
 
-AsyncBreadcrumbPage.defaultProps = breadcrumbPageDefaultProps
+AsyncBreadcrumbPage.defaultProps = defaultProps
 
-AsyncBreadcrumbPage.propTypes = breadcrumbPagePropTypes
+AsyncBreadcrumbPage.propTypes = propTypes

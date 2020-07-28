@@ -1,5 +1,5 @@
 import React from 'react'
-import { buttonsPageDefaultProps, buttonsPagePropTypes } from './ButtonsPage.prop'
+import { defaultProps, propTypes } from './ButtonsPage.prop'
 
 const LazyButtonsPage = React.lazy(() => import('./ButtonsPage'))
 
@@ -11,6 +11,6 @@ export function AsyncButtonsPage() {
   )
 }
 
-AsyncButtonsPage.defaultProps = buttonsPageDefaultProps
+AsyncButtonsPage.defaultProps = defaultProps
 
-AsyncButtonsPage.propTypes = buttonsPagePropTypes
+AsyncButtonsPage.propTypes = propTypes

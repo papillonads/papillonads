@@ -1,5 +1,5 @@
 import React from 'react'
-import { flashBannerPageDefaultProps, flashBannerPagePropTypes } from './FlashBannerPage.prop'
+import { defaultProps, propTypes } from './FlashBannerPage.prop'
 
 const LazyFlashBannerPage = React.lazy(() => import('./FlashBannerPage'))
 
@@ -11,6 +11,6 @@ export function AsyncFlashBannerPage() {
   )
 }
 
-AsyncFlashBannerPage.defaultProps = flashBannerPageDefaultProps
+AsyncFlashBannerPage.defaultProps = defaultProps
 
-AsyncFlashBannerPage.propTypes = flashBannerPagePropTypes
+AsyncFlashBannerPage.propTypes = propTypes

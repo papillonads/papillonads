@@ -1,3 +1,3 @@
-export const blankslatePageDefaultProps = {}
+export const defaultProps = {}
 
-export const blankslatePagePropTypes = {}
+export const propTypes = {}

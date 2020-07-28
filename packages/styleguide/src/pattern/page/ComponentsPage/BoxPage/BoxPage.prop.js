@@ -1,3 +1,3 @@
-export const boxPageDefaultProps = {}
+export const defaultProps = {}
 
-export const boxPagePropTypes = {}
+export const propTypes = {}

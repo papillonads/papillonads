@@ -1,3 +1,3 @@
-export const alertsPageDefaultProps = {}
+export const defaultProps = {}
 
-export const alertsPagePropTypes = {}
+export const propTypes = {}

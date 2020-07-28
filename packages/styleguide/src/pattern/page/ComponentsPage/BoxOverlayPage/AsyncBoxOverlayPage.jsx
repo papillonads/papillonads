@@ -1,5 +1,5 @@
 import React from 'react'
-import { boxOverlayPageDefaultProps, boxOverlayPagePropTypes } from './BoxOverlayPage.prop'
+import { defaultProps, propTypes } from './BoxOverlayPage.prop'
 
 const LazyBoxOverlayPage = React.lazy(() => import('./BoxOverlayPage'))
 
@@ -11,6 +11,6 @@ export function AsyncBoxOverlayPage() {
   )
 }
 
-AsyncBoxOverlayPage.defaultProps = boxOverlayPageDefaultProps
+AsyncBoxOverlayPage.defaultProps = defaultProps
 
-AsyncBoxOverlayPage.propTypes = boxOverlayPagePropTypes
+AsyncBoxOverlayPage.propTypes = propTypes

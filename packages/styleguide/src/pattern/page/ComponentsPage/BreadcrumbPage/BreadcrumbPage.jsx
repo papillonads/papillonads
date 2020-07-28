@@ -1,14 +1,14 @@
 import React from 'react'
 import { ComponentsTemplate } from '../../../template/ComponentsTemplate'
-import { breadcrumbPageDefaultProps, breadcrumbPagePropTypes } from './BreadcrumbPage.prop'
+import { defaultProps, propTypes } from './BreadcrumbPage.prop'
 
 export function BreadcrumbPage() {
   return <ComponentsTemplate.Breadcrumb />
 }
 
-BreadcrumbPage.defaultProps = breadcrumbPageDefaultProps
+BreadcrumbPage.defaultProps = defaultProps
 
-BreadcrumbPage.propTypes = breadcrumbPagePropTypes
+BreadcrumbPage.propTypes = propTypes
 
 // Default export is required to use with React.lazy()
 export default BreadcrumbPage

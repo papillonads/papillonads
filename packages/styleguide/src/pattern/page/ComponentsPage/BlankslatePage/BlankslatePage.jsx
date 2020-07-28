@@ -1,14 +1,14 @@
 import React from 'react'
 import { ComponentsTemplate } from '../../../template/ComponentsTemplate'
-import { blankslatePageDefaultProps, blankslatePagePropTypes } from './BlankslatePage.prop'
+import { defaultProps, propTypes } from './BlankslatePage.prop'
 
 export function BlankslatePage() {
   return <ComponentsTemplate.Blankslate />
 }
 
-BlankslatePage.defaultProps = blankslatePageDefaultProps
+BlankslatePage.defaultProps = defaultProps
 
-BlankslatePage.propTypes = blankslatePagePropTypes
+BlankslatePage.propTypes = propTypes
 
 // Default export is required to use with React.lazy()
 export default BlankslatePage

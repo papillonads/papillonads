@@ -1,14 +1,14 @@
 import React from 'react'
 import { ComponentsTemplate } from '../../../template/ComponentsTemplate'
-import { boxOverlayPageDefaultProps, boxOverlayPagePropTypes } from './BoxOverlayPage.prop'
+import { defaultProps, propTypes } from './BoxOverlayPage.prop'
 
 export function BoxOverlayPage() {
   return <ComponentsTemplate.BoxOverlay />
 }
 
-BoxOverlayPage.defaultProps = boxOverlayPageDefaultProps
+BoxOverlayPage.defaultProps = defaultProps
 
-BoxOverlayPage.propTypes = boxOverlayPagePropTypes
+BoxOverlayPage.propTypes = propTypes
 
 // Default export is required to use with React.lazy()
 export default BoxOverlayPage

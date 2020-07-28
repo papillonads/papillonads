@@ -1,3 +1,3 @@
-export const boxOverlayPageDefaultProps = {}
+export const defaultProps = {}
 
-export const boxOverlayPagePropTypes = {}
+export const propTypes = {}

@@ -1,5 +1,5 @@
 import React from 'react'
-import { boxedGroupsPageDefaultProps, boxedGroupsPagePropTypes } from './BoxedGroupsPage.prop'
+import { defaultProps, propTypes } from './BoxedGroupsPage.prop'
 
 const LazyBoxedGroupsPage = React.lazy(() => import('./BoxedGroupsPage'))
 
@@ -11,6 +11,6 @@ export function AsyncBoxedGroupsPage() {
   )
 }
 
-AsyncBoxedGroupsPage.defaultProps = boxedGroupsPageDefaultProps
+AsyncBoxedGroupsPage.defaultProps = defaultProps
 
-AsyncBoxedGroupsPage.propTypes = boxedGroupsPagePropTypes
+AsyncBoxedGroupsPage.propTypes = propTypes

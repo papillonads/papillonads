@@ -1,5 +1,5 @@
 import React from 'react'
-import { dropdownPageDefaultProps, dropdownPagePropTypes } from './DropdownPage.prop'
+import { defaultProps, propTypes } from './DropdownPage.prop'
 
 const LazyDropdownPage = React.lazy(() => import('./DropdownPage'))
 
@@ -11,6 +11,6 @@ export function AsyncDropdownPage() {
   )
 }
 
-AsyncDropdownPage.defaultProps = dropdownPageDefaultProps
+AsyncDropdownPage.defaultProps = defaultProps
 
-AsyncDropdownPage.propTypes = dropdownPagePropTypes
+AsyncDropdownPage.propTypes = propTypes

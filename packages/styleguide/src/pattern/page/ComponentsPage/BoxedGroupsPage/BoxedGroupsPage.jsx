@@ -1,14 +1,14 @@
 import React from 'react'
 import { ComponentsTemplate } from '../../../template/ComponentsTemplate'
-import { boxedGroupsPageDefaultProps, boxedGroupsPagePropTypes } from './BoxedGroupsPage.prop'
+import { defaultProps, propTypes } from './BoxedGroupsPage.prop'
 
 export function BoxedGroupsPage() {
   return <ComponentsTemplate.BoxedGroups />
 }
 
-BoxedGroupsPage.defaultProps = boxedGroupsPageDefaultProps
+BoxedGroupsPage.defaultProps = defaultProps
 
-BoxedGroupsPage.propTypes = boxedGroupsPagePropTypes
+BoxedGroupsPage.propTypes = propTypes
 
 // Default export is required to use with React.lazy()
 export default BoxedGroupsPage

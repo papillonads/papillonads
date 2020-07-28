@@ -1,14 +1,14 @@
 import React from 'react'
 import { ComponentsTemplate } from '../../../template/ComponentsTemplate'
-import { avatarsPageDefaultProps, avatarsPagePropTypes } from './AvatarsPage.prop'
+import { defaultProps, propTypes } from './AvatarsPage.prop'
 
 export function AvatarsPage() {
   return <ComponentsTemplate.Avatars />
 }
 
-AvatarsPage.defaultProps = avatarsPageDefaultProps
+AvatarsPage.defaultProps = defaultProps
 
-AvatarsPage.propTypes = avatarsPagePropTypes
+AvatarsPage.propTypes = propTypes
 
 // Default export is required to use with React.lazy()
 export default AvatarsPage

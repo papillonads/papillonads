@@ -1,3 +1,3 @@
-export const butonsPageDefaultProps = {}
+export const defaultProps = {}
 
-export const butonsPagePropTypes = {}
+export const propTypes = {}
