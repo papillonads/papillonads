@@ -10,6 +10,7 @@ import { AsyncBreadcrumbPage as AsyncBreadcrumb, BreadcrumbPage as Breadcrumb } 
 import { AsyncButtonsPage as AsyncButtons, ButtonsPage as Buttons } from './ButtonsPage'
 import { AsyncDropdownPage as AsyncDropdown, DropdownPage as Dropdown } from './DropdownPage'
 import { AsyncFlashBannerPage as AsyncFlashBanner, FlashBannerPage as FlashBanner } from './FlashBannerPage'
+import { AsyncFormsPage as AsyncForms, FormsPage as Forms } from './FormsPage'
 
 export const ComponentsPage = {
   Components: { AsyncComponents, Components },
@@ -24,4 +25,5 @@ export const ComponentsPage = {
   Buttons: { AsyncButtons, Buttons },
   Dropdown: { AsyncDropdown, Dropdown },
   FlashBanner: { AsyncFlashBanner, FlashBanner },
+  Forms: { AsyncForms, Forms },
 }
