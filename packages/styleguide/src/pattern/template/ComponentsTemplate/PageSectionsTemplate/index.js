@@ -1,0 +1,1 @@
+export { PageSectionsTemplate } from './PageSectionsTemplate'
