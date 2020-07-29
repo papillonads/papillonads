@@ -14,6 +14,7 @@ import { formsRoute } from './forms'
 import { labelsRoute } from './labels'
 import { markdownRoute } from './markdown'
 import { marketingButtonsRoute } from './marketingButtons'
+import { navigationRoute } from './navigation'
 
 export const componentsPageRoute = {
   components: componentsRoute,
@@ -32,4 +33,5 @@ export const componentsPageRoute = {
   labels: labelsRoute,
   markdown: markdownRoute,
   marketingButtons: marketingButtonsRoute,
+  navigation: navigationRoute,
 }
