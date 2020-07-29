@@ -1,10 +1,10 @@
 import React from 'react'
-import { gettingStartedTemplateDefaultProps, gettingStartedTemplatePropTypes } from './GettingStartedTemplate.prop'
+import { defaultProps, propTypes } from './GettingStartedTemplate.prop'
 
 export function GettingStartedTemplate() {
   return <div>GettingStartedTemplate under construction!</div>
 }
 
-GettingStartedTemplate.defaultProps = gettingStartedTemplateDefaultProps
+GettingStartedTemplate.defaultProps = defaultProps
 
-GettingStartedTemplate.propTypes = gettingStartedTemplatePropTypes
+GettingStartedTemplate.propTypes = propTypes

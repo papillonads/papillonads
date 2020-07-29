@@ -1,3 +1,3 @@
-export const gettingStartedTemplateDefaultProps = {}
+export const defaultProps = {}
 
-export const gettingStartedTemplatePropTypes = {}
+export const propTypes = {}
