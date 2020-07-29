@@ -1,3 +1,3 @@
-export const docsTemplateDefaultProps = {}
+export const defaultProps = {}
 
-export const docsTemplatePropTypes = {}
+export const propTypes = {}
