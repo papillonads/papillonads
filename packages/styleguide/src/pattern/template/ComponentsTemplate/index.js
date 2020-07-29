@@ -15,6 +15,7 @@ import { LabelsTemplate as Labels } from './LabelsTemplate'
 import { MarkdownTemplate as Markdown } from './MarkdownTemplate'
 import { MarketingButtonsTemplate as MarketingButtons } from './MarketingButtonsTemplate'
 import { NavigationTemplate as Navigation } from './NavigationTemplate'
+import { OcticonsTemplate as Octicons } from './OcticonsTemplate'
 
 export const ComponentsTemplate = {
   Components,
@@ -34,4 +35,5 @@ export const ComponentsTemplate = {
   Markdown,
   MarketingButtons,
   Navigation,
+  Octicons,
 }
