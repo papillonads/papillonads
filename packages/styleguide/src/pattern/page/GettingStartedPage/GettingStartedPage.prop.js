@@ -1,3 +1,3 @@
-export const gettingStartedPageDefaultProps = {}
+export const defaultProps = {}
 
-export const gettingStartedPagePropTypes = {}
+export const propTypes = {}

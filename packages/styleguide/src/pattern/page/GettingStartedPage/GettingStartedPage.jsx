@@ -1,14 +1,14 @@
 import React from 'react'
 import { GettingStartedTemplate } from '../../template/GettingStartedTemplate'
-import { gettingStartedPageDefaultProps, gettingStartedPagePropTypes } from './GettingStartedPage.prop'
+import { defaultProps, propTypes } from './GettingStartedPage.prop'
 
 export function GettingStartedPage() {
   return <GettingStartedTemplate />
 }
 
-GettingStartedPage.defaultProps = gettingStartedPageDefaultProps
+GettingStartedPage.defaultProps = defaultProps
 
-GettingStartedPage.propTypes = gettingStartedPagePropTypes
+GettingStartedPage.propTypes = propTypes
 
 // Default export is required to use with React.lazy()
 export default GettingStartedPage
