@@ -14,6 +14,7 @@ import { FormsTemplate as Forms } from './FormsTemplate'
 import { LabelsTemplate as Labels } from './LabelsTemplate'
 import { MarkdownTemplate as Markdown } from './MarkdownTemplate'
 import { MarketingButtonsTemplate as MarketingButtons } from './MarketingButtonsTemplate'
+import { NavigationTemplate as Navigation } from './NavigationTemplate'
 
 export const ComponentsTemplate = {
   Components,
@@ -32,4 +33,5 @@ export const ComponentsTemplate = {
   Labels,
   Markdown,
   MarketingButtons,
+  Navigation,
 }
