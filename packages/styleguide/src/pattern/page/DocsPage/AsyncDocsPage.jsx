@@ -1,5 +1,5 @@
 import React from 'react'
-import { docsPageDefaultProps, docsPagePropTypes } from './DocsPage.prop'
+import { defaultProps, docsPagePropTypes } from './DocsPage.prop'
 
 const LazyDocsPage = React.lazy(() => import('./DocsPage'))
 
@@ -11,6 +11,6 @@ export function AsyncDocsPage() {
   )
 }
 
-AsyncDocsPage.defaultProps = docsPageDefaultProps
+AsyncDocsPage.defaultProps = defaultProps
 
 AsyncDocsPage.propTypes = docsPagePropTypes

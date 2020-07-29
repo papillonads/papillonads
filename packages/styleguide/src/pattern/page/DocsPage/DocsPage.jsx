@@ -1,14 +1,14 @@
 import React from 'react'
 import { DocsTemplate } from '../../template/DocsTemplate'
-import { docsPageDefaultProps, docsPagePropTypes } from './DocsPage.prop'
+import { defaultProps, propTypes } from './DocsPage.prop'
 
 export function DocsPage() {
   return <DocsTemplate />
 }
 
-DocsPage.defaultProps = docsPageDefaultProps
+DocsPage.defaultProps = defaultProps
 
-DocsPage.propTypes = docsPagePropTypes
+DocsPage.propTypes = propTypes
 
 // Default export is required to use with React.lazy()
 export default DocsPage
