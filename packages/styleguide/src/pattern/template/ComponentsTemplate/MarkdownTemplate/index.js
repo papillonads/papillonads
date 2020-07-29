@@ -1,0 +1,1 @@
+export { MarkdownTemplate } from './MarkdownTemplate'

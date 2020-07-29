@@ -12,6 +12,7 @@ import { DropdownTemplate as Dropdown } from './DropdownTemplate'
 import { FlashBannerTemplate as FlashBanner } from './FlashBannerTemplate'
 import { FormsTemplate as Forms } from './FormsTemplate'
 import { LabelsTemplate as Labels } from './LabelsTemplate'
+import { MarkdownTemplate as Markdown } from './MarkdownTemplate'
 
 export const ComponentsTemplate = {
   Components,
@@ -28,4 +29,5 @@ export const ComponentsTemplate = {
   FlashBanner,
   Forms,
   Labels,
+  Markdown,
 }
