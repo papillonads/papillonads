@@ -1,5 +1,5 @@
 import React from 'react'
-import { marketingBordersTemplateDefaultProps, marketingBordersTemplatePropTypes } from './MarketingBordersTemplate.prop'
+import { defaultProps, propTypes } from './MarketingBordersTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function MarketingBordersTemplate() {
   )
 }
 
-MarketingBordersTemplate.defaultProps = marketingBordersTemplateDefaultProps
+MarketingBordersTemplate.defaultProps = defaultProps
 
-MarketingBordersTemplate.propTypes = marketingBordersTemplatePropTypes
+MarketingBordersTemplate.propTypes = propTypes

@@ -1,3 +1,3 @@
-export const typographyTemplateDefaultProps = {}
+export const defaultProps = {}
 
-export const typographyTemplatePropTypes = {}
+export const propTypes = {}

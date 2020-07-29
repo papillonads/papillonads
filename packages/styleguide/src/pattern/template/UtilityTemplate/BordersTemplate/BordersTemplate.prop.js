@@ -1,3 +1,3 @@
-export const bordersTemplateDefaultProps = {}
+export const defaultProps = {}
 
-export const bordersTemplatePropTypes = {}
+export const propTypes = {}

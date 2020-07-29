@@ -1,5 +1,5 @@
 import React from 'react'
-import { marginTemplateDefaultProps, marginTemplatePropTypes } from './MarginTemplate.prop'
+import { defaultProps, propTypes } from './MarginTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function MarginTemplate() {
   )
 }
 
-MarginTemplate.defaultProps = marginTemplateDefaultProps
+MarginTemplate.defaultProps = defaultProps
 
-MarginTemplate.propTypes = marginTemplatePropTypes
+MarginTemplate.propTypes = propTypes

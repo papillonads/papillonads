@@ -1,5 +1,5 @@
 import React from 'react'
-import { animationsTemplateDefaultProps, animationsTemplatePropTypes } from './AnimationsTemplate.prop'
+import { defaultProps, propTypes } from './AnimationsTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function AnimationsTemplate() {
   )
 }
 
-AnimationsTemplate.defaultProps = animationsTemplateDefaultProps
+AnimationsTemplate.defaultProps = defaultProps
 
-AnimationsTemplate.propTypes = animationsTemplatePropTypes
+AnimationsTemplate.propTypes = propTypes

@@ -1,3 +1,3 @@
-export const marketingPaddingTemplateDefaultProps = {}
+export const defaultProps = {}
 
-export const marketingPaddingTemplatePropTypes = {}
+export const propTypes = {}

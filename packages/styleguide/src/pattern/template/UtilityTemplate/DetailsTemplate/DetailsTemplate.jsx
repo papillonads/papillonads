@@ -1,5 +1,5 @@
 import React from 'react'
-import { detailsTemplateDefaultProps, detailsTemplatePropTypes } from './DetailsTemplate.prop'
+import { defaultProps, propTypes } from './DetailsTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function DetailsTemplate() {
   )
 }
 
-DetailsTemplate.defaultProps = detailsTemplateDefaultProps
+DetailsTemplate.defaultProps = defaultProps
 
-DetailsTemplate.propTypes = detailsTemplatePropTypes
+DetailsTemplate.propTypes = propTypes

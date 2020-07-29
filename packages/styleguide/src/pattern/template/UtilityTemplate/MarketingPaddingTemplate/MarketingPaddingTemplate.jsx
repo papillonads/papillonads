@@ -1,5 +1,5 @@
 import React from 'react'
-import { marketingPaddingTemplateDefaultProps, marketingPaddingTemplatePropTypes } from './MarketingPaddingTemplate.prop'
+import { defaultProps, propTypes } from './MarketingPaddingTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function MarketingPaddingTemplate() {
   )
 }
 
-MarketingPaddingTemplate.defaultProps = marketingPaddingTemplateDefaultProps
+MarketingPaddingTemplate.defaultProps = defaultProps
 
-MarketingPaddingTemplate.propTypes = marketingPaddingTemplatePropTypes
+MarketingPaddingTemplate.propTypes = propTypes

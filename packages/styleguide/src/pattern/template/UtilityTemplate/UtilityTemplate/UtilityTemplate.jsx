@@ -1,5 +1,5 @@
 import React from 'react'
-import { utilityTemplateDefaultProps, utilityTemplatePropTypes } from './UtilityTemplate.prop'
+import { defaultProps, propTypes } from './UtilityTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function UtilityTemplate() {
   )
 }
 
-UtilityTemplate.defaultProps = utilityTemplateDefaultProps
+UtilityTemplate.defaultProps = defaultProps
 
-UtilityTemplate.propTypes = utilityTemplatePropTypes
+UtilityTemplate.propTypes = propTypes

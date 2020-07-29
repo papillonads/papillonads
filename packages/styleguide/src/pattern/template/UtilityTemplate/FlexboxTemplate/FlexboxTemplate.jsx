@@ -1,5 +1,5 @@
 import React from 'react'
-import { flexboxTemplateDefaultProps, flexboxTemplatePropTypes } from './FlexboxTemplate.prop'
+import { defaultProps, propTypes } from './FlexboxTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function FlexboxTemplate() {
   )
 }
 
-FlexboxTemplate.defaultProps = flexboxTemplateDefaultProps
+FlexboxTemplate.defaultProps = defaultProps
 
-FlexboxTemplate.propTypes = flexboxTemplatePropTypes
+FlexboxTemplate.propTypes = propTypes

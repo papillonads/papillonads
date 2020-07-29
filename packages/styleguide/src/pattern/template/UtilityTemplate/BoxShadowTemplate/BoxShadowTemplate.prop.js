@@ -1,3 +1,3 @@
-export const boxShadowTemplateDefaultProps = {}
+export const defaultProps = {}
 
-export const boxShadowTemplatePropTypes = {}
+export const propTypes = {}

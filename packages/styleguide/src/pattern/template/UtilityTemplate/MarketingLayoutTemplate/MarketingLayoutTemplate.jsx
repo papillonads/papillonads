@@ -1,5 +1,5 @@
 import React from 'react'
-import { marketingLayoutTemplateDefaultProps, marketingLayoutTemplatePropTypes } from './MarketingLayoutTemplate.prop'
+import { defaultProps, propTypes } from './MarketingLayoutTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function MarketingLayoutTemplate() {
   )
 }
 
-MarketingLayoutTemplate.defaultProps = marketingLayoutTemplateDefaultProps
+MarketingLayoutTemplate.defaultProps = defaultProps
 
-MarketingLayoutTemplate.propTypes = marketingLayoutTemplatePropTypes
+MarketingLayoutTemplate.propTypes = propTypes

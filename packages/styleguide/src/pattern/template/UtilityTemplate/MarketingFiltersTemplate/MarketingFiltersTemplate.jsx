@@ -1,5 +1,5 @@
 import React from 'react'
-import { marketingFiltersTemplateDefaultProps, marketingFiltersTemplatePropTypes } from './MarketingFiltersTemplate.prop'
+import { defaultProps, propTypes } from './MarketingFiltersTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function MarketingFiltersTemplate() {
   )
 }
 
-MarketingFiltersTemplate.defaultProps = marketingFiltersTemplateDefaultProps
+MarketingFiltersTemplate.defaultProps = defaultProps
 
-MarketingFiltersTemplate.propTypes = marketingFiltersTemplatePropTypes
+MarketingFiltersTemplate.propTypes = propTypes

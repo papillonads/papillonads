@@ -1,5 +1,5 @@
 import React from 'react'
-import { marketingTypographyTemplateDefaultProps, marketingTypographyTemplatePropTypes } from './MarketingTypographyTemplate.prop'
+import { defaultProps, propTypes } from './MarketingTypographyTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function MarketingTypographyTemplate() {
   )
 }
 
-MarketingTypographyTemplate.defaultProps = marketingTypographyTemplateDefaultProps
+MarketingTypographyTemplate.defaultProps = defaultProps
 
-MarketingTypographyTemplate.propTypes = marketingTypographyTemplatePropTypes
+MarketingTypographyTemplate.propTypes = propTypes

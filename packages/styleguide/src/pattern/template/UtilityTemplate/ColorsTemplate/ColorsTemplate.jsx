@@ -1,5 +1,5 @@
 import React from 'react'
-import { colorsTemplateDefaultProps, colorsTemplatePropTypes } from './ColorsTemplate.prop'
+import { defaultProps, propTypes } from './ColorsTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function ColorsTemplate() {
   )
 }
 
-ColorsTemplate.defaultProps = colorsTemplateDefaultProps
+ColorsTemplate.defaultProps = defaultProps
 
-ColorsTemplate.propTypes = colorsTemplatePropTypes
+ColorsTemplate.propTypes = propTypes

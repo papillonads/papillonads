@@ -1,3 +1,3 @@
-export const animationsTemplateDefaultProps = {}
+export const defaultProps = {}
 
-export const animationsTemplatePropTypes = {}
+export const propTypes = {}

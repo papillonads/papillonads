@@ -1,3 +1,3 @@
-export const marketingMarginTemplateDefaultProps = {}
+export const defaultProps = {}
 
-export const marketingMarginTemplatePropTypes = {}
+export const propTypes = {}

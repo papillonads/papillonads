@@ -1,5 +1,5 @@
 import React from 'react'
-import { paddingTemplateDefaultProps, paddingTemplatePropTypes } from './PaddingTemplate.prop'
+import { defaultProps, propTypes } from './PaddingTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function PaddingTemplate() {
   )
 }
 
-PaddingTemplate.defaultProps = paddingTemplateDefaultProps
+PaddingTemplate.defaultProps = defaultProps
 
-PaddingTemplate.propTypes = paddingTemplatePropTypes
+PaddingTemplate.propTypes = propTypes

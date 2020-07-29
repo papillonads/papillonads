@@ -1,3 +1,3 @@
-export const marketingBordersTemplateDefaultProps = {}
+export const defaultProps = {}
 
-export const marketingBordersTemplatePropTypes = {}
+export const propTypes = {}

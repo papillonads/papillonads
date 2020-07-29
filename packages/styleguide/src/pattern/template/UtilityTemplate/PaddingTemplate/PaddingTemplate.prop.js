@@ -1,3 +1,3 @@
-export const paddingTemplateDefaultProps = {}
+export const defaultProps = {}
 
-export const paddingTemplatePropTypes = {}
+export const propTypes = {}

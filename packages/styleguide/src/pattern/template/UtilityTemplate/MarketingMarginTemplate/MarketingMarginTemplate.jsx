@@ -1,5 +1,5 @@
 import React from 'react'
-import { marketingMarginTemplateDefaultProps, marketingMarginTemplatePropTypes } from './MarketingMarginTemplate.prop'
+import { defaultProps, propTypes } from './MarketingMarginTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function MarketingMarginTemplate() {
   )
 }
 
-MarketingMarginTemplate.defaultProps = marketingMarginTemplateDefaultProps
+MarketingMarginTemplate.defaultProps = defaultProps
 
-MarketingMarginTemplate.propTypes = marketingMarginTemplatePropTypes
+MarketingMarginTemplate.propTypes = propTypes

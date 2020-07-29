@@ -1,5 +1,5 @@
 import React from 'react'
-import { boxShadowTemplateDefaultProps, boxShadowTemplatePropTypes } from './BoxShadowTemplate.prop'
+import { defaultProps, propTypes } from './BoxShadowTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function BoxShadowTemplate() {
   )
 }
 
-BoxShadowTemplate.defaultProps = boxShadowTemplateDefaultProps
+BoxShadowTemplate.defaultProps = defaultProps
 
-BoxShadowTemplate.propTypes = boxShadowTemplatePropTypes
+BoxShadowTemplate.propTypes = propTypes

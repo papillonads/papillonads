@@ -1,3 +1,3 @@
-export const utilityTemplateDefaultProps = {}
+export const defaultProps = {}
 
-export const utilityTemplatePropTypes = {}
+export const propTypes = {}

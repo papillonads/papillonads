@@ -1,5 +1,5 @@
 import React from 'react'
-import { bordersTemplateDefaultProps, bordersTemplatePropTypes } from './BordersTemplate.prop'
+import { defaultProps, propTypes } from './BordersTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function BordersTemplate() {
   )
 }
 
-BordersTemplate.defaultProps = bordersTemplateDefaultProps
+BordersTemplate.defaultProps = defaultProps
 
-BordersTemplate.propTypes = bordersTemplatePropTypes
+BordersTemplate.propTypes = propTypes

@@ -1,3 +1,3 @@
-export const marginTemplateDefaultProps = {}
+export const defaultProps = {}
 
-export const marginTemplatePropTypes = {}
+export const propTypes = {}
