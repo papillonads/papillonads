@@ -1,14 +1,14 @@
 import React from 'react'
 import { SupportTemplate } from '../../../template/SupportTemplate'
-import { typographyPageDefaultProps, typographyPagePropTypes } from './TypographyPage.prop'
+import { defaultProps, propTypes } from './TypographyPage.prop'
 
 export function TypographyPage() {
   return <SupportTemplate.Typography />
 }
 
-TypographyPage.defaultProps = typographyPageDefaultProps
+TypographyPage.defaultProps = defaultProps
 
-TypographyPage.propTypes = typographyPagePropTypes
+TypographyPage.propTypes = propTypes
 
 // Default export is required to use with React.lazy()
 export default TypographyPage

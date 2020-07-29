@@ -1,3 +1,3 @@
-export const colorSystemPageDefaultProps = {}
+export const defaultProps = {}
 
-export const colorSystemPagePropTypes = {}
+export const propTypes = {}

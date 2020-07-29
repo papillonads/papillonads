@@ -1,3 +1,3 @@
-export const breakpointsPageDefaultProps = {}
+export const defaultProps = {}
 
-export const breakpointsPagePropTypes = {}
+export const propTypes = {}

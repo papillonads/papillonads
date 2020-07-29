@@ -1,5 +1,5 @@
 import React from 'react'
-import { breakpointsPageDefaultProps, breakpointsPagePropTypes } from './BreakpointsPage.prop'
+import { defaultProps, propTypes } from './BreakpointsPage.prop'
 
 const LazyBreakpointsPage = React.lazy(() => import('./BreakpointsPage'))
 
@@ -11,6 +11,6 @@ export function AsyncBreakpointsPage() {
   )
 }
 
-AsyncBreakpointsPage.defaultProps = breakpointsPageDefaultProps
+AsyncBreakpointsPage.defaultProps = defaultProps
 
-AsyncBreakpointsPage.propTypes = breakpointsPagePropTypes
+AsyncBreakpointsPage.propTypes = propTypes

@@ -1,3 +1,3 @@
-export const spacingPageDefaultProps = {}
+export const defaultProps = {}
 
-export const spacingPagePropTypes = {}
+export const propTypes = {}

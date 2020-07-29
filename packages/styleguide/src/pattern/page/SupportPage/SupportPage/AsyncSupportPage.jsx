@@ -1,5 +1,5 @@
 import React from 'react'
-import { supportPageDefaultProps, supportPagePropTypes } from './SupportPage.prop'
+import { defaultProps, propTypes } from './SupportPage.prop'
 
 const LazySupportPage = React.lazy(() => import('./SupportPage'))
 
@@ -11,6 +11,6 @@ export function AsyncSupportPage() {
   )
 }
 
-AsyncSupportPage.defaultProps = supportPageDefaultProps
+AsyncSupportPage.defaultProps = defaultProps
 
-AsyncSupportPage.propTypes = supportPagePropTypes
+AsyncSupportPage.propTypes = propTypes

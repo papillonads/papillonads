@@ -1,3 +1,3 @@
-export const typographyPageDefaultProps = {}
+export const defaultProps = {}
 
-export const typographyPagePropTypes = {}
+export const propTypes = {}

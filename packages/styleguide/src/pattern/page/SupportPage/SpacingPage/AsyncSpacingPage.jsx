@@ -1,5 +1,5 @@
 import React from 'react'
-import { spacingPageDefaultProps, spacingPagePropTypes } from './SpacingPage.prop'
+import { defaultProps, propTypes } from './SpacingPage.prop'
 
 const LazySpacingPage = React.lazy(() => import('./SpacingPage'))
 
@@ -11,6 +11,6 @@ export function AsyncSpacingPage() {
   )
 }
 
-AsyncSpacingPage.defaultProps = spacingPageDefaultProps
+AsyncSpacingPage.defaultProps = defaultProps
 
-AsyncSpacingPage.propTypes = spacingPagePropTypes
+AsyncSpacingPage.propTypes = propTypes

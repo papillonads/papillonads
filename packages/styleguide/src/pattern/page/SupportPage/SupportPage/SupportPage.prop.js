@@ -1,3 +1,3 @@
-export const supportPageDefaultProps = {}
+export const defaultProps = {}
 
-export const supportPagePropTypes = {}
+export const propTypes = {}

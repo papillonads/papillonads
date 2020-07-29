@@ -1,14 +1,14 @@
 import React from 'react'
 import { SupportTemplate } from '../../../template/SupportTemplate'
-import { marketingVariablesPageDefaultProps, marketingVariablesPagePropTypes } from './MarketingVariablesPage.prop'
+import { defaultProps, propTypes } from './MarketingVariablesPage.prop'
 
 export function MarketingVariablesPage() {
   return <SupportTemplate.MarketingVariables />
 }
 
-MarketingVariablesPage.defaultProps = marketingVariablesPageDefaultProps
+MarketingVariablesPage.defaultProps = defaultProps
 
-MarketingVariablesPage.propTypes = marketingVariablesPagePropTypes
+MarketingVariablesPage.propTypes = propTypes
 
 // Default export is required to use with React.lazy()
 export default MarketingVariablesPage

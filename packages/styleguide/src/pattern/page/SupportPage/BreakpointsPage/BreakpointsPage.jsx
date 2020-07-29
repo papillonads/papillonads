@@ -1,14 +1,14 @@
 import React from 'react'
 import { SupportTemplate } from '../../../template/SupportTemplate'
-import { breakpointsPageDefaultProps, breakpointsPagePropTypes } from './BreakpointsPage.prop'
+import { defaultProps, propTypes } from './BreakpointsPage.prop'
 
 export function BreakpointsPage() {
   return <SupportTemplate.Breakpoints />
 }
 
-BreakpointsPage.defaultProps = breakpointsPageDefaultProps
+BreakpointsPage.defaultProps = defaultProps
 
-BreakpointsPage.propTypes = breakpointsPagePropTypes
+BreakpointsPage.propTypes = propTypes
 
 // Default export is required to use with React.lazy()
 export default BreakpointsPage

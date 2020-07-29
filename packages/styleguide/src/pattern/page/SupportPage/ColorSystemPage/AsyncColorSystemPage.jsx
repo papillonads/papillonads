@@ -1,5 +1,5 @@
 import React from 'react'
-import { colorSystemPageDefaultProps, colorSystemPagePropTypes } from './ColorSystemPage.prop'
+import { defaultProps, propTypes } from './ColorSystemPage.prop'
 
 const LazyColorSystemPage = React.lazy(() => import('./ColorSystemPage'))
 
@@ -11,6 +11,6 @@ export function AsyncColorSystemPage() {
   )
 }
 
-AsyncColorSystemPage.defaultProps = colorSystemPageDefaultProps
+AsyncColorSystemPage.defaultProps = defaultProps
 
-AsyncColorSystemPage.propTypes = colorSystemPagePropTypes
+AsyncColorSystemPage.propTypes = propTypes
