@@ -15,6 +15,7 @@ import { labelsRoute } from './labels'
 import { markdownRoute } from './markdown'
 import { marketingButtonsRoute } from './marketingButtons'
 import { navigationRoute } from './navigation'
+import { octiconsRoute } from './octicons'
 
 export const componentsPageRoute = {
   components: componentsRoute,
@@ -34,4 +35,5 @@ export const componentsPageRoute = {
   markdown: markdownRoute,
   marketingButtons: marketingButtonsRoute,
   navigation: navigationRoute,
+  octicons: octiconsRoute,
 }

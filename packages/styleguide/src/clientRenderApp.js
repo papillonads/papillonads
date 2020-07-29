@@ -248,6 +248,11 @@ export function App() {
             path={componentsPageRoute.navigation.path}
             component={componentsPageRoute.navigation.clientComponent}
           />
+          <Route
+            exact={componentsPageRoute.octicons.exact}
+            path={componentsPageRoute.octicons.path}
+            component={componentsPageRoute.octicons.clientComponent}
+          />
           <Route component={withRouter(notFoundPageRoute.clientComponent)} />
         </Switch>
       </BrowserRouter>
