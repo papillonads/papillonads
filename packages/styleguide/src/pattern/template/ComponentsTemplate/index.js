@@ -11,6 +11,7 @@ import { ButtonsTemplate as Buttons } from './ButtonsTemplate'
 import { DropdownTemplate as Dropdown } from './DropdownTemplate'
 import { FlashBannerTemplate as FlashBanner } from './FlashBannerTemplate'
 import { FormsTemplate as Forms } from './FormsTemplate'
+import { LabelsTemplate as Labels } from './LabelsTemplate'
 
 export const ComponentsTemplate = {
   Components,
@@ -26,4 +27,5 @@ export const ComponentsTemplate = {
   Dropdown,
   FlashBanner,
   Forms,
+  Labels,
 }

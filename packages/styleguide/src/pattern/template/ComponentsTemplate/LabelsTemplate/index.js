@@ -1,0 +1,1 @@
+export { LabelsTemplate } from './LabelsTemplate'
