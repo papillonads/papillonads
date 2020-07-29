@@ -13,6 +13,7 @@ import { FlashBannerTemplate as FlashBanner } from './FlashBannerTemplate'
 import { FormsTemplate as Forms } from './FormsTemplate'
 import { LabelsTemplate as Labels } from './LabelsTemplate'
 import { MarkdownTemplate as Markdown } from './MarkdownTemplate'
+import { MarketingButtonsTemplate as MarketingButtons } from './MarketingButtonsTemplate'
 
 export const ComponentsTemplate = {
   Components,
@@ -30,4 +31,5 @@ export const ComponentsTemplate = {
   Forms,
   Labels,
   Markdown,
+  MarketingButtons,
 }

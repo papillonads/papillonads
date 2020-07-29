@@ -1,0 +1,1 @@
+export { MarketingButtonsTemplate } from './MarketingButtonsTemplate'
