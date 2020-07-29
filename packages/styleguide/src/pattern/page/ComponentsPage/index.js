@@ -13,6 +13,7 @@ import { AsyncFlashBannerPage as AsyncFlashBanner, FlashBannerPage as FlashBanne
 import { AsyncFormsPage as AsyncForms, FormsPage as Forms } from './FormsPage'
 import { AsyncLabelsPage as AsyncLabels, LabelsPage as Labels } from './LabelsPage'
 import { AsyncMarkdownPage as AsyncMarkdown, MarkdownPage as Markdown } from './MarkdownPage'
+import { AsyncMarketingButtonsPage as AsyncMarketingButtons, MarketingButtonsPage as MarketingButtons } from './MarketingButtonsPage'
 
 export const ComponentsPage = {
   Components: { AsyncComponents, Components },
@@ -30,4 +31,5 @@ export const ComponentsPage = {
   Forms: { AsyncForms, Forms },
   Labels: { AsyncLabels, Labels },
   Markdown: { AsyncMarkdown, Markdown },
+  MarketingButtons: { AsyncMarketingButtons, MarketingButtons },
 }
