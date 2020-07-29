@@ -228,6 +228,11 @@ export function App() {
             path={componentsPageRoute.forms.path}
             component={componentsPageRoute.forms.clientComponent}
           />
+          <Route
+            exact={componentsPageRoute.labels.exact}
+            path={componentsPageRoute.labels.path}
+            component={componentsPageRoute.labels.clientComponent}
+          />
           <Route component={withRouter(notFoundPageRoute.clientComponent)} />
         </Switch>
       </BrowserRouter>
