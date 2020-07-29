@@ -17,6 +17,7 @@ import { marketingButtonsRoute } from './marketingButtons'
 import { navigationRoute } from './navigation'
 import { octiconsRoute } from './octicons'
 import { pageHeadersRoute } from './pageHeaders'
+import { pageSectionsRoute } from './pageSections'
 
 export const componentsPageRoute = {
   components: componentsRoute,
@@ -38,4 +39,5 @@ export const componentsPageRoute = {
   navigation: navigationRoute,
   octicons: octiconsRoute,
   pageHeaders: pageHeadersRoute,
+  pageSections: pageSectionsRoute,
 }

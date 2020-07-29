@@ -258,6 +258,11 @@ export function App() {
             path={componentsPageRoute.pageHeaders.path}
             component={componentsPageRoute.pageHeaders.clientComponent}
           />
+          <Route
+            exact={componentsPageRoute.pageSections.exact}
+            path={componentsPageRoute.pageSections.path}
+            component={componentsPageRoute.pageSections.clientComponent}
+          />
           <Route component={withRouter(notFoundPageRoute.clientComponent)} />
         </Switch>
       </BrowserRouter>
