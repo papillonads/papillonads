@@ -16,6 +16,7 @@ import { markdownRoute } from './markdown'
 import { marketingButtonsRoute } from './marketingButtons'
 import { navigationRoute } from './navigation'
 import { octiconsRoute } from './octicons'
+import { pageHeadersRoute } from './pageHeaders'
 
 export const componentsPageRoute = {
   components: componentsRoute,
@@ -36,4 +37,5 @@ export const componentsPageRoute = {
   marketingButtons: marketingButtonsRoute,
   navigation: navigationRoute,
   octicons: octiconsRoute,
+  pageHeaders: pageHeadersRoute,
 }

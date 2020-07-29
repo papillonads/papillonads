@@ -253,6 +253,11 @@ export function App() {
             path={componentsPageRoute.octicons.path}
             component={componentsPageRoute.octicons.clientComponent}
           />
+          <Route
+            exact={componentsPageRoute.pageHeaders.exact}
+            path={componentsPageRoute.pageHeaders.path}
+            component={componentsPageRoute.pageHeaders.clientComponent}
+          />
           <Route component={withRouter(notFoundPageRoute.clientComponent)} />
         </Switch>
       </BrowserRouter>
