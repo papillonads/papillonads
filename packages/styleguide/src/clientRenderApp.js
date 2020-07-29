@@ -233,6 +233,11 @@ export function App() {
             path={componentsPageRoute.labels.path}
             component={componentsPageRoute.labels.clientComponent}
           />
+          <Route
+            exact={componentsPageRoute.markdown.exact}
+            path={componentsPageRoute.markdown.path}
+            component={componentsPageRoute.markdown.clientComponent}
+          />
           <Route component={withRouter(notFoundPageRoute.clientComponent)} />
         </Switch>
       </BrowserRouter>
