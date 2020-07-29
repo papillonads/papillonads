@@ -16,6 +16,7 @@ import { MarkdownTemplate as Markdown } from './MarkdownTemplate'
 import { MarketingButtonsTemplate as MarketingButtons } from './MarketingButtonsTemplate'
 import { NavigationTemplate as Navigation } from './NavigationTemplate'
 import { OcticonsTemplate as Octicons } from './OcticonsTemplate'
+import { PageHeadersTemplate as PageHeaders } from './PageHeadersTemplate'
 
 export const ComponentsTemplate = {
   Components,
@@ -36,4 +37,5 @@ export const ComponentsTemplate = {
   MarketingButtons,
   Navigation,
   Octicons,
+  PageHeaders,
 }
