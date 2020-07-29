@@ -1,5 +1,5 @@
 import React from 'react'
-import { typographyPageDefaultProps, typographyPagePropTypes } from './TypographyPage.prop'
+import { defaultProps, propTypes } from './TypographyPage.prop'
 
 const LazyTypographyPage = React.lazy(() => import('./TypographyPage'))
 
@@ -11,6 +11,6 @@ export function AsyncTypographyPage() {
   )
 }
 
-AsyncTypographyPage.defaultProps = typographyPageDefaultProps
+AsyncTypographyPage.defaultProps = defaultProps
 
-AsyncTypographyPage.propTypes = typographyPagePropTypes
+AsyncTypographyPage.propTypes = propTypes

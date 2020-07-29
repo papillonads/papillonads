@@ -1,5 +1,5 @@
 import React from 'react'
-import { marketingPaddingPageDefaultProps, marketingPaddingPagePropTypes } from './MarketingPaddingPage.prop'
+import { defaultProps, propTypes } from './MarketingPaddingPage.prop'
 
 const LazyMarketingPaddingPage = React.lazy(() => import('./MarketingPaddingPage'))
 
@@ -11,6 +11,6 @@ export function AsyncMarketingPaddingPage() {
   )
 }
 
-AsyncMarketingPaddingPage.defaultProps = marketingPaddingPageDefaultProps
+AsyncMarketingPaddingPage.defaultProps = defaultProps
 
-AsyncMarketingPaddingPage.propTypes = marketingPaddingPagePropTypes
+AsyncMarketingPaddingPage.propTypes = propTypes

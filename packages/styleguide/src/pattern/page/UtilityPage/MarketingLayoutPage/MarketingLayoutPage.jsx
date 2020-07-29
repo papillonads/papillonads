@@ -1,14 +1,14 @@
 import React from 'react'
 import { UtilityTemplate } from '../../../template/UtilityTemplate'
-import { marketingLayoutPageDefaultProps, marketingLayoutPagePropTypes } from './MarketingLayoutPage.prop'
+import { defaultProps, propTypes } from './MarketingLayoutPage.prop'
 
 export function MarketingLayoutPage() {
   return <UtilityTemplate.MarketingLayout />
 }
 
-MarketingLayoutPage.defaultProps = marketingLayoutPageDefaultProps
+MarketingLayoutPage.defaultProps = defaultProps
 
-MarketingLayoutPage.propTypes = marketingLayoutPagePropTypes
+MarketingLayoutPage.propTypes = propTypes
 
 // Default export is required to use with React.lazy()
 export default MarketingLayoutPage

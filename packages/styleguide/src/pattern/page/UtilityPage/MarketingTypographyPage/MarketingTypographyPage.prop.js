@@ -1,3 +1,3 @@
-export const marketingTypographyPageDefaultProps = {}
+export const defaultProps = {}
 
-export const marketingTypographyPagePropTypes = {}
+export const propTypes = {}

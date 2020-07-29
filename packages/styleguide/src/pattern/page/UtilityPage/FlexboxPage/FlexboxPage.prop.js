@@ -1,3 +1,3 @@
-export const flexboxPageDefaultProps = {}
+export const defaultProps = {}
 
-export const flexboxPagePropTypes = {}
+export const propTypes = {}

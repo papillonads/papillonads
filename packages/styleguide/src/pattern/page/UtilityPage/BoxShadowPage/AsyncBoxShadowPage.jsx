@@ -1,5 +1,5 @@
 import React from 'react'
-import { boxShadowPageDefaultProps, boxShadowPagePropTypes } from './BoxShadowPage.prop'
+import { defaultProps, propTypes } from './BoxShadowPage.prop'
 
 const LazyBoxShadowPage = React.lazy(() => import('./BoxShadowPage'))
 
@@ -11,6 +11,6 @@ export function AsyncBoxShadowPage() {
   )
 }
 
-AsyncBoxShadowPage.defaultProps = boxShadowPageDefaultProps
+AsyncBoxShadowPage.defaultProps = defaultProps
 
-AsyncBoxShadowPage.propTypes = boxShadowPagePropTypes
+AsyncBoxShadowPage.propTypes = propTypes

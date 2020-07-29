@@ -1,3 +1,3 @@
-export const paddingPageDefaultProps = {}
+export const defaultProps = {}
 
-export const paddingPagePropTypes = {}
+export const propTypes = {}

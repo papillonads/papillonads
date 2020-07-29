@@ -1,14 +1,14 @@
 import React from 'react'
 import { UtilityTemplate } from '../../../template/UtilityTemplate'
-import { colorsPageDefaultProps, colorsPagePropTypes } from './ColorsPage.prop'
+import { defaultProps, propTypes } from './ColorsPage.prop'
 
 export function ColorsPage() {
   return <UtilityTemplate.Colors />
 }
 
-ColorsPage.defaultProps = colorsPageDefaultProps
+ColorsPage.defaultProps = defaultProps
 
-ColorsPage.propTypes = colorsPagePropTypes
+ColorsPage.propTypes = propTypes
 
 // Default export is required to use with React.lazy()
 export default ColorsPage

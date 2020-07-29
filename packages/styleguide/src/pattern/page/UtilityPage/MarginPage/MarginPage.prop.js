@@ -1,3 +1,3 @@
-export const marginPageDefaultProps = {}
+export const defaultProps = {}
 
-export const marginPagePropTypes = {}
+export const propTypes = {}

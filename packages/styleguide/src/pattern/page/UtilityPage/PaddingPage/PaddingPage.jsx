@@ -1,14 +1,14 @@
 import React from 'react'
 import { UtilityTemplate } from '../../../template/UtilityTemplate'
-import { paddingPageDefaultProps, paddingPagePropTypes } from './PaddingPage.prop'
+import { defaultProps, propTypes } from './PaddingPage.prop'
 
 export function PaddingPage() {
   return <UtilityTemplate.Padding />
 }
 
-PaddingPage.defaultProps = paddingPageDefaultProps
+PaddingPage.defaultProps = defaultProps
 
-PaddingPage.propTypes = paddingPagePropTypes
+PaddingPage.propTypes = propTypes
 
 // Default export is required to use with React.lazy()
 export default PaddingPage

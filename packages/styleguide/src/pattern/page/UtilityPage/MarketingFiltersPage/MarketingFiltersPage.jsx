@@ -1,14 +1,14 @@
 import React from 'react'
 import { UtilityTemplate } from '../../../template/UtilityTemplate'
-import { marketingFiltersPageDefaultProps, marketingFiltersPagePropTypes } from './MarketingFiltersPage.prop'
+import { defaultProps, propTypes } from './MarketingFiltersPage.prop'
 
 export function MarketingFiltersPage() {
   return <UtilityTemplate.MarketingFilters />
 }
 
-MarketingFiltersPage.defaultProps = marketingFiltersPageDefaultProps
+MarketingFiltersPage.defaultProps = defaultProps
 
-MarketingFiltersPage.propTypes = marketingFiltersPagePropTypes
+MarketingFiltersPage.propTypes = propTypes
 
 // Default export is required to use with React.lazy()
 export default MarketingFiltersPage

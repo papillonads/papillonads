@@ -1,5 +1,5 @@
 import React from 'react'
-import { bordersPageDefaultProps, bordersPagePropTypes } from './BordersPage.prop'
+import { defaultProps, propTypes } from './BordersPage.prop'
 
 const LazyBordersPage = React.lazy(() => import('./BordersPage'))
 
@@ -11,6 +11,6 @@ export function AsyncBordersPage() {
   )
 }
 
-AsyncBordersPage.defaultProps = bordersPageDefaultProps
+AsyncBordersPage.defaultProps = defaultProps
 
-AsyncBordersPage.propTypes = bordersPagePropTypes
+AsyncBordersPage.propTypes = propTypes

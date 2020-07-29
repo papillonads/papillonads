@@ -1,3 +1,3 @@
-export const layoutPageDefaultProps = {}
+export const defaultProps = {}
 
-export const layoutPagePropTypes = {}
+export const propTypes = {}

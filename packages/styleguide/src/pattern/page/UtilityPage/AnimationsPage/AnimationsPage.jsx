@@ -1,14 +1,14 @@
 import React from 'react'
 import { UtilityTemplate } from '../../../template/UtilityTemplate'
-import { animationsPageDefaultProps, animationsPagePropTypes } from './AnimationsPage.prop'
+import { defaultProps, propTypes } from './AnimationsPage.prop'
 
 export function AnimationsPage() {
   return <UtilityTemplate.Animations />
 }
 
-AnimationsPage.defaultProps = animationsPageDefaultProps
+AnimationsPage.defaultProps = defaultProps
 
-AnimationsPage.propTypes = animationsPagePropTypes
+AnimationsPage.propTypes = propTypes
 
 // Default export is required to use with React.lazy()
 export default AnimationsPage

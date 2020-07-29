@@ -1,3 +1,3 @@
-export const boxShadowPageDefaultProps = {}
+export const defaultProps = {}
 
-export const boxShadowPagePropTypes = {}
+export const propTypes = {}

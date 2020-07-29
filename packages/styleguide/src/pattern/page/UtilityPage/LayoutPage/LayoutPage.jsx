@@ -1,14 +1,14 @@
 import React from 'react'
 import { UtilityTemplate } from '../../../template/UtilityTemplate'
-import { layoutPageDefaultProps, layoutPagePropTypes } from './LayoutPage.prop'
+import { defaultProps, propTypes } from './LayoutPage.prop'
 
 export function LayoutPage() {
   return <UtilityTemplate.Layout />
 }
 
-LayoutPage.defaultProps = layoutPageDefaultProps
+LayoutPage.defaultProps = defaultProps
 
-LayoutPage.propTypes = layoutPagePropTypes
+LayoutPage.propTypes = propTypes
 
 // Default export is required to use with React.lazy()
 export default LayoutPage

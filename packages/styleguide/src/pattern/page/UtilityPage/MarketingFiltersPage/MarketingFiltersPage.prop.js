@@ -1,3 +1,3 @@
-export const marketingFiltersPageDefaultProps = {}
+export const defaultProps = {}
 
-export const marketingFiltersPagePropTypes = {}
+export const propTypes = {}

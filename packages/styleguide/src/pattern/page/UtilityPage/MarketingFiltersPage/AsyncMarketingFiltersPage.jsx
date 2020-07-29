@@ -1,5 +1,5 @@
 import React from 'react'
-import { marketingFiltersPageDefaultProps, marketingFiltersPagePropTypes } from './MarketingFiltersPage.prop'
+import { defaultProps, propTypes } from './MarketingFiltersPage.prop'
 
 const LazyMarketingFiltersPage = React.lazy(() => import('./MarketingFiltersPage'))
 
@@ -11,6 +11,6 @@ export function AsyncMarketingFiltersPage() {
   )
 }
 
-AsyncMarketingFiltersPage.defaultProps = marketingFiltersPageDefaultProps
+AsyncMarketingFiltersPage.defaultProps = defaultProps
 
-AsyncMarketingFiltersPage.propTypes = marketingFiltersPagePropTypes
+AsyncMarketingFiltersPage.propTypes = propTypes

@@ -1,14 +1,14 @@
 import React from 'react'
 import { UtilityTemplate } from '../../../template/UtilityTemplate'
-import { bordersPageDefaultProps, bordersPagePropTypes } from './BordersPage.prop'
+import { defaultProps, propTypes } from './BordersPage.prop'
 
 export function BordersPage() {
   return <UtilityTemplate.Borders />
 }
 
-BordersPage.defaultProps = bordersPageDefaultProps
+BordersPage.defaultProps = defaultProps
 
-BordersPage.propTypes = bordersPagePropTypes
+BordersPage.propTypes = propTypes
 
 // Default export is required to use with React.lazy()
 export default BordersPage

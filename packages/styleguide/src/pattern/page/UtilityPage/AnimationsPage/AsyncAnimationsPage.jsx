@@ -1,5 +1,5 @@
 import React from 'react'
-import { animationsPageDefaultProps, animationsPagePropTypes } from './AnimationsPage.prop'
+import { defaultProps, propTypes } from './AnimationsPage.prop'
 
 const LazyAnimationsPage = React.lazy(() => import('./AnimationsPage'))
 
@@ -11,6 +11,6 @@ export function AsyncAnimationsPage() {
   )
 }
 
-AsyncAnimationsPage.defaultProps = animationsPageDefaultProps
+AsyncAnimationsPage.defaultProps = defaultProps
 
-AsyncAnimationsPage.propTypes = animationsPagePropTypes
+AsyncAnimationsPage.propTypes = propTypes

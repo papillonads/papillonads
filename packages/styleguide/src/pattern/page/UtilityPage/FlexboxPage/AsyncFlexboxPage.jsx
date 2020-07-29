@@ -1,5 +1,5 @@
 import React from 'react'
-import { flexboxPageDefaultProps, flexboxPagePropTypes } from './FlexboxPage.prop'
+import { defaultProps, propTypes } from './FlexboxPage.prop'
 
 const LazyFlexboxPage = React.lazy(() => import('./FlexboxPage'))
 
@@ -11,6 +11,6 @@ export function AsyncFlexboxPage() {
   )
 }
 
-AsyncFlexboxPage.defaultProps = flexboxPageDefaultProps
+AsyncFlexboxPage.defaultProps = defaultProps
 
-AsyncFlexboxPage.propTypes = flexboxPagePropTypes
+AsyncFlexboxPage.propTypes = propTypes

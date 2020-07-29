@@ -1,5 +1,5 @@
 import React from 'react'
-import { paddingPageDefaultProps, paddingPagePropTypes } from './PaddingPage.prop'
+import { defaultProps, propTypes } from './PaddingPage.prop'
 
 const LazyPaddingPage = React.lazy(() => import('./PaddingPage'))
 
@@ -11,6 +11,6 @@ export function AsyncPaddingPage() {
   )
 }
 
-AsyncPaddingPage.defaultProps = paddingPageDefaultProps
+AsyncPaddingPage.defaultProps = defaultProps
 
-AsyncPaddingPage.propTypes = paddingPagePropTypes
+AsyncPaddingPage.propTypes = propTypes

@@ -1,14 +1,14 @@
 import React from 'react'
 import { UtilityTemplate } from '../../../template/UtilityTemplate'
-import { marketingTypographyPageDefaultProps, marketingTypographyPagePropTypes } from './MarketingTypographyPage.prop'
+import { defaultProps, propTypes } from './MarketingTypographyPage.prop'
 
 export function MarketingTypographyPage() {
   return <UtilityTemplate.MarketingTypography />
 }
 
-MarketingTypographyPage.defaultProps = marketingTypographyPageDefaultProps
+MarketingTypographyPage.defaultProps = defaultProps
 
-MarketingTypographyPage.propTypes = marketingTypographyPagePropTypes
+MarketingTypographyPage.propTypes = propTypes
 
 // Default export is required to use with React.lazy()
 export default MarketingTypographyPage

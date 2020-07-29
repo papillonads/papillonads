@@ -1,5 +1,5 @@
 import React from 'react'
-import { marginPageDefaultProps, marginPagePropTypes } from './MarginPage.prop'
+import { defaultProps, propTypes } from './MarginPage.prop'
 
 const LazyMarginPage = React.lazy(() => import('./MarginPage'))
 
@@ -11,6 +11,6 @@ export function AsyncMarginPage() {
   )
 }
 
-AsyncMarginPage.defaultProps = marginPageDefaultProps
+AsyncMarginPage.defaultProps = defaultProps
 
-AsyncMarginPage.propTypes = marginPagePropTypes
+AsyncMarginPage.propTypes = propTypes

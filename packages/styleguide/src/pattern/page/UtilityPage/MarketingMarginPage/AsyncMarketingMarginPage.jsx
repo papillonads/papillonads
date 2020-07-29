@@ -1,5 +1,5 @@
 import React from 'react'
-import { marketingMarginPageDefaultProps, marketingMarginPagePropTypes } from './MarketingMarginPage.prop'
+import { defaultProps, propTypes } from './MarketingMarginPage.prop'
 
 const LazyMarketingMarginPage = React.lazy(() => import('./MarketingMarginPage'))
 
@@ -11,6 +11,6 @@ export function AsyncMarketingMarginPage() {
   )
 }
 
-AsyncMarketingMarginPage.defaultProps = marketingMarginPageDefaultProps
+AsyncMarketingMarginPage.defaultProps = defaultProps
 
-AsyncMarketingMarginPage.propTypes = marketingMarginPagePropTypes
+AsyncMarketingMarginPage.propTypes = propTypes

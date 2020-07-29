@@ -1,5 +1,5 @@
 import React from 'react'
-import { marketingLayoutPageDefaultProps, marketingLayoutPagePropTypes } from './MarketingLayoutPage.prop'
+import { defaultProps, propTypes } from './MarketingLayoutPage.prop'
 
 const LazyMarketingLayoutPage = React.lazy(() => import('./MarketingLayoutPage'))
 
@@ -11,6 +11,6 @@ export function AsyncMarketingLayoutPage() {
   )
 }
 
-AsyncMarketingLayoutPage.defaultProps = marketingLayoutPageDefaultProps
+AsyncMarketingLayoutPage.defaultProps = defaultProps
 
-AsyncMarketingLayoutPage.propTypes = marketingLayoutPagePropTypes
+AsyncMarketingLayoutPage.propTypes = propTypes

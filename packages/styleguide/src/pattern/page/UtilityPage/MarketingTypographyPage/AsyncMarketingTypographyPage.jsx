@@ -1,5 +1,5 @@
 import React from 'react'
-import { marketingTypographyPageDefaultProps, marketingTypographyPagePropTypes } from './MarketingTypographyPage.prop'
+import { defaultProps, propTypes } from './MarketingTypographyPage.prop'
 
 const LazyMarketingTypographyPage = React.lazy(() => import('./MarketingTypographyPage'))
 
@@ -11,6 +11,6 @@ export function AsyncMarketingTypographyPage() {
   )
 }
 
-AsyncMarketingTypographyPage.defaultProps = marketingTypographyPageDefaultProps
+AsyncMarketingTypographyPage.defaultProps = defaultProps
 
-AsyncMarketingTypographyPage.propTypes = marketingTypographyPagePropTypes
+AsyncMarketingTypographyPage.propTypes = propTypes

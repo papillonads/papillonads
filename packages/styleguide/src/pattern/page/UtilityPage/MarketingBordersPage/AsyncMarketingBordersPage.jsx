@@ -1,5 +1,5 @@
 import React from 'react'
-import { marketingBordersPageDefaultProps, marketingBordersPagePropTypes } from './MarketingBordersPage.prop'
+import { defaultProps, propTypes } from './MarketingBordersPage.prop'
 
 const LazyMarketingBordersPage = React.lazy(() => import('./MarketingBordersPage'))
 
@@ -11,6 +11,6 @@ export function AsyncMarketingBordersPage() {
   )
 }
 
-AsyncMarketingBordersPage.defaultProps = marketingBordersPageDefaultProps
+AsyncMarketingBordersPage.defaultProps = defaultProps
 
-AsyncMarketingBordersPage.propTypes = marketingBordersPagePropTypes
+AsyncMarketingBordersPage.propTypes = propTypes

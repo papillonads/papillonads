@@ -1,5 +1,5 @@
 import React from 'react'
-import { utilityPageDefaultProps, utilityPagePropTypes } from './UtilityPage.prop'
+import { defaultProps, propTypes } from './UtilityPage.prop'
 
 const LazyUtilityPage = React.lazy(() => import('./UtilityPage'))
 
@@ -11,6 +11,6 @@ export function AsyncUtilityPage() {
   )
 }
 
-AsyncUtilityPage.defaultProps = utilityPageDefaultProps
+AsyncUtilityPage.defaultProps = defaultProps
 
-AsyncUtilityPage.propTypes = utilityPagePropTypes
+AsyncUtilityPage.propTypes = propTypes

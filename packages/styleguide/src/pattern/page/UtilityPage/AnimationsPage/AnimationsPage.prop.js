@@ -1,3 +1,3 @@
-export const animationsPageDefaultProps = {}
+export const defaultProps = {}
 
-export const animationsPagePropTypes = {}
+export const propTypes = {}

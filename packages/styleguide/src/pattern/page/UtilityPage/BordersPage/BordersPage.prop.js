@@ -1,3 +1,3 @@
-export const bordersPageDefaultProps = {}
+export const defaultProps = {}
 
-export const bordersPagePropTypes = {}
+export const propTypes = {}
