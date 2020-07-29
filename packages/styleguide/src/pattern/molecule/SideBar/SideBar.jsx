@@ -569,13 +569,13 @@ export function SideBar() {
             </li>
 
             <li className="">
-              <Link className="position-relative f5 py-1 d-block" to={componentsPageRoute.forms.path}>
+              <Link className="position-relative f5 py-1 d-block" to={componentsPageRoute.markdown.path}>
                 Markdown
               </Link>
             </li>
 
             <li className="">
-              <a href="/primer/components/marketing-buttons/" className="position-relative f5 py-1 d-block">
+              <Link className="position-relative f5 py-1 d-block" to={componentsPageRoute.marketingButtons.path}>
                 Marketing Buttons
                 <span className="position-absolute right-0">
                   <span className="text-green  tooltipped tooltipped-nw" aria-label="New Release">
@@ -591,7 +591,7 @@ export function SideBar() {
                     </svg>
                   </span>
                 </span>
-              </a>
+              </Link>
             </li>
 
             <li className="">

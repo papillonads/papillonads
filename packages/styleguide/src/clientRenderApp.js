@@ -238,6 +238,11 @@ export function App() {
             path={componentsPageRoute.markdown.path}
             component={componentsPageRoute.markdown.clientComponent}
           />
+          <Route
+            exact={componentsPageRoute.marketingButtons.exact}
+            path={componentsPageRoute.marketingButtons.path}
+            component={componentsPageRoute.marketingButtons.clientComponent}
+          />
           <Route component={withRouter(notFoundPageRoute.clientComponent)} />
         </Switch>
       </BrowserRouter>

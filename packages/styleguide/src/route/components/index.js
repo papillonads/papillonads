@@ -13,6 +13,7 @@ import { flashBannerRoute } from './flashBanner'
 import { formsRoute } from './forms'
 import { labelsRoute } from './labels'
 import { markdownRoute } from './markdown'
+import { marketingButtonsRoute } from './marketingButtons'
 
 export const componentsPageRoute = {
   components: componentsRoute,
@@ -30,4 +31,5 @@ export const componentsPageRoute = {
   forms: formsRoute,
   labels: labelsRoute,
   markdown: markdownRoute,
+  marketingButtons: marketingButtonsRoute,
 }
