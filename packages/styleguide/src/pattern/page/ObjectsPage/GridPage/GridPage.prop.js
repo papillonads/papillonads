@@ -1,3 +1,3 @@
-export const gridPageDefaultProps = {}
+export const defaultProps = {}
 
-export const gridPagePropTypes = {}
+export const propTypes = {}

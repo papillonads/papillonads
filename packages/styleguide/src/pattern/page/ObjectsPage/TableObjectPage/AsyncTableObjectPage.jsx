@@ -1,5 +1,5 @@
 import React from 'react'
-import { tableObjectPageDefaultProps, tableObjectPagePropTypes } from './TableObjectPage.prop'
+import { defaultProps, propTypes } from './TableObjectPage.prop'
 
 const LazyTableObjectPage = React.lazy(() => import('./TableObjectPage'))
 
@@ -11,6 +11,6 @@ export function AsyncTableObjectPage() {
   )
 }
 
-AsyncTableObjectPage.defaultProps = tableObjectPageDefaultProps
+AsyncTableObjectPage.defaultProps = defaultProps
 
-AsyncTableObjectPage.propTypes = tableObjectPagePropTypes
+AsyncTableObjectPage.propTypes = propTypes

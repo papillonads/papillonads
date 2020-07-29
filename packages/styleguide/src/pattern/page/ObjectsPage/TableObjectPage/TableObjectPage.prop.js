@@ -1,3 +1,3 @@
-export const tableObjectPageDefaultProps = {}
+export const defaultProps = {}
 
-export const tableObjectPagePropTypes = {}
+export const propTypes = {}

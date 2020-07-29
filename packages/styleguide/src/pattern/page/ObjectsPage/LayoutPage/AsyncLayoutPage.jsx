@@ -1,5 +1,5 @@
 import React from 'react'
-import { layoutPageDefaultProps, layoutPagePropTypes } from './LayoutPage.prop'
+import { defaultProps, propTypes } from './LayoutPage.prop'
 
 const LazyLayoutPage = React.lazy(() => import('./LayoutPage'))
 
@@ -11,6 +11,6 @@ export function AsyncLayoutPage() {
   )
 }
 
-AsyncLayoutPage.defaultProps = layoutPageDefaultProps
+AsyncLayoutPage.defaultProps = defaultProps
 
-AsyncLayoutPage.propTypes = layoutPagePropTypes
+AsyncLayoutPage.propTypes = propTypes

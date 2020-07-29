@@ -1,5 +1,5 @@
 import React from 'react'
-import { gridPageDefaultProps, gridPagePropTypes } from './GridPage.prop'
+import { defaultProps, propTypes } from './GridPage.prop'
 
 const LazyGridPage = React.lazy(() => import('./GridPage'))
 
@@ -11,6 +11,6 @@ export function AsyncGridPage() {
   )
 }
 
-AsyncGridPage.defaultProps = gridPageDefaultProps
+AsyncGridPage.defaultProps = defaultProps
 
-AsyncGridPage.propTypes = gridPagePropTypes
+AsyncGridPage.propTypes = propTypes

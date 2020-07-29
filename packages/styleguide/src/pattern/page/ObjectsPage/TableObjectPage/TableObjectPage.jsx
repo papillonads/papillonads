@@ -1,14 +1,14 @@
 import React from 'react'
 import { ObjectsTemplate } from '../../../template/ObjectsTemplate'
-import { tableObjectPageDefaultProps, tableObjectPagePropTypes } from './TableObjectPage.prop'
+import { defaultProps, propTypes } from './TableObjectPage.prop'
 
 export function TableObjectPage() {
   return <ObjectsTemplate.TableObject />
 }
 
-TableObjectPage.defaultProps = tableObjectPageDefaultProps
+TableObjectPage.defaultProps = defaultProps
 
-TableObjectPage.propTypes = tableObjectPagePropTypes
+TableObjectPage.propTypes = propTypes
 
 // Default export is required to use with React.lazy()
 export default TableObjectPage

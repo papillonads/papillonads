@@ -1,3 +1,3 @@
-export const objectsPageDefaultProps = {}
+export const defaultProps = {}
 
-export const objectsPagePropTypes = {}
+export const propTypes = {}
