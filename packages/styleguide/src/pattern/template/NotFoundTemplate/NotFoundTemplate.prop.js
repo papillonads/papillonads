@@ -1,7 +1,7 @@
 import { object } from 'prop-types'
 
-export const notFoundTemplateDefaultProps = {}
+export const defaultProps = {}
 
-export const notFoundTemplatePropTypes = {
+export const propTypes = {
   location: object.isRequired,
 }

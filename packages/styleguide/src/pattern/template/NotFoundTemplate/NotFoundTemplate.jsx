@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { docsPagePath } from '../../../route/path'
 import { NoMatch } from '../../atom/NoMatch'
-import { notFoundTemplateDefaultProps, notFoundTemplatePropTypes } from './NotFoundTemplate.prop'
+import { defaultProps, propTypes } from './NotFoundTemplate.prop'
 
 export function NotFoundTemplate({ location }) {
   return (
@@ -13,6 +13,6 @@ export function NotFoundTemplate({ location }) {
   )
 }
 
-NotFoundTemplate.defaultProps = notFoundTemplateDefaultProps
+NotFoundTemplate.defaultProps = defaultProps
 
-NotFoundTemplate.propTypes = notFoundTemplatePropTypes
+NotFoundTemplate.propTypes = propTypes
