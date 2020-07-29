@@ -1,3 +1,3 @@
-export const breakpointsTemplateDefaultProps = {}
+export const defaultProps = {}
 
-export const breakpointsTemplatePropTypes = {}
+export const propTypes = {}

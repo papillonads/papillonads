@@ -1,5 +1,5 @@
 import React from 'react'
-import { spacingTemplateDefaultProps, spacingTemplatePropTypes } from './SpacingTemplate.prop'
+import { defaultProps, propTypes } from './SpacingTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function SpacingTemplate() {
   )
 }
 
-SpacingTemplate.defaultProps = spacingTemplateDefaultProps
+SpacingTemplate.defaultProps = defaultProps
 
-SpacingTemplate.propTypes = spacingTemplatePropTypes
+SpacingTemplate.propTypes = propTypes

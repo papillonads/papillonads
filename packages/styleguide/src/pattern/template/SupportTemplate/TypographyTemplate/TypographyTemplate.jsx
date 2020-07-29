@@ -1,5 +1,5 @@
 import React from 'react'
-import { typographyTemplateDefaultProps, typographyTemplatePropTypes } from './TypographyTemplate.prop'
+import { defaultProps, propTypes } from './TypographyTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function TypographyTemplate() {
   )
 }
 
-TypographyTemplate.defaultProps = typographyTemplateDefaultProps
+TypographyTemplate.defaultProps = defaultProps
 
-TypographyTemplate.propTypes = typographyTemplatePropTypes
+TypographyTemplate.propTypes = propTypes

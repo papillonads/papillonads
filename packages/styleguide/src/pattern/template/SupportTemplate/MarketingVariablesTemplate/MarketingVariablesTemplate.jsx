@@ -1,5 +1,5 @@
 import React from 'react'
-import { marketingVariablesTemplateDefaultProps, marketingVariablesTemplatePropTypes } from './MarketingVariablesTemplate.prop'
+import { defaultProps, propTypes } from './MarketingVariablesTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function MarketingVariablesTemplate() {
   )
 }
 
-MarketingVariablesTemplate.defaultProps = marketingVariablesTemplateDefaultProps
+MarketingVariablesTemplate.defaultProps = defaultProps
 
-MarketingVariablesTemplate.propTypes = marketingVariablesTemplatePropTypes
+MarketingVariablesTemplate.propTypes = propTypes

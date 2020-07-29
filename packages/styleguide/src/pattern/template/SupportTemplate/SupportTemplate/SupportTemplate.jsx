@@ -1,5 +1,5 @@
 import React from 'react'
-import { supportTemplateDefaultProps, supportTemplatePropTypes } from './SupportTemplate.prop'
+import { defaultProps, propTypes } from './SupportTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function SupportTemplate() {
   )
 }
 
-SupportTemplate.defaultProps = supportTemplateDefaultProps
+SupportTemplate.defaultProps = defaultProps
 
-SupportTemplate.propTypes = supportTemplatePropTypes
+SupportTemplate.propTypes = propTypes

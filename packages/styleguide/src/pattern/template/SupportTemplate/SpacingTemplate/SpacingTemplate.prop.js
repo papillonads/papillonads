@@ -1,3 +1,3 @@
-export const spacingTemplateDefaultProps = {}
+export const defaultProps = {}
 
-export const spacingTemplatePropTypes = {}
+export const propTypes = {}

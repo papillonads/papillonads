@@ -1,5 +1,5 @@
 import React from 'react'
-import { colorSystemTemplateDefaultProps, colorSystemTemplatePropTypes } from './ColorSystemTemplate.prop'
+import { defaultProps, propTypes } from './ColorSystemTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function ColorSystemTemplate() {
   )
 }
 
-ColorSystemTemplate.defaultProps = colorSystemTemplateDefaultProps
+ColorSystemTemplate.defaultProps = defaultProps
 
-ColorSystemTemplate.propTypes = colorSystemTemplatePropTypes
+ColorSystemTemplate.propTypes = propTypes

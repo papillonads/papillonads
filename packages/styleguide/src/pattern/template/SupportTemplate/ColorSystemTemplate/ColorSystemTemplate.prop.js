@@ -1,3 +1,3 @@
-export const colorSystemTemplateDefaultProps = {}
+export const defaultProps = {}
 
-export const colorSystemTemplatePropTypes = {}
+export const propTypes = {}

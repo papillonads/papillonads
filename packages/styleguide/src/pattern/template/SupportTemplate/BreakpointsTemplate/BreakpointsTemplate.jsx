@@ -1,5 +1,5 @@
 import React from 'react'
-import { breakpointsTemplateDefaultProps, breakpointsTemplatePropTypes } from './BreakpointsTemplate.prop'
+import { defaultProps, propTypes } from './BreakpointsTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function BreakpointsTemplate() {
   )
 }
 
-BreakpointsTemplate.defaultProps = breakpointsTemplateDefaultProps
+BreakpointsTemplate.defaultProps = defaultProps
 
-BreakpointsTemplate.propTypes = breakpointsTemplatePropTypes
+BreakpointsTemplate.propTypes = propTypes

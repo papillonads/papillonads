@@ -1,3 +1,3 @@
-export const marketingVariablesTemplateDefaultProps = {}
+export const defaultProps = {}
 
-export const marketingVariablesTemplatePropTypes = {}
+export const propTypes = {}
