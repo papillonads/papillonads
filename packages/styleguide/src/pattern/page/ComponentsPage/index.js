@@ -16,6 +16,7 @@ import { AsyncMarkdownPage as AsyncMarkdown, MarkdownPage as Markdown } from './
 import { AsyncMarketingButtonsPage as AsyncMarketingButtons, MarketingButtonsPage as MarketingButtons } from './MarketingButtonsPage'
 import { AsyncNavigationPage as AsyncNavigation, NavigationPage as Navigation } from './NavigationPage'
 import { AsyncOcticonsPage as AsyncOcticons, OcticonsPage as Octicons } from './OcticonsPage'
+import { AsyncPageHeadersPage as AsyncPageHeaders, PageHeadersPage as PageHeaders } from './PageHeadersPage'
 
 export const ComponentsPage = {
   Components: { AsyncComponents, Components },
@@ -36,4 +37,5 @@ export const ComponentsPage = {
   MarketingButtons: { AsyncMarketingButtons, MarketingButtons },
   Navigation: { AsyncNavigation, Navigation },
   Octicons: { AsyncOcticons, Octicons },
+  PageHeaders: { AsyncPageHeaders, PageHeaders },
 }
