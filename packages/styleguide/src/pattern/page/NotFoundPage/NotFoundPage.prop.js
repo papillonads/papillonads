@@ -1,7 +1,7 @@
 import { object } from 'prop-types'
 
-export const notFoundPageDefaultProps = {}
+export const defaultProps = {}
 
-export const notFoundPagePropTypes = {
+export const propTypes = {
   location: object.isRequired,
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { notFoundPageDefaultProps, notFoundPagePropTypes } from './NotFoundPage.prop'
+import { defaultProps, notFoundPagePropTypes } from './NotFoundPage.prop'
 
 const LazyNotFoundPage = React.lazy(() => import('./NotFoundPage'))
 
@@ -11,6 +11,6 @@ export function AsyncNotFoundPage({ location }) {
   )
 }
 
-AsyncNotFoundPage.defaultProps = notFoundPageDefaultProps
+AsyncNotFoundPage.defaultProps = defaultProps
 
 AsyncNotFoundPage.propTypes = notFoundPagePropTypes

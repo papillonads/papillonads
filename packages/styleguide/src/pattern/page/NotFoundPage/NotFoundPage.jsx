@@ -1,14 +1,14 @@
 import React from 'react'
 import { NotFoundTemplate } from '../../template/NotFoundTemplate'
-import { notFoundPageDefaultProps, notFoundPagePropTypes } from './NotFoundPage.prop'
+import { defaultProps, propTypes } from './NotFoundPage.prop'
 
 export function NotFoundPage({ location }) {
   return <NotFoundTemplate location={location} />
 }
 
-NotFoundPage.defaultProps = notFoundPageDefaultProps
+NotFoundPage.defaultProps = defaultProps
 
-NotFoundPage.propTypes = notFoundPagePropTypes
+NotFoundPage.propTypes = propTypes
 
 // Default export is required to use with React.lazy()
 export default NotFoundPage
