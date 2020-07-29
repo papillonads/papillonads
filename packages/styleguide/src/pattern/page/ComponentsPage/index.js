@@ -14,6 +14,7 @@ import { AsyncFormsPage as AsyncForms, FormsPage as Forms } from './FormsPage'
 import { AsyncLabelsPage as AsyncLabels, LabelsPage as Labels } from './LabelsPage'
 import { AsyncMarkdownPage as AsyncMarkdown, MarkdownPage as Markdown } from './MarkdownPage'
 import { AsyncMarketingButtonsPage as AsyncMarketingButtons, MarketingButtonsPage as MarketingButtons } from './MarketingButtonsPage'
+import { AsyncNavigationPage as AsyncNavigation, NavigationPage as Navigation } from './NavigationPage'
 
 export const ComponentsPage = {
   Components: { AsyncComponents, Components },
@@ -32,4 +33,5 @@ export const ComponentsPage = {
   Labels: { AsyncLabels, Labels },
   Markdown: { AsyncMarkdown, Markdown },
   MarketingButtons: { AsyncMarketingButtons, MarketingButtons },
+  Navigation: { AsyncNavigation, Navigation },
 }
