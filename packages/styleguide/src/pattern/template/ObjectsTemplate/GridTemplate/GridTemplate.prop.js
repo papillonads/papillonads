@@ -1,3 +1,3 @@
-export const gridTemplateDefaultProps = {}
+export const defaultProps = {}
 
-export const gridTemplatePropTypes = {}
+export const propTypes = {}

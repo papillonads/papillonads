@@ -1,3 +1,3 @@
-export const tableObjectTemplateDefaultProps = {}
+export const defaultProps = {}
 
-export const tableObjectTemplatePropTypes = {}
+export const propTypes = {}

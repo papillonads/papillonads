@@ -1,5 +1,5 @@
 import React from 'react'
-import { tableObjectTemplateDefaultProps, tableObjectTemplatePropTypes } from './TableObjectTemplate.prop'
+import { defaultProps, propTypes } from './TableObjectTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function TableObjectTemplate() {
   )
 }
 
-TableObjectTemplate.defaultProps = tableObjectTemplateDefaultProps
+TableObjectTemplate.defaultProps = defaultProps
 
-TableObjectTemplate.propTypes = tableObjectTemplatePropTypes
+TableObjectTemplate.propTypes = propTypes

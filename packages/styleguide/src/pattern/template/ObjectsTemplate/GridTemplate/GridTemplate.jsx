@@ -1,5 +1,5 @@
 import React from 'react'
-import { gridTemplateDefaultProps, gridTemplatePropTypes } from './GridTemplate.prop'
+import { defaultProps, propTypes } from './GridTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function GridTemplate() {
   )
 }
 
-GridTemplate.defaultProps = gridTemplateDefaultProps
+GridTemplate.defaultProps = defaultProps
 
-GridTemplate.propTypes = gridTemplatePropTypes
+GridTemplate.propTypes = propTypes

@@ -1,3 +1,3 @@
-export const layoutTemplateDefaultProps = {}
+export const defaultProps = {}
 
-export const layoutTemplatePropTypes = {}
+export const propTypes = {}

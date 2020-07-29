@@ -1,5 +1,5 @@
 import React from 'react'
-import { layoutTemplateDefaultProps, layoutTemplatePropTypes } from './LayoutTemplate.prop'
+import { defaultProps, propTypes } from './LayoutTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
 import { SideBar } from '../../../molecule/SideBar'
@@ -18,6 +18,6 @@ export function LayoutTemplate() {
   )
 }
 
-LayoutTemplate.defaultProps = layoutTemplateDefaultProps
+LayoutTemplate.defaultProps = defaultProps
 
-LayoutTemplate.propTypes = layoutTemplatePropTypes
+LayoutTemplate.propTypes = propTypes
