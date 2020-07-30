@@ -21,6 +21,7 @@ import { PageSectionsTemplate as PageSections } from './PageSectionsTemplate'
 import { PageheadTemplate as Pagehead } from './PageheadTemplate'
 import { PaginationTemplate as Pagination } from './PaginationTemplate'
 import { PopoverTemplate as Popover } from './PopoverTemplate'
+import { ProgressTemplate as Progress } from './ProgressTemplate'
 
 export const ComponentsTemplate = {
   Components,
@@ -46,4 +47,5 @@ export const ComponentsTemplate = {
   Pagehead,
   Pagination,
   Popover,
+  Progress,
 }
