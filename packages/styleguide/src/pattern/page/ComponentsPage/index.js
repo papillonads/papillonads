@@ -24,6 +24,7 @@ import { AsyncPopoverPage as AsyncPopover, PopoverPage as Popover } from './Popo
 import { AsyncProgressPage as AsyncProgress, ProgressPage as Progress } from './ProgressPage'
 import { AsyncSelectMenuPage as AsyncSelectMenu, SelectMenuPage as SelectMenu } from './SelectMenuPage'
 import { AsyncSubheadPage as AsyncSubhead, SubheadPage as Subhead } from './SubheadPage'
+import { AsyncTablesPage as AsyncTables, TablesPage as Tables } from './TablesPage'
 
 export const ComponentsPage = {
   Components: { AsyncComponents, Components },
@@ -52,4 +53,5 @@ export const ComponentsPage = {
   Progress: { AsyncProgress, Progress },
   SelectMenu: { AsyncSelectMenu, SelectMenu },
   Subhead: { AsyncSubhead, Subhead },
+  Tables: { AsyncTables, Tables },
 }
