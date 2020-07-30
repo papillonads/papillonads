@@ -18,6 +18,7 @@ import { navigationRoute } from './navigation'
 import { octiconsRoute } from './octicons'
 import { pageHeadersRoute } from './pageHeaders'
 import { pageSectionsRoute } from './pageSections'
+import { pageheadRoute } from './pagehead'
 
 export const componentsPageRoute = {
   components: componentsRoute,
@@ -40,4 +41,5 @@ export const componentsPageRoute = {
   octicons: octiconsRoute,
   pageHeaders: pageHeadersRoute,
   pageSections: pageSectionsRoute,
+  pagehead: pageheadRoute,
 }
