@@ -26,6 +26,7 @@ import { SelectMenuTemplate as SelectMenu } from './SelectMenuTemplate'
 import { SubheadTemplate as Subhead } from './SubheadTemplate'
 import { TablesTemplate as Tables } from './TablesTemplate'
 import { TooltipsTemplate as Tooltips } from './TooltipsTemplate'
+import { TruncateTemplate as Truncate } from './TruncateTemplate'
 
 export const ComponentsTemplate = {
   Components,
@@ -56,4 +57,5 @@ export const ComponentsTemplate = {
   Subhead,
   Tables,
   Tooltips,
+  Truncate,
 }

@@ -1,0 +1,1 @@
+export { TruncateTemplate } from './TruncateTemplate'
