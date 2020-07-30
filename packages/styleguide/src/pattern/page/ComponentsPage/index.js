@@ -23,6 +23,7 @@ import { AsyncPaginationPage as AsyncPagination, PaginationPage as Pagination } 
 import { AsyncPopoverPage as AsyncPopover, PopoverPage as Popover } from './PopoverPage'
 import { AsyncProgressPage as AsyncProgress, ProgressPage as Progress } from './ProgressPage'
 import { AsyncSelectMenuPage as AsyncSelectMenu, SelectMenuPage as SelectMenu } from './SelectMenuPage'
+import { AsyncSubheadPage as AsyncSubhead, SubheadPage as Subhead } from './SubheadPage'
 
 export const ComponentsPage = {
   Components: { AsyncComponents, Components },
@@ -50,4 +51,5 @@ export const ComponentsPage = {
   Popover: { AsyncPopover, Popover },
   Progress: { AsyncProgress, Progress },
   SelectMenu: { AsyncSelectMenu, SelectMenu },
+  Subhead: { AsyncSubhead, Subhead },
 }
