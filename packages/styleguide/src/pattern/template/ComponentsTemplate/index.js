@@ -19,6 +19,7 @@ import { OcticonsTemplate as Octicons } from './OcticonsTemplate'
 import { PageHeadersTemplate as PageHeaders } from './PageHeadersTemplate'
 import { PageSectionsTemplate as PageSections } from './PageSectionsTemplate'
 import { PageheadTemplate as Pagehead } from './PageheadTemplate'
+import { PaginationTemplate as Pagination } from './PaginationTemplate'
 
 export const ComponentsTemplate = {
   Components,
@@ -42,4 +43,5 @@ export const ComponentsTemplate = {
   PageHeaders,
   PageSections,
   Pagehead,
+  Pagination,
 }

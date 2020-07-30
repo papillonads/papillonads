@@ -1,0 +1,1 @@
+export { PaginationTemplate } from './PaginationTemplate'
