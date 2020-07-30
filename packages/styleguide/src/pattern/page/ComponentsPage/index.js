@@ -25,6 +25,7 @@ import { AsyncProgressPage as AsyncProgress, ProgressPage as Progress } from './
 import { AsyncSelectMenuPage as AsyncSelectMenu, SelectMenuPage as SelectMenu } from './SelectMenuPage'
 import { AsyncSubheadPage as AsyncSubhead, SubheadPage as Subhead } from './SubheadPage'
 import { AsyncTablesPage as AsyncTables, TablesPage as Tables } from './TablesPage'
+import { AsyncTooltipsPage as AsyncTooltips, TooltipsPage as Tooltips } from './TooltipsPage'
 
 export const ComponentsPage = {
   Components: { AsyncComponents, Components },
@@ -54,4 +55,5 @@ export const ComponentsPage = {
   SelectMenu: { AsyncSelectMenu, SelectMenu },
   Subhead: { AsyncSubhead, Subhead },
   Tables: { AsyncTables, Tables },
+  Tooltips: { AsyncTooltips, Tooltips },
 }
