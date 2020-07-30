@@ -303,6 +303,11 @@ export function App() {
             path={componentsPageRoute.tooltips.path}
             component={componentsPageRoute.tooltips.clientComponent}
           />
+          <Route
+            exact={componentsPageRoute.truncate.exact}
+            path={componentsPageRoute.truncate.path}
+            component={componentsPageRoute.truncate.clientComponent}
+          />
           <Route component={withRouter(notFoundPageRoute.clientComponent)} />
         </Switch>
       </BrowserRouter>

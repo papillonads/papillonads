@@ -765,9 +765,9 @@ export function SideBar() {
             </li>
 
             <li className="">
-              <a href="/primer/components/truncate/" className="position-relative f5 py-1 d-block">
+              <Link className="position-relative f5 py-1 d-block" to={componentsPageRoute.truncate.path}>
                 Truncate
-              </a>
+              </Link>
             </li>
           </ul>
         </li>

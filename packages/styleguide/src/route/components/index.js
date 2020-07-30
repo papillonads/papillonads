@@ -26,6 +26,7 @@ import { selectMenuRoute } from './selectMenu'
 import { subheadRoute } from './subhead'
 import { tablesRoute } from './tables'
 import { tooltipsRoute } from './tooltips'
+import { truncateRoute } from './truncate'
 
 export const componentsPageRoute = {
   components: componentsRoute,
@@ -56,4 +57,5 @@ export const componentsPageRoute = {
   subhead: subheadRoute,
   tables: tablesRoute,
   tooltips: tooltipsRoute,
+  truncate: truncateRoute,
 }
