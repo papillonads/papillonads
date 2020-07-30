@@ -298,6 +298,11 @@ export function App() {
             path={componentsPageRoute.tables.path}
             component={componentsPageRoute.tables.clientComponent}
           />
+          <Route
+            exact={componentsPageRoute.tooltips.exact}
+            path={componentsPageRoute.tooltips.path}
+            component={componentsPageRoute.tooltips.clientComponent}
+          />
           <Route component={withRouter(notFoundPageRoute.clientComponent)} />
         </Switch>
       </BrowserRouter>

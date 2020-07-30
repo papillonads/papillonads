@@ -759,9 +759,9 @@ export function SideBar() {
             </li>
 
             <li className="">
-              <a href="/primer/components/tooltips/" className="position-relative f5 py-1 d-block">
+              <Link className="position-relative f5 py-1 d-block" to={componentsPageRoute.tooltips.path}>
                 Tooltips
-              </a>
+              </Link>
             </li>
 
             <li className="">

@@ -25,6 +25,7 @@ import { progressRoute } from './progress'
 import { selectMenuRoute } from './selectMenu'
 import { subheadRoute } from './subhead'
 import { tablesRoute } from './tables'
+import { tooltipsRoute } from './tooltips'
 
 export const componentsPageRoute = {
   components: componentsRoute,
@@ -54,4 +55,5 @@ export const componentsPageRoute = {
   selectMenu: selectMenuRoute,
   subhead: subheadRoute,
   tables: tablesRoute,
+  tooltips: tooltipsRoute,
 }
