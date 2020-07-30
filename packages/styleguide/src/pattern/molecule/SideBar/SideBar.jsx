@@ -673,7 +673,7 @@ export function SideBar() {
             </li>
 
             <li className="">
-              <Link className="position-relative f5 py-1 d-block" to={componentsPageRoute.popover.path}>
+              <Link className="position-relative f5 py-1 d-block" to={componentsPageRoute.pagehead.path}>
                 Popover
                 <span className="position-absolute right-0">
                   <span className="text-yellow  tooltipped tooltipped-nw" aria-label="Experimental">

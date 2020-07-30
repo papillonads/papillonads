@@ -278,6 +278,11 @@ export function App() {
             path={componentsPageRoute.popover.path}
             component={componentsPageRoute.popover.clientComponent}
           />
+          <Route
+            exact={componentsPageRoute.progress.exact}
+            path={componentsPageRoute.progress.path}
+            component={componentsPageRoute.progress.clientComponent}
+          />
           <Route component={withRouter(notFoundPageRoute.clientComponent)} />
         </Switch>
       </BrowserRouter>
