@@ -20,6 +20,7 @@ import { PageHeadersTemplate as PageHeaders } from './PageHeadersTemplate'
 import { PageSectionsTemplate as PageSections } from './PageSectionsTemplate'
 import { PageheadTemplate as Pagehead } from './PageheadTemplate'
 import { PaginationTemplate as Pagination } from './PaginationTemplate'
+import { PopoverTemplate as Popover } from './PopoverTemplate'
 
 export const ComponentsTemplate = {
   Components,
@@ -44,4 +45,5 @@ export const ComponentsTemplate = {
   PageSections,
   Pagehead,
   Pagination,
+  Popover,
 }
