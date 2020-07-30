@@ -1,0 +1,1 @@
+export { PageheadTemplate } from './PageheadTemplate'
