@@ -26,6 +26,7 @@ import { AsyncSelectMenuPage as AsyncSelectMenu, SelectMenuPage as SelectMenu } 
 import { AsyncSubheadPage as AsyncSubhead, SubheadPage as Subhead } from './SubheadPage'
 import { AsyncTablesPage as AsyncTables, TablesPage as Tables } from './TablesPage'
 import { AsyncTooltipsPage as AsyncTooltips, TooltipsPage as Tooltips } from './TooltipsPage'
+import { AsyncTruncatePage as AsyncTruncate, TruncatePage as Truncate } from './TruncatePage'
 
 export const ComponentsPage = {
   Components: { AsyncComponents, Components },
@@ -56,4 +57,5 @@ export const ComponentsPage = {
   Subhead: { AsyncSubhead, Subhead },
   Tables: { AsyncTables, Tables },
   Tooltips: { AsyncTooltips, Tooltips },
+  Truncate: { AsyncTruncate, Truncate },
 }
