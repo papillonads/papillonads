@@ -25,6 +25,7 @@ import { ProgressTemplate as Progress } from './ProgressTemplate'
 import { SelectMenuTemplate as SelectMenu } from './SelectMenuTemplate'
 import { SubheadTemplate as Subhead } from './SubheadTemplate'
 import { TablesTemplate as Tables } from './TablesTemplate'
+import { TooltipsTemplate as Tooltips } from './TooltipsTemplate'
 
 export const ComponentsTemplate = {
   Components,
@@ -54,4 +55,5 @@ export const ComponentsTemplate = {
   SelectMenu,
   Subhead,
   Tables,
+  Tooltips,
 }
