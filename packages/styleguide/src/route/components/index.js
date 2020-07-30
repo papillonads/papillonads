@@ -20,6 +20,7 @@ import { pageHeadersRoute } from './pageHeaders'
 import { pageSectionsRoute } from './pageSections'
 import { pageheadRoute } from './pagehead'
 import { paginationRoute } from './pagination'
+import { popoverRoute } from './popover'
 
 export const componentsPageRoute = {
   components: componentsRoute,
@@ -44,4 +45,5 @@ export const componentsPageRoute = {
   pageSections: pageSectionsRoute,
   pagehead: pageheadRoute,
   pagination: paginationRoute,
+  popover: popoverRoute,
 }

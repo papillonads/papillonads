@@ -273,6 +273,11 @@ export function App() {
             path={componentsPageRoute.pagination.path}
             component={componentsPageRoute.pagination.clientComponent}
           />
+          <Route
+            exact={componentsPageRoute.popover.exact}
+            path={componentsPageRoute.popover.path}
+            component={componentsPageRoute.popover.clientComponent}
+          />
           <Route component={withRouter(notFoundPageRoute.clientComponent)} />
         </Switch>
       </BrowserRouter>
