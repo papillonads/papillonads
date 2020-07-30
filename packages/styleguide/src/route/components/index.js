@@ -24,6 +24,7 @@ import { popoverRoute } from './popover'
 import { progressRoute } from './progress'
 import { selectMenuRoute } from './selectMenu'
 import { subheadRoute } from './subhead'
+import { tablesRoute } from './tables'
 
 export const componentsPageRoute = {
   components: componentsRoute,
@@ -52,4 +53,5 @@ export const componentsPageRoute = {
   progress: progressRoute,
   selectMenu: selectMenuRoute,
   subhead: subheadRoute,
+  tables: tablesRoute,
 }
