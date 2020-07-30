@@ -283,6 +283,11 @@ export function App() {
             path={componentsPageRoute.progress.path}
             component={componentsPageRoute.progress.clientComponent}
           />
+          <Route
+            exact={componentsPageRoute.selectMenu.exact}
+            path={componentsPageRoute.selectMenu.path}
+            component={componentsPageRoute.selectMenu.clientComponent}
+          />
           <Route component={withRouter(notFoundPageRoute.clientComponent)} />
         </Switch>
       </BrowserRouter>
