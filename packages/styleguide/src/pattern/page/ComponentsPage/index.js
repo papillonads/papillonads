@@ -20,6 +20,7 @@ import { AsyncPageHeadersPage as AsyncPageHeaders, PageHeadersPage as PageHeader
 import { AsyncPageSectionsPage as AsyncPageSections, PageSectionsPage as PageSections } from './PageSectionsPage'
 import { AsyncPageheadPage as AsyncPagehead, PageheadPage as Pagehead } from './PageheadPage'
 import { AsyncPaginationPage as AsyncPagination, PaginationPage as Pagination } from './PaginationPage'
+import { AsyncPopoverPage as AsyncPopover, PopoverPage as Popover } from './PopoverPage'
 
 export const ComponentsPage = {
   Components: { AsyncComponents, Components },
@@ -44,4 +45,5 @@ export const ComponentsPage = {
   PageSections: { AsyncPageSections, PageSections },
   Pagehead: { AsyncPagehead, Pagehead },
   Pagination: { AsyncPagination, Pagination },
+  Popover: { AsyncPopover, Popover },
 }
