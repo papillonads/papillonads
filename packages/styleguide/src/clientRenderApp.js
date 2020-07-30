@@ -288,6 +288,11 @@ export function App() {
             path={componentsPageRoute.selectMenu.path}
             component={componentsPageRoute.selectMenu.clientComponent}
           />
+          <Route
+            exact={componentsPageRoute.subhead.exact}
+            path={componentsPageRoute.subhead.path}
+            component={componentsPageRoute.subhead.clientComponent}
+          />
           <Route component={withRouter(notFoundPageRoute.clientComponent)} />
         </Switch>
       </BrowserRouter>
