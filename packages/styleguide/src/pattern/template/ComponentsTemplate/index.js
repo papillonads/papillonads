@@ -24,6 +24,7 @@ import { PopoverTemplate as Popover } from './PopoverTemplate'
 import { ProgressTemplate as Progress } from './ProgressTemplate'
 import { SelectMenuTemplate as SelectMenu } from './SelectMenuTemplate'
 import { SubheadTemplate as Subhead } from './SubheadTemplate'
+import { TablesTemplate as Tables } from './TablesTemplate'
 
 export const ComponentsTemplate = {
   Components,
@@ -52,4 +53,5 @@ export const ComponentsTemplate = {
   Progress,
   SelectMenu,
   Subhead,
+  Tables,
 }
