@@ -18,6 +18,7 @@ import { AsyncNavigationPage as AsyncNavigation, NavigationPage as Navigation } 
 import { AsyncOcticonsPage as AsyncOcticons, OcticonsPage as Octicons } from './OcticonsPage'
 import { AsyncPageHeadersPage as AsyncPageHeaders, PageHeadersPage as PageHeaders } from './PageHeadersPage'
 import { AsyncPageSectionsPage as AsyncPageSections, PageSectionsPage as PageSections } from './PageSectionsPage'
+import { AsyncPageheadPage as AsyncPagehead, PageheadPage as Pagehead } from './PageheadPage'
 
 export const ComponentsPage = {
   Components: { AsyncComponents, Components },
@@ -40,4 +41,5 @@ export const ComponentsPage = {
   Octicons: { AsyncOcticons, Octicons },
   PageHeaders: { AsyncPageHeaders, PageHeaders },
   PageSections: { AsyncPageSections, PageSections },
+  Pagehead: { AsyncPagehead, Pagehead },
 }
