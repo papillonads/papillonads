@@ -1,0 +1,1 @@
+export { SubheadTemplate } from './SubheadTemplate'

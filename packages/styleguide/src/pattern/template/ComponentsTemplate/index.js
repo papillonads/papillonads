@@ -23,6 +23,7 @@ import { PaginationTemplate as Pagination } from './PaginationTemplate'
 import { PopoverTemplate as Popover } from './PopoverTemplate'
 import { ProgressTemplate as Progress } from './ProgressTemplate'
 import { SelectMenuTemplate as SelectMenu } from './SelectMenuTemplate'
+import { SubheadTemplate as Subhead } from './SubheadTemplate'
 
 export const ComponentsTemplate = {
   Components,
@@ -50,4 +51,5 @@ export const ComponentsTemplate = {
   Popover,
   Progress,
   SelectMenu,
+  Subhead,
 }
