@@ -653,7 +653,7 @@ export function SideBar() {
             </li>
 
             <li className="">
-              <a href="/primer/components/pagination/" className="position-relative f5 py-1 d-block">
+              <Link className="position-relative f5 py-1 d-block" to={componentsPageRoute.pagination.path}>
                 Pagination
                 <span className="position-absolute right-0">
                   <span className="text-green  tooltipped tooltipped-nw" aria-label="New Release">
@@ -669,7 +669,7 @@ export function SideBar() {
                     </svg>
                   </span>
                 </span>
-              </a>
+              </Link>
             </li>
 
             <li className="">
