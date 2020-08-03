@@ -1,5 +1,5 @@
 import React from 'react'
-import { defaultProps, gettingStartedPagePropTypes } from './GettingStartedPage.prop'
+import { defaultProps, propTypes } from './GettingStartedPage.prop'
 
 const LazyGettingStartedPage = React.lazy(() => import('./GettingStartedPage'))
 
@@ -13,4 +13,4 @@ export function AsyncGettingStartedPage() {
 
 AsyncGettingStartedPage.defaultProps = defaultProps
 
-AsyncGettingStartedPage.propTypes = gettingStartedPagePropTypes
+AsyncGettingStartedPage.propTypes = propTypes
