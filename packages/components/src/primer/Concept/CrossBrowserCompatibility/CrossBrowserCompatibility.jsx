@@ -6,6 +6,7 @@ export function SpecificationsStandardsGuidelines({ className }) {
     <div className={className}>
       <h2>📗 Specifications/Standards/Guidelines</h2>
       <h3>📖. ES6 / ES2015</h3>
+
       <h4>📃. From var to const/let</h4>
       <h5>📄. Reference</h5>
       <h6>📝. MDN</h6>
@@ -22,8 +23,22 @@ export function SpecificationsStandardsGuidelines({ className }) {
       <h6>📝. Browser Support</h6>
       <div>﹘ const > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓</div>
       <div>﹘ let > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer 🌦</div>
-      <h6>📝. 🔖 Transpiled / Polyfilled</h6>
+      <h6>📝. Transpiled / Polyfilled</h6>
       <div>﹘ Transpiled ✓, Safe to use ✅</div>
+
+      <h4>📃. From objects to maps</h4>
+      <h5>📄. Reference</h5>
+      <h6>📝. MDN</h6>
+      <div>
+        ﹘ <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">Array.prototype.map()</a>{' '}
+        The map() method creates a new array populated with the results of calling a provided function on every element in the calling
+        array.
+      </div>
+      <h5>📄. Compatibility</h5>
+      <h6>📝. Browser Support</h6>
+      <div>﹘ Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓</div>
+      <h6>📝. Transpiled / Polyfilled</h6>
+      <div>﹘ Polyfilled if not native ✓ Safe to use ✅</div>
     </div>
   )
 }
