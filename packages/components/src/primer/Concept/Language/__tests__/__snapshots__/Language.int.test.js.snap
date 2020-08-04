@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Language /> Render must match renderDesignSystemCore() 1`] = `
+<div
+  className={null}
+>
+  <h2>
+    📗 Papillon Ads Implementation
+  </h2>
+</div>
+`;
+
+exports[`<Language /> Render must match renderOpenSourceDependencyProjects() 1`] = `
+<div
+  className={null}
+>
+  <h2>
+    📗 Open Source Dependency Projects
+  </h2>
+</div>
+`;
+
+exports[`<Language /> Render must match renderProductMicrosites() 1`] = `
+<div
+  className={null}
+>
+  <h2>
+    📗 Papillon Ads Implementation
+  </h2>
+</div>
+`;
+
+exports[`<Language /> Render must match renderSpecificationsStandardsGuidelines() 1`] = `
+<div
+  className={null}
+>
+  <h2>
+    📗 Specifications/Standards/Guidelines
+  </h2>
+</div>
+`;
