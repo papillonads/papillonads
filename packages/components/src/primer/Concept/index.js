@@ -6,6 +6,7 @@ import { Compiling } from './Compiling'
 import { ComponentDesign } from './ComponentDesign'
 import { ComponentDrivenDevelopment } from './ComponentDrivenDevelopment'
 import { ContinuousDelivery } from './ContinuousDelivery'
+import { ContinuousIntegration } from './ContinuousIntegration'
 import { Microsite } from './Microsite'
 import { Monorepo } from './Monorepo'
 import { Rendering } from './Rendering'
@@ -20,6 +21,7 @@ export const Concept = {
   ComponentDesign,
   ComponentDrivenDevelopment,
   ContinuousDelivery,
+  ContinuousIntegration,
   Microsite,
   Monorepo,
   Rendering,
