@@ -8,6 +8,7 @@ import { ComponentDrivenDevelopment } from './ComponentDrivenDevelopment'
 import { ContinuousDelivery } from './ContinuousDelivery'
 import { ContinuousIntegration } from './ContinuousIntegration'
 import { CrossBrowserCompatibility } from './CrossBrowserCompatibility'
+import { CSSArchitecture } from './CSSArchitecture'
 import { Microsite } from './Microsite'
 import { Monorepo } from './Monorepo'
 import { Rendering } from './Rendering'
@@ -24,6 +25,7 @@ export const Concept = {
   ContinuousDelivery,
   ContinuousIntegration,
   CrossBrowserCompatibility,
+  CSSArchitecture,
   Microsite,
   Monorepo,
   Rendering,
