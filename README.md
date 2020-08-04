@@ -3776,36 +3776,31 @@
           <summary style="color: #006400;">📖 Product Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📖 Unit Testing</summary>
+              <summary style="color: #006400;">📃 Unit Testing</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
-                  <summary style="color: #006400;">📃 Unit tests run by Jest</summary>
+                  <summary style="color: #006400;">📄 Unit tests run by Jest</summary>
                   <blockquote style="margin: 0; padding: 0 24px">
                     <details>
-                      <summary style="color: #006400;">📄 Unit tests run by Jest</summary>
+                      <summary style="color: #006400;">🔖 Setup file(s)</summary>
                       <blockquote style="margin: 0; padding: 0 24px">
-                        <details>
-                          <summary style="color: #006400;">🔖 Setup file(s)</summary>
-                          <blockquote style="margin: 0; padding: 0 24px">
-                            ✎ <a style="color: #006400;" href="https://github.com/papillonads/marketplace/blob/master/jest.config.js">jest.config.js</a><br />
-                            ✎ <a style="color: #006400;" href="https://github.com/papillonads/marketplace/blob/master/jest.setup.js">jest.setup.js</a><br />
-                          </blockquote>
-                        </details>
-                        <details>
-                          <summary style="color: #006400;">🔖 Script(s)</summary>
-                          <blockquote style="margin: 0; padding: 0 24px">
-                            ✎ "test": "jest -u --no-cache --silent --runInBand --coverage"</br>
-                            ✎ "report-coverage": "codecov"</br>
-                          </blockquote>
-                        </details>
+                        ✎ <a style="color: #006400;" href="https://github.com/papillonads/marketplace/blob/master/jest.config.js">jest.config.js</a><br />
+                        ✎ <a style="color: #006400;" href="https://github.com/papillonads/marketplace/blob/master/jest.setup.js">jest.setup.js</a><br />
                       </blockquote>
                     </details>
-                  </blockquote>
+                    <details>
+                      <summary style="color: #006400;">🔖 Script(s)</summary>
+                      <blockquote style="margin: 0; padding: 0 24px">
+                        ✎ "test": "jest -u --no-cache --silent --runInBand --coverage"</br>
+                        ✎ "report-coverage": "codecov"</br>
+                      </blockquote>
+                    </details>
+                   </blockquote>
                 </details>
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📖 Integration Testing</summary>
+              <summary style="color: #006400;">📃 Integration Testing</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Snaphot tests run by Jest</summary>
@@ -3847,7 +3842,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📖 End to end Testing</summary>
+              <summary style="color: #006400;">📃 End to end Testing</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 📝 Coming soon 🐬
               </blockquote>
