@@ -145,6 +145,22 @@ export function SpecificationsStandardsGuidelines({ className }) {
       <div>﹘ Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳</div>
       <h6>📝. Transpiled / Polyfilled</h6>
       <div>﹘ Transpiled ✓, Safe to use ✅</div>
+      <h3>📖. ES8 / ES2017</h3>
+      <br />
+      <h4>📃. Async function</h4>
+      <h5>📄. Reference</h5>
+      <h6>📝. MDN</h6>
+      <div>
+        ﹘<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function">Async function</a>
+        The async function declaration defines an asynchronous function — a function that is an AsyncFunction object. Asynchronous functions
+        operate in a separate order than the rest of the code via the event loop, returning an implicit Promise as its result. But the
+        syntax and structure of code using async functions looks like standard synchronous functions.
+      </div>
+      <h5>📄. Compatibility</h5>
+      <h6>📝. Browser Support</h6>
+      <div>﹘ Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳</div>
+      <h6>📝. Transpiled / Polyfilled</h6>
+      <div>﹘ Transpiled ✓, Safe to use ✅</div>
     </div>
   )
 }
