@@ -1858,7 +1858,7 @@
               <summary style="color: #006400;">📃 Travis CI</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
-                  <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://docs.travis-ci.com/">Travis CI Documentation</a></summary>
+                  <summary style="color: #006400;">📄 <a style="color: #006400;" href="https://docs.travis-ci.com/">Travis CI Documentation</a></summary>
                   <blockquote style="margin: 0; padding: 0 24px">
                     🔖 Use the tutorials, samples, how-to, and reference documentation to learn Travis CI<br />
                   </blockquote>
@@ -1874,7 +1874,7 @@
               <summary style="color: #006400;">📃 Git Flow</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
-                  <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://blog.axosoft.com/gitflow/">Axasoft Documentation</a></summary>
+                  <summary style="color: #006400;">📄 <a style="color: #006400;" href="https://blog.axosoft.com/gitflow/">Axasoft Documentation</a></summary>
                   <blockquote style="margin: 0; padding: 0 24px">
                     🔖 Gitflow utilizes the core feature of Git, which is the power of branches. In this model, a repository has two main branches:<br />
                     🔖 <strong>Master</strong> This is a highly stable branch that is always production-ready and contains the last release version of source code in production.<br />
@@ -1882,14 +1882,14 @@
                   </blockquote>
                 </details>
                 <details>
-                  <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow">Atlassian Documentation</a></summary>
+                  <summary style="color: #006400;">📄 <a style="color: #006400;" href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow">Atlassian Documentation</a></summary>
                   <blockquote style="margin: 0; padding: 0 24px">
                     🔖 Gitflow Workflow is a Git workflow design that was first published and made popular by Vincent Driessen at nvie. The Gitflow Workflow defines a strict branching model designed around the project release. This provides a robust framework for managing larger projects.<br />
                     🔖 Gitflow is ideally suited for projects that have a scheduled release cycle. This workflow doesn’t add any new concepts or commands beyond what’s required for the Feature Branch Workflow. Instead, it assigns very specific roles to different branches and defines how and when they should interact. In addition to feature branches, it uses individual branches for preparing, maintaining, and recording releases. Of course, you also get to leverage all the benefits of the Feature Branch Workflow: pull requests, isolated experiments, and more efficient collaboration.<br />
                   </blockquote>
                 </details>
                 <details>
-                  <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://nvie.com/posts/a-successful-git-branching-model/">A successful Git branching model</a></summary>
+                  <summary style="color: #006400;">📄 <a style="color: #006400;" href="https://nvie.com/posts/a-successful-git-branching-model/">A successful Git branching model</a></summary>
                   <blockquote style="margin: 0; padding: 0 24px">
                     🔖 This model was conceived in 2010, now more than 10 years ago, and not very long after Git itself came into being. In those 10 years, git-flow (the branching model laid out in this article) has become hugely popular in many a software team to the point where people have started treating it like a standard of sorts — but unfortunately also as a dogma or panacea.<br />
                   </blockquote>
