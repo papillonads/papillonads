@@ -382,6 +382,22 @@ export function SpecificationsStandardsGuidelines({ className }) {
       <div>﹘ Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳</div>
       <h6>📝. Transpiled / Polyfilled</h6>
       <div>﹘ Polyfilled if not native ✓, Safe to use ✅</div>
+      <br />
+      <h4>📃. Function.prototype.toString() revision</h4>
+      <h5>📄. Reference</h5>
+      <h6>📝. MDN</h6>
+      <div>
+        ﹘
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/toString">
+          Function.prototype.toString() revision
+        </a>
+        The toString() method returns a string representing the source code of the function.
+      </div>
+      <h5>📄. Compatibility</h5>
+      <h6>📝. Browser Support</h6>
+      <div>﹘ Chrome ╳, Firefox ✓, Safari ╳, Edge ╳, Internet Explorer ╳</div>
+      <h6>📝. Transpiled / Polyfilled</h6>
+      <div>﹘ Polyfilled if not native ✓, Safe to use ✅</div>
     </div>
   )
 }
