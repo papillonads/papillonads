@@ -11,6 +11,7 @@ import { CrossBrowserCompatibility } from './CrossBrowserCompatibility'
 import { CSSArchitecture } from './CSSArchitecture'
 import { Language } from './Language'
 import { LocalDevelopment } from './LocalDevelopment'
+import { Runtime } from './Runtime'
 import { Microsite } from './Microsite'
 import { Monorepo } from './Monorepo'
 import { Rendering } from './Rendering'
@@ -30,6 +31,7 @@ export const Concept = {
   CSSArchitecture,
   Language,
   LocalDevelopment,
+  Runtime,
   Microsite,
   Monorepo,
   Rendering,
