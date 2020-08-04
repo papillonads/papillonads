@@ -1,8 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { primer } from '@papillonads/components'
 import { homePageRoute, conceptPageRoute } from '../../../../route'
 
 export function MainContent() {
+  const {
+    Concept: { CrossBrowserCompatibility },
+  } = primer
+
   return (
     <main className="flex-row flex-lg-column main-content mt-4 mt-lg-6 pb-6 mx-auto px-3">
       <div className="clearfix">
@@ -20,6 +25,9 @@ export function MainContent() {
           </ol>
         </nav>
         <h1 className="f00-light border-0 pb-3 d-block v-align-middle mt-2">📚 Cross Browser Compatibility</h1>
+        <CrossBrowserCompatibility.SpecificationsStandardsGuidelines className="markdown-body pb-3" />
+        <CrossBrowserCompatibility.OpenSourceDependencyProjects className="markdown-body pb-3" />
+        <CrossBrowserCompatibility.Implementation.DesignSystemCore className="markdown-body pb-3" />
       </div>
     </main>
   )
