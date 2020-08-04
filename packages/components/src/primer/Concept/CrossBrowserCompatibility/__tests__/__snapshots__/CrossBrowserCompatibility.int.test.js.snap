@@ -624,7 +624,55 @@ exports[`<CrossBrowserCompatibility /> Render must match renderSpecificationsSta
     📝. Transpiled / Polyfilled
   </h6>
   <div>
-    ﹘ Transpiled ✓, Safe to use ✅
+    ﹘ Polyfilled if not native ✓, Safe to use ✅
+  </div>
+  <br />
+  <br />
+  <h3>
+    📖. ES10 / ES2019
+  </h3>
+  <br />
+  <h4>
+    📃. Array.prototype.flat() and Array.prototype.flatMap()
+  </h4>
+  <h5>
+    📄. Reference
+  </h5>
+  <h6>
+    📝. MDN
+  </h6>
+  <div>
+    ﹘
+    <a
+      href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat"
+    >
+      Array.prototype.flat()
+    </a>
+    The flat() method creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.
+  </div>
+  <div>
+    ﹘
+    <a
+      href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap"
+    >
+      and Array.prototype.flatMap()
+    </a>
+    The flatMap() method first maps each element using a mapping function, then flattens the result into a new array. It is identical to a map() followed by a flat() of depth 1, but flatMap() is often quite useful, as merging both into one method is slightly more efficient.
+  </div>
+  <h5>
+    📄. Compatibility
+  </h5>
+  <h6>
+    📝. Browser Support
+  </h6>
+  <div>
+    ﹘ Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳
+  </div>
+  <h6>
+    📝. Transpiled / Polyfilled
+  </h6>
+  <div>
+    ﹘ Polyfilled if not native ✓, Safe to use ✅
   </div>
 </div>
 `;
