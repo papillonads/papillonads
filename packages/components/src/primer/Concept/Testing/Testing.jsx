@@ -220,6 +220,46 @@ export function OpenSourceDependencyProjects({ className }) {
   return (
     <div className={className}>
       <h2>📗 Open Source Dependency Projects</h2>
+      <br />
+      <br />
+      <h3>📖. Unit Testing</h3>
+      <br />
+      <h4>📃. Jest</h4>
+      <div>
+        ﹘ <a href="https://jestjs.io/">Website</a>
+      </div>
+      <div>
+        ﹘ <a href="https://github.com/facebook/jest">GitHub Repository</a>
+      </div>
+      <br />
+      <br />
+      <h3>📖. Integration Testing</h3>
+      <br />
+      <h4>📃. Jest</h4>
+      <div>
+        ﹘ <a href="https://jestjs.io/">Website</a>
+      </div>
+      <div>
+        ﹘ <a href="https://github.com/facebook/jest">GitHub Repository</a>
+      </div>
+      <h4>📃. Storybook</h4>
+      <div>
+        ﹘ <a href="https://storybook.js.org/">Website</a>
+      </div>
+      <div>
+        ﹘ <a href="https://github.com/storybookjs/storybook">GitHub Repository</a>
+      </div>
+      <br />
+      <br />
+      <h3>📖. End to end Testing</h3>
+      <br />
+      <h4>📃. Puppeteer</h4>
+      <div>
+        ﹘ <a href="https://pptr.dev/">Website</a>
+      </div>
+      <div>
+        ﹘ <a href="https://github.com/puppeteer/puppeteer">GitHub Repository</a>
+      </div>
     </div>
   )
 }
