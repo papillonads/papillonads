@@ -535,5 +535,66 @@ exports[`<CrossBrowserCompatibility /> Render must match renderSpecificationsSta
   <div>
     ﹘ Transpiled ✓, Safe to use ✅
   </div>
+  <br />
+  <br />
+  <h3>
+    📖. ES9 / ES2018
+  </h3>
+  <br />
+  <h4>
+    📃. Spread syntax and Rest syntax (parameters
+  </h4>
+  <h5>
+    📄. Reference
+  </h5>
+  <h6>
+    📝. MDN
+  </h6>
+  <div>
+    ﹘
+    <a
+      href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax"
+    >
+      Spread syntax
+    </a>
+    Spread syntax allows an iterable such as an array expression or string to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected, or an object expression to be expanded in places where zero or more key-value pairs (for object literals) are expected.
+  </div>
+  <div>
+    ﹘
+    <a
+      href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax#Rest_syntax_parameters"
+    >
+      and Rest syntax (parameters)
+    </a>
+    Rest syntax looks exactly like spread syntax, but is used for destructuring arrays and objects. In a way, rest syntax is the opposite of spread syntax. Spread syntax "expands" an array into its elements, while rest syntax collects multiple elements and "condenses" them into a single element.
+  </div>
+  <h5>
+    📄. Compatibility
+  </h5>
+  <h6>
+    📝. Browser Support
+  </h6>
+  <div>
+    ﹘ Spread in array literals &gt; Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳
+    <br />
+  </div>
+  <div>
+    ﹘ Spread in function calls &gt; Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳
+    <br />
+  </div>
+  <div>
+    ﹘ Spread in destructuring &gt; Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳
+    <br />
+  </div>
+  <div>
+    ﹘ Spread in object literalsExperimental &gt; Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳
+    <br />
+  </div>
+  <h6>
+    📝. Transpiled / Polyfilled
+  </h6>
+  <div>
+    ﹘ Transpiled ✓, Safe to use ✅
+  </div>
 </div>
 `;
