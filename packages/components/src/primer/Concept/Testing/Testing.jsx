@@ -301,8 +301,8 @@ export function ProductMicrosites({ className }) {
         ﹘ <a href="https://github.com/papillonads/marketplace/blob/master/jest.setup.js">jest.setup.js</a>
       </div>
       <h6>📝. Script(s)</h6>
-      <div>﹘ "test": "jest -u --no-cache --silent --runInBand --coverage</div>
-      <div>﹘ "report-coverage": "codecov"</div>
+      <div>﹘ &quot;test&quot;: &quot;jest -u --no-cache --silent --runInBand --coverage</div>
+      <div>﹘ &quot;report-coverage&quot;: &quot;codecov&quot;</div>
       <h4>📃. Integration Testing</h4>
       <h5>📄. Snaphot tests run by Jest</h5>
       <h6>📝. Setup file(s)</h6>
@@ -313,8 +313,8 @@ export function ProductMicrosites({ className }) {
         ﹘ <a href="https://github.com/papillonads/marketplace/blob/master/jest.setup.js">jest.setup.js</a>
       </div>
       <h6>📝. Script(s)</h6>
-      <div>﹘ "test": "jest -u --no-cache --silent --runInBand --coverage"</div>
-      <div>﹘ "report-coverage": "codecov"</div>
+      <div>﹘ &quot;test&quot;: &quot;jest -u --no-cache --silent --runInBand --coverage&quot;</div>
+      <div>﹘ &quot;report-coverage&quot;: &quot;codecov&quot;</div>
       <h5>📄. Stories run by Storybook</h5>
       <h6>📝. Setup file(s)</h6>
       <div>
@@ -324,7 +324,7 @@ export function ProductMicrosites({ className }) {
         ﹘ <a href="https://github.com/papillonads/marketplace/blob/master/.storybook/config.js">.storybook/config.js</a>
       </div>
       <h6>📝. Script(s)</h6>
-      <div>﹘ "start-storybook": "NODE_ENV=develop start-storybook -p 3003 -c .storybook"</div>
+      <div>﹘ &quot;start-storybook&quot;: &quot;NODE_ENV=develop start-storybook -p 3003 -c .storybook&quot;</div>
       <h4>📃. End to end Testing</h4>
       <div>﹘ 📝 Coming soon 🐬</div>
 

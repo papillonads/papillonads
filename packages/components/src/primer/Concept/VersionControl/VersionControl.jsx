@@ -90,19 +90,19 @@ export function SpecificationsStandardsGuidelines({ className }) {
         📃. <a href="https://www.sublimemerge.com/">Sublime Merge</a>
       </h4>
       <div>﹘ Meet a new Git Client, from the makers of Sublime Text</div>
-      <div>﹘ It's alright</div>
+      <div>﹘ It&apos;s alright</div>
       <br />
       <h4>
         📃. <a href="https://desktop.github.com/">GitHub Desktop</a>
       </h4>
       <div>﹘ Focus on what matters instead of fighting with Git</div>
-      <div>﹘ It's alright</div>
+      <div>﹘ It&apos;s alright</div>
       <br />
       <h4>
         📃. <a href="https://www.sourcetreeapp.com/">Sourcetree</a>
       </h4>
       <div>﹘ Simplicity and power in a beautiful Git GUI</div>
-      <div>﹘ It's alright</div>
+      <div>﹘ It&apos;s alright</div>
     </div>
   )
 }

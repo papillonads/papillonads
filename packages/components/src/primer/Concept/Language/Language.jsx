@@ -32,7 +32,7 @@ export function SpecificationsStandardsGuidelines({ className }) {
       <div>
         ﹘ <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML: Hypertext Markup Language</a> HTML (HyperText Markup Language)
         is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML
-        are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).
+        are generally used to describe a web page&apos;s appearance/presentation (CSS) or functionality/behavior (JavaScript).
       </div>
       <h4>📃. W3C</h4>
       <div>
