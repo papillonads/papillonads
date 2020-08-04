@@ -785,5 +785,39 @@ exports[`<CrossBrowserCompatibility /> Render must match renderSpecificationsSta
   <div>
     ﹘ Transpiled ✓, Safe to use ✅
   </div>
+  <br />
+  <h4>
+    📃. Array.prototype.sort()
+  </h4>
+  <h5>
+    📄. Reference
+  </h5>
+  <h6>
+    📝. MDN
+  </h6>
+  <div>
+    ﹘
+    <a
+      href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort"
+    >
+      Array.prototype.sort()
+    </a>
+    The sort() method sorts the elements of an array in place and returns the sorted array. The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.
+  </div>
+  <h5>
+    📄. Compatibility
+  </h5>
+  <h6>
+    📝. Browser Support
+  </h6>
+  <div>
+    ﹘ Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳
+  </div>
+  <h6>
+    📝. Transpiled / Polyfilled
+  </h6>
+  <div>
+    ﹘ Polyfilled if not native ✓, Safe to use ✅
+  </div>
 </div>
 `;
