@@ -154,6 +154,61 @@ export function SpecificationsStandardsGuidelines({ className }) {
           </code>
         </pre>
       </div>
+      <br />
+      <br />
+      <h3>📖. Integration Testing</h3>
+      <br />
+      <h4>📃. Jest</h4>
+      <div>
+        ﹘ <a href="https://jestjs.io/docs/en/getting-started">Getting Started</a>
+      </div>
+      <h4>📃. Storybook</h4>
+      <div>
+        ﹘ <a href="https://storybook.js.org/docs/basics/introduction/">Introduction</a> Storybook is a user interface development
+        environment and playground for UI components. The tool enables developers to create components independently and showcase components
+        interactively in an isolated development environment.
+      </div>
+      <h4>📃. Knowledge base</h4>
+      <h5>📄. Jest API</h5>
+      <h6>📝. Snapshot Testing with Jest</h6>
+      <div>
+        ﹘ <a href="https://jestjs.io/docs/en/snapshot-testing#snapshot-testing-with-jest">Snapshot Testing with Jest</a> Snapshots must be
+        implemented conforming to the following pattern
+        <pre>
+          <code>
+            {`
+  describe('<SomeComponent />', () => {
+    describe('Render', () => {
+      test('must match composition', () => {
+        expect(global.renderToJSON(<SomeComponent />)).toMatchSnapshot()
+      })
+    })
+  })
+          `}
+          </code>
+        </pre>
+      </div>
+      <h5>📄. Storybook API</h5>
+      <h6>📝. Writing Stories with Storybook</h6>
+      <div>
+        ﹘ <a href="https://storybook.js.org/docs/basics/writing-stories/#docs-content">Writing Stories with Storybook</a> Stories must be
+        implemented conforming to the following pattern
+        <pre>
+          <code>
+            {`
+  storiesOf('SomeApplication/SomeAtomicDesignPattern/SomeComponent', module).add(someRenderInfo.text, () => someRender, someRenderInfo.parameters)
+          `}
+          </code>
+        </pre>
+      </div>
+      <br />
+      <br />
+      <h3>📖. End to end Testing</h3>
+      <br />
+      <h4>📃. Puppeteer</h4>
+      <div>
+        ﹘ <a href="https://developers.google.com/web/tools/puppeteer/get-started">Quick start</a>
+      </div>
     </div>
   )
 }
