@@ -271,6 +271,11 @@ export function DesignSystemCore({ className }) {
   return (
     <div className={className}>
       <h2>📗 Papillon Ads Implementation</h2>
+      <h3>📖. Design System Core</h3>
+      <h4>📃. Setup file(s)</h4>
+      <div>﹘ Coming soon.</div>
+      <h4>📃. Knowledge base</h4>
+      <div>﹘ Coming soon.</div>
     </div>
   )
 }
@@ -282,6 +287,70 @@ export function ProductMicrosites({ className }) {
   return (
     <div className={className}>
       <h2>📗 Papillon Ads Implementation</h2>
+      <br />
+      <br />
+      <h3>📖. Product Microsites</h3>
+      <br />
+      <h4>📃. Unit Testing</h4>
+      <h5>📄. Unit tests run by Jest</h5>
+      <h6>📝. Setup file(s)</h6>
+      <div>
+        ﹘ <a href="https://github.com/papillonads/marketplace/blob/master/jest.config.js">jest.config.js</a>
+      </div>
+      <div>
+        ﹘ <a href="https://github.com/papillonads/marketplace/blob/master/jest.setup.js">jest.setup.js</a>
+      </div>
+      <h6>📝. Script(s)</h6>
+      <div>﹘ "test": "jest -u --no-cache --silent --runInBand --coverage</div>
+      <div>﹘ "report-coverage": "codecov"</div>
+      <h4>📃. Integration Testing</h4>
+      <h5>📄. Snaphot tests run by Jest</h5>
+      <h6>📝. Setup file(s)</h6>
+      <div>
+        ﹘ <a href="https://github.com/papillonads/marketplace/blob/master/jest.config.js">jest.config.js</a>
+      </div>
+      <div>
+        ﹘ <a href="https://github.com/papillonads/marketplace/blob/master/jest.setup.js">jest.setup.js</a>
+      </div>
+      <h6>📝. Script(s)</h6>
+      <div>﹘ "test": "jest -u --no-cache --silent --runInBand --coverage"</div>
+      <div>﹘ "report-coverage": "codecov"</div>
+      <h5>📄. Stories run by Storybook</h5>
+      <h6>📝. Setup file(s)</h6>
+      <div>
+        ﹘ <a href="https://github.com/papillonads/marketplace/blob/master/.storybook/addons.js">.storybook/addons.js</a>
+      </div>
+      <div>
+        ﹘ <a href="https://github.com/papillonads/marketplace/blob/master/.storybook/config.js">.storybook/config.js</a>
+      </div>
+      <h6>📝. Script(s)</h6>
+      <div>﹘ "start-storybook": "NODE_ENV=develop start-storybook -p 3003 -c .storybook"</div>
+      <h4>📃. End to end Testing</h4>
+      <div>﹘ 📝 Coming soon 🐬</div>
+
+      <h4>📃. Knowledge base</h4>
+      <h5>📄. Using mock store with mock state</h5>
+      <h6>📝. Mock Store</h6>
+      <div>
+        ﹘ Mock store is acquired in{' '}
+        <a href="https://github.com/papillonads/marketplace/blob/master/packages/library/src/store/mock.js">store/mock.js</a> and uses
+        redux-mock-store
+      </div>
+      <h6>📝. Mock State</h6>
+      <div>
+        ﹘ Mock state is acquired in{' '}
+        <a href="https://github.com/papillonads/marketplace/blob/master/packages/library/src/state/mock.js">state/mock.js</a>
+      </div>
+      <h6>📝. Immutability</h6>
+      <div>﹘ Immutability of mock state across integration tests is achieved using deepCloneObject()</div>
+      <div>﹘ Changes specific to a test scenario can be applied to the immutable mock state clone</div>
+      <div>
+        ﹘ Then adjusted mock state clone is passed on to the mock store and mock store is provided to any UI components involved in the
+        test using react-redux provider
+      </div>
+      <h6>📝. React Redux Provider</h6>
+      <div>﹘ React Redux Provider is used to provide the mock store with a mock state to any UI component</div>
+      <div>﹘ It accepts any store object in the store prop and provides the store to UI components rendered as its children</div>
     </div>
   )
 }
