@@ -495,5 +495,45 @@ exports[`<CrossBrowserCompatibility /> Render must match renderSpecificationsSta
   <div>
     ﹘ Polyfilled if not native ✓, Safe to use ✅
   </div>
+  <br />
+  <h4>
+    📃. Trailing commas
+  </h4>
+  <h5>
+    📄. Reference
+  </h5>
+  <h6>
+    📝. MDN
+  </h6>
+  <div>
+    ﹘
+    <a
+      href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Trailing_commas"
+    >
+      Trailing commas
+    </a>
+    Trailing commas (sometimes called "final commas") can be useful when adding new elements, parameters, or properties to JavaScript code. If you want to add a new property, you can simply add a new line without modifying the previously last line if that line already uses a trailing comma. This makes version-control diffs cleaner and editing code might be less troublesome.
+  </div>
+  <h5>
+    📄. Compatibility
+  </h5>
+  <h6>
+    📝. Browser Support
+  </h6>
+  <div>
+    ﹘ Trailing commas &gt; Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓
+  </div>
+  <div>
+    ﹘ Trailing commas in functions &gt; Chrome ✓, Firefox ✓, Safari ╳, Edge ╳, Internet Explorer ╳
+  </div>
+  <div>
+    ﹘ Trailing commas in object literals &gt; Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓
+  </div>
+  <h6>
+    📝. Transpiled / Polyfilled
+  </h6>
+  <div>
+    ﹘ Transpiled ✓, Safe to use ✅
+  </div>
 </div>
 `;
