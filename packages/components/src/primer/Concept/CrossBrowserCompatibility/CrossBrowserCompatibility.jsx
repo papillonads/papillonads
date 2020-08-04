@@ -14,8 +14,8 @@ export function SpecificationsStandardsGuidelines({ className }) {
       <h6>📝. MDN</h6>
       <div>
         ﹘ <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const">const</a> Constants are
-        block-scoped, much like variables defined using the let keyword. The value of a constant can't be changed through reassignment, and
-        it can't be redeclared.
+        block-scoped, much like variables defined using the let keyword. The value of a constant can&apos;t be changed through reassignment,
+        and it can&apos;t be redeclared.
       </div>
       <div>
         ﹘ <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let">let</a> The let statement declares a
@@ -23,8 +23,8 @@ export function SpecificationsStandardsGuidelines({ className }) {
       </div>
       <h5>📄. Compatibility</h5>
       <h6>📝. Browser Support</h6>
-      <div>﹘ const > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓</div>
-      <div>﹘ let > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer 🌦</div>
+      <div>﹘ const &gt; Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓</div>
+      <div>﹘ let &gt; Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer 🌦</div>
       <h6>📝. Transpiled / Polyfilled</h6>
       <div>﹘ Transpiled ✓, Safe to use ✅</div>
       <br />
@@ -87,12 +87,12 @@ export function SpecificationsStandardsGuidelines({ className }) {
       </div>
       <h5>📄. Compatibility</h5>
       <h6>📝. Browser Support</h6>
-      <div>﹘ indexOf > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓</div>
-      <div>﹘ findIndex > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳</div>
-      <div>﹘ Array.prototype.slice() > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓</div>
-      <div>﹘ Array.from() > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳</div>
-      <div>﹘ Array.apply() > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓</div>
-      <div>﹘ Array.prototype.fill() > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳</div>
+      <div>﹘ indexOf &gt; Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓</div>
+      <div>﹘ findIndex &gt; Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳</div>
+      <div>﹘ Array.prototype.slice() &gt; Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓</div>
+      <div>﹘ Array.from() &gt; Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳</div>
+      <div>﹘ Array.apply() &gt; Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓</div>
+      <div>﹘ Array.prototype.fill() &gt; Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳</div>
       <h6>📝. Transpiled / Polyfilled</h6>
       <div>﹘ Polyfilled if not native ✓, Safe to use ✅</div>
       <div>﹘ Polyfilled if not native ✓, Safe to use ✅</div>
@@ -171,14 +171,14 @@ export function SpecificationsStandardsGuidelines({ className }) {
       <h6>📝. MDN</h6>
       <div>
         ﹘<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries">Object.entries()</a>
-        The Object.entries() method returns an array of a given object's own enumerable string-keyed property [key, value] pairs, in the
-        same order as that provided by a for...in loop. (The only important difference is that a for...in loop enumerates properties in the
-        prototype chain as well).
+        The Object.entries() method returns an array of a given object&apos;s own enumerable string-keyed property [key, value] pairs, in
+        the same order as that provided by a for...in loop. (The only important difference is that a for...in loop enumerates properties in
+        the prototype chain as well).
       </div>
       <div>
         ﹘<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Object/values">and Object.values()</a>
-        The Object.values() method returns an array of a given object's own enumerable property values, in the same order as that provided
-        by a for...in loop. (The only difference is that a for...in loop enumerates properties in the prototype chain as well.)
+        The Object.values() method returns an array of a given object&apos;s own enumerable property values, in the same order as that
+        provided by a for...in loop. (The only difference is that a for...in loop enumerates properties in the prototype chain as well.)
       </div>
       <h5>📄. Compatibility</h5>
       <h6>📝. Browser Support</h6>
@@ -232,15 +232,15 @@ export function SpecificationsStandardsGuidelines({ className }) {
       <h6>📝. MDN</h6>
       <div>
         ﹘<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Trailing_commas">Trailing commas</a>
-        Trailing commas (sometimes called "final commas") can be useful when adding new elements, parameters, or properties to JavaScript
-        code. If you want to add a new property, you can simply add a new line without modifying the previously last line if that line
-        already uses a trailing comma. This makes version-control diffs cleaner and editing code might be less troublesome.
+        Trailing commas (sometimes called &quot;final commas&quot;) can be useful when adding new elements, parameters, or properties to
+        JavaScript code. If you want to add a new property, you can simply add a new line without modifying the previously last line if that
+        line already uses a trailing comma. This makes version-control diffs cleaner and editing code might be less troublesome.
       </div>
       <h5>📄. Compatibility</h5>
       <h6>📝. Browser Support</h6>
-      <div>﹘ Trailing commas > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓</div>
-      <div>﹘ Trailing commas in functions > Chrome ✓, Firefox ✓, Safari ╳, Edge ╳, Internet Explorer ╳</div>
-      <div>﹘ Trailing commas in object literals > Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓</div>
+      <div>﹘ Trailing commas &gt; Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓</div>
+      <div>﹘ Trailing commas in functions &gt; Chrome ✓, Firefox ✓, Safari ╳, Edge ╳, Internet Explorer ╳</div>
+      <div>﹘ Trailing commas in object literals &gt; Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ✓</div>
       <h6>📝. Transpiled / Polyfilled</h6>
       <div>﹘ Transpiled ✓, Safe to use ✅</div>
       <br />
@@ -262,15 +262,15 @@ export function SpecificationsStandardsGuidelines({ className }) {
           and Rest syntax (parameters)
         </a>
         Rest syntax looks exactly like spread syntax, but is used for destructuring arrays and objects. In a way, rest syntax is the
-        opposite of spread syntax. Spread syntax "expands" an array into its elements, while rest syntax collects multiple elements and
-        "condenses" them into a single element.
+        opposite of spread syntax. Spread syntax &quot;expands&quot; an array into its elements, while rest syntax collects multiple
+        elements and &quot;condenses&quot; them into a single element.
       </div>
       <h5>📄. Compatibility</h5>
       <h6>📝. Browser Support</h6>
-      <div>﹘ Spread in array literals > Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳</div>
-      <div>﹘ Spread in function calls > Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳</div>
-      <div>﹘ Spread in destructuring > Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳</div>
-      <div>﹘ Spread in object literalsExperimental > Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳</div>
+      <div>﹘ Spread in array literals &gt; Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳</div>
+      <div>﹘ Spread in function calls &gt; Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳</div>
+      <div>﹘ Spread in destructuring &gt; Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳</div>
+      <div>﹘ Spread in object literalsExperimental &gt; Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳</div>
       <h6>📝. Transpiled / Polyfilled</h6>
       <div>﹘ Transpiled ✓, Safe to use ✅</div>
       <br />
@@ -284,7 +284,7 @@ export function SpecificationsStandardsGuidelines({ className }) {
         </a>
         The finally() method returns a Promise. When the promise is settled, i.e either fulfilled or rejected, the specified callback
         function is executed. This provides a way for code to be run whether the promise was fulfilled successfully or rejected once the
-        Promise has been dealt with. This helps to avoid duplicating code in both the promise's then() and catch() handlers.
+        Promise has been dealt with. This helps to avoid duplicating code in both the promise&apos;s then() and catch() handlers.
       </div>
       <h5>📄. Compatibility</h5>
       <h6>📝. Browser Support</h6>
