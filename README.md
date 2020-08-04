@@ -4035,62 +4035,51 @@
           <summary style="color: #006400;">📖 Product Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃 Git</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
-                  <summary style="color: #006400;">📄 Git</summary>
+                  <summary style="color: #006400;">🔖 N/A</summary>
+                </details>
+              </blockquote>
+            </details>
+            <details>
+              <summary style="color: #006400;">📃 Git Hooks</summary>
+              <blockquote style="margin: 0; padding: 0 24px">
+                <details>
+                  <summary style="color: #006400;">🔖 Setup file(s)</summary>
                   <blockquote style="margin: 0; padding: 0 24px">
-                    <details>
-                      <summary style="color: #006400;">🔖 N/A</summary>
-                    </details>
+                    ✎ <a style="color: #006400;" href="https://github.com/papillonads/marketplace/blob/master/.huskyrc">.huskyrc</a><br />
+                    ✎ <a style="color: #006400;" href="https://github.com/papillonads/marketplace/blob/master/.lintstagedrc">.lintstagedrc</a><br />
                   </blockquote>
                 </details>
                 <details>
-                  <summary style="color: #006400;">📄 Git Hooks</summary>
+                  <summary style="color: #006400;">🔖 Script(s)</summary>
                   <blockquote style="margin: 0; padding: 0 24px">
-                    <details>
-                      <summary style="color: #006400;">🔖 Setup file(s)</summary>
-                      <blockquote style="margin: 0; padding: 0 24px">
-                        ✎ <a style="color: #006400;" href="https://github.com/papillonads/marketplace/blob/master/.huskyrc">.huskyrc</a><br />
-                        ✎ <a style="color: #006400;" href="https://github.com/papillonads/marketplace/blob/master/.lintstagedrc">.lintstagedrc</a><br />
-                      </blockquote>
-                    </details>
-                    <details>
-                      <summary style="color: #006400;">🔖 Script(s)</summary>
-                      <blockquote style="margin: 0; padding: 0 24px">
-                        ✎ N/A
-                      </blockquote>
-                    </details>
-                    <details>
-                      <summary style="color: #006400;">🔖 Knowledge base</summary>
-                      <blockquote style="margin: 0; padding: 0 24px">
-                        📝 Coming soon 🐬
-                      </blockquote>
-                    </details>
+                    ✎ N/A
                   </blockquote>
                 </details>
                 <details>
-                  <summary style="color: #006400;">📄 GitHub</summary>
+                  <summary style="color: #006400;">🔖 Knowledge base</summary>
                   <blockquote style="margin: 0; padding: 0 24px">
-                    <details>
-                      <summary style="color: #006400;">🔖 N/A</summary>
-                    </details>
-                  </blockquote>
-                </details>
-                <details>
-                  <summary style="color: #006400;">📄 Git Client</summary>
-                  <blockquote style="margin: 0; padding: 0 24px">
-                    <details>
-                      <summary style="color: #006400;">🔖 N/A</summary>
-                    </details>
+                    📝 Coming soon 🐬
                   </blockquote>
                 </details>
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃 GitHub</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                <details>
+                  <summary style="color: #006400;">🔖 N/A</summary>
+                </details>
+              </blockquote>
+            </details>
+            <details>
+              <summary style="color: #006400;">📃 Git Client</summary>
+              <blockquote style="margin: 0; padding: 0 24px">
+                <details>
+                  <summary style="color: #006400;">🔖 N/A</summary>
+                </details>
               </blockquote>
             </details>
           </blockquote>
