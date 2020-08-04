@@ -114,6 +114,32 @@ export function OpenSourceDependencyProjects({ className }) {
   return (
     <div className={className}>
       <h2>📗 Open Source Dependency Projects</h2>
+      <br />
+      <br />
+      <h3>📖. Git</h3>
+      <div>﹘ N/A</div>
+      <br />
+      <br />
+      <h3>📖. Git Hook</h3>
+      <br />
+      <h4>📃. Husky</h4>
+      <div>
+        ﹘ <a href="https://github.com/typicode/husky"> Git hooks made easy</a>
+        <br />
+      </div>
+      <h4>📃. Lint Staged</h4>
+      <div>
+        ﹘ <a href="https://github.com/okonet/lint-staged">Run linters on git staged files</a>
+        <br />
+      </div>
+      <br />
+      <br />
+      <h3>📖. GitHub</h3>
+      <div>﹘ N/A</div>
+      <br />
+      <br />
+      <h3>📖. Git Client</h3>
+      <div>﹘ N/A</div>
     </div>
   )
 }
