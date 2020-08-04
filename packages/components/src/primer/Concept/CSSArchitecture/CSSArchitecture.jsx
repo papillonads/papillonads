@@ -147,8 +147,8 @@ export function SpecificationsStandardsGuidelines({ className }) {
       </div>
       <div>
         ﹘Like tables, grid layout enables an author to align elements into columns and rows. However, many more layouts are either possible
-        or easier with CSS grid than they were with tables. For example, a grid container's child elements could position themselves so they
-        actually overlap and layer, similar to CSS positioned elements.
+        or easier with CSS grid than they were with tables. For example, a grid container&apos;s child elements could position themselves so
+        they actually overlap and layer, similar to CSS positioned elements.
       </div>
     </div>
   )
