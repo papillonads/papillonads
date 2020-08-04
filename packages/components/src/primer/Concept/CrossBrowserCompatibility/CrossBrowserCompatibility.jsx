@@ -185,6 +185,30 @@ export function SpecificationsStandardsGuidelines({ className }) {
       <div>﹘ Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳</div>
       <h6>📝. Transpiled / Polyfilled</h6>
       <div>﹘ Polyfilled if not native ✓, Safe to use ✅</div>
+      <h4>📃. New string methods</h4>
+      <h5>📄. Reference</h5>
+      <h6>📝. MDN</h6>
+      <div>
+        ﹘
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart">
+          String.prototype.padStart()
+        </a>
+        The padStart() method pads the current string with another string (multiple times, if needed) until the resulting string reaches the
+        given length. The padding is applied from the start of the current string.
+      </div>
+      <div>
+        ﹘
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padEnd">
+          and String.prototype.padEnd()
+        </a>
+        The padEnd() method pads the current string with a given string (repeated, if needed) so that the resulting string reaches a given
+        length. The padding is applied from the end of the current string.
+      </div>
+      <h5>📄. Compatibility</h5>
+      <h6>📝. Browser Support</h6>
+      <div>﹘ Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳</div>
+      <h6>📝. Transpiled / Polyfilled</h6>
+      <div>﹘ Polyfilled if not native ✓, Safe to use ✅</div>
     </div>
   )
 }
