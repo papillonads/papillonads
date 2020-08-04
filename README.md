@@ -3677,7 +3677,7 @@
                   <summary style="color: #006400;">📄 Storybook API</summary>
                   <blockquote style="margin: 0; padding: 0 24px">
                     <details>
-                      <summary style="color: #006400;">🔖 Writing Stories with Storybook </summary>
+                      <summary style="color: #006400;">🔖 Writing Stories with Storybook</summary>
                       <blockquote style="margin: 0; padding: 0 24px">
                         ✎ <a style="color: #006400;" href="https://storybook.js.org/docs/basics/writing-stories/#docs-content">Writing Stories with Storybook</a> Stories must be implemented conforming to the following pattern<br />
                         <code>
