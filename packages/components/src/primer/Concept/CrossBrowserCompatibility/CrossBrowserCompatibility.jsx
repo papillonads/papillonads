@@ -108,6 +108,25 @@ export function SpecificationsStandardsGuidelines({ className }) {
       <div>﹘ Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳</div>
       <h6>📝. Transpiled / Polyfilled</h6>
       <div>﹘ Transpiled ✓, Safe to use ✅</div>
+      <br />
+      <br />
+      <h3>📖. ES7 / ES2016</h3>
+      <br />
+      <h4>📃. Array.prototype.includes()</h4>
+      <h5>📄. Reference</h5>
+      <h6>📝. MDN</h6>
+      <div>
+        ﹘
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes">
+          Array.prototype.includes()
+        </a>
+        The includes() method determines whether an array includes a certain value among its entries, returning true or false as appropriate
+      </div>
+      <h5>📄. Compatibility</h5>
+      <h6>📝. Browser Support</h6>
+      <div>﹘ Chrome ✓, Firefox ✓, Safari ✓, Edge ✓, Internet Explorer ╳</div>
+      <h6>📝. Transpiled / Polyfilled</h6>
+      <div>﹘ Polyfilled if not native ✓, Safe to use ✅</div>
     </div>
   )
 }
