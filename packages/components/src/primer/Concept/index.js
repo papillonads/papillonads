@@ -17,6 +17,7 @@ import { Rendering } from './Rendering'
 import { Routing } from './Routing'
 import { Runtime } from './Runtime'
 import { Testing } from './Testing'
+import { VersionControl } from './VersionControl'
 
 export const Concept = {
   Accesibility,
@@ -38,4 +39,5 @@ export const Concept = {
   Routing,
   Runtime,
   Testing,
+  VersionControl,
 }
