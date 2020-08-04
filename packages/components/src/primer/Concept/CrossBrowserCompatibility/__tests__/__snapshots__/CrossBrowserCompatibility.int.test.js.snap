@@ -751,5 +751,39 @@ exports[`<CrossBrowserCompatibility /> Render must match renderSpecificationsSta
   <div>
     ﹘ Polyfilled if not native ✓, Safe to use ✅
   </div>
+  <br />
+  <h4>
+    📃. Optional catch binding
+  </h4>
+  <h5>
+    📄. Reference
+  </h5>
+  <h6>
+    📝. MDN
+  </h6>
+  <div>
+    ﹘
+    <a
+      href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch"
+    >
+      Optional catch binding
+    </a>
+    The try...catch statement marks a block of statements to try and specifies a response should an exception be thrown.
+  </div>
+  <h5>
+    📄. Compatibility
+  </h5>
+  <h6>
+    📝. Browser Support
+  </h6>
+  <div>
+    ﹘ Chrome ✓, Firefox ✓, Safari ✓, Edge ╳, Internet Explorer ╳
+  </div>
+  <h6>
+    📝. Transpiled / Polyfilled
+  </h6>
+  <div>
+    ﹘ Transpiled ✓, Safe to use ✅
+  </div>
 </div>
 `;
