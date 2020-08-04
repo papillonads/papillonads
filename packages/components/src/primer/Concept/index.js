@@ -7,6 +7,7 @@ import { ComponentDesign } from './ComponentDesign'
 import { ComponentDrivenDevelopment } from './ComponentDrivenDevelopment'
 import { ContinuousDelivery } from './ContinuousDelivery'
 import { ContinuousIntegration } from './ContinuousIntegration'
+import { CrossBrowserCompatibility } from './CrossBrowserCompatibility'
 import { Microsite } from './Microsite'
 import { Monorepo } from './Monorepo'
 import { Rendering } from './Rendering'
@@ -22,6 +23,7 @@ export const Concept = {
   ComponentDrivenDevelopment,
   ContinuousDelivery,
   ContinuousIntegration,
+  CrossBrowserCompatibility,
   Microsite,
   Monorepo,
   Rendering,
