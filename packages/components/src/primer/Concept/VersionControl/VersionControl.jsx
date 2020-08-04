@@ -151,6 +151,11 @@ export function DesignSystemCore({ className }) {
   return (
     <div className={className}>
       <h2>📗 Papillon Ads Implementation</h2>
+      <h3>📖. Design System Core</h3>
+      <h4>📃. Setup file(s)</h4>
+      <div>﹘ Coming soon.</div>
+      <h4>📃. Knowledge base</h4>
+      <div>﹘ Coming soon.</div>
     </div>
   )
 }
@@ -162,6 +167,25 @@ export function ProductMicrosites({ className }) {
   return (
     <div className={className}>
       <h2>📗 Papillon Ads Implementation</h2>
+      <h3>📖. Product Microsites</h3>
+      <h4>📃. Git</h4>
+      <div>﹘ N/A</div>
+      <h4>📃. Git Hooks</h4>
+      <h5>📄. Setup file(s)</h5>
+      <div>
+        ﹘ <a href="https://github.com/papillonads/marketplace/blob/master/.huskyrc">.huskyrc</a>
+      </div>
+      <div>
+        ﹘ <a href="https://github.com/papillonads/marketplace/blob/master/.lintstagedrc">.lintstagedrc</a>
+      </div>
+      <h5>📄. Script(s)</h5>
+      <div>﹘ N/A</div>
+      <h5>📄. Knowledge base</h5>
+      <div>﹘ 📝 Coming soon 🐬</div>
+      <h4>📃. GitHub</h4>
+      <div>﹘ N/A</div>
+      <h4>📃. Git Client</h4>
+      <div>﹘ N/A</div>
     </div>
   )
 }
