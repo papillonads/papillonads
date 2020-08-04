@@ -3049,7 +3049,7 @@
           <summary style="color: #006400;">📖 Webpack DevServer</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://github.com/webpack/webpack-dev-server">Webpack DevServer in Webpack</a> Serves a webpack app. Updates the browser on changes<br />
-            🔖 <a style="color: #006400;" href="https://webpack.js.org/configuration/dev-server/"> Webpack DevServer in Webpack Docs</a> webpack-dev-server can be used to quickly develop an application. See the development guide to get started..<br />
+            🔖 <a style="color: #006400;" href="https://webpack.js.org/configuration/dev-server/"> Webpack DevServer in Webpack Docs</a> webpack-dev-server can be used to quickly develop an application. See the development guide to get started<br />
           </blockquote>
         </details>
       </blockquote>
