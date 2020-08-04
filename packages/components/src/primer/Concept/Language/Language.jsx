@@ -5,6 +5,64 @@ export function SpecificationsStandardsGuidelines({ className }) {
   return (
     <div className={className}>
       <h2>📗 Specifications/Standards/Guidelines</h2>
+      <br />
+      <br />
+      <h3>📖. JavaScript</h3>
+      <br />
+      <h4>📃. MDN</h4>
+      <div>
+        ﹘ <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a> JavaScript (JS) is a lightweight, interpreted,
+        or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for
+        Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a
+        prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g.
+        functional programming) styles. Read more about JavaScript.
+      </div>
+      <h4>📃. TC39</h4>
+      <div>
+        ﹘ <a href="https://tc39.es/ecma262/">ECMAScript® 2021 Language Specification</a> This document is the most accurate and up-to-date
+        ECMAScript specification. It contains the content of the most recent yearly snapshot plus any finished proposals (those that have
+        reached Stage 4 in the proposal process and thus are implemented in several implementations and will be in the next practical
+        revision) since that snapshot was taken.
+      </div>
+      <br />
+      <br />
+      <h3>📖. HTML</h3>
+      <br />
+      <h4>📃. MDN</h4>
+      <div>
+        ﹘ <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML: Hypertext Markup Language</a> HTML (HyperText Markup Language)
+        is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML
+        are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).
+      </div>
+      <h4>📃. W3C</h4>
+      <div>
+        ﹘ <a href="https://www.w3.org/TR/html53/">HTML 5.3 W3C Working Draft</a> This specification defines the 5th major version, third
+        minor revision of the core language of the World Wide Web: the Hypertext Markup Language (HTML). In this version, new features
+        continue to be introduced to help Web application authors, new elements continue to be introduced based on research into prevailing
+        authoring practices, and special attention continues to be given to defining clear conformance criteria for user agents in an effort
+        to improve interoperability.
+      </div>
+      <h4>📃. WHATWG</h4>
+      <div>
+        ﹘ <a href="https://html.spec.whatwg.org/">HTML Living Standard</a> This specification defines a big part of the Web platform, in
+        lots of detail. Its place in the Web platform specification stack relative to other specifications can be best summed up as follows:
+      </div>
+      <br />
+      <br />
+      <h3>📖. CSS</h3>
+      <br />
+      <h4>📃. MDN</h4>
+      <div>
+        ﹘ <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS: Cascading Style Sheets</a> Cascading Style Sheets (CSS) is a
+        stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG,
+        MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.
+      </div>
+      <h4>📃. W3C</h4>
+      <div>
+        ﹘ <a href="https://www.w3.org/Style/CSS/specs.en.html">W3C Descriptions of all CSS specifications</a> This page contains
+        descriptions of all specifications that the CSS WG is working on. See the ‘current work’ page for a compact view and how to give
+        feedback.
+      </div>
     </div>
   )
 }
@@ -16,6 +74,38 @@ export function OpenSourceDependencyProjects({ className }) {
   return (
     <div className={className}>
       <h2>📗 Open Source Dependency Projects</h2>
+      <br />
+      <br />
+      <h3>📖. JavaScript</h3>
+      <br />
+      <h4>📃. Ecma International, Technical Committee 39 - ECMAScript</h4>
+      <div>
+        ﹘ <a href="https://github.com/tc39/ecma262"> Status, process, and documents for ECMA-262</a>
+      </div>
+      <div>
+        ﹘ <a href="https://github.com/tc39/proposals">Tracking ECMAScript Proposals</a>
+      </div>
+      <div>
+        ﹘ <a href="https://github.com/tc39/test262"> Official ECMAScript Conformance Test Suite</a>
+      </div>
+      <div>
+        ﹘ <a href="https://github.com/tc39/agendas"> TC39 meeting agendas</a>
+      </div>
+      <div>
+        ﹘ <a href="https://github.com/tc39/ecma402"> Status, process, and documents for ECMA 402</a>
+      </div>
+      <div>
+        ﹘ <a href="https://github.com/tc39/notes"> TC39 meeting notes</a>
+      </div>
+      <br />
+      <br />
+      <h3>📖. HTML</h3>
+      <br />
+      <div>﹘ Coming soon.</div>
+      <br />
+      <h3>📖. CSS</h3>
+      <br />
+      <div>﹘ Coming soon.</div>
     </div>
   )
 }
@@ -27,6 +117,11 @@ export function DesignSystemCore({ className }) {
   return (
     <div className={className}>
       <h2>📗 Papillon Ads Implementation</h2>
+      <h3>📖. Design System Core</h3>
+      <h4>📃. Setup file(s)</h4>
+      <div>﹘ Coming soon.</div>
+      <h4>📃. Knowledge base</h4>
+      <div>﹘ Coming soon.</div>
     </div>
   )
 }
@@ -38,6 +133,11 @@ export function ProductMicrosites({ className }) {
   return (
     <div className={className}>
       <h2>📗 Papillon Ads Implementation</h2>
+      <h3>📖. Product Microsites</h3>
+      <h4>📃. Setup file(s)</h4>
+      <div>﹘ Coming soon.</div>
+      <h4>📃. Knowledge base</h4>
+      <div>﹘ Coming soon.</div>
     </div>
   )
 }
