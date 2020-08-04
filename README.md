@@ -3939,7 +3939,7 @@
                 <blockquote style="margin: 0; padding: 0 24px">
                 🔖 The coolest, the finest and the best Git client in the world 👌<br />
                 🔖 Over 1.5 Million GitKraken Users❗<br />
-                🔖 Legendary Git Client 🚀
+                🔖 Legendary Git Client 🚀<br />
                 </blockquote>
               </summary>
             </details>
@@ -3947,7 +3947,7 @@
               <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://www.sublimemerge.com/">Sublime Merge</a>
                 <blockquote style="margin: 0; padding: 0 24px">
                 🔖 Meet a new Git Client, from the makers of Sublime Text<br />
-                🔖 It's alright
+                🔖 It's alright<br />
                 </blockquote>
               </summary>
             </details>
@@ -3955,7 +3955,7 @@
               <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://desktop.github.com/">GitHub Desktop</a>
                 <blockquote style="margin: 0; padding: 0 24px">
                 🔖 Focus on what matters instead of fighting with Git<br />
-                🔖 It's alright
+                🔖 It's alright<br />
                 </blockquote>
               </summary>
             </details>
@@ -3963,7 +3963,7 @@
               <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://www.sourcetreeapp.com/">Sourcetree</a>
                 <blockquote style="margin: 0; padding: 0 24px">
                 🔖 Simplicity and power in a beautiful Git GUI<br />
-                🔖 It's alright
+                🔖 It's alright<br />
                 </blockquote>
               </summary>
             </details>
