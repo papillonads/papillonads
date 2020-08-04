@@ -708,5 +708,48 @@ exports[`<CrossBrowserCompatibility /> Render must match renderSpecificationsSta
   <div>
     ﹘ Polyfilled if not native ✓, Safe to use ✅
   </div>
+  <br />
+  <h4>
+    📃. String.prototype.trimStart() and String.prototype.trimEnd()
+  </h4>
+  <h5>
+    📄. Reference
+  </h5>
+  <h6>
+    📝. MDN
+  </h6>
+  <div>
+    ﹘
+    <a
+      href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trimStart"
+    >
+      String.prototype.trimStart()
+    </a>
+    The trimStart() method removes whitespace from the beginning of a string. trimLeft() is an alias of this method.
+  </div>
+  <div>
+    ﹘
+    <a
+      href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trimEnd"
+    >
+      and String.prototype.trimEnd()
+    </a>
+    The trimEnd() method removes whitespace from the end of a string. trimRight() is an alias of this method.
+  </div>
+  <h5>
+    📄. Compatibility
+  </h5>
+  <h6>
+    📝. Browser Support
+  </h6>
+  <div>
+    ﹘ Chrome ✓, Firefox ✓, Safari ✓, Edge ?, Internet Explorer ╳
+  </div>
+  <h6>
+    📝. Transpiled / Polyfilled
+  </h6>
+  <div>
+    ﹘ Polyfilled if not native ✓, Safe to use ✅
+  </div>
 </div>
 `;
