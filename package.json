@@ -47,7 +47,7 @@
     "redux-mock-store": "^1.5.4",
     "redux-thunk": "^2.3.0",
     "uuid": "^8.3.0",
-    "whatwg-fetch": "^3.3.1"
+    "whatwg-fetch": "^3.4.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
@@ -91,7 +91,7 @@
     "dotenv": "^8.2.0",
     "dotenv-webpack": "^2.0.0",
     "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-adapter-react-16": "^1.15.3",
     "eslint": "^7.6.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^6.11.0",
