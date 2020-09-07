@@ -53,7 +53,6 @@
       min-height: 50px;
     }
   }
-  // stylelint-enable selector-no-qualifying-type
 
   // The Label
   dt, // TODO: Deprecate
@@ -102,7 +101,6 @@
       }
     }
   }
-  // stylelint-enable selector-no-qualifying-type
 
   //
   // Variants
@@ -279,5 +277,3 @@
     vertical-align: middle;
   }
 }
-
-/* stylelint-enable no-descending-specificity */
