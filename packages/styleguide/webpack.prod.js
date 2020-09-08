@@ -179,9 +179,11 @@ const configurePostcssLoader = (buildType) => {
         {
           loader: 'postcss-loader',
           options: {
-            sourceMap: true,
-            plugins: () => [require('postcss-preset-env')()],
-            parser: 'postcss-scss',
+            postcssOptions: {
+              sourceMap: true,
+              plugins: () => [require('postcss-preset-env')()],
+              parser: 'postcss-scss',
+            }
           },
         },
       ],
