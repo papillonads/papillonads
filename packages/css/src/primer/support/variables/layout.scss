@@ -114,6 +114,17 @@ $breakpoints: (
   xl: $width-xl
 ) !default;
 
+// This map in the form (breakpoint: variant) is used to iterate over
+// breakpoints and create both responsive and non-responsive classes in one
+// loop:
+//
+// ```scss
+// @each $breakpoint, $variant of $responsive-variants {
+//   @include breakpoint($breakpoint) {
+//     .foo#{$variant}-bar { foo: bar !important; }
+//   }
+// }
+// ```
 $responsive-variants: (
   "": "",
   sm: "-sm",
