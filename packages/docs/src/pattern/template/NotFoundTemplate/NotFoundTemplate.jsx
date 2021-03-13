@@ -1,6 +1,6 @@
 import React from 'react'
-import { primer } from '@papillonads/components'
 import { Link } from 'react-router-dom'
+import { primer } from '@papillonads/components'
 import { homePagePath } from '../../../route/path'
 import { defaultProps, propTypes } from './NotFoundTemplate.prop'
 
