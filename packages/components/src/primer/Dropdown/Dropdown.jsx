@@ -5,19 +5,20 @@ import detailsUtilityStyles from '@papillonads/css/build/primer/utilities/detail
 import displayStyles from '@papillonads/css/build/primer/utilities/visibility-display.scss'
 import layoutStyles from '@papillonads/css/build/primer/utilities/layout.scss'
 import flexboxStyles from '@papillonads/css/build/primer/utilities/flexbox.scss'
-import { hooks, array as arrayLibrary } from '@papillonads/library'
+import { getIndexItems, getIndexItemsWithSelected } from '@papillonads/library/array'
+import { useRef } from '@papillonads/library/hooks'
 import buttonStyles from '../Button/Button.scss'
-import { propTypes, defaultProps } from './Dropdown.prop'
+import { propTypes, defaultProps, dropdownState } from './Dropdown.prop'
 import styles from './Dropdown.scss'
 
-export function Dropdown({ className, summary, ariaAttr, items, onClick }) {
+export function Dropdown({ className, summary, ariaAttr, items, onClick, state }) {
+  const details = useRef(null)
+
   if (!items) {
     return null
   }
 
-  const { getIndexItems, getIndexItemsWithSelected } = arrayLibrary
   const indexItems = getIndexItems(items)
-  const details = hooks.react.useRef(null)
 
   return (
     <div className={className}>
@@ -28,10 +29,17 @@ export function Dropdown({ className, summary, ariaAttr, items, onClick }) {
           detailsUtilityStyles['details-reset'],
           detailsUtilityStyles['details-overlay'],
           displayStyles['d-inline-block'],
+          {
+            [styles['dropdown-inactive']]: state === dropdownState.inactive,
+          },
         )}
       >
-        <summary className={cx(buttonStyles.btn)} aria-haspopup={ariaAttr?.haspopup}>
-          <div className={cx(displayStyles['d-flex'], flexboxStyles['flex-justify-between'], flexboxStyles['flex-items-center'])}>
+        <summary className={cx(buttonStyles.btn)} aria-haspopup={ariaAttr?.haspopup ?? false}>
+          <div
+            className={cx(displayStyles['d-flex'], flexboxStyles['flex-justify-between'], flexboxStyles['flex-items-center'], {
+              [styles['dropdown-inactive']]: state === dropdownState.inactive,
+            })}
+          >
             <div>{summary}</div> <div className={styles['dropdown-caret']} />
           </div>
         </summary>
@@ -51,9 +59,24 @@ export function Dropdown({ className, summary, ariaAttr, items, onClick }) {
                     onClick({
                       summary: text,
                       ariaAttr,
-                      items: newIndexItems.map((newIndexItem) => {
-                        return (({ id, href, text, isSelected }) => ({ id, href, text, isSelected }))(newIndexItem) // eslint-disable-line
-                      }),
+                      items: newIndexItems.map(
+                        (newIndexItem) =>
+                          (({
+                            id: newIndexItemId,
+                            href: newIndexItemHref,
+                            text: newIndexItemText,
+                            'date-modified': dateModified,
+                            'date-created': dateCreated,
+                            isSelected: newIndexItemIsSelected,
+                          }) => ({
+                            id: newIndexItemId,
+                            href: newIndexItemHref,
+                            text: newIndexItemText,
+                            'date-modified': dateModified,
+                            'date-created': dateCreated,
+                            isSelected: newIndexItemIsSelected,
+                          }))(newIndexItem), // eslint-disable-line
+                      ),
                     })
                     details.current.removeAttribute('open')
                   }}

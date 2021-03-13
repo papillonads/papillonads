@@ -1,8 +1,10 @@
 /* stylelint-disable no-descending-specificity */
+
 @import '~@papillonads/css/build/primer/support/variables/misc.scss';
 @import '~@papillonads/css/build/primer/support/variables/layout.scss';
 @import '~@papillonads/css/build/primer/support/variables/colors.scss';
 @import '~@papillonads/css/build/primer/support/variables/typography.scss';
+@import '../index.scss';
 
 .dropdown {
   position: relative;
@@ -329,6 +331,13 @@
       border-color: $gray-800 transparent transparent transparent;
     }
   }
+}
+
+// custom-style
+.dropdown-inactive {
+  @include inactive;
+
+  color: $gray-400 !important;
 }
 
 /* stylelint-enable no-descending-specificity */

@@ -1,20 +1,16 @@
-import { ariaAttr, items, renderCustom, renderDefault } from './Dropdown.int.render'
+import { ariaAttr, items, custom, regular, inactive } from './Dropdown.int.story'
 
-jest.mock('@papillonads/library', () => {
-  return {
-    hooks: {
-      react: {
-        useRef: () => {},
-      },
-    },
-    array: {
-      getIndexItems: () => {},
-      getIndexItemsWithSelected: () => {},
-    },
-  }
-})
+jest.mock('@papillonads/library/array', () => ({
+  getIndexItems: () => {},
+  getIndexItemsWithSelected: () => {},
+}))
 
-const libraryMockObject = require('@papillonads/library')
+jest.mock('@papillonads/library/hooks', () => ({
+  useRef: () => {},
+}))
+
+const libraryArrayMockObject = require('@papillonads/library/array')
+const libraryHooksMockObject = require('@papillonads/library/hooks')
 
 describe('<Dropdown />', () => {
   const indexItemsDataObject = [
@@ -41,24 +37,22 @@ describe('<Dropdown />', () => {
   const onClickMockFn = jest.fn()
 
   beforeEach(() => {
-    jest.spyOn(libraryMockObject.hooks.react, 'useRef').mockImplementation(() => {
-      return {
-        current: {
-          removeAttribute: () => {},
-        },
-      }
-    })
+    jest.spyOn(libraryArrayMockObject, 'getIndexItems').mockReturnValue(indexItemsDataObject)
 
-    jest.spyOn(libraryMockObject.array, 'getIndexItems').mockReturnValue(indexItemsDataObject)
+    jest.spyOn(libraryArrayMockObject, 'getIndexItemsWithSelected').mockReturnValue(newIndexItemsWithSelectedDataObject)
 
-    jest.spyOn(libraryMockObject.array, 'getIndexItemsWithSelected').mockReturnValue(newIndexItemsWithSelectedDataObject)
+    jest.spyOn(libraryHooksMockObject, 'useRef').mockImplementation(() => ({
+      current: {
+        removeAttribute: () => {},
+      },
+    }))
   })
 
   afterEach(() => jest.clearAllMocks())
 
   describe('Event', () => {
     test('must return new items without index when onClick()', () => {
-      const mountCustomRender = global.renderMount(renderCustom(onClickMockFn))
+      const mountCustomRender = global.renderMount(custom(onClickMockFn))
       mountCustomRender.find('li').first().find('a').first().simulate('click')
       expect(mountCustomRender.props().onClick).toBe(onClickMockFn)
       expect(mountCustomRender.props().onClick).toHaveBeenCalledWith({
@@ -70,8 +64,12 @@ describe('<Dropdown />', () => {
   })
 
   describe('Render', () => {
-    test('must match renderDefault()', () => {
-      expect(global.renderToJSON(renderDefault())).toMatchSnapshot()
+    test('must match regular()', () => {
+      expect(global.renderToJSON(regular())).toMatchSnapshot()
+    })
+
+    test('must match renderInacive()', () => {
+      expect(global.renderToJSON(inactive())).toMatchSnapshot()
     })
   })
 })
