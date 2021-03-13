@@ -26,7 +26,7 @@
     "make-404-page": "cp build/index.html build/404.html",
     "build-test": "webpack --config webpack.test.js --progress --hide-modules && npm run make-404-page",
     "build-acceptance": "webpack --config webpack.acceptance.js --progress --hide-modules && npm run make-404-page",
-    "build-release": "webpack --config webpack.release.js --progress --hide-modules && npm run make-404-page",
+    "build-release": "echo \"styleguide skipping install-papillonads-latest\" && exit 0",
     "start": "nodemon --watch webpack.settings.js --watch webpack.common.js --watch webpack.develop.js --exec \"webpack-dev-server --config webpack.develop.js\""
   },
   "browserslist": {
