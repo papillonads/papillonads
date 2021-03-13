@@ -1,3 +1,0 @@
-# CrossBrowserCompatibility
-
-📝 Coming soon 🐬
