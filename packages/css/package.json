@@ -1,9 +1,13 @@
 {
   "name": "@papillonads/css",
-  "version": "1.5.0",
+  "version": "1.9.9",
   "description": "Papillon Ads CSS",
-  "homepage": "https://github.com/papillonads/papillonads#readme",
-  "repository": "https://github.com/papillonads/papillonads/packages/css",
+  "homepage": "https://github.com/papillonads/papillonads/tree/master/packages/css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/papillonads/papillonads.git",
+    "directory": "packages/css"
+  },
   "main": "build/index.scss",
   "module": "src/index.js",
   "files": [
@@ -15,6 +19,8 @@
     "install-packages": "npm install",
     "install-papillonads-latest": "echo \"css skipping install-papillonads-latest\" && exit 0",
     "build": "rm -rf build && babel --copy-files --no-copy-ignored --out-dir build src",
-    "release": "npm publish"
+    "build-test": "npm run build",
+    "build-acceptance": "npm run build",
+    "build-release": "npm run build"
   }
 }
