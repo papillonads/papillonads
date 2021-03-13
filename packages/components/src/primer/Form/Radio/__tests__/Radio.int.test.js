@@ -1,11 +1,11 @@
-import { renderCustom, renderDefault } from './Radio.int.render'
+import { custom, regular, inactive } from './Radio.int.story'
 
 describe('<Radio />', () => {
   const onChangeMockFn = jest.fn()
 
   describe('Event', () => {
     test('must handle event when onChange()', () => {
-      const mountCustomRender = global.renderMount(renderCustom(onChangeMockFn))
+      const mountCustomRender = global.renderMount(custom(onChangeMockFn))
       mountCustomRender.find('input').simulate('change')
       expect(mountCustomRender.props().onChange).toBe(onChangeMockFn)
       expect(mountCustomRender.props().onChange).toHaveBeenCalledWith(expect.any(Object))
@@ -13,8 +13,12 @@ describe('<Radio />', () => {
   })
 
   describe('Render', () => {
-    test('must match renderDefault()', () => {
-      expect(global.renderToJSON(renderDefault())).toMatchSnapshot()
+    test('must match regular()', () => {
+      expect(global.renderToJSON(regular())).toMatchSnapshot()
+    })
+
+    test('must match inactive()', () => {
+      expect(global.renderToJSON(inactive())).toMatchSnapshot()
     })
   })
 })
