@@ -1,5 +1,1 @@
-import { isBrowser } from './isBrowser'
-
-export const browser = {
-  isBrowser,
-}
+export const isBrowser = typeof window !== 'undefined'
