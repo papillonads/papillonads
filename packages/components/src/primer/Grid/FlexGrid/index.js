@@ -1,2 +1,2 @@
 export { FlexGrid } from './FlexGrid'
-export { flexGridSelection } from './FlexGrid.prop'
+export { flexGridSelection, flexGridState } from './FlexGrid.prop'

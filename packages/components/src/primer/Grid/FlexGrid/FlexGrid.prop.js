@@ -1,4 +1,9 @@
-import { string, arrayOf, shape, number, oneOf, func } from 'prop-types'
+import { string, array, shape, number, oneOf, func } from 'prop-types'
+
+export const flexGridState = {
+  active: 'active',
+  inactive: 'inactive',
+}
 
 export const flexGridSelection = {
   checkbox: 'checkbox',
@@ -7,12 +12,7 @@ export const flexGridSelection = {
 
 export const propTypes = {
   className: string,
-  items: arrayOf(
-    shape({
-      names: arrayOf(string),
-      values: arrayOf(string),
-    }),
-  ).isRequired,
+  items: array.isRequired,
   idIndex: number,
   isSelectedIndex: number,
   selection: oneOf(Object.keys(flexGridSelection)),
@@ -24,6 +24,11 @@ export const propTypes = {
   onChange: func,
   onClick: func,
   onDoubleClick: func,
+  iconColor: shape({
+    sort: string,
+    object: string,
+  }),
+  state: oneOf(Object.keys(flexGridState)),
 }
 
 export const defaultProps = {
@@ -34,4 +39,9 @@ export const defaultProps = {
   onChange: () => {},
   onClick: () => {},
   onDoubleClick: () => {},
+  iconColor: {
+    sort: '#990000',
+    object: '#79b8ff',
+  },
+  state: flexGridState.active,
 }
