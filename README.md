@@ -1,10 +1,28 @@
-<div id="logo" align="center">
-  <img width="300px" height="250px" src=".docs/image/logo.jpg">
-</div>
-
 <h1 id="heading" align="center">Papillon Ads</h1>
 
+<div id="logo" align="center">
+  <img width="300px" height="300px" src="https://avatars2.githubusercontent.com/u/47340326" />
+</div>
+
 <div id="badges" align="center">
+  <p align="center">
+    <a href="https://travis-ci.org/github/papillonads/papillonads">
+      <img alt="" src="https://img.shields.io/travis/papillonads/papillonads.svg?logo=travis" alt="travis-ci badge">
+      <a href="https://github.com/travis-ci">
+        <img src="https://avatars0.githubusercontent.com/u/639823" alt="travis-ci logo" width="20vw" height="20vh">
+      </a>
+    </a>
+    <a href="https://codecov.io/gh/papillonads/papillonads">
+      <img src="https://codecov.io/gh/papillonads/papillonads/branch/master/graph/badge.svg" alt="codecov code coverage badge"/>
+      <a href="https://github.com/codecov/">
+        <img src="https://avatars0.githubusercontent.com/u/8226205" alt="codecov logo" width="20vw" height="20vh">
+      </a>
+    </a>    
+    <a href="https://www.npmjs.com/org/papillonads">
+      <img src="https://img.shields.io/npm/v/@papillonads/components.svg" alt="npm badge">
+      <img src="https://avatars0.githubusercontent.com/u/6078720" alt="npm logo" width="20vw" height="20vh">
+    </a>
+  </p>
   <p align="center">
     <a aria-label="downloads" href="https://npm-stat.com/charts.html?package=@papillonads/components&from=2018-10-13">
       <img alt="" src="https://img.shields.io/npm/dm/@papillonads/components.svg">
@@ -24,7 +42,7 @@
     <a href="https://github.com/papillonads/papillonads/pulls">
       <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/papillonads/papillonads?color=0088ff" />
     </a>
-  </p>
+  </p>  
   <p align="center">
     <a href="https://github.com/webpack/">
       <img src="https://img.shields.io/badge/Bundle-Webpack-5299C8.svg" alt="webpack badge">
@@ -40,22 +58,6 @@
     </a>
   </p>
   <p align="center">
-    <a href="https://travis-ci.org/github/papillonads/papillonads">
-      <img alt="" src="https://img.shields.io/travis/papillonads/papillonads.svg?logo=travis" alt="travis-ci badge">
-      <a href="https://github.com/travis-ci">
-        <img src="https://avatars0.githubusercontent.com/u/639823" alt="travis-ci logo" width="20vw" height="20vh">
-      </a>
-    </a>
-    <a href="https://codecov.io/gh/papillonads/papillonads">
-      <img src="https://codecov.io/gh/papillonads/papillonads/branch/master/graph/badge.svg" alt="codecov code coverage badge"/>
-      <a href="https://github.com/codecov/">
-        <img src="https://avatars0.githubusercontent.com/u/8226205" alt="codecov logo" width="20vw" height="20vh">
-      </a>
-    </a>
-    <a href="https://www.npmjs.com/org/papillonads">
-      <img src="https://img.shields.io/npm/v/@papillonads/components.svg" alt="npm badge">
-      <img src="https://avatars0.githubusercontent.com/u/6078720" alt="npm logo" width="20vw" height="20vh">
-    </a>
     <a href="https://github.com/facebook/jest">
       <img src="https://img.shields.io/badge/TDD-5B5B5B.svg" alt="tdd badge">
       <img src="https://camo.githubusercontent.com/46e8585e8b6fa7127ff3ab166cadf78bb074103d/68747470733a2f2f6a6573746a732e696f2f696d672f6a6573742d62616467652e737667" alt="jest badge">
@@ -115,7 +117,7 @@
     </a>
     <a href="https://github.com/bradfrost/atomic-design">
       <img src="https://img.shields.io/badge/Component_Driven_Development_(CDD)-Atomic_Design-BE6700.svg" alt="atomic design badge">
-      <img src="https://camo.githubusercontent.com/66ad74bcc523ed82f404a40d699763dfa6db43ca/687474703a2f2f61746f6d696364657369676e2e6272616466726f73742e636f6d2f696d616765732f626f6f6b2d636f7665722e737667" alt="atomic design logo" width="20vw" height="20vh">
+      <img src=".docs/image/atomic-design.jpg" alt="atomic design logo" width="20vw" height="20vh">
     </a>
   </p>
   <p align="center">
@@ -154,17 +156,13 @@
   </p>
 </div>
 
-<h2 id="status" style="color: #006400;">🗿 Status</h2>
-
-<blockquote id="status-quote" style="margin: 0; padding: 0 24px; color: olive; font-weight: 600; font-size:1em">🐝 This project is a work in progress and is not ready for production use yet❗️</blockquote>
-
 <h2 id="intro" style="color: #006400;">🗿 Introduction</h2>
 
-<blockquote id="intro-quote" style="margin: 0; padding: 0 24px; color: olive; font-weight: 600; font-size:1em">🐝 Sharing is caring. Following is a collection of concepts which any maintainer needs to master in order to gracefully maintain this project and scale its implementation along with its unit, integration and end-to-end tests.</blockquote>
+<blockquote id="intro-quote" style="margin: 0; padding: 0 24px; color: olive; font-weight: 600; font-size:1em">🐝. Introduction to Papillon Ads.</blockquote>
 
 <h2 id="packages" style="color: #006400;">🗿 Packages</h2>
 
-<blockquote id="packages-quote" style="margin: 0; padding: 0 24px; color: olive; font-weight: 600; font-size:1em">🐝 Following is a collection of packages which any maintainer needs to develop, test, build and publish.</blockquote><br />
+<blockquote id="packages-quote" style="margin: 0; padding: 0 24px; color: olive; font-weight: 600; font-size:1em">🐝. Published packages.</blockquote><br />
 
 <details id="components-package">
   <summary><span style="color: #006400; font-weight: 600; font-size:1.3em"> 📚 Components</span></summary>
@@ -173,7 +171,25 @@
       <summary style="color: #006400;">📗 Primer</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Breadcrumb</summary>
+          <summary style="color: #006400;">📖. Blankslate</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            To be documented soon
+          </blockquote>
+        </details>        
+        <details>
+          <summary style="color: #006400;">📖. Box</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            To be documented soon
+          </blockquote>
+        </details>                
+        <details>
+          <summary style="color: #006400;">📖. BranchName</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            To be documented soon
+          </blockquote>
+        </details>                
+        <details>
+          <summary style="color: #006400;">📖. Breadcrumb</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://papillonads.github.io/papillonads/?path=/info/primer-atom-breadcrumb">Documentation</a><br />
             🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/tree/master/packages/components/src/primer/Breadcrumb">Implementation</a><br />
@@ -181,7 +197,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Button</summary>
+          <summary style="color: #006400;">📖. Button</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://papillonads.github.io/papillonads/?path=/info/primer-atom-button">Documentation</a><br />
             🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/tree/master/packages/components/src/primer/Button">Implementation</a><br />
@@ -189,7 +205,13 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Dropdown</summary>
+          <summary style="color: #006400;">📖. Concept</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            To be documented soon
+          </blockquote>
+        </details>                
+        <details>
+          <summary style="color: #006400;">📖. Dropdown</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://papillonads.github.io/papillonads/?path=/info/primer-atom-dropdown">Documentation</a><br />
             🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/tree/master/packages/components/src/primer/Dropdown">Implementation</a><br />
@@ -197,10 +219,10 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Form</summary>
+          <summary style="color: #006400;">📖. Form</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Checkbox</summary>
+              <summary style="color: #006400;">📃. Checkbox</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://papillonads.github.io/papillonads/?path=/info/primer-atom-form-checkbox">Documentation</a><br />
                 🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/tree/master/packages/components/src/primer/Form/Checkbox">Implementation</a><br />
@@ -208,7 +230,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Input</summary>
+              <summary style="color: #006400;">📃. Input</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://papillonads.github.io/papillonads/?path=/info/primer-atom-form-input">Documentation</a><br />
                 🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/tree/master/packages/components/src/primer/Form/Input">Implementation</a><br />
@@ -216,7 +238,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Radio</summary>
+              <summary style="color: #006400;">📃. Radio</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://papillonads.github.io/papillonads/?path=/info/primer-atom-form-radio">Documentation</a><br />
                 🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/tree/master/packages/components/src/primer/Form/Radio">Implementation</a><br />
@@ -226,10 +248,10 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Grid</summary>
+          <summary style="color: #006400;">📖. Grid</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 DisplayTable</summary>
+              <summary style="color: #006400;">📃. DisplayTable</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://papillonads.github.io/papillonads/?path=/info/primer-atom-grid-displaytable">Documentation</a><br />
                 🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/tree/master/packages/components/src/primer/Grid/DisplayTable">Implementation</a><br />
@@ -237,7 +259,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 FlexGrid</summary>
+              <summary style="color: #006400;">📃. FlexGrid</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://papillonads.github.io/papillonads/?path=/info/primer-atom-grid-flexgrid">Documentation</a><br />
                 🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/tree/master/packages/components/src/primer/Grid/FlexGrid">Implementation</a><br />
@@ -247,7 +269,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Icon</summary>
+          <summary style="color: #006400;">📖. Icon</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://papillonads.github.io/papillonads/?path=/info/primer-atom-icon">Documentation</a><br />
             🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/tree/master/packages/components/src/primer/Icon">Implementation</a><br />
@@ -255,7 +277,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Label</summary>
+          <summary style="color: #006400;">📖. Label</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://papillonads.github.io/papillonads/?path=/info/primer-atom-label">Documentation</a><br />
             🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/tree/master/packages/components/src/primer/Label">Implementation</a><br />
@@ -263,7 +285,7 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Layout</summary>
+          <summary style="color: #006400;">📖. Layout</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://papillonads.github.io/papillonads/?path=/info/primer-atom-layout">Documentation</a><br />
             🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/tree/master/packages/components/src/primer/Layout">Implementation</a><br />
@@ -271,10 +293,16 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Navigation</summary>
+          <summary style="color: #006400;">📖. Loader</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            To be documented soon
+          </blockquote>
+        </details>                
+        <details>
+          <summary style="color: #006400;">📖. Navigation</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Menu</summary>
+              <summary style="color: #006400;">📃. Menu</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://papillonads.github.io/papillonads/?path=/info/primer-atom-navigation-menu">Documentation</a><br />
                 🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/tree/master/packages/components/src/primer/Navigation/Menu">Implementation</a><br />
@@ -282,7 +310,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 TabNav</summary>
+              <summary style="color: #006400;">📃. TabNav</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://papillonads.github.io/papillonads/?path=/info/primer-atom-navigation-tabnav">Documentation</a><br />
                 🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/tree/master/packages/components/src/primer/Navigation/TabNav">Implementation</a><br />
@@ -290,7 +318,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 UnderlineNav</summary>
+              <summary style="color: #006400;">📃. UnderlineNav</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://papillonads.github.io/papillonads/?path=/info/primer-atom-navigation-underlinenav">Documentation</a><br />
                 🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/tree/master/packages/components/src/primer/Navigation/UnderlineNav">Implementation</a><br />
@@ -300,13 +328,43 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Subhead</summary>
+          <summary style="color: #006400;">📖. Pagination</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            To be documented soon
+          </blockquote>
+        </details>                
+        <details>
+          <summary style="color: #006400;">📖. Popover</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            To be documented soon
+          </blockquote>
+        </details>                
+        <details>
+          <summary style="color: #006400;">📖. Progress</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            To be documented soon
+          </blockquote>
+        </details>                
+        <details>
+          <summary style="color: #006400;">📖. SelectMenu</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            To be documented soon
+          </blockquote>
+        </details>                
+        <details>
+          <summary style="color: #006400;">📖. Subhead</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://papillonads.github.io/papillonads/?path=/info/primer-atom-subhead">Documentation</a><br />
             🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/tree/master/packages/components/src/primer/Subhead">Implementation</a><br />
             🔖 <a style="color: #006400;" href="https://papillonads.github.io/papillonads/?path=/story/primer-atom-subhead">Story</a><br />
           </blockquote>
         </details>
+        <details>
+          <summary style="color: #006400;">📖. Toast</summary>
+          <blockquote style="margin: 0; padding: 0 24px">
+            To be documented soon
+          </blockquote>
+        </details>                
       </blockquote>
     </details>
   </blockquote>
@@ -319,28 +377,28 @@
       <summary style="color: #006400;">📗 Primer</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Base</summary>
+          <summary style="color: #006400;">📖. Base</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Base</summary>
+              <summary style="color: #006400;">📃. Base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/blob/master/packages/css/src/primer/base/base.scss">Implementation</a><br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Keyboard Shortcuts</summary>
+              <summary style="color: #006400;">📃. Keyboard Shortcuts</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/blob/master/packages/css/src/primer/base/kbd.scss">Implementation</a><br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Normalize</summary>
+              <summary style="color: #006400;">📃. Normalize</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/blob/master/packages/css/src/primer/base/normalize.scss">Implementation</a><br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Typography Base</summary>
+              <summary style="color: #006400;">📃. Typography Base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/blob/master/packages/css/src/primer/base/typography-base.scss">Implementation</a><br />
               </blockquote>
@@ -348,10 +406,10 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Support</summary>
+          <summary style="color: #006400;">📖. Support</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Mixins</summary>
+              <summary style="color: #006400;">📃. Mixins</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Buttons</summary>
@@ -380,7 +438,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Variables</summary>
+              <summary style="color: #006400;">📃. Variables</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Color System</summary>
@@ -417,70 +475,70 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Utilities</summary>
+          <summary style="color: #006400;">📖. Utilities</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Animations</summary>
+              <summary style="color: #006400;">📃. Animations</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/blob/master/packages/css/src/primer/utilities/animations.scss">Implementation</a><br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Borders</summary>
+              <summary style="color: #006400;">📃. Borders</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/blob/master/packages/css/src/primer/utilities/borders.scss">Implementation</a><br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Box Shadows</summary>
+              <summary style="color: #006400;">📃. Box Shadows</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/blob/master/packages/css/src/primer/utilities/box-shadow.scss">Implementation</a><br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Colors</summary>
+              <summary style="color: #006400;">📃. Colors</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/blob/master/packages/css/src/primer/utilities/colors.scss">Implementation</a><br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Details</summary>
+              <summary style="color: #006400;">📃. Details</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/blob/master/packages/css/src/primer/utilities/details.scss">Implementation</a><br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Flexbox</summary>
+              <summary style="color: #006400;">📃. Flexbox</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/blob/master/packages/css/src/primer/utilities/flexbox.scss">Implementation</a><br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Layout</summary>
+              <summary style="color: #006400;">📃. Layout</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/blob/master/packages/css/src/primer/utilities/layout.scss">Implementation</a><br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Margin</summary>
+              <summary style="color: #006400;">📃. Margin</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/blob/master/packages/css/src/primer/utilities/margin.scss">Implementation</a><br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Padding</summary>
+              <summary style="color: #006400;">📃. Padding</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/blob/master/packages/css/src/primer/utilities/padding.scss">Implementation</a><br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Typography</summary>
+              <summary style="color: #006400;">📃. Typography</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/blob/master/packages/css/src/primer/utilities/typography.scss">Implementation</a><br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Visibility Display</summary>
+              <summary style="color: #006400;">📃. Visibility Display</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/blob/master/packages/css/src/primer/utilities/visibility-display.scss">Implementation</a><br />
               </blockquote>
@@ -492,14 +550,21 @@
   </blockquote>
 </details>
 
-<details id="libarary-package">
+<details id="docs-package">
+  <summary><span style="color: #006400; font-weight: 600; font-size:1.3em"> 📚 Docs</span></summary>
+  <blockquote style="margin: 0; padding: 0 24px">
+    To be documented soon
+  </blockquote>
+</details>
+
+<details id="library-package">
   <summary><span style="color: #006400; font-weight: 600; font-size:1.3em"> 📚 Library</span></summary>
   <blockquote style="margin: 0; padding: 0 24px">
     <details>
       <summary style="color: #006400;">📗 Accessibility</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Check</summary>
+          <summary style="color: #006400;">📖. Check</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/blob/master/packages/library/src/a11y/check.js">Implementation</a><br />
           </blockquote>
@@ -510,7 +575,7 @@
       <summary style="color: #006400;">📗 Browser</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Browser</summary>
+          <summary style="color: #006400;">📖. Browser</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/blob/master/packages/library/src/browser/isBrowser.js">Implementation</a><br />
           </blockquote>
@@ -521,26 +586,15 @@
       <summary style="color: #006400;">📗 Environment</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 API</summary>
+          <summary style="color: #006400;">📖. API</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/blob/master/packages/library/src/environment/api.js">Implementation</a><br />
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Host</summary>
+          <summary style="color: #006400;">📖. Host</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/blob/master/packages/library/src/environment/host.js">Implementation</a><br />
-          </blockquote>
-        </details>
-      </blockquote>
-    </details>
-    <details>
-      <summary style="color: #006400;">📗 Event</summary>
-      <blockquote style="margin: 0; padding: 0 24px">
-        <details>
-          <summary style="color: #006400;">📖 Throttle</summary>
-          <blockquote style="margin: 0; padding: 0 24px">
-            🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/blob/master/packages/library/src/event/throttle.js">Implementation</a><br />
           </blockquote>
         </details>
       </blockquote>
@@ -549,7 +603,7 @@
       <summary style="color: #006400;">📗 Hooks</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 React</summary>
+          <summary style="color: #006400;">📖. React</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/blob/master/packages/library/src/hooks/react.js">Implementation</a><br />
           </blockquote>
@@ -560,7 +614,7 @@
       <summary style="color: #006400;">📗 Navigation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Item</summary>
+          <summary style="color: #006400;">📖. Item</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/blob/master/packages/library/src/navigation/item.js">Implementation</a><br />
           </blockquote>
@@ -571,7 +625,7 @@
       <summary style="color: #006400;">📗 Object</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Clone</summary>
+          <summary style="color: #006400;">📖. Clone</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/blob/master/packages/library/src/object/clone.js">Implementation</a><br />
           </blockquote>
@@ -582,22 +636,22 @@
       <summary style="color: #006400;">📗 State</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Default</summary>
+          <summary style="color: #006400;">📖. Default</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Context</summary>
+              <summary style="color: #006400;">📃. Context</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/tree/master/packages/library/src/state/default/context">Implementation</a><br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 API</summary>
+              <summary style="color: #006400;">📃. API</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 UI</summary>
+              <summary style="color: #006400;">📃. UI</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/tree/master/packages/library/src/state/default/ui">Implementation</a><br />
               </blockquote>
@@ -605,22 +659,22 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Mock</summary>
+          <summary style="color: #006400;">📖. Mock</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Context</summary>
+              <summary style="color: #006400;">📃. Context</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/tree/master/packages/library/src/state/mock/context">Implementation</a><br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 API</summary>
+              <summary style="color: #006400;">📃. API</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 UI</summary>
+              <summary style="color: #006400;">📃. UI</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/tree/master/packages/library/src/state/mock/ui">Implementation</a><br />
               </blockquote>
@@ -633,7 +687,7 @@
       <summary style="color: #006400;">📗 Store</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Mock</summary>
+          <summary style="color: #006400;">📖. Mock</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/tree/master/packages/library/src/store/mock">Implementation</a><br />
           </blockquote>
@@ -643,21 +697,28 @@
   </blockquote>
 </details>
 
+<details id="styleguide-package">
+  <summary><span style="color: #006400; font-weight: 600; font-size:1.3em"> 📚 Styleguide</span></summary>
+  <blockquote style="margin: 0; padding: 0 24px">
+    To be documented soon
+  </blockquote>
+</details>
+
 <h2 id="concepts" style="color: #006400;">🗿 Concepts</h2>
 
-<blockquote id="concepts-quote" style="margin: 0; padding: 0 24px; color: olive; font-weight: 600; font-size:1em">🐝 Documentation that makes you feel like Alice in Wonderland by funnelling you into what you need.</blockquote><br />
+<blockquote id="concepts-quote" style="margin: 0; padding: 0 24px; color: olive; font-weight: 600; font-size:1em">🐝. Applied concepts.</blockquote><br />
 
 <details>
-  <summary><span style="color: #006400; font-weight: 600; font-size:1.3em"> 📚 Accesibility</span></summary>
+  <summary><span style="color: #006400; font-weight: 600; font-size:1.3em"> 📚 Accessibility</span></summary>
   <blockquote style="margin: 0; padding: 0 24px">
     <details>
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 MDN</summary>
+          <summary style="color: #006400;">📖. MDN</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/Accessibility">Web technology for developers » Accessibility</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/Accessibility">Web technology for developers » Accessibility</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 Accessibility (often abbreviated to A11y—as in "a" then 11 characters then "y") in Web development means enabling as many people as possible to use Web sites, even when those people's abilities are limited in some way.<br />
                 🔖 For many people, technology makes things easier. For people with disabilities, technology makes things possible. Accessibility means developing content to be as accessible as possible no matter an individual's physical and cognitive abilities and no matter how they access the web.<br />
@@ -667,10 +728,10 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Web Accessibility Initiative (WAI)</summary>
+          <summary style="color: #006400;">📖. Web Accessibility Initiative (WAI)</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://www.w3.org/WAI/standards-guidelines/wcag/">Web Content Accessibility Guidelines (WCAG) Overview</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://www.w3.org/WAI/standards-guidelines/wcag/">Web Content Accessibility Guidelines (WCAG) Overview</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 Web Content Accessibility Guidelines (WCAG) is developed through the W3C process in cooperation with individuals and organizations around the world, with a goal of providing a single shared standard for web content accessibility that meets the needs of individuals, organizations, and governments internationally.<br />
               </blockquote>
@@ -678,10 +739,10 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 World Wide Web Consortium (W3C)</summary>
+          <summary style="color: #006400;">📖. World Wide Web Consortium (W3C)</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://www.w3.org/standards/webdesign/accessibility">W3C » Standards » Web Design and Applications » Accessibility</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://www.w3.org/standards/webdesign/accessibility">W3C » Standards » Web Design and Applications » Accessibility</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 The Web is fundamentally designed to work for all people, whatever their hardware, software, language, location, or ability. When the Web meets this goal, it is accessible to people with a diverse range of hearing, movement, sight, and cognitive ability.<br />
                 🔖 Thus the impact of disability is radically changed on the Web because the Web removes barriers to communication and interaction that many people face in the physical world. However, when web sites, applications, technologies, or tools are badly designed, they can create barriers that exclude people from using the Web.<br />
@@ -692,10 +753,10 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 React.JS</summary>
+          <summary style="color: #006400;">📖. React.JS</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://reactjs.org/docs/accessibility.html">Accessibility</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://reactjs.org/docs/accessibility.html">Accessibility</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 Web accessibility (also referred to as a11y) is the design and creation of websites that can be used by everyone. Accessibility support is necessary to allow assistive technology to interpret web pages.<br />
                 🔖 React fully supports building accessible websites, often by using standard HTML techniques.<br />
@@ -709,16 +770,16 @@
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Axe Core</summary>
+          <summary style="color: #006400;">📖. Axe Core</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://github.com/dequelabs/axe-core">Accessibility engine for automated Web UI testing</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://github.com/dequelabs/axe-core">Accessibility engine for automated Web UI testing</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 Axe is an accessibility testing engine for websites and other HTML-based user interfaces. It's fast, secure, lightweight, and was built to seamlessly integrate with any existing test environment so you can automate accessibility testing alongside your regular functional testing.<br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://www.deque.com/axe/">Axe: Accessibility for Development Teams</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://www.deque.com/axe/">Axe: Accessibility for Development Teams</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 Axe is the World’s most popular accessibility testing toolkit built on the World’s most popular accessibility rules library. Axe is ideal for development teams to test their Web or Android applications to help identify and resolve common accessibility issues. Built to scale with your needs, users have run axe for everything from ad-hoc single page tests to testing hundreds of thousands of pages while integrated into existing CI/CD processes. It’s simple to use, doesn’t require advanced accessibility knowledge and won’t waste your time with false positives.<br />
               </blockquote>
@@ -726,10 +787,10 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 React Axe</summary>
+          <summary style="color: #006400;">📖. @axe-core/react</summary>
           <blockquote style="margin: 0; padding: 0 24px">
           <details>
-            <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://github.com/dequelabs/react-axe">Accessibility auditing for React.js applications</a></summary>
+            <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://github.com/dequelabs/axe-core-npm/tree/develop/packages/react">Accessibility auditing for React.js applications</a></summary>
             <blockquote style="margin: 0; padding: 0 24px">
               🔖 Test your React application with the axe-core accessibility testing library. Results will show in the Chrome DevTools console.<br />
             </blockquote>
@@ -737,10 +798,10 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Storybook</summary>
+          <summary style="color: #006400;">📖. Storybook</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://github.com/storybookjs/storybook/tree/next/addons/a11y">@storybook/addon-a11y</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://github.com/storybookjs/storybook/tree/next/addons/a11y">@storybook/addon-a11y</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 This storybook addon can be helpful to make your UI components more accessible.<br />
               </blockquote>
@@ -748,10 +809,10 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 ESLint</summary>
+          <summary style="color: #006400;">📖. ESLint</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://github.com/evcohen/eslint-plugin-jsx-a11y">eslint-plugin-jsx-a11y</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://github.com/evcohen/eslint-plugin-jsx-a11y">eslint-plugin-jsx-a11y</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 Static AST checker for accessibility rules on JSX elements.<br />
                 🔖 Ryan Florence built out this awesome runtime-analysis tool called react-a11y. It is super useful. However, since you're probably already using linting in your project, this plugin comes for free and closer to the actual development process. Pairing this plugin with an editor lint plugin, you can bake accessibility standards into your application in real-time.<br />
@@ -766,10 +827,10 @@
       <summary style="color: #006400;">📗 Papillon Ads Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Design System Core</summary>
+          <summary style="color: #006400;">📖. Papillon Ads</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
               <details>
                 <summary style="color: #006400;">🔖 <a style="color: #006400;" href="https://github.com/papillonads/papillonads/blob/master/package.json">package.json</a></summary>
@@ -799,26 +860,26 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Product Microsites</summary>
+          <summary style="color: #006400;">📖. Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
@@ -835,10 +896,10 @@
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Redux</summary>
+          <summary style="color: #006400;">📖. Redux</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://redux.js.org/">A Predictable State Container for JS Apps</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://redux.js.org/">A Predictable State Container for JS Apps</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 Redux is a predictable state container for JavaScript apps.<br />
                 🔖 It helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test. On top of that, it provides a great developer experience, such as live code editing combined with a time traveling debugger.<br />
@@ -846,7 +907,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://redux.js.org/style-guide/style-guide/">Redux Style Guide</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://redux.js.org/style-guide/style-guide/">Redux Style Guide</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 This is the official style guide for writing Redux code. It lists our recommended patterns, best practices, and suggested approaches for writing Redux applications.<br />
                 🔖 Both the Redux core library and most of the Redux documentation are unopinionated. There are many ways to use Redux, and much of the time there is no single "right" way to do things.<br />
@@ -857,10 +918,10 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Flux</summary>
+          <summary style="color: #006400;">📖. Flux</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://facebook.github.io/flux/">Application architecture for building user interfaces</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://facebook.github.io/flux/">Application architecture for building user interfaces</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 These are the important high-level concepts and principles you should know about when writing applications that use Flux.<br />
                 🔖 Flux is a pattern for managing data flow in your application. The most important concept is that data flows in one direction. As we go through this guide we'll talk about the different pieces of a Flux application and show how they form unidirectional cycles that data can flow through.<br />
@@ -875,10 +936,10 @@
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Redux</summary>
+          <summary style="color: #006400;">📖. Redux</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://github.com/reduxjs/redux">Predictable state container for JavaScript apps</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://github.com/reduxjs/redux">Predictable state container for JavaScript apps</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 Redux is a predictable state container for JavaScript apps. (Not to be confused with a WordPress framework – Redux Framework.)<br />
                 🔖 It helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test. On top of that, it provides a great developer experience, such as live code editing combined with a time traveling debugger.<br />
@@ -886,7 +947,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://github.com/reduxjs/react-redux">Official React bindings for Redux</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://github.com/reduxjs/react-redux">Official React bindings for Redux</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 React Redux is the official React binding for Redux. It lets your React components read data from a Redux store, and dispatch actions to the store to update data.<br />
                 🔖 React Redux provides <Provider />, which makes the Redux store available to the rest of your app:<br />
@@ -894,7 +955,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://github.com/reduxjs/redux-thunk">Thunk middleware for Redux</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://github.com/reduxjs/redux-thunk">Thunk middleware for Redux</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 With a plain basic Redux store, you can only do simple synchronous updates by dispatching an action. Middleware extend the store's abilities, and let you write async logic that interacts with the store.<br />
                 🔖 Thunks are the recommended middleware for basic Redux side effects logic, including complex synchronous logic that needs access to the store, and simple async logic like AJAX requests.<br />
@@ -906,7 +967,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://github.com/LogRocket/redux-logger">Logger for Redux</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://github.com/LogRocket/redux-logger">Logger for Redux</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 You can create your own logger with following custom options:<br />
                 🔖 <strong>predicate:</strong> If specified this function will be called before each action is processed with this middleware.<br />
@@ -926,7 +987,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://github.com/dmitry-zaets/redux-mock-store">A mock store for testing Redux async action creators and middleware</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://github.com/dmitry-zaets/redux-mock-store">A mock store for testing Redux async action creators and middleware</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 A mock store for testing Redux async action creators and middleware. The mock store will create an array of dispatched actions which serve as an action log for tests.<br />
                 🔖 Please note that this library is designed to test the action-related logic, not the reducer-related one. In other words, it does not update the Redux store. If you want a complex test combining actions and reducers together, take a look at other libraries (e.g., redux-actions-assertions). Refer to issue #71 for more details.<br />
@@ -942,27 +1003,27 @@
       <summary style="color: #006400;">📗 Papillon Ads Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Design System Core</summary>
+          <summary style="color: #006400;">📖. Papillon Ads</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬<br />
+                To be documented soon<br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Product Microsites</summary>
+          <summary style="color: #006400;">📖. Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 ✎ <a style="color: #006400;" href="https://github.com/papillonads/marketplace/blob/master/package.json">package.json</a><br />
                 ✎ <a style="color: #006400;" href="https://github.com/papillonads/marketplace/blob/master/packages/core/src/store/client.js">store/client.js</a><br />
@@ -970,9 +1031,9 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
@@ -988,48 +1049,48 @@
     <details>
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
-        📝 Coming soon 🐬
+        To be documented soon
       </blockquote>
     </details>
     <details>
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
-        📝 Coming soon 🐬
+        To be documented soon
       </blockquote>
     </details>
     <details id="bootstrap-implementation">
       <summary style="color: #006400;">📗 Papillon Ads Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Design System Core</summary>
+          <summary style="color: #006400;">📖. Papillon Ads</summary>
           <blockquote style="margin: 0; padding: 0 24px">
-            📝 Coming soon 🐬
+            To be documented soon
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Product Microsites</summary>
+          <summary style="color: #006400;">📖. Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Install</summary>
+              <summary style="color: #006400;">📃. Install</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 ✎ Run <kbd>rm -rf node_modules package-lock.json && npm install</kbd> for <kbd>repository root</kbd> and <kbd>packages/core</kbd> folder to remove node_modules directory, package-lock.json file and install all packages from scratch<br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Bootstrap</summary>
+              <summary style="color: #006400;">📃. Bootstrap</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 ✎ Run <kbd>npm run bootstrap</kbd>to run linting, formatting, testing and building sequentially<br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Start</summary>
+              <summary style="color: #006400;">📃. Start</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 ✎ Run <kbd>npm start</kbd> in 1nd terminal in packages/core to start up webpack-dev-server<br />
                 ✎ Run <kbd>npm run test -- --watch --onlyChanged --verbose</kbd> in 2rd terminal to let Jest watch changed tests<br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Dynamic Code Splitting</summary>
+              <summary style="color: #006400;">📃. Dynamic Code Splitting</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 ✎ Babel enables parsing dynamic imports through <a style="color: #006400;" href="https://babeljs.io/docs/en/babel-plugin-syntax-dynamic-import">@babel/plugin-syntax-dynamic-import</a> since <a style="color: #006400;" href="https://babeljs.io/blog/2019/07/03/7.5.0">v7.5.0</a><br />
                 ✎ Webpack recommends this <a style="color: #006400;" href="https://webpack.js.org/guides/code-splitting/#dynamic-imports">technique</a> instead of the legacy webpack-specific approach through optimization.splitChunks configuration option.<br />
@@ -1049,10 +1110,10 @@
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Code Linting</summary>
+          <summary style="color: #006400;">📖. Code Linting</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 JavaScript</summary>
+              <summary style="color: #006400;">📃. JavaScript</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 <a style="color: #006400;" href="https://github.com/airbnb/javascript">AirBnb JavaScript Style Guide</a></summary>
@@ -1071,7 +1132,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Sass</summary>
+              <summary style="color: #006400;">📃. Sass</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 <a style="color: #006400;" href="https://github.com/airbnb/css">Airbnb CSS / Sass Styleguide</a></summary>
@@ -1084,23 +1145,23 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Code Formatting</summary>
+          <summary style="color: #006400;">📖. Code Formatting</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 HTML, JavaScript and Sass</summary>
+              <summary style="color: #006400;">📃. HTML, JavaScript and Sass</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 File Formatting</summary>
+          <summary style="color: #006400;">📖. File Formatting</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Any file type</summary>
+              <summary style="color: #006400;">📃. Any file type</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
@@ -1111,10 +1172,10 @@
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Code Linting</summary>
+          <summary style="color: #006400;">📖. Code Linting</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 JavaScript</summary>
+              <summary style="color: #006400;">📃. JavaScript</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 <a style="color: #006400;" href="https://github.com/eslint/eslint">ESLint</a></summary>
@@ -1151,7 +1212,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Sass</summary>
+              <summary style="color: #006400;">📃. Sass</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 <a style="color: #006400;" href="https://github.com/stylelint/stylelint">Stylelint</a></summary>
@@ -1193,10 +1254,10 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Code Formatting</summary>
+          <summary style="color: #006400;">📖. Code Formatting</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 HTML, JavaScript and Sass</summary>
+              <summary style="color: #006400;">📃. HTML, JavaScript and Sass</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 <a style="color: #006400;" href="https://github.com/prettier/prettier">Prettier</a></summary>
@@ -1235,10 +1296,10 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 File Formatting</summary>
+          <summary style="color: #006400;">📖. File Formatting</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Any file type</summary>
+              <summary style="color: #006400;">📃. Any file type</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 <a style="color: #006400;" href="https://github.com/editorconfig">Editorconfig</a></summary>
@@ -1276,27 +1337,27 @@
       <summary style="color: #006400;">📗 Papillon Ads Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Design System Core</summary>
+          <summary style="color: #006400;">📖. Papillon Ads</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Product Microsites</summary>
+          <summary style="color: #006400;">📖. Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Code Linting</summary>
+              <summary style="color: #006400;">📃. Code Linting</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 JavaScript</summary>
@@ -1319,7 +1380,7 @@
                     <details>
                       <summary style="color: #006400;">🔖 Knowledge base</summary>
                       <blockquote style="margin: 0; padding: 0 24px">
-                        📝 Coming soon 🐬
+                        To be documented soon
                       </blockquote>
                     </details>
                   </blockquote>
@@ -1345,7 +1406,7 @@
                     <details>
                       <summary style="color: #006400;">🔖 Knowledge base</summary>
                       <blockquote style="margin: 0; padding: 0 24px">
-                        📝 Coming soon 🐬
+                        To be documented soon
                       </blockquote>
                     </details>
                   </blockquote>
@@ -1353,7 +1414,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Code Formatting</summary>
+              <summary style="color: #006400;">📃. Code Formatting</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 HTML, JavaScript and Sass</summary>
@@ -1376,7 +1437,7 @@
                     <details>
                       <summary style="color: #006400;">🔖 Knowledge base</summary>
                       <blockquote style="margin: 0; padding: 0 24px">
-                        📝 Coming soon 🐬
+                        To be documented soon
                       </blockquote>
                     </details>
                   </blockquote>
@@ -1384,7 +1445,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 File Formatting</summary>
+              <summary style="color: #006400;">📃. File Formatting</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Any file type</summary>
@@ -1404,7 +1465,7 @@
                     <details>
                       <summary style="color: #006400;">🔖 Knowledge base</summary>
                       <blockquote style="margin: 0; padding: 0 24px">
-                        📝 Coming soon 🐬
+                        To be documented soon
                       </blockquote>
                     </details>
                   </blockquote>
@@ -1424,17 +1485,17 @@
     <details>
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
-        📝 Coming soon 🐬
+        To be documented soon
       </blockquote>
     </details>
     <details>
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Transpiling</summary>
+          <summary style="color: #006400;">📖. Transpiling</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Babel</summary>
+              <summary style="color: #006400;">📃. Babel</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 <a style="color: #006400;" href="https://github.com/babel/babel">Babel is a compiler for writing next generation JavaScript</a></summary>
@@ -1452,10 +1513,10 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Bundling</summary>
+          <summary style="color: #006400;">📖. Bundling</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Webpack</summary>
+              <summary style="color: #006400;">📃. Webpack</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 <a style="color: #006400;" href="https://github.com/webpack/webpack">A bundler for javascript and friends. Packs many modules into a few bundled assets</a></summary>
@@ -1477,27 +1538,27 @@
       <summary style="color: #006400;">📗 Papillon Ads Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Design System Core</summary>
+          <summary style="color: #006400;">📖. Papillon Ads</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Product Microsites</summary>
+          <summary style="color: #006400;">📖. Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Transpiling</summary>
+              <summary style="color: #006400;">📃. Transpiling</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Babel</summary>
@@ -1520,7 +1581,7 @@
                     <details>
                       <summary style="color: #006400;">🔖 Knowledge base</summary>
                       <blockquote style="margin: 0; padding: 0 24px">
-                        📝 Coming soon 🐬
+                        To be documented soon
                       </blockquote>
                     </details>
                   </blockquote>
@@ -1528,7 +1589,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Bundling</summary>
+              <summary style="color: #006400;">📃. Bundling</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Webpack</summary>
@@ -1538,8 +1599,8 @@
                       <blockquote style="margin: 0; padding: 0 24px">
                         ✎ <a style="color: #006400;" href="https://github.com/papillonads/marketplace/blob/master/packages/core/webpack.settings.js">webpack.settings.js</a><br />
                         ✎ <a style="color: #006400;" href="https://github.com/papillonads/marketplace/blob/master/packages/core/webpack.common.js">webpack.common.js</a> shared by regular development and production builds<br />
-                        ✎ <a style="color: #006400;" href="https://github.com/papillonads/marketplace/blob/master/packages/core/webpack.dev.js">webpack.dev.js</a> for regular development build<br />
-                        ✎ <a style="color: #006400;" href="https://github.com/papillonads/marketplace/blob/master/packages/core/webpack.prod.js">webpack.prod.js</a> for regular production build<br />
+                        ✎ <a style="color: #006400;" href="https://github.com/papillonads/marketplace/blob/master/packages/core/webpack.develop.js">webpack.develop.js</a> for regular development build<br />
+                        ✎ <a style="color: #006400;" href="https://github.com/papillonads/marketplace/blob/master/packages/core/webpack.release.js">webpack.release.js</a> for regular production build<br />
                         ✎ <a style="color: #006400;" href="https://github.com/papillonads/marketplace/blob/master/.storybook/webpack.config.js">webpack.config.js</a> for storybook build<br />
                       </blockquote>
                     </details>
@@ -1553,7 +1614,7 @@
                     <details>
                       <summary style="color: #006400;">🔖 Knowledge base</summary>
                       <blockquote style="margin: 0; padding: 0 24px">
-                        📝 Coming soon 🐬
+                        To be documented soon
                       </blockquote>
                     </details>
                   </blockquote>
@@ -1574,10 +1635,10 @@
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 React.JS</summary>
+          <summary style="color: #006400;">📖. React.JS</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://reactjs.org/docs/hooks-state.html#hooks-and-function-components">Hooks and Function Components</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://reactjs.org/docs/hooks-state.html#hooks-and-function-components">Hooks and Function Components</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <strong>What is a Hook?</strong> A Hook is a special function that lets you “hook into” React features. For example, useState is a Hook that lets you add React state to function components. We’ll learn other Hooks later.<br />
                 🔖 <strong>When would I use a Hook?</strong> If you write a function component and realize you need to add some state to it, previously you had to convert it to a class. Now you can use a Hook inside the existing function component. We’re going to do that right now!<br />
@@ -1591,17 +1652,17 @@
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 React.JS</summary>
+          <summary style="color: #006400;">📖. React.JS</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://reactjs.org/">A JavaScript library for building user interfaces</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://reactjs.org/">A JavaScript library for building user interfaces</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <strong>Declarative</strong>React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes. Declarative views make your code more predictable and easier to debug.<br />
                 🔖 <strong>Component-Based</strong>Build encapsulated components that manage their own state, then compose them to make complex UIs. Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM.<br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://github.com/facebook/react/">A declarative, efficient, and flexible JavaScript library for building user interfaces</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://github.com/facebook/react/">A declarative, efficient, and flexible JavaScript library for building user interfaces</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://reactjs.org/docs/getting-started.html">Getting Started</a> This page is an overview of the React documentation and related resources.<br />
                 🔖 <a style="color: #006400;" href="https://reactjs.org/tutorial/tutorial.html">Tutorial: Intro to React</a> This tutorial doesn’t assume any existing React knowledge.<br />
@@ -1616,27 +1677,27 @@
       <summary style="color: #006400;">📗 Papillon Ads Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Design System Core</summary>
+          <summary style="color: #006400;">📖. Papillon Ads</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Product Microsites</summary>
+          <summary style="color: #006400;">📖. Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Component Partitions</summary>
+              <summary style="color: #006400;">📃. Component Partitions</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Implementation folder ../</summary>
@@ -1660,9 +1721,8 @@
                     <details>
                       <summary style="color: #006400;">🔖 File(s)</summary>
                       <blockquote style="margin: 0; padding: 0 24px">
-                        ✎ <strong>.int.render.js:</strong> Exposes various flavors of the component to snapshots and stories for integration testing purposes</br>
-                        ✎ <strong>.int.test.js:</strong> Implements Jest snapshots for flavors of the component exposed by .int.render.js</br>
-                        ✎ <strong>.int.story.js:</strong> Implements Storybook stories for flavors of the component exposed by .int.render.js</br>
+                        ✎ <strong>.int.story.js:</strong> Implements Storybook stories for various flavors of the component for integration testing purposes</br>
+                        ✎ <strong>.int.test.js:</strong> Implements Jest snapshots for various flavors of the component for integration testing purposes</br>
                       </blockquote>
                     </details>
                   </blockquote>
@@ -1683,10 +1743,10 @@
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Atomic Design</summary>
+          <summary style="color: #006400;">📖. Atomic Design</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://bradfrost.com/blog/post/atomic-web-design/">Atomic Design</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://bradfrost.com/blog/post/atomic-web-design/">Atomic Design</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <strong>What is atomic design?</strong> Atomic design is methodology for creating design systems. There are five distinct levels in atomic design: Atoms, Molecules, Organisms, Templates, Pages.<br />
                 🔖 <strong>Why atomic design?</strong> In a lot of ways, this is how we’ve been doing things all along, even if we haven’t been consciously thinking about it in this specific way.<br />
@@ -1695,7 +1755,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="http://bradfrost.com/blog/post/atomic-web-design/#atoms">Atoms</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="http://bradfrost.com/blog/post/atomic-web-design/#atoms">Atoms</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 Atoms are the basic building blocks of matter. Applied to web interfaces, atoms are our HTML tags, such as a form label, an input or a button.<br />
                 🔖 Atoms can also include more abstract elements like color palettes, fonts and even more invisible aspects of an interface like animations.<br />
@@ -1703,7 +1763,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="http://bradfrost.com/blog/post/atomic-web-design/#molecules">Molecules</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="http://bradfrost.com/blog/post/atomic-web-design/#molecules">Molecules</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 Things start getting more interesting and tangible when we start combining atoms together. Molecules are groups of atoms bonded together and are the smallest fundamental units of a compound. These molecules take on their own properties and serve as the backbone of our design systems.<br />
                 🔖 For example, a form label, input or button aren’t too useful by themselves, but combine them together as a form and now they can actually do something together.<br />
@@ -1711,7 +1771,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="http://bradfrost.com/blog/post/atomic-web-design/#organisms">Organism</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="http://bradfrost.com/blog/post/atomic-web-design/#organisms">Organism</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 Molecules give us some building blocks to work with, and we can now combine them together to form organisms. Organisms are groups of molecules joined together to form a relatively complex, distinct section of an interface.<br />
                 🔖 Organisms can consist of similar and/or different molecule types. For example, a masthead organism might consist of diverse components like a logo, primary navigation, search form, and list of social media channels. But a “product grid” organism might consist of the same molecule (possibly containing a product image, product title and price) repeated over and over again.<br />
@@ -1719,14 +1779,14 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="http://bradfrost.com/blog/post/atomic-web-design/#templates">Templates</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="http://bradfrost.com/blog/post/atomic-web-design/#templates">Templates</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 At the template stage, we break our chemistry analogy to get into language that makes more sense to our clients and our final output. Templates consist mostly of groups of organisms stitched together to form pages. It’s here where we start to see the design coming together and start seeing things like layout in action.<br />
                 🔖 Templates are very concrete and provide context to all these relatively abstract molecules and organisms. Templates are also where clients start seeing the final design in place. In my experience working with this methodology, templates begin their life as HTML wireframes, but over time increase fidelity to ultimately become the final deliverable.<br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="http://bradfrost.com/blog/post/atomic-web-design/#pages">Pages</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="http://bradfrost.com/blog/post/atomic-web-design/#pages">Pages</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 Pages are specific instances of templates. Here, placeholder content is replaced with real representative content to give an accurate depiction of what a user will ultimately see.<br />
                 🔖 Pages are the highest level of fidelity and because they’re the most tangible, it’s typically where most people in the process spend most of their time and what most reviews revolve around.<br />
@@ -1742,7 +1802,7 @@
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 N/A</summary>
+          <summary style="color: #006400;">📖. N/A</summary>
         </details>
       </blockquote>
     </details>
@@ -1750,35 +1810,35 @@
       <summary style="color: #006400;">📗 Papillon Ads Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Design System Core</summary>
+          <summary style="color: #006400;">📖. Papillon Ads</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Product Microsites</summary>
+          <summary style="color: #006400;">📖. Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
@@ -1794,48 +1854,48 @@
     <details>
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
-        📝 Coming soon 🐬
+        To be documented soon
       </blockquote>
     </details>
     <details>
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
-        📝 Coming soon 🐬
+        To be documented soon
       </blockquote>
     </details>
     <details id="continuous-delivery-implementation">
       <summary style="color: #006400;">📗 Papillon Ads Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Design System Core</summary>
+          <summary style="color: #006400;">📖. Papillon Ads</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Product Microsites</summary>
+          <summary style="color: #006400;">📖. Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
@@ -1852,10 +1912,10 @@
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Service</summary>
+          <summary style="color: #006400;">📖. Service</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Travis CI</summary>
+              <summary style="color: #006400;">📃. Travis CI</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 <a style="color: #006400;" href="https://docs.travis-ci.com/">Travis CI Documentation</a></summary>
@@ -1868,10 +1928,10 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Branching Model</summary>
+          <summary style="color: #006400;">📖. Branching Model</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Git Flow</summary>
+              <summary style="color: #006400;">📃. Git Flow</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 <a style="color: #006400;" href="https://blog.axosoft.com/gitflow/">Axasoft Documentation</a></summary>
@@ -1904,10 +1964,10 @@
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Travis CI</summary>
+          <summary style="color: #006400;">📖. Travis CI</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://github.com/travis-ci">Continuous Integration and Deployment</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://github.com/travis-ci">Continuous Integration and Deployment</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://docs.travis-ci.com/">Documentation</a> for Travis CI<br />
                 🔖 <a style="color: #006400;" href="https://docs.travis-ci.com/user/enterprise/">Installation resources</a> for Travis CI Enterprise<br />
@@ -1921,35 +1981,35 @@
       <summary style="color: #006400;">📗 Papillon Ads Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Design System Core</summary>
+          <summary style="color: #006400;">📖. Papillon Ads</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Product Microsites</summary>
+          <summary style="color: #006400;">📖. Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
@@ -1966,10 +2026,10 @@
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 ES6 / ES2015</summary>
+          <summary style="color: #006400;">📖. ES6 / ES2015</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 From var to const/let</summary>
+              <summary style="color: #006400;">📃. From var to const/let</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Reference</summary>
@@ -2004,7 +2064,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 From objects to maps</summary>
+              <summary style="color: #006400;">📃. From objects to maps</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Reference</summary>
@@ -2037,7 +2097,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 New Array methods</summary>
+              <summary style="color: #006400;">📃. New Array methods</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Reference</summary>
@@ -2085,7 +2145,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 From CommonJS modules to ES6 modules</summary>
+              <summary style="color: #006400;">📃. From CommonJS modules to ES6 modules</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Reference</summary>
@@ -2120,10 +2180,10 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 ES7 / ES2016</summary>
+          <summary style="color: #006400;">📖. ES7 / ES2016</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Array.prototype.includes()</summary>
+              <summary style="color: #006400;">📃. Array.prototype.includes()</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Reference</summary>
@@ -2156,7 +2216,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Exponentiation operator (**)</summary>
+              <summary style="color: #006400;">📃. Exponentiation operator (**)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Reference</summary>
@@ -2191,10 +2251,10 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 ES8 / ES2017</summary>
+          <summary style="color: #006400;">📖. ES8 / ES2017</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Async function</summary>
+              <summary style="color: #006400;">📃. Async function</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Reference</summary>
@@ -2227,7 +2287,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Object.entries() and Object.values()</summary>
+              <summary style="color: #006400;">📃. Object.entries() and Object.values()</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Reference</summary>
@@ -2262,7 +2322,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 New string methods</summary>
+              <summary style="color: #006400;">📃. New string methods</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Reference</summary>
@@ -2296,7 +2356,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Object.getOwnPropertyDescriptors()</summary>
+              <summary style="color: #006400;">📃. Object.getOwnPropertyDescriptors()</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Reference</summary>
@@ -2329,7 +2389,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Trailing commas</summary>
+              <summary style="color: #006400;">📃. Trailing commas</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Reference</summary>
@@ -2366,10 +2426,10 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 ES9 / ES2018</summary>
+          <summary style="color: #006400;">📖. ES9 / ES2018</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Spread syntax and Rest syntax (parameters)</summary>
+              <summary style="color: #006400;">📃. Spread syntax and Rest syntax (parameters)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Reference</summary>
@@ -2406,7 +2466,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Promise.prototype.finally()</summary>
+              <summary style="color: #006400;">📃. Promise.prototype.finally()</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Reference</summary>
@@ -2441,10 +2501,10 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 ES10 / ES2019</summary>
+          <summary style="color: #006400;">📖. ES10 / ES2019</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Array.prototype.flat() and Array.prototype.flatMap()</summary>
+              <summary style="color: #006400;">📃. Array.prototype.flat() and Array.prototype.flatMap()</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Reference</summary>
@@ -2478,7 +2538,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Object.fromEntries()</summary>
+              <summary style="color: #006400;">📃. Object.fromEntries()</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Reference</summary>
@@ -2511,7 +2571,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 String.prototype.trimStart() and String.prototype.trimEnd()</summary>
+              <summary style="color: #006400;">📃. String.prototype.trimStart() and String.prototype.trimEnd()</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Reference</summary>
@@ -2545,7 +2605,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Optional catch binding</summary>
+              <summary style="color: #006400;">📃. Optional catch binding</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Reference</summary>
@@ -2578,7 +2638,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Array.prototype.sort()</summary>
+              <summary style="color: #006400;">📃. Array.prototype.sort()</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Reference</summary>
@@ -2611,7 +2671,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Function.prototype.toString() revision</summary>
+              <summary style="color: #006400;">📃. Function.prototype.toString() revision</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Reference</summary>
@@ -2651,7 +2711,7 @@
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 N/A</summary>
+          <summary style="color: #006400;">📖. N/A</summary>
         </details>
       </blockquote>
     </details>
@@ -2659,35 +2719,35 @@
       <summary style="color: #006400;">📗 Papillon Ads Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Design System Core</summary>
+          <summary style="color: #006400;">📖. Papillon Ads</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Product Microsites</summary>
+          <summary style="color: #006400;">📖. Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
@@ -2704,28 +2764,28 @@
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 ITCSS (Inverted Triangle CSS) Organization</summary>
+          <summary style="color: #006400;">📖. ITCSS (Inverted Triangle CSS) Organization</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://www.youtube.com/watch?v=1OKZOV-iLj4">Harry Roberts - Managing CSS Projects with ITCSS</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://www.youtube.com/watch?v=1OKZOV-iLj4">Harry Roberts - Managing CSS Projects with ITCSS</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 Managing CSS at scale is hard; and a lot harder than it should be. ITCSS is a simple, effective, and as-yet unpublished methodology to help manage, maintain, and scale CSS projects of all sizes. In this talk we’ll take a sneak peek at what ITCSS is and how it works to tame and control UI code as it grows.<br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://csswizardry.com/2018/11/itcss-and-skillshare/">ITCSS × Skillshare</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://csswizardry.com/2018/11/itcss-and-skillshare/">ITCSS × Skillshare</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 ITCSS video course<br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/">ITCSS: Scalable and Maintainable CSS Architecture</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/">ITCSS: Scalable and Maintainable CSS Architecture</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 How do I make my CSS scalable and maintainable? It’s a concern for every front-end developer. ITCSS has an answer.<br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://itcss.io/">ITCSS from CSS Wizardry</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://itcss.io/">ITCSS from CSS Wizardry</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 A sane, scalable, managed CSS architecture from CSS Wizardry<br />
               </blockquote>
@@ -2733,22 +2793,22 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 CSS Modules Scoping</summary>
+          <summary style="color: #006400;">📖. CSS Modules Scoping</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://css-tricks.com/css-modules-part-1-need/">What are CSS Modules and why do we need them?</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://css-tricks.com/css-modules-part-1-need/">What are CSS Modules and why do we need them?</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 I’ve been intrigued by CSS Modules lately. If you haven’t heard of them, this post is for you. We’ll be looking at the project and it’s goals and aims. If you’re intrigued, stay tuned, as the next post will be about how to get started using the idea. If you’re looking to implement or level up your usage, part 3 will be about using them in a React environment.<br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://css-tricks.com/css-modules-part-2-getting-started/">Getting Started with CSS Modules</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://css-tricks.com/css-modules-part-2-getting-started/">Getting Started with CSS Modules</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 There isn’t one single approach with CSS Modules to making the JavaScript templates, the CSS files, or the build steps to make them work. In this post, which is part of a series on CSS Modules, we’ll look at one approach. The goal of this post is to get a CSS Modules project up and running.<br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://css-tricks.com/css-modules-part-3-react/">CSS Modules and React</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://css-tricks.com/css-modules-part-3-react/">CSS Modules and React</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 In this final post of our series on CSS Modules, I’ll be taking a look at how to make a static React site with the thanks of Webpack. This static site will have two templates: a homepage and an about page with a couple of React components to explain how it works in practice.<br />
               </blockquote>
@@ -2756,16 +2816,16 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Desktop First Responsive Strategy</summary>
+          <summary style="color: #006400;">📖. Desktop First Responsive Strategy</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://bradfrost.com/blog/post/responsive-strategy/">Responsive strategy</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://bradfrost.com/blog/post/responsive-strategy/">Responsive strategy</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 Right now around 11 or 12% of the top 100,000 sites are responsive, and no doubt that number is slated to rise over the next few years.<br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://designmodo.com/desktop-first-design-responsive/">Desktop-First Design Tips for Responsive Websites</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://designmodo.com/desktop-first-design-responsive/">Desktop-First Design Tips for Responsive Websites</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 Most web designers know about mobile-first design and how it has dramatically affected responsive design. But there is another technique that may be less popular but can solve problems in a clearer fashion.<br />
                 🔖 With a desktop-first approach you can build all the features you want and create them to the highest specs. Then as you test on smaller devices you’ll focus on keeping the interface light while supporting as many “high-end” features as possible.<br />
@@ -2775,36 +2835,36 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Sass preprocessor scripting language</summary>
+          <summary style="color: #006400;">📖. Sass preprocessor scripting language</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://www.w3schools.com/sass/">Sass Tutorial</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://www.w3schools.com/sass/">Sass Tutorial</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 Sass is a CSS pre-processor.<br />
                 🔖 Sass reduces repetition of CSS and therefore saves time.<br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://sass-lang.com/">CSS with superpowers</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://sass-lang.com/">CSS with superpowers</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.<br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://css-tricks.com/sass-style-guide/">Sass Style Guide</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://css-tricks.com/sass-style-guide/">Sass Style Guide</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 With more people than ever writing in Sass, it bears some consideration how we format it. CSS style guides are common, so perhaps we can extend those to cover choices unique to Sass.<br />
                 🔖 Here are some ideas that I’ve been gravitating toward. Perhaps they are useful to you or help you formulate ideas of your own. If you’re looking for more examples, Sass Guidelines is another good place to look.<br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://css-tricks.com/sass-techniques-from-the-trenches/">Sass Techniques from the Trenches</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://css-tricks.com/sass-techniques-from-the-trenches/">Sass Techniques from the Trenches</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 Having been in the web development industry for more than 14 years, I’ve seen and written my fair share of good and bad CSS. When I began at Ramsey Solutions five years ago, I was introduced to Sass. It blew my mind how useful it was! I dove right in and wanted to learn everything I could about it. Over the past five years, I’ve utilized a number of different Sass techniques and patterns and fell in love with some that, to steal Apple’s phrase, just work.<br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://css-tricks.com/introducing-sass-modules/">Introducing Sass Modules</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://css-tricks.com/introducing-sass-modules/">Introducing Sass Modules</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 Sass just launched a major new feature you might recognize from other languages: a module system. This is a big step forward for @import. one of the most-used Sass-features.<br />
               </blockquote>
@@ -2812,16 +2872,16 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Layout</summary>
+          <summary style="color: #006400;">📖. Layout</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout">CSS Flexible Box Layout</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout">CSS Flexible Box Layout</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 CSS Flexible Box Layout is a module of CSS that defines a CSS box model optimized for user interface design, and the layout of items in one dimension. In the flex layout model, the children of a flex container can be laid out in any direction, and can “flex” their sizes, either growing to fill unused space or shrinking to avoid overflowing the parent. Both horizontal and vertical alignment of the children can be easily manipulated.<br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout">CSS Grid Layout</a></summary>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout">CSS Grid Layout</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 CSS Grid Layout excels at dividing a page into major regions or defining the relationship in terms of size, position, and layer, between parts of a control built from HTML primitives.<br />
                 🔖 Like tables, grid layout enables an author to align elements into columns and rows. However, many more layouts are either possible or easier with CSS grid than they were with tables. For example, a grid container's child elements could position themselves so they actually overlap and layer, similar to CSS positioned elements.<br />
@@ -2835,14 +2895,14 @@
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
           <details>
-            <summary style="color: #006400;">📖 Sass Loader</summary>
+            <summary style="color: #006400;">📖. Sass Loader</summary>
             <blockquote style="margin: 0; padding: 0 24px">
               🔖 <a style="color: #006400;" href="https://github.com/webpack-contrib/sass-loader">Sass Loader in Webpack Contrib</a> Compiles Sass to CSS<br />
               🔖 <a style="color: #006400;" href="https://webpack.js.org/loaders/sass-loader/"> Sass Loader in Webpack Docs</a> Loads a Sass/SCSS file and compiles it to CSS.<br />
             </blockquote>
           </details>
           <details>
-            <summary style="color: #006400;">📖 Node Sass</summary>
+            <summary style="color: #006400;">📖. Node Sass</summary>
             <blockquote style="margin: 0; padding: 0 24px">
               🔖 <a style="color: #006400;" href="https://github.com/sass/node-sass">Node.js bindings to libsass</a> Node-sass is a library that provides binding for Node.js to LibSass, the C version of the popular stylesheet preprocessor, Sass.<br />
               🔖 It allows you to natively compile .scss files to css at incredible speed and automatically via a connect middleware.<br />
@@ -2854,35 +2914,35 @@
       <summary style="color: #006400;">📗 Papillon Ads Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Design System Core</summary>
+          <summary style="color: #006400;">📖. Papillon Ads</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Product Microsites</summary>
+          <summary style="color: #006400;">📖. Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
@@ -2899,16 +2959,16 @@
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 JavaScript</summary>
+          <summary style="color: #006400;">📖. JavaScript</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 MDN</summary>
+              <summary style="color: #006400;">📃. MDN</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a> JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles. Read more about JavaScript.<br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 TC39</summary>
+              <summary style="color: #006400;">📃. TC39</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://tc39.es/ecma262/">ECMAScript® 2021 Language Specification</a> This document is the most accurate and up-to-date ECMAScript specification. It contains the content of the most recent yearly snapshot plus any finished proposals (those that have reached Stage 4 in the proposal process and thus are implemented in several implementations and will be in the next practical revision) since that snapshot was taken.<br />
               </blockquote>
@@ -2916,23 +2976,23 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 HTML</summary>
+          <summary style="color: #006400;">📖. HTML</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 MDN</summary>
+              <summary style="color: #006400;">📃. MDN</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML: Hypertext Markup Language</a> HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).<br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 W3C</summary>
+              <summary style="color: #006400;">📃. W3C</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://www.w3.org/TR/html53/">HTML 5.3 W3C Working Draft</a> This specification defines the 5th major version, third minor revision of the core language of the World Wide Web: the Hypertext Markup Language (HTML). In this version, new features continue to be introduced to help Web application authors, new elements continue to be introduced based on research into prevailing authoring practices, and special attention continues to be given to defining clear conformance criteria for user agents in an effort to improve interoperability.<br />
                 🔖 <a style="color: #006400;" href="https://www.w3.org/TR/html52/">HTML 5.2 W3C Recommendation</a> This specification defines the 5th major version, second minor revision of the core language of the World Wide Web: the Hypertext Markup Language (HTML). In this version, new features continue to be introduced to help Web application authors, new elements continue to be introduced based on research into prevailing authoring practices, and special attention continues to be given to defining clear conformance criteria for user agents in an effort to improve interoperability.<br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 WHATWG</summary>
+              <summary style="color: #006400;">📃. WHATWG</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://html.spec.whatwg.org/">HTML Living Standard</a> This specification defines a big part of the Web platform, in lots of detail. Its place in the Web platform specification stack relative to other specifications can be best summed up as follows:<br />
               </blockquote>
@@ -2940,16 +3000,16 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 CSS</summary>
+          <summary style="color: #006400;">📖. CSS</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 MDN</summary>
+              <summary style="color: #006400;">📃. MDN</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS: Cascading Style Sheets</a> Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.<br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 W3C</summary>
+              <summary style="color: #006400;">📃. W3C</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://www.w3.org/Style/CSS/specs.en.html">W3C Descriptions of all CSS specifications</a> This page contains descriptions of all specifications that the CSS WG is working on. See the ‘current work’ page for a compact view and how to give feedback.<br />
               </blockquote>
@@ -2962,10 +3022,10 @@
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 JavaScript</summary>
+          <summary style="color: #006400;">📖. JavaScript</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Ecma International, Technical Committee 39 - ECMAScript</summary>
+              <summary style="color: #006400;">📃. Ecma International, Technical Committee 39 - ECMAScript</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://github.com/tc39/ecma262"> Status, process, and documents for ECMA-262</a><br />
                 🔖 <a style="color: #006400;" href="https://github.com/tc39/proposals">Tracking ECMAScript Proposals</a><br />
@@ -2978,15 +3038,15 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 HTML</summary>
+          <summary style="color: #006400;">📖. HTML</summary>
           <blockquote style="margin: 0; padding: 0 24px">
-            📝 Coming soon 🐬
+            To be documented soon
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 CSS</summary>
+          <summary style="color: #006400;">📖. CSS</summary>
           <blockquote style="margin: 0; padding: 0 24px">
-            📝 Coming soon 🐬
+            To be documented soon
           </blockquote>
         </details>
       </blockquote>
@@ -2995,35 +3055,35 @@
       <summary style="color: #006400;">📗 Papillon Ads Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Design System Core</summary>
+          <summary style="color: #006400;">📖. Papillon Ads</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Product Microsites</summary>
+          <summary style="color: #006400;">📖. Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
@@ -3039,14 +3099,14 @@
     <details>
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
-        📝 Coming soon 🐬
+        To be documented soon
       </blockquote>
     </details>
     <details>
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Webpack DevServer</summary>
+          <summary style="color: #006400;">📖. Webpack DevServer</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://github.com/webpack/webpack-dev-server">Webpack DevServer in Webpack</a> Serves a webpack app. Updates the browser on changes<br />
             🔖 <a style="color: #006400;" href="https://webpack.js.org/configuration/dev-server/"> Webpack DevServer in Webpack Docs</a> webpack-dev-server can be used to quickly develop an application. See the development guide to get started<br />
@@ -3058,35 +3118,35 @@
       <summary style="color: #006400;">📗 Papillon Ads Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Design System Core</summary>
+          <summary style="color: #006400;">📖. Papillon Ads</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Product Microsites</summary>
+          <summary style="color: #006400;">📖. Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
@@ -3102,48 +3162,48 @@
     <details>
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
-        📝 Coming soon 🐬
+        To be documented soon
       </blockquote>
     </details>
     <details>
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
-        📝 Coming soon 🐬
+        To be documented soon
       </blockquote>
     </details>
     <details id="microsite-implementation">
       <summary style="color: #006400;">📗 Papillon Ads Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Design System Core</summary>
+          <summary style="color: #006400;">📖. Papillon Ads</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Product Microsites</summary>
+          <summary style="color: #006400;">📖. Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
@@ -3159,16 +3219,16 @@
     <details>
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
-        📝 Coming soon 🐬
+        To be documented soon
       </blockquote>
     </details>
     <details>
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Lerna</summary>
+          <summary style="color: #006400;">📖. Lerna</summary>
           <blockquote style="margin: 0; padding: 0 24px">
-            📝 Coming soon 🐬
+            To be documented soon
           </blockquote>
         </details>
       </blockquote>
@@ -3177,35 +3237,35 @@
       <summary style="color: #006400;">📗 Papillon Ads Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Design System Core</summary>
+          <summary style="color: #006400;">📖. Papillon Ads</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Product Microsites</summary>
+          <summary style="color: #006400;">📖. Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
@@ -3221,16 +3281,16 @@
     <details>
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
-        📝 Coming soon 🐬
+        To be documented soon
       </blockquote>
     </details>
     <details>
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 React</summary>
+          <summary style="color: #006400;">📖. React</summary>
           <blockquote style="margin: 0; padding: 0 24px">
-            📝 Coming soon 🐬
+            To be documented soon
           </blockquote>
         </details>
       </blockquote>
@@ -3239,35 +3299,35 @@
       <summary style="color: #006400;">📗 Papillon Ads Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Design System Core</summary>
+          <summary style="color: #006400;">📖. Papillon Ads</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Product Microsites</summary>
+          <summary style="color: #006400;">📖. Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
@@ -3283,16 +3343,16 @@
     <details>
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
-        📝 Coming soon 🐬
+        To be documented soon
       </blockquote>
     </details>
     <details>
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 React Router</summary>
+          <summary style="color: #006400;">📖. React Router</summary>
           <blockquote style="margin: 0; padding: 0 24px">
-            📝 Coming soon 🐬
+            To be documented soon
           </blockquote>
         </details>
       </blockquote>
@@ -3301,35 +3361,35 @@
       <summary style="color: #006400;">📗 Papillon Ads Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Design System Core</summary>
+          <summary style="color: #006400;">📖. Papillon Ads</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Product Microsites</summary>
+          <summary style="color: #006400;">📖. Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
@@ -3346,38 +3406,38 @@
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Client</summary>
+          <summary style="color: #006400;">📖. Client</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Google Chrome</summary>
+              <summary style="color: #006400;">📃. Google Chrome</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://developer.chrome.com/home">Google Documentation</a><br />
                 🔖 <a style="color: #006400;" href="https://www.google.com/chrome/">Download</a><br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Mozilla Firefox</summary>
+              <summary style="color: #006400;">📃. Mozilla Firefox</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://developer.mozilla.org/en-US/docs/Mozilla/Firefox">Mozilla Documentation</a><br />
                 🔖 <a style="color: #006400;" href="https://www.mozilla.org/en-US/firefox/new/">Download</a><br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Apple Safari</summary>
+              <summary style="color: #006400;">📃. Apple Safari</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://developer.apple.com/library/archive/navigation/index.html?filter=safari">Apple Documentation</a><br />
                 🔖 <a style="color: #006400;" href="https://www.apple.com/safari/">Download</a><br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Microsoft Edge</summary>
+              <summary style="color: #006400;">📃. Microsoft Edge</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://docs.microsoft.com/en-us/microsoft-edge/">Microsoft Documentation</a><br />
                 🔖 <a style="color: #006400;" href="https://www.microsoft.com/en-us/edge/">Download</a><br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Microsoft IE11</summary>
+              <summary style="color: #006400;">📃. Microsoft IE11</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://docs.microsoft.com/en-us/internet-explorer/">Microsoft Documentation</a><br />
                 🔖 <a style="color: #006400;" href="https://support.microsoft.com/en-us/help/18520/download-internet-explorer-11-offline-installer">Download</a><br />
@@ -3386,10 +3446,10 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Server</summary>
+          <summary style="color: #006400;">📖. Server</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Node.JS</summary>
+              <summary style="color: #006400;">📃. Node.JS</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://nodejs.org/en/docs/">Node.JS Documentation</a><br />
                 🔖 <a style="color: #006400;" href="https://nodejs.org/en/">Download</a><br />
@@ -3403,45 +3463,45 @@
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Client</summary>
+          <summary style="color: #006400;">📖. Client</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Google Chrome</summary>
+              <summary style="color: #006400;">📃. Google Chrome</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://github.com/googlechrome">GitHub Organization</a><br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Mozilla Firefox</summary>
+              <summary style="color: #006400;">📃. Mozilla Firefox</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://github.com/mozilla">GitHub Organization</a><br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Apple Safari</summary>
+              <summary style="color: #006400;">📃. Apple Safari</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Microsoft Edge</summary>
+              <summary style="color: #006400;">📃. Microsoft Edge</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://github.com/MicrosoftEdge">GitHub Organization</a><br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Microsoft IE11</summary>
+              <summary style="color: #006400;">📃. Microsoft IE11</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Server</summary>
+          <summary style="color: #006400;">📖. Server</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Node.JS</summary>
+              <summary style="color: #006400;">📃. Node.JS</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://github.com/nodejs">GitHub Organization</a><br />
               </blockquote>
@@ -3454,35 +3514,35 @@
       <summary style="color: #006400;">📗 Papillon Ads Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Design System Core</summary>
+          <summary style="color: #006400;">📖. Papillon Ads</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Product Microsites</summary>
+          <summary style="color: #006400;">📖. Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
@@ -3499,16 +3559,16 @@
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Unit Testing</summary>
+          <summary style="color: #006400;">📖. Unit Testing</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Jest</summary>
+              <summary style="color: #006400;">📃. Jest</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://jestjs.io/docs/en/getting-started">Getting Started</a><br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Jest API</summary>
@@ -3636,22 +3696,22 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Integration Testing</summary>
+          <summary style="color: #006400;">📖. Integration Testing</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Jest</summary>
+              <summary style="color: #006400;">📃. Jest</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://jestjs.io/docs/en/getting-started">Getting Started</a><br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Storybook</summary>
+              <summary style="color: #006400;">📃. Storybook</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://storybook.js.org/docs/basics/introduction/">Introduction</a> Storybook is a user interface development environment and playground for UI components. The tool enables developers to create components independently and showcase components interactively in an isolated development environment.<br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Jest API</summary>
@@ -3692,10 +3752,10 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 End to end Testing</summary>
+          <summary style="color: #006400;">📖. End to end Testing</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Puppeteer</summary>
+              <summary style="color: #006400;">📃. Puppeteer</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://developers.google.com/web/tools/puppeteer/get-started">Quick start</a><br />
               </blockquote>
@@ -3708,10 +3768,10 @@
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Unit Testing</summary>
+          <summary style="color: #006400;">📖. Unit Testing</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Jest</summary>
+              <summary style="color: #006400;">📃. Jest</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://jestjs.io/">Website</a><br />
                 🔖 <a style="color: #006400;" href="https://github.com/facebook/jest">GitHub Repository</a><br />
@@ -3720,17 +3780,17 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Integration Testing</summary>
+          <summary style="color: #006400;">📖. Integration Testing</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Jest</summary>
+              <summary style="color: #006400;">📃. Jest</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://jestjs.io/">Website</a><br />
                 🔖 <a style="color: #006400;" href="https://github.com/facebook/jest">GitHub Repository</a><br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Storybook</summary>
+              <summary style="color: #006400;">📃. Storybook</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://storybook.js.org/">Website</a><br />
                 🔖 <a style="color: #006400;" href="https://github.com/storybookjs/storybook">GitHub Repository</a><br />
@@ -3739,10 +3799,10 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 End to end Testing</summary>
+          <summary style="color: #006400;">📖. End to end Testing</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Puppeteer</summary>
+              <summary style="color: #006400;">📃. Puppeteer</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://pptr.dev/">Website</a><br />
                 🔖 <a style="color: #006400;" href="https://github.com/puppeteer/puppeteer">GitHub Repository</a><br />
@@ -3756,27 +3816,27 @@
       <summary style="color: #006400;">📗 Papillon Ads Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Design System Core</summary>
+          <summary style="color: #006400;">📖. Papillon Ads</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Product Microsites</summary>
+          <summary style="color: #006400;">📖. Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Unit Testing</summary>
+              <summary style="color: #006400;">📃. Unit Testing</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Unit tests run by Jest</summary>
@@ -3795,12 +3855,12 @@
                         ✎ "report-coverage": "codecov"</br>
                       </blockquote>
                     </details>
-                   </blockquote>
+                  </blockquote>
                 </details>
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Integration Testing</summary>
+              <summary style="color: #006400;">📃. Integration Testing</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Snaphot tests run by Jest</summary>
@@ -3842,13 +3902,13 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 End to end Testing</summary>
+              <summary style="color: #006400;">📃. End to end Testing</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">📄 Using mock store with mock state</summary>
@@ -3898,21 +3958,21 @@
       <summary style="color: #006400;">📗 Specifications/Standards/Guidelines</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Git</summary>
+          <summary style="color: #006400;">📖. Git</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://git-scm.com/">Git SCM</a> Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.<br />
             🔖 <a style="color: #006400;" href="https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud">Git Commands</a> Learn Git with Bitbucket Cloud<br />
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Git Hooks</summary>
+          <summary style="color: #006400;">📖. Git Hooks</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://git-scm.com/docs/githooks">Git SCM Documentation</a> Hooks are programs you can place in a hooks directory to trigger actions at certain points in git’s execution. Hooks that don’t have the executable bit set are ignored. <br />
             🔖 <a style="color: #006400;" href="https://www.atlassian.com/git/tutorials/git-hooks">Atlassian Documentation</a> Git hooks are scripts that run automatically every time a particular event occurs in a Git repository. They let you customize Git’s internal behavior and trigger customizable actions at key points in the development life cycle.<br />
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 GitHub</summary>
+          <summary style="color: #006400;">📖. GitHub</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 <a style="color: #006400;" href="https://www.githubstatus.com/">Status</a><br />
             🔖 <a style="color: #006400;" href="https://guides.github.com/">Guides</a><br />
@@ -3932,10 +3992,10 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Git Client</summary>
+          <summary style="color: #006400;">📖. Git Client</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://www.gitkraken.com/">Git Kraken</a><br />
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://www.gitkraken.com/">Git Kraken</a><br />
                 <blockquote style="margin: 0; padding: 0 24px">
                 🔖 The coolest, the finest and the best Git client in the world 👌<br />
                 🔖 Over 1.5 Million GitKraken Users❗<br />
@@ -3944,7 +4004,7 @@
               </summary>
             </details>
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://www.sublimemerge.com/">Sublime Merge</a>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://www.sublimemerge.com/">Sublime Merge</a>
                 <blockquote style="margin: 0; padding: 0 24px">
                 🔖 Meet a new Git Client, from the makers of Sublime Text<br />
                 🔖 It's alright<br />
@@ -3952,7 +4012,7 @@
               </summary>
             </details>
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://desktop.github.com/">GitHub Desktop</a>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://desktop.github.com/">GitHub Desktop</a>
                 <blockquote style="margin: 0; padding: 0 24px">
                 🔖 Focus on what matters instead of fighting with Git<br />
                 🔖 It's alright<br />
@@ -3960,7 +4020,7 @@
               </summary>
             </details>
             <details>
-              <summary style="color: #006400;">📃 <a style="color: #006400;" href="https://www.sourcetreeapp.com/">Sourcetree</a>
+              <summary style="color: #006400;">📃. <a style="color: #006400;" href="https://www.sourcetreeapp.com/">Sourcetree</a>
                 <blockquote style="margin: 0; padding: 0 24px">
                 🔖 Simplicity and power in a beautiful Git GUI<br />
                 🔖 It's alright<br />
@@ -3975,22 +4035,22 @@
       <summary style="color: #006400;">📗 Open Source Dependency Projects</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Git</summary>
+          <summary style="color: #006400;">📖. Git</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 N/A
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Git Hooks</summary>
+          <summary style="color: #006400;">📖. Git Hooks</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Husky</summary>
+              <summary style="color: #006400;">📃. Husky</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://github.com/typicode/husky"> Git hooks made easy</a><br />
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Lint Staged</a></summary>
+              <summary style="color: #006400;">📃. Lint Staged</a></summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 🔖 <a style="color: #006400;" href="https://github.com/okonet/lint-staged">Run linters on git staged files</a><br />
               </blockquote>
@@ -3998,13 +4058,13 @@
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 GitHub</summary>
+          <summary style="color: #006400;">📖. GitHub</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 N/A
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Git Client</summary>
+          <summary style="color: #006400;">📖. Git Client</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             🔖 N/A
           </blockquote>
@@ -4015,27 +4075,27 @@
       <summary style="color: #006400;">📗 Papillon Ads Implementation</summary>
       <blockquote style="margin: 0; padding: 0 24px">
         <details>
-          <summary style="color: #006400;">📖 Design System Core</summary>
+          <summary style="color: #006400;">📖. Papillon Ads</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Setup file(s)</summary>
+              <summary style="color: #006400;">📃. Setup file(s)</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Knowledge base</summary>
+              <summary style="color: #006400;">📃. Knowledge base</summary>
               <blockquote style="margin: 0; padding: 0 24px">
-                📝 Coming soon 🐬
+                To be documented soon
               </blockquote>
             </details>
           </blockquote>
         </details>
         <details>
-          <summary style="color: #006400;">📖 Product Microsites</summary>
+          <summary style="color: #006400;">📖. Microsites</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             <details>
-              <summary style="color: #006400;">📃 Git</summary>
+              <summary style="color: #006400;">📃. Git</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">🔖 N/A</summary>
@@ -4043,7 +4103,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Git Hooks</summary>
+              <summary style="color: #006400;">📃. Git Hooks</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">🔖 Setup file(s)</summary>
@@ -4061,13 +4121,13 @@
                 <details>
                   <summary style="color: #006400;">🔖 Knowledge base</summary>
                   <blockquote style="margin: 0; padding: 0 24px">
-                    📝 Coming soon 🐬
+                    To be documented soon
                   </blockquote>
                 </details>
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 GitHub</summary>
+              <summary style="color: #006400;">📃. GitHub</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">🔖 N/A</summary>
@@ -4075,7 +4135,7 @@
               </blockquote>
             </details>
             <details>
-              <summary style="color: #006400;">📃 Git Client</summary>
+              <summary style="color: #006400;">📃. Git Client</summary>
               <blockquote style="margin: 0; padding: 0 24px">
                 <details>
                   <summary style="color: #006400;">🔖 N/A</summary>
