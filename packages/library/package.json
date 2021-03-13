@@ -17,6 +17,7 @@
     "boolean/",
     "browser/",
     "date/",
+    "event/",
     "hooks/",
     "number/",
     "object/",
