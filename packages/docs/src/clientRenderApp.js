@@ -1,9 +1,9 @@
 import React from 'react'
-import { primer } from '@papillonads/components'
 import ReactDOM from 'react-dom'
 import { withRouter } from 'react-router'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import { checkAccessibilityIssues } from '@papillonads/library/a11y'
+import { primer } from '@papillonads/components'
 import { NotAuthorized, isUserAuthenticatedPapillonAdsOrganizationMember } from '@papillonads/library/auth'
 import { homePageRoute, conceptPageRoute, componentsPageRoute, notFoundPageRoute } from './route'
 

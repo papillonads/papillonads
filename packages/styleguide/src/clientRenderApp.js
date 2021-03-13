@@ -2,7 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { withRouter } from 'react-router'
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
-import { a11y } from '@papillonads/library'
+import { checkAccessibilityIssues } from '@papillonads/library/a11y'
+import { primer } from '@papillonads/components'
 import {
   appRootRoute,
   docsPageRoute,
@@ -13,10 +14,10 @@ import {
   componentsPageRoute,
   notFoundPageRoute,
 } from './route'
-import { ErrorBoundary } from './pattern/atom/ErrorBoundary'
 
-a11y.checkAccessibilityIssues(React, ReactDOM, 1000)
 export function App() {
+  const { ErrorBoundary } = primer
+
   return (
     <ErrorBoundary>
       <BrowserRouter>
@@ -313,8 +314,15 @@ export function App() {
   )
 }
 
-ReactDOM.hydrate(<App />, document.getElementById('app'))
+/* istanbul ignore next */
+function renderApp() {
+  checkAccessibilityIssues(React, ReactDOM, 1000)
 
-if (module.hot) {
-  module.hot.accept()
+  ReactDOM.hydrate(<App />, document.getElementById('app'))
+
+  if (module.hot) {
+    module.hot.accept()
+  }
 }
+
+renderApp()
