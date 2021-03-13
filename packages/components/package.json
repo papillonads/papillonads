@@ -30,6 +30,6 @@
   },
   "dependencies": {
     "@papillonads/css": "^1.10.1",
-    "@papillonads/library": "^1.10.1"
+    "@papillonads/library": "^1.10.0"
   }
 }
