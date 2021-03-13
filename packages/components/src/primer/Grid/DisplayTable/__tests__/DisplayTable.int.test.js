@@ -1,9 +1,9 @@
-import { renderDefault } from './DisplayTable.int.render'
+import { regular } from './DisplayTable.int.story'
 
 describe('<DisplayTable />', () => {
   describe('Render', () => {
-    test('must match renderDefault()', () => {
-      expect(global.renderToJSON(renderDefault())).toMatchSnapshot()
+    test('must match regular()', () => {
+      expect(global.renderToJSON(regular())).toMatchSnapshot()
     })
   })
 })
