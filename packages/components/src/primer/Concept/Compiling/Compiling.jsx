@@ -107,8 +107,7 @@ export function ProductMicrosites({ className }) {
         <a href="https://jestjs.io/docs/en/getting-started#using-babel">Jest</a>
       </div>
       <div>
-        ﹘<a href="https://github.com/papillonads/marketplace/blob/master/packages/core/webpack.common.js">webpack.common.js</a> for regular
-        build
+        ﹘<a href="https://github.com/papillonads/marketplace/blob/master/packages/core/webpack.common.js">webpack.common.js</a> for regular build
       </div>
       <div>
         ﹘<a href="https://github.com/papillonads/marketplace/blob/master/.storybook/.babelrc">.babelrc</a> for storybook build
@@ -125,20 +124,19 @@ export function ProductMicrosites({ className }) {
         ﹘<a href="https://github.com/papillonads/marketplace/blob/master/packages/core/webpack.settings.js">webpack.settings.js</a>
       </div>
       <div>
-        ﹘<a href="https://github.com/papillonads/marketplace/blob/master/packages/core/webpack.common.js">webpack.common.js</a> shared by
-        regular development and production builds
+        ﹘<a href="https://github.com/papillonads/marketplace/blob/master/packages/core/webpack.common.js">webpack.common.js</a> shared by regular
+        development and production builds
       </div>
       <div>
-        ﹘<a href="https://github.com/papillonads/marketplace/blob/master/packages/core/webpack.dev.js">webpack.dev.js</a> for regular
+        ﹘<a href="https://github.com/papillonads/marketplace/blob/master/packages/core/webpack.develop.js">webpack.develop.js</a> for regular
         development build
       </div>
       <div>
-        ﹘<a href="https://github.com/papillonads/marketplace/blob/master/packages/core/webpack.prod.js">webpack.prod.js</a> for regular
+        ﹘<a href="https://github.com/papillonads/marketplace/blob/master/packages/core/webpack.release.js">webpack.release.js</a> for regular
         production build
       </div>
       <div>
-        ﹘<a href="https://github.com/papillonads/marketplace/blob/master/.storybook/webpack.config.js">webpack.config.js</a> for storybook
-        build
+        ﹘<a href="https://github.com/papillonads/marketplace/blob/master/.storybook/webpack.config.js">webpack.config.js</a> for storybook build
       </div>
       <h6>📝. Script(s)</h6>
       <div>﹘&quot;build&quot;: &quot;webpack --config ./webpack/webpack-build.babel.js --mode=production&quot;</div>
