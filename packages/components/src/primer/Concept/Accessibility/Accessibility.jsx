@@ -1,5 +1,5 @@
 import React from 'react'
-import { propTypes, defaultProps } from './Accesibility.prop'
+import { propTypes, defaultProps } from './Accessibility.prop'
 
 export function SpecificationsStandardsGuidelines({ className }) {
   return (
@@ -92,9 +92,11 @@ export function OpenSourceDependencyProjects({ className }) {
         pages while integrated into existing CI/CD processes. It’s simple to use, doesn’t require advanced accessibility knowledge and won’t
         waste your time with false positives.
       </div>
-      <h3>📖. React Axe</h3>
+      <h3>📖. @axe-core/react</h3>
       <h4>
-        <a href="https://github.com/dequelabs/react-axe">📃. Accessibility auditing for React.js applications</a>
+        <a href="https://github.com/dequelabs/axe-core-npm/tree/develop/packages/react">
+          📃. Accessibility auditing for React.js applications
+        </a>
       </h4>
       <div>
         ﹘ Test your React application with the axe-core accessibility testing library. Results will show in the Chrome DevTools console.
@@ -142,12 +144,12 @@ export function DesignSystemCore({ className }) {
         <a href="https://github.com/evcohen/eslint-plugin-jsx-a11y">eslint-plugin-jsx-a11y</a>
       </div>
       <div>
-        ﹘<a href="https://github.com/papillonads/papillonads/blob/master/.storybook/main.js">.storybook/main.js</a> lets Storybook make use
-        of <a href="https://github.com/storybookjs/storybook/tree/next/addons/a11y">@storybook/addon-a11y</a>
+        ﹘<a href="https://github.com/papillonads/papillonads/blob/master/.storybook/main.js">.storybook/main.js</a> lets Storybook make use of{' '}
+        <a href="https://github.com/storybookjs/storybook/tree/next/addons/a11y">@storybook/addon-a11y</a>
       </div>
       <div>
-        ﹘<a href="https://github.com/papillonads/papillonads/blob/master/.storybook/preview.js">.storybook/preview.js</a> lets Storybook
-        make use of <a href="https://github.com/storybookjs/storybook/blob/next/addons/a11y/src/index.ts#L98">withA11y</a> decorator
+        ﹘<a href="https://github.com/papillonads/papillonads/blob/master/.storybook/preview.js">.storybook/preview.js</a> lets Storybook make use
+        of <a href="https://github.com/storybookjs/storybook/blob/next/addons/a11y/src/index.ts#L98">withA11y</a> decorator
       </div>
       <h4>📃. Knowledge base</h4>
       <div>﹘ Coming soon.</div>
@@ -174,7 +176,7 @@ export function ProductMicrosites({ className }) {
 ProductMicrosites.propTypes = propTypes
 ProductMicrosites.defaultProps = defaultProps
 
-export const Accesibility = {
+export const Accessibility = {
   SpecificationsStandardsGuidelines,
   OpenSourceDependencyProjects,
   Implementation: {

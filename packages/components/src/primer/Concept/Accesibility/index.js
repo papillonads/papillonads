@@ -1,1 +1,0 @@
-export { Accesibility } from './Accesibility'

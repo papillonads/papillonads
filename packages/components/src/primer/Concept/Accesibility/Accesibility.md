@@ -1,3 +1,0 @@
-# Accesibility
-
-📝 Coming soon 🐬
