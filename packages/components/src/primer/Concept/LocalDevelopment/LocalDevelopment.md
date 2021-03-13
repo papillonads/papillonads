@@ -1,3 +1,0 @@
-# LocalDevelopment
-
-📝 Coming soon 🐬
