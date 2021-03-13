@@ -1,6 +1,10 @@
 @import '~@papillonads/css/build/primer/support/variables/colors.scss';
+@import '../../index.scss';
 
-.readOnly {
-  pointer-events: none;
-  background-color: $border-gray;
+// custom-style
+.input-inactive {
+  @include inactive;
+
+  color: $gray-400 !important;
+  background-color: $border-gray !important;
 }
