@@ -1,4 +1,4 @@
-import { Accesibility } from './Accesibility'
+import { Accessibility } from './Accessibility'
 import { ApplicationArchitecture } from './ApplicationArchitecture'
 import { Bootstrap } from './Bootstrap'
 import { CodeStyle } from './CodeStyle'
@@ -20,7 +20,7 @@ import { Testing } from './Testing'
 import { VersionControl } from './VersionControl'
 
 export const Concept = {
-  Accesibility,
+  Accessibility,
   ApplicationArchitecture,
   Bootstrap,
   CodeStyle,
