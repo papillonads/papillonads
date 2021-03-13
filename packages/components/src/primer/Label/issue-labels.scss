@@ -1,8 +1,7 @@
 @import '~@papillonads/css/build/primer/support/variables/typography.scss';
 @import '~@papillonads/css/build/primer/support/variables/misc.scss';
-
-/* stylelint-disable at-rule-no-unknown */
 @import './mixins.scss';
+
 // Issue Labels
 
 // TODO: Replace with .Label once solid backgrounds are supported
@@ -26,4 +25,3 @@
 .IssueLabel--big {
   @include labels-large;
 }
-/* stylelint-enable at-rule-no-unknown */
