@@ -1,8 +1,9 @@
 import { DisplayTable } from './DisplayTable'
-import { FlexGrid, flexGridSelection } from './FlexGrid'
+import { FlexGrid, flexGridSelection, flexGridState } from './FlexGrid'
 
 export const Grid = {
   DisplayTable,
   FlexGrid,
   flexGridSelection,
+  flexGridState,
 }
