@@ -1,24 +1,32 @@
-import { storiesOf } from '@storybook/react'
-import {
-  renderSpecificationsStandardsGuidelines,
-  renderOpenSourceDependencyProjects,
-  renderDesignSystemCore,
-  renderProductMicrosites,
-} from './Bootstrap.int.render'
-import notes from '../Bootstrap.md'
+import React from 'react'
+import { withTests } from '@storybook/addon-jest'
+import results from '../../../../../../../.jest-test-results.json'
 
-storiesOf('Primer|Atom/Concept/Bootstrap', module)
-  .add('SpecificationsStandardsGuidelines', renderSpecificationsStandardsGuidelines, {
-    notes,
-  })
-  .add('OpenSourceDependencyProjects', renderOpenSourceDependencyProjects, {
-    notes,
-  })
+const Bootstrap =
+  process.env.NODE_ENV === 'develop' || process.env.NODE_ENV === 'test'
+    ? require('../../../../index').primer.Concept.Bootstrap
+    : require('../../../../../build').primer.Concept.Bootstrap
 
-storiesOf('Primer|Atom/Concept/Bootstrap/Implementation', module)
-  .add('DesignSystemCore', renderDesignSystemCore, {
-    notes,
-  })
-  .add('ProductMicrosites', renderProductMicrosites, {
-    notes,
-  })
+export default {
+  title: 'Primer/Template/Concept/Bootstrap',
+  component: Bootstrap,
+  decorators: [withTests({ results })],
+  parameters: { jest: ['Bootstrap.int.test.js'] },
+  excludeStories: ['custom'],
+}
+
+export function specificationsStandardsGuidelines() {
+  return <Bootstrap.SpecificationsStandardsGuidelines />
+}
+
+export function openSourceDependencyProjects() {
+  return <Bootstrap.OpenSourceDependencyProjects />
+}
+
+export function designSystemCore() {
+  return <Bootstrap.Implementation.DesignSystemCore />
+}
+
+export function productMicrosites() {
+  return <Bootstrap.Implementation.ProductMicrosites />
+}
