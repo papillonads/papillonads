@@ -1,29 +1,56 @@
 # TabNav
 
-- Default TabNav
-- TabNav With Button Actions
-- TabNav With Text Actions
-- TabNav With Link Actions
-- TabNav With Navigation
+> When you need to toggle between different views, consider using a tabnav. It'll give you a left-aligned horizontal row of tabs.
 
-> When you need to toggle between different views, consider using a tabnav. It'll give you a left-aligned horizontal row of... tabs!
+# Variants
 
-## Default TabNav
+> - Default
+> - WithButtonActions, WithTextActions, WithLinkActions
+> - WithNavigation, WithMixedEnabledVisibleItems
+> - Inactive
 
-📝 Coming soon 🐬
+## Default
 
-## TabNav With Button Actions
+```jsx
+<TabNav ariaAttr={ariaAttr} items={defaultItems} onClick={action('onClick')} />
+```
 
-📝 Coming soon 🐬
+## WithButtonActions
 
-## TabNav With Text Actions
+```jsx
+<TabNav ariaAttr={ariaAttr} items={defaultItems} actions={buttonActions} onClick={action('onClick')} />
+```
 
-📝 Coming soon 🐬
+## WithTextActions
 
-## TabNav With Link Actions
+```jsx
+<TabNav ariaAttr={ariaAttr} items={defaultItems} actions={textActions} onClick={action('onClick')} />
+```
 
-📝 Coming soon 🐬
+## WithLinkActions
 
-## TabNav With Navigation
+```jsx
+<TabNav ariaAttr={ariaAttr} items={defaultItems} actions={linkActions} onClick={action('onClick')} />
+```
 
-📝 Coming soon 🐬.
+## WithNavigation
+
+```jsx
+<BrowserRouter>
+  <TabNav ariaAttr={ariaAttr} items={navigationItems} onClick={action('onClick')} />
+</BrowserRouter>
+```
+
+## WithMixedEnabledVisibleItems
+
+```jsx
+<BrowserRouter>
+  <TabNav ariaAttr={ariaAttr} items={mixedEnabledVisibleItems} onClick={action('onClick')} />
+</BrowserRouter>
+```
+
+## Inactive
+
+```jsx
+<TabNav ariaAttr={ariaAttr} items={defaultItems} onClick={action('onClick')} state={tabNavState.inactive} />
+```
