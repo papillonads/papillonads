@@ -34,7 +34,7 @@ export const stripIds = [
   'version-control-implementation',
   'components-package',
   'css-package',
-  'libarary-package',
+  'library-package',
 ]
 
 export function createElement(tag, innerHTML) {
