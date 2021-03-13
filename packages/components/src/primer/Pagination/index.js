@@ -1,5 +1,6 @@
-import { PreviousNext } from './PreviousNext'
+import { PreviousNext, previousNextState } from './PreviousNext'
 
 export const Pagination = {
   PreviousNext,
+  previousNextState,
 }
