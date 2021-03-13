@@ -4,8 +4,6 @@ export const stripIds = [
   'badges',
   'logo',
   'heading',
-  'status',
-  'status-quote',
   'intro',
   'intro-quote',
   'packages',
@@ -34,7 +32,9 @@ export const stripIds = [
   'version-control-implementation',
   'components-package',
   'css-package',
+  'docs-package',
   'library-package',
+  'styleguide-package',
 ]
 
 export function createElement(tag, innerHTML) {
