@@ -1,9 +1,35 @@
-import { storiesOf } from '@storybook/react'
-import { renderHeading, renderText, renderLabel, renderButton } from './Loader.int.render'
-import notes from '../Loader.md'
+import React from 'react'
+import { withTests } from '@storybook/addon-jest'
+import { loaderVariant } from '../Loader.prop'
+import results from '../../../../../../.jest-test-results.json'
 
-storiesOf('Primer|Atom/Loader', module)
-  .add('Heading', renderHeading, { notes })
-  .add('Text', renderText, { notes })
-  .add('Label', renderLabel, { notes })
-  .add('Button', renderButton, { notes })
+const Loader =
+  process.env.NODE_ENV === 'develop' || process.env.NODE_ENV === 'test'
+    ? require('../../../index').primer.Loader.Loader
+    : require('../../../../build').primer.Loader.Loader
+
+export default {
+  title: 'Primer/Atom/Loader',
+  component: Loader,
+  decorators: [withTests({ results })],
+  parameters: { jest: ['Loader.int.test.js'] },
+  excludeStories: ['textValue', 'custom'],
+}
+
+const textValue = 'Loading'
+
+export function heading() {
+  return <Loader variant={loaderVariant.heading} text={textValue} />
+}
+
+export function text() {
+  return <Loader variant={loaderVariant.text} text={textValue} />
+}
+
+export function label() {
+  return <Loader variant={loaderVariant.label} text={textValue} />
+}
+
+export function button() {
+  return <Loader variant={loaderVariant.button} text={textValue} />
+}
