@@ -1,15 +1,21 @@
 import React from 'react'
+import { primer } from '@papillonads/components'
 import { Link } from 'react-router-dom'
 import { homePagePath } from '../../../route/path'
-import { NoMatch } from '../../atom/NoMatch'
 import { defaultProps, propTypes } from './NotFoundTemplate.prop'
+
+const {
+  Alert: { Alert, alertVariant },
+} = primer
 
 export function NotFoundTemplate({ location }) {
   return (
-    <div>
-      <NoMatch location={location} />
-      Back to <Link to={homePagePath}>Home Page</Link>
-    </div>
+    <React.Fragment>
+      <Alert className={alert} variant={alertVariant.error}>
+        {`No match for '${location.pathname}'. Return to `}
+        <Link to={homePagePath}>home page.</Link>
+      </Alert>
+    </React.Fragment>
   )
 }
 
