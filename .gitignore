@@ -29,6 +29,10 @@ packages/CSS/node_modules
 # NPM Papillon Ads Docs Package
 packages/docs/build
 packages/docs/node_modules
+packages/docs/.env.develop
+packages/docs/.env.test
+packages/docs/.env.acceptance
+packages/docs/.env.release
 
 # NPM Papillon Ads Library Package
 packages/library/build
@@ -37,3 +41,7 @@ packages/library/node_modules
 # NPM Papillon Ads Styleguide Package
 packages/styleguide/build
 packages/styleguide/node_modules
+packages/styleguide/.env.develop
+packages/styleguide/.env.test
+packages/styleguide/.env.acceptance
+packages/styleguide/.env.release
