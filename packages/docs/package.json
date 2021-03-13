@@ -1,8 +1,8 @@
 {
   "name": "@papillonads/docs",
-  "version": "1.8.0",
+  "version": "1.9.9",
   "description": "Docs Microsite",
-  "homepage": "https://github.com/papillonads/papillonads/#readme",
+  "homepage": "https://github.com/papillonads/papillonads/tree/master/packages/docs",
   "repository": {
     "type": "git",
     "url": "https://github.com/papillonads/papillonads.git",
@@ -16,17 +16,18 @@
     "docs microsite"
   ],
   "author": {
-    "name": "Papillon Ads",
-    "url": "https://github.com/papillonads"
+    "name": "MTS",
+    "url": "https://github.com/mts"
   },
   "scripts": {
     "clean-up": "rm -rf build node_modules package-lock.json",
     "install-packages": "npm install",
     "install-papillonads-latest": "echo \"docs skipping install-papillonads-latest\" && exit 0",
     "make-404-page": "cp build/index.html build/404.html",
-    "build": "webpack --config webpack.prod.js --progress --hide-modules && npm run make-404-page",
-    "start": "nodemon --watch webpack.settings.js --watch webpack.common.js --watch webpack.dev.js --exec \"webpack-dev-server --config webpack.dev.js\"",
-    "release": "npm publish"
+    "build-test": "webpack --config webpack.test.js --progress --hide-modules && npm run make-404-page",
+    "build-acceptance": "webpack --config webpack.acceptance.js --progress --hide-modules && npm run make-404-page",
+    "build-release": "webpack --config webpack.release.js --progress --hide-modules && npm run make-404-page",
+    "start": "nodemon --watch webpack.settings.js --watch webpack.common.js --watch webpack.develop.js --exec \"webpack-dev-server --config webpack.develop.js\""
   },
   "browserslist": {
     "production": [
@@ -53,7 +54,8 @@
     ]
   },
   "devDependencies": {
-    "nodemon": "^2.0.4",
-    "webpack-dev-server": "^3.11.0"
+    "nodemon": "^2.0.7",
+    "webpack": "^4.46.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }
