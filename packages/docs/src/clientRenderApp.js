@@ -1,13 +1,20 @@
 import React from 'react'
+import { primer } from '@papillonads/components'
 import ReactDOM from 'react-dom'
 import { withRouter } from 'react-router'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import { a11y } from '@papillonads/library'
+import { checkAccessibilityIssues } from '@papillonads/library/a11y'
+import { NotAuthorized, isUserAuthenticatedPapillonAdsOrganizationMember } from '@papillonads/library/auth'
 import { homePageRoute, conceptPageRoute, componentsPageRoute, notFoundPageRoute } from './route'
-import { ErrorBoundary } from './pattern/atom/ErrorBoundary'
 
-a11y.checkAccessibilityIssues(React, ReactDOM, 1000)
+const currentHost = window.location.href.split('://')[1].split('-')[0].split(':')[0]
+const localHost = 'localhost'
+const isRunningOnLocalHost = currentHost === localHost
+
+/* istanbul ignore next */
 export function App() {
+  const { ErrorBoundary } = primer
+
   return (
     <ErrorBoundary>
       <BrowserRouter>
@@ -19,9 +26,9 @@ export function App() {
             component={conceptPageRoute.concept.clientComponent}
           />
           <Route
-            exact={conceptPageRoute.accesibility.exact}
-            path={conceptPageRoute.accesibility.path}
-            component={conceptPageRoute.accesibility.clientComponent}
+            exact={conceptPageRoute.accessibility.exact}
+            path={conceptPageRoute.accessibility.path}
+            component={conceptPageRoute.accessibility.clientComponent}
           />
           <Route
             exact={conceptPageRoute.applicationArchitecture.exact}
@@ -135,8 +142,31 @@ export function App() {
   )
 }
 
-ReactDOM.hydrate(<App />, document.getElementById('app'))
+/* istanbul ignore next */
+function renderApp() {
+  checkAccessibilityIssues(React, ReactDOM, 1000)
 
-if (module.hot) {
-  module.hot.accept()
+  ReactDOM.hydrate(<App />, document.getElementById('app'))
+
+  if (module.hot) {
+    module.hot.accept()
+  }
+}
+
+/* istanbul ignore next */
+function renderNotauthorized() {
+  ReactDOM.hydrate(<NotAuthorized />, document.getElementById('app'))
+}
+
+/* istanbul ignore next */
+if (!isRunningOnLocalHost) {
+  isUserAuthenticatedPapillonAdsOrganizationMember().then((isActivePapillonAdsMember) => {
+    if (isActivePapillonAdsMember) {
+      renderApp()
+    } else {
+      renderNotauthorized()
+    }
+  })
+} else {
+  renderApp()
 }
