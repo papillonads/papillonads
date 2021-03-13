@@ -1,5 +1,3 @@
-/* stylelint-disable at-rule-no-unknown */
-
 // Needs refactoring
 // stylelint-disable selector-no-qualifying-type, selector-max-compound-selectors
 // stylelint-disable selector-max-type
@@ -48,9 +46,12 @@ label {
     background-color: #f3f4f6; // custom gray
   }
 
-  // Ensures inputs don't zoom on mobile but are body-font size on desktop
-  @include breakpoint(md) {
-    font-size: $body-font-size;
+  // Ensures inputs don't zoom on mobile iPhone but are body-font size on iPad
+  @supports (-webkit-touch-callout: none) {
+    font-size: $h4-size;
+    @include breakpoint(md) {
+      font-size: $body-font-size;
+    }
   }
 }
 
@@ -278,5 +279,3 @@ input::-webkit-inner-spin-button {
     font-weight: $font-weight-bold;
   }
 }
-
-/* stylelint-enable at-rule-no-unknown */
