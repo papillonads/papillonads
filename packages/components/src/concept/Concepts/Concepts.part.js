@@ -56,9 +56,7 @@ export function removeElementFromDocumentBody(element) {
 export function stripDocument() {
   const html = createElement('div', README)
 
-  stripIds.map((id) => {
-    return removeElementById(id)
-  })
+  stripIds.map((id) => removeElementById(id))
 
   removeElementFromDocumentBody(html)
 
