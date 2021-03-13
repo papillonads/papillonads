@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-// webpack.dev.js - development builds
+// webpack.develop.js - development builds
 
 const LEGACY_CONFIG = 'legacy'
 const MODERN_CONFIG = 'modern'
@@ -106,7 +106,7 @@ const configurePostcssLoader = (buildType) => {
               sourceMap: true,
               plugins: () => [require('postcss-preset-env')()],
               parser: 'postcss-scss',
-            }
+            },
           },
         },
       ],
@@ -148,7 +148,12 @@ module.exports = [
     module: {
       rules: [configurePostcssLoader(MODERN_CONFIG), configureImageLoader(MODERN_CONFIG)],
     },
-    plugins: [new webpack.HotModuleReplacementPlugin()],
+    plugins: [
+      new webpack.HotModuleReplacementPlugin(),
+      new DotEnvPlugin({
+        path: path.resolve(__dirname, './.env.develop'),
+      }),
+    ],
   }),
 ]
 

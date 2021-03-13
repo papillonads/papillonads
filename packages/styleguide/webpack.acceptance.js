@@ -4,7 +4,7 @@
 // Remove .env file to check production build locally in the build folder
 // !!!
 
-// webpack.prod.js - production builds
+// webpack.acceptance.js - production builds
 
 const LEGACY_CONFIG = 'legacy'
 const MODERN_CONFIG = 'modern'
@@ -183,7 +183,7 @@ const configurePostcssLoader = (buildType) => {
               sourceMap: true,
               plugins: () => [require('postcss-preset-env')()],
               parser: 'postcss-scss',
-            }
+            },
           },
         },
       ],
@@ -240,7 +240,7 @@ module.exports = [
   //                 {
   //                   module: 'react',
   //                   entry: {
-  //                     path: 'https://unpkg.com/react@16.13.1/umd/react.production.min.js',
+  //                     path: 'https://unpkg.com/react@17.0.1/umd/react.production.min.js',
   //                     attributes: {
   //                       crossorigin: 'anonymous',
   //                     },
@@ -250,7 +250,7 @@ module.exports = [
   //                 {
   //                   module: 'react-dom',
   //                   entry: {
-  //                     path: 'https://unpkg.com/react-dom@16.13.1/umd/react-dom.production.min.js',
+  //                     path: 'https://unpkg.com/react-dom@17.0.1/umd/react-dom.production.min.js',
   //                     attributes: {
   //                       crossorigin: 'anonymous',
   //                     },
@@ -285,12 +285,15 @@ module.exports = [
       new webpack.BannerPlugin(configureBanner()),
       new ImageminWebpWebpackPlugin(),
       new BundleAnalyzerPlugin(configureBundleAnalyzer(MODERN_CONFIG)),
+      new DotEnvPlugin({
+        path: path.resolve(__dirname, './.env.acceptance'),
+      }),
       new HtmlWebpackExternalsPlugin({
         externals: [
           {
             module: 'react',
             entry: {
-              path: 'https://unpkg.com/react@16.13.1/umd/react.production.min.js',
+              path: 'https://unpkg.com/react@17.0.1/umd/react.production.min.js',
               attributes: {
                 crossorigin: 'anonymous',
               },
@@ -300,7 +303,7 @@ module.exports = [
           {
             module: 'react-dom',
             entry: {
-              path: 'https://unpkg.com/react-dom@16.13.1/umd/react-dom.production.min.js',
+              path: 'https://unpkg.com/react-dom@17.0.1/umd/react-dom.production.min.js',
               attributes: {
                 crossorigin: 'anonymous',
               },
