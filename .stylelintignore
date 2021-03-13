@@ -8,6 +8,10 @@ app.sublime-workspace
 # Storybook
 .storybook-static-develop
 .storybook-static-release
+.jest-test-results.json
+
+# CI/CD
+.travis.yml
 
 # Test
 coverage
@@ -35,13 +39,13 @@ packages/docs/package-lock.json
 packages/docs/build
 packages/docs/node_modules
 
+# NPM Papillon Ads Library Package
+packages/library/package-lock.json
+packages/library/build
+packages/library/node_modules
+
 # NPM Papillon Ads Styleguide Package
 packages/styleguide/src/asset/*
 packages/styleguide/package-lock.json
 packages/styleguide/build
 packages/styleguide/node_modules
-
-# NPM Papillon Ads Library Package
-packages/library/package-lock.json
-packages/library/build
-packages/library/node_modules
