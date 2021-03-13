@@ -111,14 +111,10 @@ export function ProductMicrosites({ className }) {
       <h5>📄. Test folder ../__tests__</h5>
       <h6>📝. File(s)</h6>
       <div>
-        ﹘<strong>.int.render.js:</strong> Exposes various flavors of the component to snapshots and stories for integration testing
-        purposes
+        ﹘<strong>.int.story.js:</strong> Implements Storybook stories for various flavors of the component for integration testing purposes
       </div>
       <div>
-        ﹘<strong>.int.test.js:</strong> Implements Jest snapshots for flavors of the component exposed by .int.render.js
-      </div>
-      <div>
-        ﹘<strong>.int.story.js:</strong> Implements Storybook stories for flavors of the component exposed by .int.render.js
+        ﹘<strong>.int.test.js:</strong> Implements Jest snapshots for various flavors of the component for integration testing purposes
       </div>
     </div>
   )
