@@ -1,5 +1,5 @@
 import { conceptRoute } from './concept'
-import { accesibilityRoute } from './accesibility'
+import { accessibilityRoute } from './accessibility'
 import { applicationArchitectureRoute } from './applicationArchitecture'
 import { bootstrapRoute } from './bootstrap'
 import { codeStyleRoute } from './codeStyle'
@@ -22,7 +22,7 @@ import { versionControlRoute } from './versionControl'
 
 export const conceptPageRoute = {
   concept: conceptRoute,
-  accesibility: accesibilityRoute,
+  accessibility: accessibilityRoute,
   applicationArchitecture: applicationArchitectureRoute,
   bootstrap: bootstrapRoute,
   codeStyle: codeStyleRoute,
