@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import cx from 'classnames'
-import { browser, event } from '@papillonads/library'
+import { isBrowser } from '@papillonads/library/browser'
+import { throttle } from '@papillonads/library/event'
 import { propTypes, defaultProps } from './InViewport.prop'
 import styles from './InViewport.scss'
 
@@ -14,9 +15,6 @@ export function InViewport({
   onOverflowTop,
   ...otherProps
 }) {
-  const { isBrowser } = browser
-  const { throttle } = event
-
   let tGetDomPosition
   let nodeRef = React.createRef()
   let lastOverflowAt
