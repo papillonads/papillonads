@@ -1,23 +1,14 @@
-import { ariaAttr, items, renderCustom, renderDefault } from './Breadcrumb.int.render'
+import { ariaAttr, items, custom, regular, inactive } from './Breadcrumb.int.story'
 
-jest.mock('@papillonads/library', () => {
-  return {
-    hooks: {
-      react: {
-        useState: () => {},
-      },
-    },
-    array: {
-      getIndexItems: () => {},
-      getIndexItemsWithSelected: () => {},
-    },
-  }
-})
+jest.mock('@papillonads/library/array', () => ({
+  getIndexItems: () => {},
+  getIndexItemsWithSelected: () => {},
+}))
 
-const libraryMockObject = require('@papillonads/library')
+const libraryArrayMockObject = require('@papillonads/library/array')
 
 describe('<Breadcrumb />', () => {
-  let indexItemsDataObject = [
+  const indexItemsDataObject = [
     { ...items[0], index: 0 },
     { ...items[1], index: 1 },
     { ...items[2], index: 2 },
@@ -37,25 +28,17 @@ describe('<Breadcrumb />', () => {
 
   const onClickMockFn = jest.fn()
 
-  const setIndexItemsMockFn = jest.fn((indexItems) => {
-    indexItemsDataObject = indexItems
-  })
-
   beforeEach(() => {
-    jest.spyOn(libraryMockObject.hooks.react, 'useState').mockImplementation(() => {
-      return [indexItemsDataObject, setIndexItemsMockFn]
-    })
+    jest.spyOn(libraryArrayMockObject, 'getIndexItems').mockReturnValue(indexItemsDataObject)
 
-    jest.spyOn(libraryMockObject.array, 'getIndexItems').mockReturnValue(indexItemsDataObject)
-
-    jest.spyOn(libraryMockObject.array, 'getIndexItemsWithSelected').mockReturnValue(newIndexItemsWithSelectedDataObject)
+    jest.spyOn(libraryArrayMockObject, 'getIndexItemsWithSelected').mockReturnValue(newIndexItemsWithSelectedDataObject)
   })
 
   afterEach(() => jest.clearAllMocks())
 
   describe('Event', () => {
     test('must return new items without index when onClick()', () => {
-      const mountCustomRender = global.renderMount(renderCustom(onClickMockFn))
+      const mountCustomRender = global.renderMount(custom(onClickMockFn))
       mountCustomRender.find('li').first().simulate('click')
       expect(mountCustomRender.props().onClick).toBe(onClickMockFn)
       expect(mountCustomRender.props().onClick).toHaveBeenCalledWith({
@@ -67,8 +50,12 @@ describe('<Breadcrumb />', () => {
   })
 
   describe('Render', () => {
-    test('must match renderDefault()', () => {
-      expect(global.renderToJSON(renderDefault())).toMatchSnapshot()
+    test('must match regular()', () => {
+      expect(global.renderToJSON(regular())).toMatchSnapshot()
+    })
+
+    test('must match inactive()', () => {
+      expect(global.renderToJSON(inactive())).toMatchSnapshot()
     })
   })
 })
