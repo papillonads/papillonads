@@ -1,5 +1,1 @@
-import { getAppMockStore } from './mock'
-
-export const store = {
-  getAppMockStore,
-}
+export { getAppMockStore } from './mock'
