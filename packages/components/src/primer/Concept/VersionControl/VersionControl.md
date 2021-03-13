@@ -1,3 +1,0 @@
-# VersionControl
-
-📝 Coming soon 🐬
