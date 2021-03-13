@@ -17,10 +17,11 @@ app.sublime-workspace
 coverage
 
 # NPM Papillon Ads
+.npmrc
 npm-debug.log
 lerna-debug.log
-package-lock.json
 node_modules
+package-lock.json
 
 # NPM Papillon Ads Components Package
 packages/components/package-lock.json

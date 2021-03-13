@@ -14,6 +14,7 @@ app.sublime-workspace
 coverage
 
 # NPM Papillon Ads
+.npmrc
 npm-debug.log
 lerna-debug.log
 node_modules
