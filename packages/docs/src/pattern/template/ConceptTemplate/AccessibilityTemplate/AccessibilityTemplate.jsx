@@ -1,10 +1,10 @@
 import React from 'react'
-import { defaultProps, propTypes } from './AccesibilityTemplate.prop'
+import { defaultProps, propTypes } from './AccessibilityTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { SideBar } from '../../../molecule/SideBar'
-import { MainContent } from './AccesibilityTemplate.MainContent'
+import { MainContent } from './AccessibilityTemplate.MainContent'
 
-export function AccesibilityTemplate() {
+export function AccessibilityTemplate() {
   return (
     <React.Fragment>
       <Navigation />
@@ -16,6 +16,6 @@ export function AccesibilityTemplate() {
   )
 }
 
-AccesibilityTemplate.defaultProps = defaultProps
+AccessibilityTemplate.defaultProps = defaultProps
 
-AccesibilityTemplate.propTypes = propTypes
+AccessibilityTemplate.propTypes = propTypes

@@ -1,5 +1,5 @@
 import { ConceptTemplate as Concept } from './ConceptTemplate'
-import { AccesibilityTemplate as Accesibility } from './AccesibilityTemplate'
+import { AccessibilityTemplate as Accessibility } from './AccessibilityTemplate'
 import { ApplicationArchitectureTemplate as ApplicationArchitecture } from './ApplicationArchitectureTemplate'
 import { BootstrapTemplate as Bootstrap } from './BootstrapTemplate'
 import { CodeStyleTemplate as CodeStyle } from './CodeStyleTemplate'
@@ -22,7 +22,7 @@ import { VersionControlTemplate as VersionControl } from './VersionControlTempla
 
 export const ConceptTemplate = {
   Concept,
-  Accesibility,
+  Accessibility,
   ApplicationArchitecture,
   Bootstrap,
   CodeStyle,

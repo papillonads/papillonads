@@ -5,7 +5,7 @@ import { homePageRoute, conceptPageRoute } from '../../../../route'
 
 export function MainContent() {
   const {
-    Concept: { Accesibility },
+    Concept: { Accessibility },
   } = primer
 
   return (
@@ -21,13 +21,13 @@ export function MainContent() {
               <Link to={conceptPageRoute.concept.path}>Concept</Link>
             </li>
 
-            <li className="breadcrumb-item text-small breadcrumb-item-selected">Accesibility</li>
+            <li className="breadcrumb-item text-small breadcrumb-item-selected">Accessibility</li>
           </ol>
         </nav>
-        <h1 className="f00-light border-0 pb-3 d-block v-align-middle mt-2">📚 Accesibility</h1>
-        <Accesibility.SpecificationsStandardsGuidelines className="markdown-body pb-3" />
-        <Accesibility.OpenSourceDependencyProjects className="markdown-body pb-3" />
-        <Accesibility.Implementation.DesignSystemCore className="markdown-body pb-3" />
+        <h1 className="f00-light border-0 pb-3 d-block v-align-middle mt-2">📚 Accessibility</h1>
+        <Accessibility.SpecificationsStandardsGuidelines className="markdown-body pb-3" />
+        <Accessibility.OpenSourceDependencyProjects className="markdown-body pb-3" />
+        <Accessibility.Implementation.DesignSystemCore className="markdown-body pb-3" />
       </div>
     </main>
   )
