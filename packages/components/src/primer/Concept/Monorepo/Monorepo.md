@@ -1,3 +1,0 @@
-# Monorepo
-
-📝 Coming soon 🐬
