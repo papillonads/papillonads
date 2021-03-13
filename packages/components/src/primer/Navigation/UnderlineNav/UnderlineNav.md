@@ -1,34 +1,65 @@
 # UnderlineNav
 
-- Default UnderlineNav
-- UnderlineNav With Actions
-- UnderlineNav Right Aligned
-- UnderlineNav Right Aligned With Actions
-- UnderlineNav With Icons
-- UnderlineNav Full Container
+> Use UnderlineNav to style navigation with a minimal underlined selected state, typically used for navigation placed at the top of the page. This component comes with variations to accommodate icons, containers and other content.
 
-> 📝 Coming soon 🐬
+# Variants
 
-## Default UnderlineNav
+> - Default
+> - WithActions, RightAligned, RightAlignedWithActions
+> - WithIcons, FullContainer
 
-📝 Coming soon 🐬
+## Default
 
-## UnderlineNav With Actions
+```jsx
+<UnderlineNav ariaAttr={ariaAttr} items={buttonItems} itemType={underlineNavItemType.button} onClick={action('onClick')} />
+```
 
-📝 Coming soon 🐬
+## WithActions
 
-## UnderlineNav Right Aligned
+```jsx
+<UnderlineNav ariaAttr={ariaAttr} items={anchorItems} itemType={underlineNavItemType.a} actions={actions} onClick={action('onClick')} />
+```
 
-📝 Coming soon 🐬
+## RightAligned
 
-## UnderlineNav Right Aligned With Actions
+```jsx
+<UnderlineNav
+  ariaAttr={ariaAttr}
+  items={anchorItems}
+  itemType={underlineNavItemType.a}
+  align={underlineNavAlignmentType.right}
+  onClick={action('onClick')}
+/>
+```
 
-📝 Coming soon 🐬
+## RightAlignedWithActions
 
-## UnderlineNav With Icons
+```jsx
+<UnderlineNav
+  ariaAttr={ariaAttr}
+  items={anchorItems}
+  itemType={underlineNavItemType.a}
+  align={underlineNavAlignmentType.right}
+  actions={actions}
+  onClick={action('onClick')}
+/>
+```
 
-📝 Coming soon 🐬.
+## WithIcons
 
-## UnderlineNav Full Container
+```jsx
+<UnderlineNav ariaAttr={ariaAttr} items={iconItems} itemType={underlineNavItemType.a} onClick={action('onClick')} />
+```
 
-📝 Coming soon 🐬.
+## FullContainer
+
+```jsx
+<UnderlineNav
+  ariaAttr={ariaAttr}
+  items={fullContainerItems}
+  itemType={underlineNavItemType.a}
+  actions={actions}
+  fullContainer
+  onClick={action('onClick')}
+/>
+```
