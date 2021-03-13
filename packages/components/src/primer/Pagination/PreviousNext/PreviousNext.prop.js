@@ -1,4 +1,9 @@
-import { string, shape, object, func } from 'prop-types'
+import { string, oneOf, shape, object, func } from 'prop-types'
+
+export const previousNextState = {
+  active: 'active',
+  inactive: 'inactive',
+}
 
 export const propTypes = {
   className: string,
@@ -23,6 +28,7 @@ export const propTypes = {
     text: string,
   }),
   onClick: func.isRequired,
+  state: oneOf(Object.keys(previousNextState)),
 }
 
 export const defaultProps = {
@@ -43,4 +49,5 @@ export const defaultProps = {
     },
     text: '>',
   },
+  state: previousNextState.active,
 }
