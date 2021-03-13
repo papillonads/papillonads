@@ -1,43 +1,43 @@
 import {
-  renderCustom,
-  renderDefaultButton,
-  renderDefaultSmallButton,
-  renderDefaultLargeButton,
-  renderDefaultDisabledButton,
-  renderDefaultIconButtonLeftAligned,
-  renderDefaultIconButtonRightAligned,
-  renderDefaultLinkButton,
-  renderPrimaryButton,
-  renderPrimarySmallButton,
-  renderPrimaryLargeButton,
-  renderPrimaryDisabledButton,
-  renderPrimaryIconButtonLeftAligned,
-  renderPrimaryIconButtonRightAligned,
-  renderDangerButton,
-  renderDangerSmallButton,
-  renderDangerLargeButton,
-  renderDangerDisabledButton,
-  renderDangerIconButtonLeftAligned,
-  renderDangerIconButtonRightAligned,
-  renderOutlineButton,
-  renderOutlineSmallButton,
-  renderOutlineLargeButton,
-  renderOutlineDisabledButton,
-  renderOutlineIconButtonLeftAligned,
-  renderOutlineIconButtonRightAligned,
-  renderBlueButton,
-  renderBlueSmallButton,
-  renderBlueLargeButton,
-  renderBlueDisabledButton,
-  renderBlueIconButtonLeftAligned,
-  renderBlueIconButtonRightAligned,
-  renderOrangeButton,
-  renderOrangeSmallButton,
-  renderOrangeLargeButton,
-  renderOrangeDisabledButton,
-  renderOrangeIconButtonLeftAligned,
-  renderOrangeIconButtonRightAligned,
-} from './Button.int.render'
+  custom,
+  defaultNormal,
+  defaultSmall,
+  defaultLarge,
+  defaultInactive,
+  defaultIconLeftAligned,
+  defaultIconRightAligned,
+  defaultLink,
+  primary,
+  primarySmall,
+  primaryLarge,
+  primaryInactive,
+  primaryIconLeftAligned,
+  primaryIconRightAligned,
+  danger,
+  dangerSmall,
+  dangerLarge,
+  dangerInactive,
+  dangerIconLeftAligned,
+  dangerIconRightAligned,
+  outline,
+  outlineSmall,
+  outlineLarge,
+  outlineInactive,
+  outlineIconLeftAligned,
+  outlineIconRightAligned,
+  blue,
+  blueSmall,
+  blueLarge,
+  blueInactive,
+  blueIconLeftAligned,
+  blueIconRightAligned,
+  orange,
+  orangeSmall,
+  orangeLarge,
+  orangeInactive,
+  orangeIconLeftAligned,
+  orangeIconRightAligned,
+} from './Button.int.story'
 import { buttonElement } from '../Button.prop'
 
 describe('<Button />', () => {
@@ -45,14 +45,14 @@ describe('<Button />', () => {
 
   describe('Event', () => {
     test('must call onClick() when element button', () => {
-      const mountCustomRender = global.renderMount(renderCustom(buttonElement.button, onClickMockFn))
+      const mountCustomRender = global.renderMount(custom(buttonElement.button, onClickMockFn))
       mountCustomRender.find('button').first().simulate('click')
       expect(mountCustomRender.props().onClick).toBe(onClickMockFn)
       expect(mountCustomRender.props().onClick).toHaveBeenCalled()
     })
 
     test('must call onClick() when element a', () => {
-      const mountCustomRender = global.renderMount(renderCustom(buttonElement.a, onClickMockFn))
+      const mountCustomRender = global.renderMount(custom(buttonElement.a, onClickMockFn))
       mountCustomRender.find('a').first().simulate('click')
       expect(mountCustomRender.props().onClick).toBe(onClickMockFn)
       expect(mountCustomRender.props().onClick).toHaveBeenCalled()
@@ -60,152 +60,152 @@ describe('<Button />', () => {
   })
 
   describe('Render', () => {
-    test('must match renderDefaultButton()', () => {
-      expect(global.renderToJSON(renderDefaultButton())).toMatchSnapshot()
+    test('must match defaultNormal()', () => {
+      expect(global.renderToJSON(defaultNormal())).toMatchSnapshot()
     })
 
-    test('must match renderDefaultSmallButton()', () => {
-      expect(global.renderToJSON(renderDefaultSmallButton())).toMatchSnapshot()
+    test('must match defaultSmall()', () => {
+      expect(global.renderToJSON(defaultSmall())).toMatchSnapshot()
     })
 
-    test('must match renderDefaultLargeButton()', () => {
-      expect(global.renderToJSON(renderDefaultLargeButton())).toMatchSnapshot()
+    test('must match defaultLarge()', () => {
+      expect(global.renderToJSON(defaultLarge())).toMatchSnapshot()
     })
 
-    test('must match renderDefaultDisabledButton()', () => {
-      expect(global.renderToJSON(renderDefaultDisabledButton())).toMatchSnapshot()
+    test('must match defaultInactive()', () => {
+      expect(global.renderToJSON(defaultInactive())).toMatchSnapshot()
     })
 
-    test('must match renderDefaultIconButtonLeftAligned()', () => {
-      expect(global.renderToJSON(renderDefaultIconButtonLeftAligned())).toMatchSnapshot()
+    test('must match defaultIconLeftAligned()', () => {
+      expect(global.renderToJSON(defaultIconLeftAligned())).toMatchSnapshot()
     })
 
-    test('must match renderDefaultIconButtonRightAligned()', () => {
-      expect(global.renderToJSON(renderDefaultIconButtonRightAligned())).toMatchSnapshot()
+    test('must match defaultIconRightAligned()', () => {
+      expect(global.renderToJSON(defaultIconRightAligned())).toMatchSnapshot()
     })
 
-    test('must match renderDefaultLinkButton()', () => {
-      expect(global.renderToJSON(renderDefaultLinkButton())).toMatchSnapshot()
+    test('must match defaultLink()', () => {
+      expect(global.renderToJSON(defaultLink())).toMatchSnapshot()
     })
 
-    test('must match renderPrimaryButton()', () => {
-      expect(global.renderToJSON(renderPrimaryButton())).toMatchSnapshot()
+    test('must match primary()', () => {
+      expect(global.renderToJSON(primary())).toMatchSnapshot()
     })
 
-    test('must match renderPrimarySmallButton()', () => {
-      expect(global.renderToJSON(renderPrimarySmallButton())).toMatchSnapshot()
+    test('must match primarySmall()', () => {
+      expect(global.renderToJSON(primarySmall())).toMatchSnapshot()
     })
 
-    test('must match renderPrimaryLargeButton()', () => {
-      expect(global.renderToJSON(renderPrimaryLargeButton())).toMatchSnapshot()
+    test('must match primaryLarge()', () => {
+      expect(global.renderToJSON(primaryLarge())).toMatchSnapshot()
     })
 
-    test('must match renderPrimaryDisabledButton()', () => {
-      expect(global.renderToJSON(renderPrimaryDisabledButton())).toMatchSnapshot()
+    test('must match primaryInactive()', () => {
+      expect(global.renderToJSON(primaryInactive())).toMatchSnapshot()
     })
 
-    test('must match renderPrimaryIconButtonLeftAligned()', () => {
-      expect(global.renderToJSON(renderPrimaryIconButtonLeftAligned())).toMatchSnapshot()
+    test('must match primaryIconLeftAligned()', () => {
+      expect(global.renderToJSON(primaryIconLeftAligned())).toMatchSnapshot()
     })
 
-    test('must match renderPrimaryIconButtonRightAligned()', () => {
-      expect(global.renderToJSON(renderPrimaryIconButtonRightAligned())).toMatchSnapshot()
+    test('must match primaryIconRightAligned()', () => {
+      expect(global.renderToJSON(primaryIconRightAligned())).toMatchSnapshot()
     })
 
-    test('must match renderDangerButton()', () => {
-      expect(global.renderToJSON(renderDangerButton())).toMatchSnapshot()
+    test('must match danger()', () => {
+      expect(global.renderToJSON(danger())).toMatchSnapshot()
     })
 
-    test('must match renderDangerSmallButton()', () => {
-      expect(global.renderToJSON(renderDangerSmallButton())).toMatchSnapshot()
+    test('must match dangerSmall()', () => {
+      expect(global.renderToJSON(dangerSmall())).toMatchSnapshot()
     })
 
-    test('must match renderDangerLargeButton()', () => {
-      expect(global.renderToJSON(renderDangerLargeButton())).toMatchSnapshot()
+    test('must match dangerLarge()', () => {
+      expect(global.renderToJSON(dangerLarge())).toMatchSnapshot()
     })
 
-    test('must match renderDangerDisabledButton()', () => {
-      expect(global.renderToJSON(renderDangerDisabledButton())).toMatchSnapshot()
+    test('must match dangerInactive()', () => {
+      expect(global.renderToJSON(dangerInactive())).toMatchSnapshot()
     })
 
-    test('must match renderDangerIconButtonLeftAligned()', () => {
-      expect(global.renderToJSON(renderDangerIconButtonLeftAligned())).toMatchSnapshot()
+    test('must match dangerIconLeftAligned()', () => {
+      expect(global.renderToJSON(dangerIconLeftAligned())).toMatchSnapshot()
     })
 
-    test('must match renderDangerIconButtonRightAligned()', () => {
-      expect(global.renderToJSON(renderDangerIconButtonRightAligned())).toMatchSnapshot()
+    test('must match dangerIconRightAligned()', () => {
+      expect(global.renderToJSON(dangerIconRightAligned())).toMatchSnapshot()
     })
 
-    test('must match renderOutlineButton()', () => {
-      expect(global.renderToJSON(renderOutlineButton())).toMatchSnapshot()
+    test('must match outline()', () => {
+      expect(global.renderToJSON(outline())).toMatchSnapshot()
     })
 
-    test('must match renderOutlineSmallButton()', () => {
-      expect(global.renderToJSON(renderOutlineSmallButton())).toMatchSnapshot()
+    test('must match outlineSmall()', () => {
+      expect(global.renderToJSON(outlineSmall())).toMatchSnapshot()
     })
 
-    test('must match renderOutlineLargeButton()', () => {
-      expect(global.renderToJSON(renderOutlineLargeButton())).toMatchSnapshot()
+    test('must match outlineLarge()', () => {
+      expect(global.renderToJSON(outlineLarge())).toMatchSnapshot()
     })
 
-    test('must match renderOutlineDisabledButton()', () => {
-      expect(global.renderToJSON(renderOutlineDisabledButton())).toMatchSnapshot()
+    test('must match outlineInactive()', () => {
+      expect(global.renderToJSON(outlineInactive())).toMatchSnapshot()
     })
 
-    test('must match renderOutlineIconButtonLeftAligned()', () => {
-      expect(global.renderToJSON(renderOutlineIconButtonLeftAligned())).toMatchSnapshot()
+    test('must match outlineIconLeftAligned()', () => {
+      expect(global.renderToJSON(outlineIconLeftAligned())).toMatchSnapshot()
     })
 
-    test('must match renderOutlineIconButtonRightAligned()', () => {
-      expect(global.renderToJSON(renderOutlineIconButtonRightAligned())).toMatchSnapshot()
+    test('must match outlineIconRightAligned()', () => {
+      expect(global.renderToJSON(outlineIconRightAligned())).toMatchSnapshot()
     })
 
-    test('must match renderBlueButton()', () => {
-      expect(global.renderToJSON(renderBlueButton())).toMatchSnapshot()
+    test('must match blue()', () => {
+      expect(global.renderToJSON(blue())).toMatchSnapshot()
     })
 
-    test('must match renderBlueSmallButton()', () => {
-      expect(global.renderToJSON(renderBlueSmallButton())).toMatchSnapshot()
+    test('must match blueSmall()', () => {
+      expect(global.renderToJSON(blueSmall())).toMatchSnapshot()
     })
 
-    test('must match renderBlueLargeButton()', () => {
-      expect(global.renderToJSON(renderBlueLargeButton())).toMatchSnapshot()
+    test('must match blueLarge()', () => {
+      expect(global.renderToJSON(blueLarge())).toMatchSnapshot()
     })
 
-    test('must match renderBlueDisabledButton()', () => {
-      expect(global.renderToJSON(renderBlueDisabledButton())).toMatchSnapshot()
+    test('must match blueInactive()', () => {
+      expect(global.renderToJSON(blueInactive())).toMatchSnapshot()
     })
 
-    test('must match renderBlueIconButtonLeftAligned()', () => {
-      expect(global.renderToJSON(renderBlueIconButtonLeftAligned())).toMatchSnapshot()
+    test('must match blueIconLeftAligned()', () => {
+      expect(global.renderToJSON(blueIconLeftAligned())).toMatchSnapshot()
     })
 
-    test('must match renderBlueIconButtonRightAligned()', () => {
-      expect(global.renderToJSON(renderBlueIconButtonRightAligned())).toMatchSnapshot()
+    test('must match blueIconRightAligned()', () => {
+      expect(global.renderToJSON(blueIconRightAligned())).toMatchSnapshot()
     })
 
-    test('must match renderOrangeButton()', () => {
-      expect(global.renderToJSON(renderOrangeButton())).toMatchSnapshot()
+    test('must match orange()', () => {
+      expect(global.renderToJSON(orange())).toMatchSnapshot()
     })
 
-    test('must match renderOrangeSmallButton()', () => {
-      expect(global.renderToJSON(renderOrangeSmallButton())).toMatchSnapshot()
+    test('must match orangeSmall()', () => {
+      expect(global.renderToJSON(orangeSmall())).toMatchSnapshot()
     })
 
-    test('must match renderOrangeLargeButton()', () => {
-      expect(global.renderToJSON(renderOrangeLargeButton())).toMatchSnapshot()
+    test('must match orangeLarge()', () => {
+      expect(global.renderToJSON(orangeLarge())).toMatchSnapshot()
     })
 
-    test('must match renderOrangeDisabledButton()', () => {
-      expect(global.renderToJSON(renderOrangeDisabledButton())).toMatchSnapshot()
+    test('must match orangeInactive()', () => {
+      expect(global.renderToJSON(orangeInactive())).toMatchSnapshot()
     })
 
-    test('must match renderOrangeIconButtonLeftAligned()', () => {
-      expect(global.renderToJSON(renderOrangeIconButtonLeftAligned())).toMatchSnapshot()
+    test('must match orangeIconLeftAligned()', () => {
+      expect(global.renderToJSON(orangeIconLeftAligned())).toMatchSnapshot()
     })
 
-    test('must match renderOrangeIconButtonRightAligned()', () => {
-      expect(global.renderToJSON(renderOrangeIconButtonRightAligned())).toMatchSnapshot()
+    test('must match orangeIconRightAligned()', () => {
+      expect(global.renderToJSON(orangeIconRightAligned())).toMatchSnapshot()
     })
   })
 })
