@@ -3,16 +3,16 @@ import { string, oneOf, func } from 'prop-types'
 export const popoverVariant = {
   default: 'default',
   bottom: 'bottom',
-  bottomRight: 'bottom-right',
-  bottomLeft: 'bottom-left',
+  bottomRight: 'bottomRight',
+  bottomLeft: 'bottomLeft',
   left: 'left',
-  leftBottom: 'left-bottom',
-  leftTop: 'left-top',
+  leftBottom: 'leftBottom',
+  leftTop: 'leftTop',
   right: 'right',
-  rightBottom: 'right-bottom',
-  rightTop: 'right-top',
-  topLeft: 'top-left',
-  topRight: 'top-right',
+  rightBottom: 'rightBottom',
+  rightTop: 'rightTop',
+  topLeft: 'topLeft',
+  topRight: 'topRight',
 }
 
 export const popoverSize = {
