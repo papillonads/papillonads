@@ -8,6 +8,7 @@ app.sublime-workspace
 # Storybook
 .storybook-static-develop
 .storybook-static-release
+.jest-test-results.json
 
 # Test
 coverage
@@ -16,27 +17,23 @@ coverage
 npm-debug.log
 lerna-debug.log
 node_modules
-.npmrc
 
 # NPM Papillon Ads Components Package
 packages/components/build
 packages/components/node_modules
-packages/components/.npmrc
 
 # NPM Papillon Ads CSS Package
 packages/CSS/build
 packages/CSS/node_modules
-packages/CSS/.npmrc
 
 # NPM Papillon Ads Docs Package
 packages/docs/build
 packages/docs/node_modules
 
-# NPM Papillon Ads Styleguide Package
-packages/styleguide/build
-packages/styleguide/node_modules
-
 # NPM Papillon Ads Library Package
 packages/library/build
 packages/library/node_modules
-packages/library/.npmrc
+
+# NPM Papillon Ads Styleguide Package
+packages/styleguide/build
+packages/styleguide/node_modules
