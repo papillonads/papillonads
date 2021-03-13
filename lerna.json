@@ -1,4 +1,10 @@
 {
-  "packages": ["packages/components", "packages/css", "packages/docs", "packages/library", "packages/styleguide"],
-  "version": "1.9.10"
+  "packages": [
+    "packages/components",
+    "packages/css",
+    "packages/docs",
+    "packages/library",
+    "packages/styleguide"
+  ],
+  "version": "1.10.0"
 }
