@@ -1,7 +1,8 @@
 import React from 'react'
 import cx from 'classnames'
 import { v1 as uuidv1 } from 'uuid'
-import { hooks, array as arrayLibrary } from '@papillonads/library'
+import { getIndexItems, getIndexItemsWithSelected } from '@papillonads/library/array'
+import { useRef, useState } from '@papillonads/library/hooks'
 import utilityStyles from '@papillonads/css/build/primer/utilities/margin.scss'
 import detailsStyles from '@papillonads/css/build/primer/utilities/details.scss'
 import { propTypes, defaultProps } from './SelectMenu.prop'
@@ -10,10 +11,9 @@ import buttonStyles from '../Button/Button.scss'
 import { Icon, iconSize } from '../Icon'
 
 export function SelectMenu({ className, summary, icon, title, ariaAttr, items, onClick }) {
-  const { getIndexItems, getIndexItemsWithSelected } = arrayLibrary
-  const [indexItems, setIndexItems] = hooks.react.useState(getIndexItems(items))
+  const [indexItems, setIndexItems] = useState(getIndexItems(items))
   const { haspopup } = ariaAttr
-  const details = hooks.react.useRef(null)
+  const details = useRef(null)
 
   return (
     <details ref={details} className={cx(className, detailsStyles['details-reset'], detailsStyles['details-overlay'])}>
@@ -42,9 +42,7 @@ export function SelectMenu({ className, summary, icon, title, ariaAttr, items, o
                     setIndexItems(newIndexItems)
                     onClick({
                       ariaAttr,
-                      items: newIndexItems.map((newIndexItem) => {
-                        return (({ text, isSelected }) => ({ text, isSelected }))(newIndexItem) // eslint-disable-line
-                      }),
+                      items: newIndexItems.map((newIndexItem) => (({ text, isSelected }) => ({ text, isSelected }))(newIndexItem)), // eslint-disable-line
                     })
                     details.current.removeAttribute('open')
                   }}

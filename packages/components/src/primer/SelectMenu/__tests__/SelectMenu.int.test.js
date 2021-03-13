@@ -1,21 +1,17 @@
-import { ariaAttr, items, renderCustom, renderDefault } from './SelectMenu.int.render'
+import { ariaAttr, items, custom, regular } from './SelectMenu.int.story'
 
-jest.mock('@papillonads/library', () => {
-  return {
-    hooks: {
-      react: {
-        useState: () => {},
-        useRef: () => {},
-      },
-    },
-    array: {
-      getIndexItems: () => {},
-      getIndexItemsWithSelected: () => {},
-    },
-  }
-})
+jest.mock('@papillonads/library/array', () => ({
+  getIndexItems: () => {},
+  getIndexItemsWithSelected: () => {},
+}))
 
-const libraryMockObject = require('@papillonads/library')
+jest.mock('@papillonads/library/hooks', () => ({
+  useRef: () => {},
+  useState: () => {},
+}))
+
+const libraryArrayMockObject = require('@papillonads/library/array')
+const libraryHooksMockObject = require('@papillonads/library/hooks')
 
 describe('<SelectMenu />', () => {
   let indexItemsDataObject = [
@@ -46,28 +42,24 @@ describe('<SelectMenu />', () => {
   })
 
   beforeEach(() => {
-    jest.spyOn(libraryMockObject.hooks.react, 'useState').mockImplementation(() => {
-      return [indexItemsDataObject, setIndexItemsMockFn]
-    })
+    jest.spyOn(libraryArrayMockObject, 'getIndexItems').mockReturnValue(indexItemsDataObject)
 
-    jest.spyOn(libraryMockObject.hooks.react, 'useRef').mockImplementation(() => {
-      return {
-        current: {
-          removeAttribute: () => {},
-        },
-      }
-    })
+    jest.spyOn(libraryArrayMockObject, 'getIndexItemsWithSelected').mockReturnValue(newIndexItemsWithSelectedDataObject)
 
-    jest.spyOn(libraryMockObject.array, 'getIndexItems').mockReturnValue(indexItemsDataObject)
+    jest.spyOn(libraryHooksMockObject, 'useState').mockImplementation(() => [indexItemsDataObject, setIndexItemsMockFn])
 
-    jest.spyOn(libraryMockObject.array, 'getIndexItemsWithSelected').mockReturnValue(newIndexItemsWithSelectedDataObject)
+    jest.spyOn(libraryHooksMockObject, 'useRef').mockImplementation(() => ({
+      current: {
+        removeAttribute: () => {},
+      },
+    }))
   })
 
   afterEach(() => jest.clearAllMocks())
 
   describe('Event', () => {
     test('must return new items without index when onClick()', () => {
-      const mountCustomRender = global.renderMount(renderCustom(onClickMockFn))
+      const mountCustomRender = global.renderMount(custom(onClickMockFn))
       mountCustomRender.find('button').last().simulate('click')
       expect(mountCustomRender.props().onClick).toBe(onClickMockFn)
       expect(mountCustomRender.props().onClick).toHaveBeenCalledWith({
@@ -78,14 +70,14 @@ describe('<SelectMenu />', () => {
   })
 
   describe('Render', () => {
-    test('must match renderDefault()', () => {
-      expect(global.renderToJSON(renderDefault())).toMatchSnapshot()
+    test('must match regular()', () => {
+      expect(global.renderToJSON(regular())).toMatchSnapshot()
     })
   })
 
   describe('State', () => {
     test('must reset new items with index when onClick()', () => {
-      const mountCustomRender = global.renderMount(renderCustom(onClickMockFn))
+      const mountCustomRender = global.renderMount(custom(onClickMockFn))
       mountCustomRender.find('button').last().simulate('click')
       expect(setIndexItemsMockFn).toHaveBeenCalledWith(newIndexItemsWithSelectedDataObject)
       expect(indexItemsDataObject).toBe(newIndexItemsWithSelectedDataObject)
