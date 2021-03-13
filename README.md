@@ -17,7 +17,7 @@
       <a href="https://github.com/codecov/">
         <img src="https://avatars0.githubusercontent.com/u/8226205" alt="codecov logo" width="20vw" height="20vh">
       </a>
-    </a>    
+    </a>
     <a href="https://www.npmjs.com/org/papillonads">
       <img src="https://img.shields.io/npm/v/@papillonads/components.svg" alt="npm badge">
       <img src="https://avatars0.githubusercontent.com/u/6078720" alt="npm logo" width="20vw" height="20vh">
@@ -42,7 +42,7 @@
     <a href="https://github.com/papillonads/papillonads/pulls">
       <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/papillonads/papillonads?color=0088ff" />
     </a>
-  </p>  
+  </p>
   <p align="center">
     <a href="https://github.com/webpack/">
       <img src="https://img.shields.io/badge/Bundle-Webpack-5299C8.svg" alt="webpack badge">
@@ -175,19 +175,19 @@
           <blockquote style="margin: 0; padding: 0 24px">
             To be documented soon
           </blockquote>
-        </details>        
+        </details>
         <details>
           <summary style="color: #006400;">📖. Box</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             To be documented soon
           </blockquote>
-        </details>                
+        </details>
         <details>
           <summary style="color: #006400;">📖. BranchName</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             To be documented soon
           </blockquote>
-        </details>                
+        </details>
         <details>
           <summary style="color: #006400;">📖. Breadcrumb</summary>
           <blockquote style="margin: 0; padding: 0 24px">
@@ -209,7 +209,7 @@
           <blockquote style="margin: 0; padding: 0 24px">
             To be documented soon
           </blockquote>
-        </details>                
+        </details>
         <details>
           <summary style="color: #006400;">📖. Dropdown</summary>
           <blockquote style="margin: 0; padding: 0 24px">
@@ -297,7 +297,7 @@
           <blockquote style="margin: 0; padding: 0 24px">
             To be documented soon
           </blockquote>
-        </details>                
+        </details>
         <details>
           <summary style="color: #006400;">📖. Navigation</summary>
           <blockquote style="margin: 0; padding: 0 24px">
@@ -332,25 +332,25 @@
           <blockquote style="margin: 0; padding: 0 24px">
             To be documented soon
           </blockquote>
-        </details>                
+        </details>
         <details>
           <summary style="color: #006400;">📖. Popover</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             To be documented soon
           </blockquote>
-        </details>                
+        </details>
         <details>
           <summary style="color: #006400;">📖. Progress</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             To be documented soon
           </blockquote>
-        </details>                
+        </details>
         <details>
           <summary style="color: #006400;">📖. SelectMenu</summary>
           <blockquote style="margin: 0; padding: 0 24px">
             To be documented soon
           </blockquote>
-        </details>                
+        </details>
         <details>
           <summary style="color: #006400;">📖. Subhead</summary>
           <blockquote style="margin: 0; padding: 0 24px">
@@ -364,7 +364,7 @@
           <blockquote style="margin: 0; padding: 0 24px">
             To be documented soon
           </blockquote>
-        </details>                
+        </details>
       </blockquote>
     </details>
   </blockquote>
