@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<ContinuousIntegration /> Render must match renderDesignSystemCore() 1`] = `
+exports[`<ContinuousIntegration /> Render must match designSystemCore() 1`] = `
 <div
   className={null}
 >
@@ -25,7 +25,7 @@ exports[`<ContinuousIntegration /> Render must match renderDesignSystemCore() 1`
 </div>
 `;
 
-exports[`<ContinuousIntegration /> Render must match renderOpenSourceDependencyProjects() 1`] = `
+exports[`<ContinuousIntegration /> Render must match openSourceDependencyProjects() 1`] = `
 <div
   className={null}
 >
@@ -33,11 +33,11 @@ exports[`<ContinuousIntegration /> Render must match renderOpenSourceDependencyP
     📗 Open Source Dependency Projects
   </h2>
   <h3>
-    📖. Travis CI
+    📖. CircleCI
   </h3>
   <h4>
     <a
-      href="https://github.com/travis-ci"
+      href="https://github.com/circleci"
     >
       📃. Continuous Integration and Deployment
     </a>
@@ -45,25 +45,25 @@ exports[`<ContinuousIntegration /> Render must match renderOpenSourceDependencyP
   <div>
     ﹘ 
     <a
-      href="https://docs.travis-ci.com/"
+      href="https://github.com/circleci/circleci-doc"
     >
       Documentation
     </a>
-     for Travis CI
+     for CircleCI
   </div>
   <div>
     ﹘ 
     <a
-      href="https://docs.travis-ci.com/user/enterprise/"
+      href="https://github.com/circleci/enterprise-setup"
     >
       Installation resources
     </a>
-     for Travis CI Enterprise
+     for CircleCI Enterprise
   </div>
 </div>
 `;
 
-exports[`<ContinuousIntegration /> Render must match renderProductMicrosites() 1`] = `
+exports[`<ContinuousIntegration /> Render must match productMicrosites() 1`] = `
 <div
   className={null}
 >
@@ -88,7 +88,7 @@ exports[`<ContinuousIntegration /> Render must match renderProductMicrosites() 1
 </div>
 `;
 
-exports[`<ContinuousIntegration /> Render must match renderSpecificationsStandardsGuidelines() 1`] = `
+exports[`<ContinuousIntegration /> Render must match specificationsStandardsGuidelines() 1`] = `
 <div
   className={null}
 >
@@ -99,18 +99,33 @@ exports[`<ContinuousIntegration /> Render must match renderSpecificationsStandar
     📖. Service
   </h3>
   <h4>
-    📃. Travis CI
+    📃. CircleCI
   </h4>
   <h5>
     📄. 
     <a
-      href="https://docs.travis-ci.com/"
+      href="https://circleci.com/docs/"
     >
-      Travis CI Documentation
+      CircleCI Documentation
     </a>
   </h5>
   <div>
-    ﹘ Use the tutorials, samples, how-to, and reference documentation to learn Travis CI
+    ﹘ Use the tutorials, samples, how-to, and reference documentation to learn CircleCI
+  </div>
+  <h5>
+    📄. 
+    <a
+      href="https://circleci.com/docs/2.0/pipelines/"
+    >
+      CircleCI Pipelines
+    </a>
+  </h5>
+  <div>
+    ﹘ 
+    <strong>
+      Viewing Pipelines
+    </strong>
+     This document provides a summary of the Pipelines page in the CircleCI app and documents some of the changes to the CircleCI user interface.
   </div>
   <h3>
     📖. Branching Model

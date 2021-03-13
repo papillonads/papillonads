@@ -4,7 +4,7 @@ import { iconComponents } from './Icon.part'
 
 const defaultSize = [16, 16]
 
-export function Icon({ className, ariaLabel, icon, height, width, size, verticalAlign, ...otherProps }) {
+export function Icon({ className, ariaLabel, icon, height, width, size, fill, verticalAlign, ...otherProps }) {
   const widthHeight = defaultSize
 
   const attrs = {
@@ -28,14 +28,14 @@ export function Icon({ className, ariaLabel, icon, height, width, size, vertical
 
   attrs.style = {
     display: 'inline-block',
-    fill: 'currentColor',
+    fill,
     userSelect: 'none',
     verticalAlign: iconAlign[verticalAlign] || verticalAlign,
   }
 
   const Element = iconComponents[icon]
 
-  return <Element {...attrs} {...otherProps} />
+  return <Element className={className} {...attrs} {...otherProps} />
 }
 
 Icon.propTypes = propTypes

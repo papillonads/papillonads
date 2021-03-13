@@ -2,6 +2,7 @@
 @import '~@papillonads/css/build/primer/support/variables/colors.scss';
 @import '~@papillonads/css/build/primer/support/variables/layout.scss';
 @import '~@papillonads/css/build/primer/support/variables/typography.scss';
+@import '../../index.scss';
 
 // Outer wrapper
 // stylelint-disable selector-max-type
@@ -12,12 +13,15 @@
 }
 
 .tabnav-tabs {
+  display: flex;
   // stylelint-disable-next-line primer/spacing
   margin-bottom: -1px;
+  overflow: auto;
 }
 
 .tabnav-tab {
   display: inline-block;
+  flex-shrink: 0;
   padding: $spacer-2 $spacer-3;
   font-size: $h5-size;
   // stylelint-disable-next-line primer/typography
@@ -91,4 +95,15 @@ a.tabnav-extra:hover {
 
 .tabnav-btn {
   margin-left: $spacer-2;
+}
+
+// custom-style
+.tabnav-inactive,
+.tabnav-tab-inactive {
+  @include inactive;
+}
+
+// custom-style
+.tabnav-tab-hidden {
+  display: none;
 }

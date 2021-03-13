@@ -1,24 +1,31 @@
 # Loader
 
-- Heading
-- Text
-- Label
-- Button
-
 > Loaders inform users that an action is still in progress and might take a while to complete.
+
+## Variants
+
+> - Heading, Text, Label, Button
 
 ## Heading
 
-📝 Coming soon 🐬
+```jsx
+<Loader variant={loaderVariant.heading} text={text} />
+```
 
 ## Text
 
-📝 Coming soon 🐬
+```jsx
+<Loader variant={loaderVariant.text} text={text} />
+```
 
 ## Label
 
-📝 Coming soon 🐬
+```jsx
+<Loader variant={loaderVariant.label} text={text} />
+```
 
 ## Button
 
-📝 Coming soon 🐬
+```jsx
+<Loader variant={loaderVariant.button} text={text} />
+```

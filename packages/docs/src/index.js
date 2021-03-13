@@ -1,4 +1,4 @@
-/* eslint global-require: 0 */
+/* eslint-disable global-require */
 
 import './asset/npm/primer.css'
 import './asset/custom.css'
@@ -18,3 +18,5 @@ require('@babel/register')({
 require('whatwg-fetch')
 
 require('./clientRenderApp')
+
+/* eslint-enable global-require */

@@ -37,29 +37,27 @@ export function DisplayTable({ className, items, idIndex, isSelectedIndex }) {
           )
         })}
       </div>
-      {items.map((item) => {
-        return (
-          <div key={uuidv1()} className={cx(className, displayStyles['d-table'], gridStyles['col-12'])}>
-            {item.values.map((value, index) => {
-              const isIdColumn = index === idIndex
-              const isSelectedColumn = index === isSelectedIndex
+      {items.map((item) => (
+        <div key={uuidv1()} className={cx(className, displayStyles['d-table'], gridStyles['col-12'])}>
+          {item.values.map((value, valueIndex) => {
+            const isIdColumn = valueIndex === idIndex
+            const isSelectedColumn = valueIndex === isSelectedIndex
 
-              return (
-                <React.Fragment key={uuidv1()}>
-                  {!isIdColumn && (
-                    <div
-                      key={uuidv1()}
-                      className={cx(gridStyles['col-2'], displayStyles['d-table-cell'], borderStyles.border, paddingStyles['p-2'])}
-                    >
-                      {isSelectedColumn ? '' : value?.value ?? value}
-                    </div>
-                  )}
-                </React.Fragment>
-              )
-            })}
-          </div>
-        )
-      })}
+            return (
+              <React.Fragment key={uuidv1()}>
+                {!isIdColumn && (
+                  <div
+                    key={uuidv1()}
+                    className={cx(gridStyles['col-2'], displayStyles['d-table-cell'], borderStyles.border, paddingStyles['p-2'])}
+                  >
+                    {isSelectedColumn ? '' : value?.value ?? value}
+                  </div>
+                )}
+              </React.Fragment>
+            )
+          })}
+        </div>
+      ))}
     </React.Fragment>
   )
 }

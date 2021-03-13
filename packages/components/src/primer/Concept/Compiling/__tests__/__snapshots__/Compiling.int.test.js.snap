@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Compiling /> Render must match renderDesignSystemCore() 1`] = `
+exports[`<Compiling /> Render must match designSystemCore() 1`] = `
 <div
   className={null}
 >
@@ -25,7 +25,7 @@ exports[`<Compiling /> Render must match renderDesignSystemCore() 1`] = `
 </div>
 `;
 
-exports[`<Compiling /> Render must match renderOpenSourceDependencyProjects() 1`] = `
+exports[`<Compiling /> Render must match openSourceDependencyProjects() 1`] = `
 <div
   className={null}
 >
@@ -146,7 +146,7 @@ exports[`<Compiling /> Render must match renderOpenSourceDependencyProjects() 1`
 </div>
 `;
 
-exports[`<Compiling /> Render must match renderProductMicrosites() 1`] = `
+exports[`<Compiling /> Render must match productMicrosites() 1`] = `
 <div
   className={null}
 >
@@ -242,18 +242,18 @@ exports[`<Compiling /> Render must match renderProductMicrosites() 1`] = `
   <div>
     ﹘
     <a
-      href="https://github.com/papillonads/marketplace/blob/master/packages/core/webpack.dev.js"
+      href="https://github.com/papillonads/marketplace/blob/master/packages/core/webpack.develop.js"
     >
-      webpack.dev.js
+      webpack.develop.js
     </a>
      for regular development build
   </div>
   <div>
     ﹘
     <a
-      href="https://github.com/papillonads/marketplace/blob/master/packages/core/webpack.prod.js"
+      href="https://github.com/papillonads/marketplace/blob/master/packages/core/webpack.release.js"
     >
-      webpack.prod.js
+      webpack.release.js
     </a>
      for regular production build
   </div>
@@ -284,7 +284,7 @@ exports[`<Compiling /> Render must match renderProductMicrosites() 1`] = `
 </div>
 `;
 
-exports[`<Compiling /> Render must match renderSpecificationsStandardsGuidelines() 1`] = `
+exports[`<Compiling /> Render must match specificationsStandardsGuidelines() 1`] = `
 <div
   className={null}
 >

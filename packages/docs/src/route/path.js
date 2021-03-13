@@ -1,7 +1,7 @@
 const homePath = '/'
 const conceptPath = {
   concept: '/concept',
-  accesibility: '/concept/accesibility',
+  accessibility: '/concept/accessibility',
   applicationArchitecture: '/concept/application-architecture',
   bootstrap: '/concept/bootstrap',
   codeStyle: '/concept/code-style',
@@ -30,7 +30,7 @@ const componentsPath = {
 export const homePagePath = process.env.BASE_URL ? `${process.env.BASE_URL}${homePath}` : homePath
 export const conceptPagePath = {
   concept: process.env.BASE_URL ? `${process.env.BASE_URL}${conceptPath.concept}` : conceptPath.concept,
-  accesibility: process.env.BASE_URL ? `${process.env.BASE_URL}${conceptPath.accesibility}` : conceptPath.accesibility,
+  accessibility: process.env.BASE_URL ? `${process.env.BASE_URL}${conceptPath.accessibility}` : conceptPath.accessibility,
   applicationArchitecture: process.env.BASE_URL
     ? `${process.env.BASE_URL}${conceptPath.applicationArchitecture}`
     : conceptPath.applicationArchitecture,

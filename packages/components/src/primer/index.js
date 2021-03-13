@@ -1,8 +1,10 @@
-import { Breadcrumb } from './Breadcrumb'
+import { Alert, alertVariant } from './Alert'
+import { Breadcrumb, breadcrumbState } from './Breadcrumb'
 import { Blankslate, blankslateVariant } from './Blankslate'
 import { Button, buttonElement, buttonVariant, buttonSize, buttonState, iconAlignment, buttonInputType } from './Button'
 import { Concept } from './Concept'
-import { Dropdown } from './Dropdown'
+import { ErrorBoundary } from './ErrorBoundary'
+import { Dropdown, dropdownState } from './Dropdown'
 import { Form } from './Form'
 import { Grid } from './Grid'
 import { Icon, iconName, iconSize } from './Icon'
@@ -17,7 +19,14 @@ import { Subhead } from './Subhead'
 import { Toast, toastVariant } from './Toast'
 
 export const primer = {
-  Breadcrumb,
+  Alert: {
+    Alert,
+    alertVariant,
+  },
+  Breadcrumb: {
+    Breadcrumb,
+    breadcrumbState,
+  },
   Blankslate: {
     Blankslate,
     blankslateVariant,
@@ -32,7 +41,11 @@ export const primer = {
     buttonInputType,
   },
   Concept,
-  Dropdown,
+  Dropdown: {
+    Dropdown,
+    dropdownState,
+  },
+  ErrorBoundary,
   Form,
   Grid,
   Icon: {

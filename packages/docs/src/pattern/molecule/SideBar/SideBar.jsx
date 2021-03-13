@@ -14,8 +14,8 @@ export function SideBar() {
 
           <ul className="pt-2 list-style-none">
             <li className="">
-              <Link className="position-relative f5 py-1 d-block" to={conceptPageRoute.accesibility.path}>
-                Accesibility
+              <Link className="position-relative f5 py-1 d-block" to={conceptPageRoute.accessibility.path}>
+                Accessibility
               </Link>
             </li>
             <li className="">

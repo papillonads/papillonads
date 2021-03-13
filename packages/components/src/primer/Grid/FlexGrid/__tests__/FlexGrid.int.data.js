@@ -1,4 +1,4 @@
-export const data = [
+export const filesObjects = [
   {
     contents: null,
     'date-created': 'Wed May 13 2015',

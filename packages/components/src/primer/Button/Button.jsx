@@ -1,6 +1,6 @@
 import React from 'react'
 import cx from 'classnames'
-import { hooks } from '@papillonads/library'
+import { useRef } from '@papillonads/library/hooks'
 import utilityStyles from '@papillonads/css/build/primer/utilities/margin.scss'
 import {
   propTypes,
@@ -15,13 +15,14 @@ import {
 import styles from './Button.scss'
 import { Icon, iconSize } from '../Icon'
 
-export function Button({ className, element, href, text, variant, size, state, icon, onClick, inputType }) {
-  const stateProps = state === buttonState.disabled ? { ...{ 'aria-disabled': 'true' } } : null
-  const fileInputRef = hooks.react.useRef(null)
+export function Button({ dataTest, className, element, href, text, variant, size, state, icon, onClick, inputType, autoFocus }) {
+  const stateProps = state === buttonState.inactive ? { ...{ 'aria-disabled': 'true' } } : null
+  const fileInputRef = useRef(null)
 
   if (element === buttonElement.button) {
     return (
       <button
+        data-test={dataTest}
         className={cx(className, styles.btn, {
           [styles['btn-sm']]: size === buttonSize.small,
           [styles['btn-large']]: size === buttonSize.large,
@@ -30,8 +31,10 @@ export function Button({ className, element, href, text, variant, size, state, i
           [styles['btn-outline']]: variant === buttonVariant.outline,
           [styles['btn-blue']]: variant === buttonVariant.blue,
           [styles['btn-orange']]: variant === buttonVariant.orange,
+          [styles['button-inactive']]: state === buttonState.inactive,
         })}
         type="button"
+        autoFocus={autoFocus} // eslint-disable-line
         onClick={() => {
           if (inputType === buttonInputType.file) {
             fileInputRef.current.click()
@@ -52,6 +55,7 @@ export function Button({ className, element, href, text, variant, size, state, i
             }}
             ref={fileInputRef}
             type="file"
+            autoFocus={autoFocus} // eslint-disable-line
             multiple
             style={{ display: 'none' }}
           />

@@ -1,4 +1,9 @@
-import { string, arrayOf, shape, bool, func } from 'prop-types'
+import { string, arrayOf, oneOf, shape, bool, func } from 'prop-types'
+
+export const dropdownState = {
+  active: 'active',
+  inactive: 'inactive',
+}
 
 export const propTypes = {
   className: string,
@@ -15,6 +20,7 @@ export const propTypes = {
     }),
   ).isRequired,
   onClick: func.isRequired,
+  state: oneOf(Object.keys(dropdownState)),
 }
 
 export const defaultProps = {
@@ -23,4 +29,5 @@ export const defaultProps = {
     haspopup: false,
     current: 'page',
   },
+  state: dropdownState.active,
 }

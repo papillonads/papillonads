@@ -1,3 +1,0 @@
-# ComponentDesign
-
-📝 Coming soon 🐬

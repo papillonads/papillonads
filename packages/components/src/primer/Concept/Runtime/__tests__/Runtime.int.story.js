@@ -1,24 +1,32 @@
-import { storiesOf } from '@storybook/react'
-import {
-  renderSpecificationsStandardsGuidelines,
-  renderOpenSourceDependencyProjects,
-  renderDesignSystemCore,
-  renderProductMicrosites,
-} from './Runtime.int.render'
-import notes from '../Runtime.md'
+import React from 'react'
+import { withTests } from '@storybook/addon-jest'
+import results from '../../../../../../../.jest-test-results.json'
 
-storiesOf('Primer|Atom/Concept/Runtime', module)
-  .add('SpecificationsStandardsGuidelines', renderSpecificationsStandardsGuidelines, {
-    notes,
-  })
-  .add('OpenSourceDependencyProjects', renderOpenSourceDependencyProjects, {
-    notes,
-  })
+const Runtime =
+  process.env.NODE_ENV === 'develop' || process.env.NODE_ENV === 'test'
+    ? require('../../../../index').primer.Concept.Runtime
+    : require('../../../../../build').primer.Concept.Runtime
 
-storiesOf('Primer|Atom/Concept/Runtime/Implementation', module)
-  .add('DesignSystemCore', renderDesignSystemCore, {
-    notes,
-  })
-  .add('ProductMicrosites', renderProductMicrosites, {
-    notes,
-  })
+export default {
+  title: 'Primer/Template/Concept/Runtime',
+  component: Runtime,
+  decorators: [withTests({ results })],
+  parameters: { jest: ['Runtime.int.test.js'] },
+  excludeStories: ['custom'],
+}
+
+export function specificationsStandardsGuidelines() {
+  return <Runtime.SpecificationsStandardsGuidelines />
+}
+
+export function openSourceDependencyProjects() {
+  return <Runtime.OpenSourceDependencyProjects />
+}
+
+export function designSystemCore() {
+  return <Runtime.Implementation.DesignSystemCore />
+}
+
+export function productMicrosites() {
+  return <Runtime.Implementation.ProductMicrosites />
+}

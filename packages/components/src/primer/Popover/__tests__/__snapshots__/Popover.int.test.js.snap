@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Popover /> Render must match renderBottom() 1`] = `
+exports[`<Popover /> Render must match bottom() 1`] = `
 <div
   className="position-relative text-center"
 >
@@ -24,7 +24,9 @@ exports[`<Popover /> Render must match renderBottom() 1`] = `
         Message about this particular piece of UI.
       </p>
       <button
+        autoFocus={false}
         className="mt-2 text-bold btn btn-outline"
+        data-test={null}
         onClick={[Function]}
         type="button"
       >
@@ -33,7 +35,9 @@ exports[`<Popover /> Render must match renderBottom() 1`] = `
     </div>
   </div>
   <button
+    autoFocus={false}
     className="btn btn-primary"
+    data-test={null}
     onClick={[Function]}
     type="button"
   >
@@ -42,7 +46,7 @@ exports[`<Popover /> Render must match renderBottom() 1`] = `
 </div>
 `;
 
-exports[`<Popover /> Render must match renderBottomLeft() 1`] = `
+exports[`<Popover /> Render must match bottomLeft() 1`] = `
 <div
   className="position-relative"
 >
@@ -66,7 +70,9 @@ exports[`<Popover /> Render must match renderBottomLeft() 1`] = `
         Message about this particular piece of UI.
       </p>
       <button
+        autoFocus={false}
         className="mt-2 text-bold btn btn-outline"
+        data-test={null}
         onClick={[Function]}
         type="button"
       >
@@ -75,7 +81,9 @@ exports[`<Popover /> Render must match renderBottomLeft() 1`] = `
     </div>
   </div>
   <button
+    autoFocus={false}
     className="btn btn-primary"
+    data-test={null}
     onClick={[Function]}
     type="button"
   >
@@ -84,7 +92,7 @@ exports[`<Popover /> Render must match renderBottomLeft() 1`] = `
 </div>
 `;
 
-exports[`<Popover /> Render must match renderBottomRight() 1`] = `
+exports[`<Popover /> Render must match bottomRight() 1`] = `
 <div
   className="position-relative text-right pr-2"
 >
@@ -108,7 +116,9 @@ exports[`<Popover /> Render must match renderBottomRight() 1`] = `
         Message about this particular piece of UI.
       </p>
       <button
+        autoFocus={false}
         className="mt-2 text-bold btn btn-outline"
+        data-test={null}
         onClick={[Function]}
         type="button"
       >
@@ -117,7 +127,9 @@ exports[`<Popover /> Render must match renderBottomRight() 1`] = `
     </div>
   </div>
   <button
+    autoFocus={false}
     className="btn btn-primary"
+    data-test={null}
     onClick={[Function]}
     type="button"
   >
@@ -126,12 +138,125 @@ exports[`<Popover /> Render must match renderBottomRight() 1`] = `
 </div>
 `;
 
-exports[`<Popover /> Render must match renderDefault() 1`] = `
+exports[`<Popover /> Render must match left() 1`] = `
+<div
+  className="position-relative"
+>
+  <div
+    className={
+      Object {
+        "pl-2": false,
+        "right-0 left-0": false,
+      }
+    }
+  >
+    <div
+      className="Popover-message text-left p-4 Box box-shadow-large Popover-message--left"
+    >
+      <h4
+        className="mb-2"
+      >
+        Popover heading
+      </h4>
+      <p>
+        Message about this particular piece of UI.
+      </p>
+      <button
+        autoFocus={false}
+        className="mt-2 text-bold btn btn-outline"
+        data-test={null}
+        onClick={[Function]}
+        type="button"
+      >
+        Got it!
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Popover /> Render must match leftBottom() 1`] = `
+<div
+  className="position-relative"
+>
+  <div
+    className={
+      Object {
+        "pl-2": false,
+        "right-0 left-0": false,
+      }
+    }
+  >
+    <div
+      className="Popover-message text-left p-4 Box box-shadow-large Popover-message--left-bottom"
+    >
+      <h4
+        className="mb-2"
+      >
+        Popover heading
+      </h4>
+      <p>
+        Message about this particular piece of UI.
+      </p>
+      <button
+        autoFocus={false}
+        className="mt-2 text-bold btn btn-outline"
+        data-test={null}
+        onClick={[Function]}
+        type="button"
+      >
+        Got it!
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Popover /> Render must match leftTop() 1`] = `
+<div
+  className="position-relative"
+>
+  <div
+    className={
+      Object {
+        "pl-2": false,
+        "right-0 left-0": false,
+      }
+    }
+  >
+    <div
+      className="Popover-message text-left p-4 Box box-shadow-large Popover-message--left-top"
+    >
+      <h4
+        className="mb-2"
+      >
+        Popover heading
+      </h4>
+      <p>
+        Message about this particular piece of UI.
+      </p>
+      <button
+        autoFocus={false}
+        className="mt-2 text-bold btn btn-outline"
+        data-test={null}
+        onClick={[Function]}
+        type="button"
+      >
+        Got it!
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Popover /> Render must match regular() 1`] = `
 <div
   className="position-relative text-center"
 >
   <button
+    autoFocus={false}
     className="btn btn-primary"
+    data-test={null}
     onClick={[Function]}
     type="button"
   >
@@ -157,7 +282,9 @@ exports[`<Popover /> Render must match renderDefault() 1`] = `
         Message about this particular piece of UI.
       </p>
       <button
+        autoFocus={false}
         className="mt-2 text-bold btn btn-outline"
+        data-test={null}
         onClick={[Function]}
         type="button"
       >
@@ -168,12 +295,14 @@ exports[`<Popover /> Render must match renderDefault() 1`] = `
 </div>
 `;
 
-exports[`<Popover /> Render must match renderDefaultLarge() 1`] = `
+exports[`<Popover /> Render must match regularLarge() 1`] = `
 <div
   className="position-relative text-center"
 >
   <button
+    autoFocus={false}
     className="btn btn-primary"
+    data-test={null}
     onClick={[Function]}
     type="button"
   >
@@ -199,7 +328,9 @@ exports[`<Popover /> Render must match renderDefaultLarge() 1`] = `
         Message about this particular piece of UI.
       </p>
       <button
+        autoFocus={false}
         className="mt-2 text-bold btn btn-outline"
+        data-test={null}
         onClick={[Function]}
         type="button"
       >
@@ -210,112 +341,7 @@ exports[`<Popover /> Render must match renderDefaultLarge() 1`] = `
 </div>
 `;
 
-exports[`<Popover /> Render must match renderLeft() 1`] = `
-<div
-  className="position-relative"
->
-  <div
-    className={
-      Object {
-        "pl-2": false,
-        "right-0 left-0": false,
-      }
-    }
-  >
-    <div
-      className="Popover-message text-left p-4 Box box-shadow-large Popover-message--left"
-    >
-      <h4
-        className="mb-2"
-      >
-        Popover heading
-      </h4>
-      <p>
-        Message about this particular piece of UI.
-      </p>
-      <button
-        className="mt-2 text-bold btn btn-outline"
-        onClick={[Function]}
-        type="button"
-      >
-        Got it!
-      </button>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`<Popover /> Render must match renderLeftBottom() 1`] = `
-<div
-  className="position-relative"
->
-  <div
-    className={
-      Object {
-        "pl-2": false,
-        "right-0 left-0": false,
-      }
-    }
-  >
-    <div
-      className="Popover-message text-left p-4 Box box-shadow-large Popover-message--left-bottom"
-    >
-      <h4
-        className="mb-2"
-      >
-        Popover heading
-      </h4>
-      <p>
-        Message about this particular piece of UI.
-      </p>
-      <button
-        className="mt-2 text-bold btn btn-outline"
-        onClick={[Function]}
-        type="button"
-      >
-        Got it!
-      </button>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`<Popover /> Render must match renderLeftTop() 1`] = `
-<div
-  className="position-relative"
->
-  <div
-    className={
-      Object {
-        "pl-2": false,
-        "right-0 left-0": false,
-      }
-    }
-  >
-    <div
-      className="Popover-message text-left p-4 Box box-shadow-large Popover-message--left-top"
-    >
-      <h4
-        className="mb-2"
-      >
-        Popover heading
-      </h4>
-      <p>
-        Message about this particular piece of UI.
-      </p>
-      <button
-        className="mt-2 text-bold btn btn-outline"
-        onClick={[Function]}
-        type="button"
-      >
-        Got it!
-      </button>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`<Popover /> Render must match renderRight() 1`] = `
+exports[`<Popover /> Render must match right() 1`] = `
 <div
   className="position-relative"
 >
@@ -339,7 +365,9 @@ exports[`<Popover /> Render must match renderRight() 1`] = `
         Message about this particular piece of UI.
       </p>
       <button
+        autoFocus={false}
         className="mt-2 text-bold btn btn-outline"
+        data-test={null}
         onClick={[Function]}
         type="button"
       >
@@ -350,7 +378,7 @@ exports[`<Popover /> Render must match renderRight() 1`] = `
 </div>
 `;
 
-exports[`<Popover /> Render must match renderRightBottom() 1`] = `
+exports[`<Popover /> Render must match rightBottom() 1`] = `
 <div
   className="position-relative"
 >
@@ -374,7 +402,9 @@ exports[`<Popover /> Render must match renderRightBottom() 1`] = `
         Message about this particular piece of UI.
       </p>
       <button
+        autoFocus={false}
         className="mt-2 text-bold btn btn-outline"
+        data-test={null}
         onClick={[Function]}
         type="button"
       >
@@ -385,7 +415,7 @@ exports[`<Popover /> Render must match renderRightBottom() 1`] = `
 </div>
 `;
 
-exports[`<Popover /> Render must match renderRightTop() 1`] = `
+exports[`<Popover /> Render must match rightTop() 1`] = `
 <div
   className="position-relative"
 >
@@ -409,7 +439,9 @@ exports[`<Popover /> Render must match renderRightTop() 1`] = `
         Message about this particular piece of UI.
       </p>
       <button
+        autoFocus={false}
         className="mt-2 text-bold btn btn-outline"
+        data-test={null}
         onClick={[Function]}
         type="button"
       >
@@ -420,7 +452,7 @@ exports[`<Popover /> Render must match renderRightTop() 1`] = `
 </div>
 `;
 
-exports[`<Popover /> Render must match renderTopLeft() 1`] = `
+exports[`<Popover /> Render must match topLeft() 1`] = `
 <div
   className="position-relative"
 >
@@ -444,7 +476,9 @@ exports[`<Popover /> Render must match renderTopLeft() 1`] = `
         Message about this particular piece of UI.
       </p>
       <button
+        autoFocus={false}
         className="mt-2 text-bold btn btn-outline"
+        data-test={null}
         onClick={[Function]}
         type="button"
       >
@@ -455,12 +489,14 @@ exports[`<Popover /> Render must match renderTopLeft() 1`] = `
 </div>
 `;
 
-exports[`<Popover /> Render must match renderTopRight() 1`] = `
+exports[`<Popover /> Render must match topRight() 1`] = `
 <div
   className="position-relative text-center"
 >
   <button
+    autoFocus={false}
     className="btn btn-primary"
+    data-test={null}
     onClick={[Function]}
     type="button"
   >
@@ -486,7 +522,9 @@ exports[`<Popover /> Render must match renderTopRight() 1`] = `
         Message about this particular piece of UI.
       </p>
       <button
+        autoFocus={false}
         className="mt-2 text-bold btn btn-outline"
+        data-test={null}
         onClick={[Function]}
         type="button"
       >

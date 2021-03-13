@@ -1,19 +1,25 @@
 # Menu
 
-- Default Menu
-- Menu With Icons
-- Menu With Heading
+> The menu is a vertical list of navigational links. A menu's width and placement must be set by you. If you like, just use our grid columns as a parent. Otherwise, apply a custom width.
 
-> The menu is a vertical list of navigational links.
+# Variants
 
-## Default Menu
+> - Default, WithIcons, WithHeading
 
-A menu's width and placement must be set by you.
+## Default
 
-## Menu With Icons
+```jsx
+<Menu ariaAttr={ariaAttr} items={defaultItems} onClick={action('onClick')} />
+```
 
-There are a few subcomponents and add-ons that work well with the menu, including avatars, counters, and icons.
+## WithIcons
 
-## Menu With Heading
+```jsx
+<Menu ariaAttr={ariaAttr} items={iconItems} onClick={action('onClick')} />
+```
 
-You can also add optional headings to a menu. Feel free to use nearly any semantic element with the .menu-heading class, including inline elements, headings, and more.
+## WithHeading
+
+```jsx
+<Menu heading={heading} ariaAttr={ariaAttr} items={defaultItems} onClick={action('onClick')} />
+```

@@ -4,17 +4,21 @@ import React from 'react'
 import cx from 'classnames'
 import { v1 as uuidv1 } from 'uuid'
 import utilityStyles from '@papillonads/css/build/primer/utilities/typography.scss'
-import { array as arrayLibrary } from '@papillonads/library'
-import { propTypes, defaultProps } from './Breadcrumb.prop'
+import { getIndexItems, getIndexItemsWithSelected } from '@papillonads/library/array'
+import { propTypes, defaultProps, breadcrumbState } from './Breadcrumb.prop'
 import styles from './Breadcrumb.scss'
 
-export function Breadcrumb({ className, ariaAttr, items, onClick }) {
-  const { getIndexItems, getIndexItemsWithSelected } = arrayLibrary
+export function Breadcrumb({ className, ariaAttr, items, onClick, state }) {
   const indexItems = getIndexItems(items)
   const { label, current } = ariaAttr
 
   return (
-    <nav className={cx(className)} aria-label={label}>
+    <nav
+      className={cx(className, {
+        [styles['breadcrumb-inactive']]: state === breadcrumbState.inactive,
+      })}
+      aria-label={label}
+    >
       <ol>
         {indexItems.map((indexItem) => {
           const { href, text, isSelected } = indexItem
@@ -30,9 +34,9 @@ export function Breadcrumb({ className, ariaAttr, items, onClick }) {
                 onClick({
                   active: text,
                   ariaAttr,
-                  items: newIndexItems.map((newIndexItem) => {
-                    return (({ href, text, isSelected }) => ({ href, text, isSelected }))(newIndexItem) // eslint-disable-line
-                  }),
+                  items: newIndexItems.map(
+                    (newIndexItem) => (({ href, text, isSelected }) => ({ href, text, isSelected }))(newIndexItem), // eslint-disable-line
+                  ),
                 })
               }}
               className={

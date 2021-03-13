@@ -1,24 +1,32 @@
-import { storiesOf } from '@storybook/react'
-import {
-  renderSpecificationsStandardsGuidelines,
-  renderOpenSourceDependencyProjects,
-  renderDesignSystemCore,
-  renderProductMicrosites,
-} from './CrossBrowserCompatibility.int.render'
-import notes from '../CrossBrowserCompatibility.md'
+import React from 'react'
+import { withTests } from '@storybook/addon-jest'
+import results from '../../../../../../../.jest-test-results.json'
 
-storiesOf('Primer|Atom/Concept/CrossBrowserCompatibility', module)
-  .add('SpecificationsStandardsGuidelines', renderSpecificationsStandardsGuidelines, {
-    notes,
-  })
-  .add('OpenSourceDependencyProjects', renderOpenSourceDependencyProjects, {
-    notes,
-  })
+const CrossBrowserCompatibility =
+  process.env.NODE_ENV === 'develop' || process.env.NODE_ENV === 'test'
+    ? require('../../../../index').primer.Concept.CrossBrowserCompatibility
+    : require('../../../../../build').primer.Concept.CrossBrowserCompatibility
 
-storiesOf('Primer|Atom/Concept/CrossBrowserCompatibility/Implementation', module)
-  .add('DesignSystemCore', renderDesignSystemCore, {
-    notes,
-  })
-  .add('ProductMicrosites', renderProductMicrosites, {
-    notes,
-  })
+export default {
+  title: 'Primer/Template/Concept/CrossBrowserCompatibility',
+  component: CrossBrowserCompatibility,
+  decorators: [withTests({ results })],
+  parameters: { jest: ['CrossBrowserCompatibility.int.test.js'] },
+  excludeStories: ['custom'],
+}
+
+export function specificationsStandardsGuidelines() {
+  return <CrossBrowserCompatibility.SpecificationsStandardsGuidelines />
+}
+
+export function openSourceDependencyProjects() {
+  return <CrossBrowserCompatibility.OpenSourceDependencyProjects />
+}
+
+export function designSystemCore() {
+  return <CrossBrowserCompatibility.Implementation.DesignSystemCore />
+}
+
+export function productMicrosites() {
+  return <CrossBrowserCompatibility.Implementation.ProductMicrosites />
+}

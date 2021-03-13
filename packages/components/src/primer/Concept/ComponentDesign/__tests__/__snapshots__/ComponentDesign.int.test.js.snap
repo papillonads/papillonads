@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<ComponentDesign /> Render must match renderDesignSystemCore() 1`] = `
+exports[`<ComponentDesign /> Render must match designSystemCore() 1`] = `
 <div
   className={null}
 >
@@ -25,7 +25,7 @@ exports[`<ComponentDesign /> Render must match renderDesignSystemCore() 1`] = `
 </div>
 `;
 
-exports[`<ComponentDesign /> Render must match renderOpenSourceDependencyProjects() 1`] = `
+exports[`<ComponentDesign /> Render must match openSourceDependencyProjects() 1`] = `
 <div
   className={null}
 >
@@ -92,7 +92,7 @@ exports[`<ComponentDesign /> Render must match renderOpenSourceDependencyProject
 </div>
 `;
 
-exports[`<ComponentDesign /> Render must match renderProductMicrosites() 1`] = `
+exports[`<ComponentDesign /> Render must match productMicrosites() 1`] = `
 <div
   className={null}
 >
@@ -162,28 +162,21 @@ exports[`<ComponentDesign /> Render must match renderProductMicrosites() 1`] = `
   <div>
     ﹘
     <strong>
-      .int.render.js:
+      .int.story.js:
     </strong>
-     Exposes various flavors of the component to snapshots and stories for integration testing purposes
+     Implements Storybook stories for various flavors of the component for integration testing purposes
   </div>
   <div>
     ﹘
     <strong>
       .int.test.js:
     </strong>
-     Implements Jest snapshots for flavors of the component exposed by .int.render.js
-  </div>
-  <div>
-    ﹘
-    <strong>
-      .int.story.js:
-    </strong>
-     Implements Storybook stories for flavors of the component exposed by .int.render.js
+     Implements Jest snapshots for various flavors of the component for integration testing purposes
   </div>
 </div>
 `;
 
-exports[`<ComponentDesign /> Render must match renderSpecificationsStandardsGuidelines() 1`] = `
+exports[`<ComponentDesign /> Render must match specificationsStandardsGuidelines() 1`] = `
 <div
   className={null}
 >

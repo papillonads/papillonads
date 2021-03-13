@@ -1,25 +1,17 @@
-import React from 'react'
-import { configure, addParameters, addDecorator } from '@storybook/react'
-import utilityStyles from '../packages/css/src/primer/utilities/padding.scss'
+import { DocsPage, DocsContainer } from '@storybook/addon-docs/blocks'
 
-// Storybook Addon Dependencies
-import { withKnobs } from '@storybook/addon-knobs'
-import { withA11y } from '@storybook/addon-a11y'
-import { jsxDecorator } from 'storybook-addon-jsx'
-
-// Setup Addons
-addDecorator(withKnobs)
-addDecorator(withA11y)
-addDecorator(jsxDecorator)
-addDecorator((story) => <div className={utilityStyles['p-4']}>{story()}</div>)
-
-// Setup Storybook options
-addParameters({ info: { header: false, source: false } })
-
-addParameters({
-  options: {
-    storySort: (a, b) => (a[1].kind === b[1].kind ? 0 : a[1].id.localeCompare(b[1].id, undefined, { numeric: true })),
+export const parameters = {
+  a11y: {
+    // optional selector which element to inspect
+    // element: '#root',
+    // axe-core configurationOptions (https://github.com/dequelabs/axe-core/blob/develop/doc/API.md#parameters-1)
+    config: {},
+    // axe-core optionsParameter (https://github.com/dequelabs/axe-core/blob/develop/doc/API.md#options-parameter)
+    options: {},
+    // optional flag to prevent the automatic check
+    // manual: true,
   },
-})
+  docs: { container: DocsContainer, page: DocsPage },
+}
 
 localStorage.clear()

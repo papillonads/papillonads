@@ -1,12 +1,18 @@
 import React from 'react'
 import cx from 'classnames'
 import marginStyles from '@papillonads/css/build/primer/utilities/margin.scss'
-import { propTypes, defaultProps } from './Radio.prop'
+import { propTypes, defaultProps, radioState } from './Radio.prop'
+import styles from './Radio.scss'
 import formStyles from '../Form.scss'
 
-export function Radio({ className, htmlFor, inputType, name, isChecked, text, onChange }) {
+export function Radio({ dataTest, className, htmlFor, inputType, name, isChecked, text, onChange, state }) {
   return (
-    <div className={cx(className, marginStyles['m-0'], formStyles['form-checkbox'])}>
+    <div
+      data-test={dataTest}
+      className={cx(className, marginStyles['m-0'], formStyles['form-checkbox'], {
+        [styles['radio-inactive']]: state === radioState.inactive,
+      })}
+    >
       <label htmlFor={htmlFor}>
         <input
           type={inputType}

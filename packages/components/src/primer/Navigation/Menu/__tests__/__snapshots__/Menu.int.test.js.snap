@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Menu /> Render must match renderDefault() 1`] = `
+exports[`<Menu /> Render must match regular() 1`] = `
 <nav
   aria-label="Person settings"
   aria-labelledby="menu-heading"
@@ -38,7 +38,7 @@ exports[`<Menu /> Render must match renderDefault() 1`] = `
 </nav>
 `;
 
-exports[`<Menu /> Render must match renderWithHeading() 1`] = `
+exports[`<Menu /> Render must match withHeading() 1`] = `
 <nav
   aria-label="Person settings"
   aria-labelledby="menu-heading"
@@ -81,7 +81,7 @@ exports[`<Menu /> Render must match renderWithHeading() 1`] = `
 </nav>
 `;
 
-exports[`<Menu /> Render must match renderWithIcons() 1`] = `
+exports[`<Menu /> Render must match withIcons() 1`] = `
 <nav
   aria-label="Person settings"
   aria-labelledby="menu-heading"

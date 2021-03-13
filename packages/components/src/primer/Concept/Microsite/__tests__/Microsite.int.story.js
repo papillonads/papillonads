@@ -1,24 +1,32 @@
-import { storiesOf } from '@storybook/react'
-import {
-  renderSpecificationsStandardsGuidelines,
-  renderOpenSourceDependencyProjects,
-  renderDesignSystemCore,
-  renderProductMicrosites,
-} from './Microsite.int.render'
-import notes from '../Microsite.md'
+import React from 'react'
+import { withTests } from '@storybook/addon-jest'
+import results from '../../../../../../../.jest-test-results.json'
 
-storiesOf('Primer|Atom/Concept/Microsite', module)
-  .add('SpecificationsStandardsGuidelines', renderSpecificationsStandardsGuidelines, {
-    notes,
-  })
-  .add('OpenSourceDependencyProjects', renderOpenSourceDependencyProjects, {
-    notes,
-  })
+const Microsite =
+  process.env.NODE_ENV === 'develop' || process.env.NODE_ENV === 'test'
+    ? require('../../../../index').primer.Concept.Microsite
+    : require('../../../../../build').primer.Concept.Microsite
 
-storiesOf('Primer|Atom/Concept/Microsite/Implementation', module)
-  .add('DesignSystemCore', renderDesignSystemCore, {
-    notes,
-  })
-  .add('ProductMicrosites', renderProductMicrosites, {
-    notes,
-  })
+export default {
+  title: 'Primer/Template/Concept/Microsite',
+  component: Microsite,
+  decorators: [withTests({ results })],
+  parameters: { jest: ['Microsite.int.test.js'] },
+  excludeStories: ['custom'],
+}
+
+export function specificationsStandardsGuidelines() {
+  return <Microsite.SpecificationsStandardsGuidelines />
+}
+
+export function openSourceDependencyProjects() {
+  return <Microsite.OpenSourceDependencyProjects />
+}
+
+export function designSystemCore() {
+  return <Microsite.Implementation.DesignSystemCore />
+}
+
+export function productMicrosites() {
+  return <Microsite.Implementation.ProductMicrosites />
+}

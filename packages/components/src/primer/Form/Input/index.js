@@ -1,2 +1,2 @@
 export { Input } from './Input'
-export { inputType } from './Input.prop'
+export { inputType, inputState } from './Input.prop'

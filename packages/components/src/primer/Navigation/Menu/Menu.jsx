@@ -1,14 +1,14 @@
 import React from 'react'
 import cx from 'classnames'
 import { v1 as uuidv1 } from 'uuid'
-import { hooks, array as arrayLibrary } from '@papillonads/library'
+import { getIndexItems, getIndexItemsWithSelected } from '@papillonads/library/array'
+import { useState } from '@papillonads/library/hooks'
 import { propTypes, defaultProps } from './Menu.prop'
 import styles from './Menu.scss'
 import { Icon, iconSize } from '../../Icon'
 
 export function Menu({ className, heading, ariaAttr, items, onClick }) {
-  const { getIndexItems, getIndexItemsWithSelected } = arrayLibrary
-  const [indexItems, setIndexItems] = hooks.react.useState(getIndexItems(items))
+  const [indexItems, setIndexItems] = useState(getIndexItems(items))
   const { label, labelledBy, current } = ariaAttr
 
   return (

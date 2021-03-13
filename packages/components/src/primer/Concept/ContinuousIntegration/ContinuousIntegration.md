@@ -1,3 +1,0 @@
-# ContinuousIntegration
-
-📝 Coming soon 🐬

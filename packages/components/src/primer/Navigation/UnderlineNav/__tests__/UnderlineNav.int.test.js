@@ -1,32 +1,27 @@
 import {
   buttonItems,
   anchorItems,
-  renderCustom,
-  renderDefault,
-  renderWithActions,
-  renderRightAligned,
-  renderRightAlignedWithActions,
-  renderWithIcons,
-  renderFullContainer,
-} from './UnderlineNav.int.render'
+  custom,
+  regular,
+  withActions,
+  rightAligned,
+  rightAlignedWithActions,
+  withIcons,
+  fullContainer,
+} from './UnderlineNav.int.story'
 import { underlineNavItemType } from '../UnderlineNav.prop'
 
-jest.mock('@papillonads/library', () => {
-  return {
-    hooks: {
-      react: {
-        useState: () => {},
-        useRef: () => {},
-      },
-    },
-    array: {
-      getIndexItems: () => {},
-      getIndexItemsWithSelected: () => {},
-    },
-  }
-})
+jest.mock('@papillonads/library/array', () => ({
+  getIndexItems: () => {},
+  getIndexItemsWithSelected: () => {},
+}))
 
-const libraryMockObject = require('@papillonads/library')
+jest.mock('@papillonads/library/hooks', () => ({
+  useState: () => {},
+}))
+
+const libraryArrayMockObject = require('@papillonads/library/array')
+const libraryHooksMockObject = require('@papillonads/library/hooks')
 
 describe('<UnderlineNav />', () => {
   let indexButtonItemsDataObject = [
@@ -68,29 +63,25 @@ describe('<UnderlineNav />', () => {
   })
 
   function mockLibraryForButtonItems() {
-    jest.spyOn(libraryMockObject.hooks.react, 'useState').mockImplementation(() => {
-      return [indexButtonItemsDataObject, setIndexButtonItemsMockFn]
-    })
+    jest.spyOn(libraryArrayMockObject, 'getIndexItems').mockReturnValue(indexButtonItemsDataObject)
 
-    jest.spyOn(libraryMockObject.array, 'getIndexItems').mockReturnValue(indexButtonItemsDataObject)
+    jest.spyOn(libraryArrayMockObject, 'getIndexItemsWithSelected').mockReturnValue(newIndexButtonItemsWithSelectedDataObject)
 
-    jest.spyOn(libraryMockObject.array, 'getIndexItemsWithSelected').mockReturnValue(newIndexButtonItemsWithSelectedDataObject)
+    jest.spyOn(libraryHooksMockObject, 'useState').mockImplementation(() => [indexButtonItemsDataObject, setIndexButtonItemsMockFn])
   }
 
   function mockLibraryForAnchorItems() {
-    jest.spyOn(libraryMockObject.hooks.react, 'useState').mockImplementation(() => {
-      return [indexAnchorItemsDataObject, setIndexAnchorItemsMockFn]
-    })
+    jest.spyOn(libraryArrayMockObject, 'getIndexItems').mockReturnValue(indexAnchorItemsDataObject)
 
-    jest.spyOn(libraryMockObject.array, 'getIndexItems').mockReturnValue(indexAnchorItemsDataObject)
+    jest.spyOn(libraryArrayMockObject, 'getIndexItemsWithSelected').mockReturnValue(newIndexAnchorItemsWithSelectedDataObject)
 
-    jest.spyOn(libraryMockObject.array, 'getIndexItemsWithSelected').mockReturnValue(newIndexAnchorItemsWithSelectedDataObject)
+    jest.spyOn(libraryHooksMockObject, 'useState').mockImplementation(() => [indexAnchorItemsDataObject, setIndexAnchorItemsMockFn])
   }
 
   describe('Event', () => {
     test('must return new items without index when button items and onClick()', () => {
       mockLibraryForButtonItems()
-      const mountCustomRender = global.renderMount(renderCustom(buttonItems, underlineNavItemType.button, onClickMockFn))
+      const mountCustomRender = global.renderMount(custom(buttonItems, underlineNavItemType.button, onClickMockFn))
       mountCustomRender.find('button').first().simulate('click')
       expect(mountCustomRender.props().onClick).toBe(onClickMockFn)
       expect(mountCustomRender.props().onClick).toHaveBeenCalledWith(newIndexButtonItemsWithSelectedDataObject)
@@ -98,7 +89,7 @@ describe('<UnderlineNav />', () => {
 
     test('must return new items without index when anchor items and onClick()', () => {
       mockLibraryForAnchorItems()
-      const mountCustomRender = global.renderMount(renderCustom(anchorItems, underlineNavItemType.a, onClickMockFn))
+      const mountCustomRender = global.renderMount(custom(anchorItems, underlineNavItemType.a, onClickMockFn))
       mountCustomRender.find('a').first().simulate('click')
       expect(mountCustomRender.props().onClick).toBe(onClickMockFn)
       expect(mountCustomRender.props().onClick).toHaveBeenCalledWith(newIndexAnchorItemsWithSelectedDataObject)
@@ -106,41 +97,41 @@ describe('<UnderlineNav />', () => {
   })
 
   describe('Render', () => {
-    test('must match renderDefault()', () => {
+    test('must match regular()', () => {
       mockLibraryForButtonItems()
-      expect(global.renderToJSON(renderDefault())).toMatchSnapshot()
+      expect(global.renderToJSON(regular())).toMatchSnapshot()
     })
 
-    test('must match renderWithActions()', () => {
+    test('must match withActions()', () => {
       mockLibraryForButtonItems()
-      expect(global.renderToJSON(renderWithActions())).toMatchSnapshot()
+      expect(global.renderToJSON(withActions())).toMatchSnapshot()
     })
 
-    test('must match renderRightAligned()', () => {
+    test('must match rightAligned()', () => {
       mockLibraryForButtonItems()
-      expect(global.renderToJSON(renderRightAligned())).toMatchSnapshot()
+      expect(global.renderToJSON(rightAligned())).toMatchSnapshot()
     })
 
-    test('must match renderRightAlignedWithActions()', () => {
+    test('must match rightAlignedWithActions()', () => {
       mockLibraryForButtonItems()
-      expect(global.renderToJSON(renderRightAlignedWithActions())).toMatchSnapshot()
+      expect(global.renderToJSON(rightAlignedWithActions())).toMatchSnapshot()
     })
 
-    test('must match renderWithIcons()', () => {
+    test('must match withIcons()', () => {
       mockLibraryForButtonItems()
-      expect(global.renderToJSON(renderWithIcons())).toMatchSnapshot()
+      expect(global.renderToJSON(withIcons())).toMatchSnapshot()
     })
 
-    test('must match renderFullContainer()', () => {
+    test('must match fullContainer()', () => {
       mockLibraryForButtonItems()
-      expect(global.renderToJSON(renderFullContainer())).toMatchSnapshot()
+      expect(global.renderToJSON(fullContainer())).toMatchSnapshot()
     })
   })
 
   describe('State', () => {
     test('must reset new items with index when button items and onClick()', () => {
       mockLibraryForButtonItems()
-      const mountCustomRender = global.renderMount(renderCustom(buttonItems, underlineNavItemType.button, onClickMockFn))
+      const mountCustomRender = global.renderMount(custom(buttonItems, underlineNavItemType.button, onClickMockFn))
       mountCustomRender.find('button').first().simulate('click')
       expect(setIndexButtonItemsMockFn).toHaveBeenCalledWith(newIndexButtonItemsWithSelectedDataObject)
       expect(indexButtonItemsDataObject).toBe(newIndexButtonItemsWithSelectedDataObject)
@@ -148,7 +139,7 @@ describe('<UnderlineNav />', () => {
 
     test('must reset new items with index when anchor items and onClick()', () => {
       mockLibraryForAnchorItems()
-      const mountCustomRender = global.renderMount(renderCustom(anchorItems, underlineNavItemType.a, onClickMockFn))
+      const mountCustomRender = global.renderMount(custom(anchorItems, underlineNavItemType.a, onClickMockFn))
       mountCustomRender.find('a').first().simulate('click')
       expect(setIndexAnchorItemsMockFn).toHaveBeenCalledWith(newIndexAnchorItemsWithSelectedDataObject)
       expect(indexAnchorItemsDataObject).toBe(newIndexAnchorItemsWithSelectedDataObject)

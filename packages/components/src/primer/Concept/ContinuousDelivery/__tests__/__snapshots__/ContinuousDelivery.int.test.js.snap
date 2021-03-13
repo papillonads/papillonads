@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<ContinuousDelivery /> Render must match renderDesignSystemCore() 1`] = `
+exports[`<ContinuousDelivery /> Render must match designSystemCore() 1`] = `
 <div
   className={null}
 >
@@ -25,7 +25,7 @@ exports[`<ContinuousDelivery /> Render must match renderDesignSystemCore() 1`] =
 </div>
 `;
 
-exports[`<ContinuousDelivery /> Render must match renderOpenSourceDependencyProjects() 1`] = `
+exports[`<ContinuousDelivery /> Render must match openSourceDependencyProjects() 1`] = `
 <div
   className={null}
 >
@@ -36,7 +36,7 @@ exports[`<ContinuousDelivery /> Render must match renderOpenSourceDependencyProj
 </div>
 `;
 
-exports[`<ContinuousDelivery /> Render must match renderProductMicrosites() 1`] = `
+exports[`<ContinuousDelivery /> Render must match productMicrosites() 1`] = `
 <div
   className={null}
 >
@@ -61,7 +61,7 @@ exports[`<ContinuousDelivery /> Render must match renderProductMicrosites() 1`] 
 </div>
 `;
 
-exports[`<ContinuousDelivery /> Render must match renderSpecificationsStandardsGuidelines() 1`] = `
+exports[`<ContinuousDelivery /> Render must match specificationsStandardsGuidelines() 1`] = `
 <div
   className={null}
 >

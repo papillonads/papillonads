@@ -1,16 +1,15 @@
 import React from 'react'
 import cx from 'classnames'
 import { v1 as uuidv1 } from 'uuid'
-import { array as arrayLibrary } from '@papillonads/library'
-import { propTypes, defaultProps } from './TabNav.prop'
+import { getIndexItems, getIndexItemsWithSelected } from '@papillonads/library/array'
+import { propTypes, defaultProps, tabNavState } from './TabNav.prop'
 import styles from './TabNav.scss'
 
-export function TabNav({ className, ariaAttr, items, actions, onClick, children }) {
+export function TabNav({ className, ariaAttr, items, actions, onClick, children, state }) {
   if (!items) {
     return null
   }
 
-  const { getIndexItems, getIndexItemsWithSelected } = arrayLibrary
   const { label, current } = ariaAttr
   const indexItems = getIndexItems(items)
 
@@ -19,11 +18,15 @@ export function TabNav({ className, ariaAttr, items, actions, onClick, children 
   }
 
   return (
-    <div className={cx(className, styles.tabnav)}>
+    <div
+      className={cx(className, styles.tabnav, {
+        [styles['tabnav-inactive']]: state === tabNavState.inactive,
+      })}
+    >
       {actions && renderActions()}
       <nav className={styles['tabnav-tabs']} aria-label={label}>
         {indexItems.map((indexItem) => {
-          const { href, text, link, isSelected } = indexItem
+          const { href, text, link, isSelected, enabled, visible } = indexItem
 
           const itemOtherProps = isSelected ? { ...{ 'aria-current': current } } : null
 
@@ -32,12 +35,16 @@ export function TabNav({ className, ariaAttr, items, actions, onClick, children 
               <a
                 key={uuidv1()}
                 onClick={() => {
+                  if (!enabled) {
+                    return
+                  }
+
                   const newIndexItems = getIndexItemsWithSelected(indexItems, indexItem)
                   onClick({
                     ariaAttr,
-                    items: newIndexItems.map((newIndexItem) => {
-                      return (({ href, text, isSelected }) => ({ href, text, isSelected }))(newIndexItem) // eslint-disable-line
-                    }),
+                    items: newIndexItems.map(
+                      (newIndexItem) => (({ href, text, isSelected }) => ({ href, text, isSelected, enabled, visible }))(newIndexItem), // eslint-disable-line
+                    ),
                   })
                 }}
                 className={styles['tabnav-tab']}
@@ -56,15 +63,23 @@ export function TabNav({ className, ariaAttr, items, actions, onClick, children 
               <Link
                 key={uuidv1()}
                 onClick={() => {
+                  if (!enabled) {
+                    return
+                  }
+
                   const newIndexItems = getIndexItemsWithSelected(indexItems, indexItem)
                   onClick({
                     ariaAttr,
-                    items: newIndexItems.map((newIndexItem) => {
-                      return (({ link, isSelected }) => ({ link, isSelected }))(newIndexItem) // eslint-disable-line
-                    }),
+                    items: newIndexItems.map(
+                      (newIndexItem) =>
+                        (({ link, isSelected, enabled, visible }) => ({ link, isSelected, enabled, visible }))(newIndexItem), // eslint-disable-line
+                    ),
                   })
                 }}
-                className={styles['tabnav-tab']}
+                className={cx(className, styles['tabnav-tab'], {
+                  [styles['tabnav-tab-inactive']]: enabled === false,
+                  [styles['tabnav-tab-hidden']]: visible === false,
+                })}
                 {...itemOtherProps}
                 {...link.props}
               >

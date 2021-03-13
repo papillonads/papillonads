@@ -1,8 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Button /> Render must match renderBlueButton() 1`] = `
+exports[`<Button /> Render must match blue() 1`] = `
 <button
+  autoFocus={false}
   className="btn btn-blue"
+  data-test={null}
   onClick={[Function]}
   type="button"
 >
@@ -10,20 +12,11 @@ exports[`<Button /> Render must match renderBlueButton() 1`] = `
 </button>
 `;
 
-exports[`<Button /> Render must match renderBlueDisabledButton() 1`] = `
+exports[`<Button /> Render must match blueIconLeftAligned() 1`] = `
 <button
-  aria-disabled="true"
+  autoFocus={false}
   className="btn btn-blue"
-  onClick={[Function]}
-  type="button"
->
-  Blue disabled button
-</button>
-`;
-
-exports[`<Button /> Render must match renderBlueIconButtonLeftAligned() 1`] = `
-<button
-  className="btn btn-blue"
+  data-test={null}
   onClick={[Function]}
   type="button"
 >
@@ -48,9 +41,11 @@ exports[`<Button /> Render must match renderBlueIconButtonLeftAligned() 1`] = `
 </button>
 `;
 
-exports[`<Button /> Render must match renderBlueIconButtonRightAligned() 1`] = `
+exports[`<Button /> Render must match blueIconRightAligned() 1`] = `
 <button
+  autoFocus={false}
   className="btn btn-blue"
+  data-test={null}
   onClick={[Function]}
   type="button"
 >
@@ -75,9 +70,24 @@ exports[`<Button /> Render must match renderBlueIconButtonRightAligned() 1`] = `
 </button>
 `;
 
-exports[`<Button /> Render must match renderBlueLargeButton() 1`] = `
+exports[`<Button /> Render must match blueInactive() 1`] = `
 <button
+  aria-disabled="true"
+  autoFocus={false}
+  className="btn btn-blue button-inactive"
+  data-test={null}
+  onClick={[Function]}
+  type="button"
+>
+  Blue inactive button
+</button>
+`;
+
+exports[`<Button /> Render must match blueLarge() 1`] = `
+<button
+  autoFocus={false}
   className="btn btn-large btn-blue"
+  data-test={null}
   onClick={[Function]}
   type="button"
 >
@@ -85,9 +95,11 @@ exports[`<Button /> Render must match renderBlueLargeButton() 1`] = `
 </button>
 `;
 
-exports[`<Button /> Render must match renderBlueSmallButton() 1`] = `
+exports[`<Button /> Render must match blueSmall() 1`] = `
 <button
+  autoFocus={false}
   className="btn btn-sm btn-blue"
+  data-test={null}
   onClick={[Function]}
   type="button"
 >
@@ -95,9 +107,11 @@ exports[`<Button /> Render must match renderBlueSmallButton() 1`] = `
 </button>
 `;
 
-exports[`<Button /> Render must match renderDangerButton() 1`] = `
+exports[`<Button /> Render must match danger() 1`] = `
 <button
+  autoFocus={false}
   className="btn btn-danger"
+  data-test={null}
   onClick={[Function]}
   type="button"
 >
@@ -105,20 +119,11 @@ exports[`<Button /> Render must match renderDangerButton() 1`] = `
 </button>
 `;
 
-exports[`<Button /> Render must match renderDangerDisabledButton() 1`] = `
+exports[`<Button /> Render must match dangerIconLeftAligned() 1`] = `
 <button
-  aria-disabled="true"
+  autoFocus={false}
   className="btn btn-danger"
-  onClick={[Function]}
-  type="button"
->
-  Danger disabled button
-</button>
-`;
-
-exports[`<Button /> Render must match renderDangerIconButtonLeftAligned() 1`] = `
-<button
-  className="btn btn-danger"
+  data-test={null}
   onClick={[Function]}
   type="button"
 >
@@ -143,9 +148,11 @@ exports[`<Button /> Render must match renderDangerIconButtonLeftAligned() 1`] = 
 </button>
 `;
 
-exports[`<Button /> Render must match renderDangerIconButtonRightAligned() 1`] = `
+exports[`<Button /> Render must match dangerIconRightAligned() 1`] = `
 <button
+  autoFocus={false}
   className="btn btn-danger"
+  data-test={null}
   onClick={[Function]}
   type="button"
 >
@@ -170,9 +177,24 @@ exports[`<Button /> Render must match renderDangerIconButtonRightAligned() 1`] =
 </button>
 `;
 
-exports[`<Button /> Render must match renderDangerLargeButton() 1`] = `
+exports[`<Button /> Render must match dangerInactive() 1`] = `
 <button
+  aria-disabled="true"
+  autoFocus={false}
+  className="btn btn-danger button-inactive"
+  data-test={null}
+  onClick={[Function]}
+  type="button"
+>
+  Danger inactive button
+</button>
+`;
+
+exports[`<Button /> Render must match dangerLarge() 1`] = `
+<button
+  autoFocus={false}
   className="btn btn-large btn-danger"
+  data-test={null}
   onClick={[Function]}
   type="button"
 >
@@ -180,9 +202,11 @@ exports[`<Button /> Render must match renderDangerLargeButton() 1`] = `
 </button>
 `;
 
-exports[`<Button /> Render must match renderDangerSmallButton() 1`] = `
+exports[`<Button /> Render must match dangerSmall() 1`] = `
 <button
+  autoFocus={false}
   className="btn btn-sm btn-danger"
+  data-test={null}
   onClick={[Function]}
   type="button"
 >
@@ -190,30 +214,11 @@ exports[`<Button /> Render must match renderDangerSmallButton() 1`] = `
 </button>
 `;
 
-exports[`<Button /> Render must match renderDefaultButton() 1`] = `
+exports[`<Button /> Render must match defaultIconLeftAligned() 1`] = `
 <button
+  autoFocus={false}
   className="btn"
-  onClick={[Function]}
-  type="button"
->
-  Default button
-</button>
-`;
-
-exports[`<Button /> Render must match renderDefaultDisabledButton() 1`] = `
-<button
-  aria-disabled="true"
-  className="btn"
-  onClick={[Function]}
-  type="button"
->
-  Default disabled button
-</button>
-`;
-
-exports[`<Button /> Render must match renderDefaultIconButtonLeftAligned() 1`] = `
-<button
-  className="btn"
+  data-test={null}
   onClick={[Function]}
   type="button"
 >
@@ -238,9 +243,11 @@ exports[`<Button /> Render must match renderDefaultIconButtonLeftAligned() 1`] =
 </button>
 `;
 
-exports[`<Button /> Render must match renderDefaultIconButtonRightAligned() 1`] = `
+exports[`<Button /> Render must match defaultIconRightAligned() 1`] = `
 <button
+  autoFocus={false}
   className="btn"
+  data-test={null}
   onClick={[Function]}
   type="button"
 >
@@ -265,9 +272,24 @@ exports[`<Button /> Render must match renderDefaultIconButtonRightAligned() 1`] 
 </button>
 `;
 
-exports[`<Button /> Render must match renderDefaultLargeButton() 1`] = `
+exports[`<Button /> Render must match defaultInactive() 1`] = `
 <button
+  aria-disabled="true"
+  autoFocus={false}
+  className="btn button-inactive"
+  data-test={null}
+  onClick={[Function]}
+  type="button"
+>
+  Default inactive button
+</button>
+`;
+
+exports[`<Button /> Render must match defaultLarge() 1`] = `
+<button
+  autoFocus={false}
   className="btn btn-large"
+  data-test={null}
   onClick={[Function]}
   type="button"
 >
@@ -275,7 +297,7 @@ exports[`<Button /> Render must match renderDefaultLargeButton() 1`] = `
 </button>
 `;
 
-exports[`<Button /> Render must match renderDefaultLinkButton() 1`] = `
+exports[`<Button /> Render must match defaultLink() 1`] = `
 <a
   className="btn"
   href="#url"
@@ -286,9 +308,23 @@ exports[`<Button /> Render must match renderDefaultLinkButton() 1`] = `
 </a>
 `;
 
-exports[`<Button /> Render must match renderDefaultSmallButton() 1`] = `
+exports[`<Button /> Render must match defaultNormal() 1`] = `
 <button
+  autoFocus={false}
+  className="btn"
+  data-test={null}
+  onClick={[Function]}
+  type="button"
+>
+  Default normal button
+</button>
+`;
+
+exports[`<Button /> Render must match defaultSmall() 1`] = `
+<button
+  autoFocus={false}
   className="btn btn-sm"
+  data-test={null}
   onClick={[Function]}
   type="button"
 >
@@ -296,9 +332,11 @@ exports[`<Button /> Render must match renderDefaultSmallButton() 1`] = `
 </button>
 `;
 
-exports[`<Button /> Render must match renderOrangeButton() 1`] = `
+exports[`<Button /> Render must match orange() 1`] = `
 <button
+  autoFocus={false}
   className="btn btn-orange"
+  data-test={null}
   onClick={[Function]}
   type="button"
 >
@@ -306,20 +344,11 @@ exports[`<Button /> Render must match renderOrangeButton() 1`] = `
 </button>
 `;
 
-exports[`<Button /> Render must match renderOrangeDisabledButton() 1`] = `
+exports[`<Button /> Render must match orangeIconLeftAligned() 1`] = `
 <button
-  aria-disabled="true"
+  autoFocus={false}
   className="btn btn-orange"
-  onClick={[Function]}
-  type="button"
->
-  Orange disabled button
-</button>
-`;
-
-exports[`<Button /> Render must match renderOrangeIconButtonLeftAligned() 1`] = `
-<button
-  className="btn btn-orange"
+  data-test={null}
   onClick={[Function]}
   type="button"
 >
@@ -344,9 +373,11 @@ exports[`<Button /> Render must match renderOrangeIconButtonLeftAligned() 1`] = 
 </button>
 `;
 
-exports[`<Button /> Render must match renderOrangeIconButtonRightAligned() 1`] = `
+exports[`<Button /> Render must match orangeIconRightAligned() 1`] = `
 <button
+  autoFocus={false}
   className="btn btn-orange"
+  data-test={null}
   onClick={[Function]}
   type="button"
 >
@@ -371,9 +402,24 @@ exports[`<Button /> Render must match renderOrangeIconButtonRightAligned() 1`] =
 </button>
 `;
 
-exports[`<Button /> Render must match renderOrangeLargeButton() 1`] = `
+exports[`<Button /> Render must match orangeInactive() 1`] = `
 <button
+  aria-disabled="true"
+  autoFocus={false}
+  className="btn btn-orange button-inactive"
+  data-test={null}
+  onClick={[Function]}
+  type="button"
+>
+  Orange inactive button
+</button>
+`;
+
+exports[`<Button /> Render must match orangeLarge() 1`] = `
+<button
+  autoFocus={false}
   className="btn btn-large btn-orange"
+  data-test={null}
   onClick={[Function]}
   type="button"
 >
@@ -381,9 +427,11 @@ exports[`<Button /> Render must match renderOrangeLargeButton() 1`] = `
 </button>
 `;
 
-exports[`<Button /> Render must match renderOrangeSmallButton() 1`] = `
+exports[`<Button /> Render must match orangeSmall() 1`] = `
 <button
+  autoFocus={false}
   className="btn btn-sm btn-orange"
+  data-test={null}
   onClick={[Function]}
   type="button"
 >
@@ -391,9 +439,11 @@ exports[`<Button /> Render must match renderOrangeSmallButton() 1`] = `
 </button>
 `;
 
-exports[`<Button /> Render must match renderOutlineButton() 1`] = `
+exports[`<Button /> Render must match outline() 1`] = `
 <button
+  autoFocus={false}
   className="btn btn-outline"
+  data-test={null}
   onClick={[Function]}
   type="button"
 >
@@ -401,20 +451,11 @@ exports[`<Button /> Render must match renderOutlineButton() 1`] = `
 </button>
 `;
 
-exports[`<Button /> Render must match renderOutlineDisabledButton() 1`] = `
+exports[`<Button /> Render must match outlineIconLeftAligned() 1`] = `
 <button
-  aria-disabled="true"
+  autoFocus={false}
   className="btn btn-outline"
-  onClick={[Function]}
-  type="button"
->
-  Outline disabled button
-</button>
-`;
-
-exports[`<Button /> Render must match renderOutlineIconButtonLeftAligned() 1`] = `
-<button
-  className="btn btn-outline"
+  data-test={null}
   onClick={[Function]}
   type="button"
 >
@@ -439,9 +480,11 @@ exports[`<Button /> Render must match renderOutlineIconButtonLeftAligned() 1`] =
 </button>
 `;
 
-exports[`<Button /> Render must match renderOutlineIconButtonRightAligned() 1`] = `
+exports[`<Button /> Render must match outlineIconRightAligned() 1`] = `
 <button
+  autoFocus={false}
   className="btn btn-outline"
+  data-test={null}
   onClick={[Function]}
   type="button"
 >
@@ -466,9 +509,24 @@ exports[`<Button /> Render must match renderOutlineIconButtonRightAligned() 1`] 
 </button>
 `;
 
-exports[`<Button /> Render must match renderOutlineLargeButton() 1`] = `
+exports[`<Button /> Render must match outlineInactive() 1`] = `
 <button
+  aria-disabled="true"
+  autoFocus={false}
+  className="btn btn-outline button-inactive"
+  data-test={null}
+  onClick={[Function]}
+  type="button"
+>
+  Outline inactive button
+</button>
+`;
+
+exports[`<Button /> Render must match outlineLarge() 1`] = `
+<button
+  autoFocus={false}
   className="btn btn-large btn-outline"
+  data-test={null}
   onClick={[Function]}
   type="button"
 >
@@ -476,9 +534,11 @@ exports[`<Button /> Render must match renderOutlineLargeButton() 1`] = `
 </button>
 `;
 
-exports[`<Button /> Render must match renderOutlineSmallButton() 1`] = `
+exports[`<Button /> Render must match outlineSmall() 1`] = `
 <button
+  autoFocus={false}
   className="btn btn-sm btn-outline"
+  data-test={null}
   onClick={[Function]}
   type="button"
 >
@@ -486,9 +546,11 @@ exports[`<Button /> Render must match renderOutlineSmallButton() 1`] = `
 </button>
 `;
 
-exports[`<Button /> Render must match renderPrimaryButton() 1`] = `
+exports[`<Button /> Render must match primary() 1`] = `
 <button
+  autoFocus={false}
   className="btn btn-primary"
+  data-test={null}
   onClick={[Function]}
   type="button"
 >
@@ -496,20 +558,11 @@ exports[`<Button /> Render must match renderPrimaryButton() 1`] = `
 </button>
 `;
 
-exports[`<Button /> Render must match renderPrimaryDisabledButton() 1`] = `
+exports[`<Button /> Render must match primaryIconLeftAligned() 1`] = `
 <button
-  aria-disabled="true"
+  autoFocus={false}
   className="btn btn-primary"
-  onClick={[Function]}
-  type="button"
->
-  Primary disabled button
-</button>
-`;
-
-exports[`<Button /> Render must match renderPrimaryIconButtonLeftAligned() 1`] = `
-<button
-  className="btn btn-primary"
+  data-test={null}
   onClick={[Function]}
   type="button"
 >
@@ -534,9 +587,11 @@ exports[`<Button /> Render must match renderPrimaryIconButtonLeftAligned() 1`] =
 </button>
 `;
 
-exports[`<Button /> Render must match renderPrimaryIconButtonRightAligned() 1`] = `
+exports[`<Button /> Render must match primaryIconRightAligned() 1`] = `
 <button
+  autoFocus={false}
   className="btn btn-primary"
+  data-test={null}
   onClick={[Function]}
   type="button"
 >
@@ -561,9 +616,24 @@ exports[`<Button /> Render must match renderPrimaryIconButtonRightAligned() 1`] 
 </button>
 `;
 
-exports[`<Button /> Render must match renderPrimaryLargeButton() 1`] = `
+exports[`<Button /> Render must match primaryInactive() 1`] = `
 <button
+  aria-disabled="true"
+  autoFocus={false}
+  className="btn btn-primary button-inactive"
+  data-test={null}
+  onClick={[Function]}
+  type="button"
+>
+  Primary inactive button
+</button>
+`;
+
+exports[`<Button /> Render must match primaryLarge() 1`] = `
+<button
+  autoFocus={false}
   className="btn btn-large btn-primary"
+  data-test={null}
   onClick={[Function]}
   type="button"
 >
@@ -571,9 +641,11 @@ exports[`<Button /> Render must match renderPrimaryLargeButton() 1`] = `
 </button>
 `;
 
-exports[`<Button /> Render must match renderPrimarySmallButton() 1`] = `
+exports[`<Button /> Render must match primarySmall() 1`] = `
 <button
+  autoFocus={false}
   className="btn btn-sm btn-primary"
+  data-test={null}
   onClick={[Function]}
   type="button"
 >

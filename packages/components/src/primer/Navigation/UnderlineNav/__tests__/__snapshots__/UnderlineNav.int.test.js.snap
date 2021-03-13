@@ -1,52 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<UnderlineNav /> Render must match renderDefault() 1`] = `
-<nav
-  aria-label="Foo bar"
-  className="UnderlineNav"
->
-  <div
-    className="UnderlineNav-body"
-    role="tablist"
-  >
-    <button
-      aria-selected="true"
-      className="UnderlineNav-item"
-      onClick={[Function]}
-      role="tab"
-      type="button"
-    >
-      Item 1
-    </button>
-    <button
-      className="UnderlineNav-item"
-      onClick={[Function]}
-      role="tab"
-      type="button"
-    >
-      Item 2
-    </button>
-    <button
-      className="UnderlineNav-item"
-      onClick={[Function]}
-      role="tab"
-      type="button"
-    >
-      Item 3
-    </button>
-    <button
-      className="UnderlineNav-item"
-      onClick={[Function]}
-      role="tab"
-      type="button"
-    >
-      Item 4
-    </button>
-  </div>
-</nav>
-`;
-
-exports[`<UnderlineNav /> Render must match renderFullContainer() 1`] = `
+exports[`<UnderlineNav /> Render must match fullContainer() 1`] = `
 <nav
   aria-label="Foo bar"
   className="UnderlineNav UnderlineNav--full"
@@ -98,7 +52,53 @@ exports[`<UnderlineNav /> Render must match renderFullContainer() 1`] = `
 </nav>
 `;
 
-exports[`<UnderlineNav /> Render must match renderRightAligned() 1`] = `
+exports[`<UnderlineNav /> Render must match regular() 1`] = `
+<nav
+  aria-label="Foo bar"
+  className="UnderlineNav"
+>
+  <div
+    className="UnderlineNav-body"
+    role="tablist"
+  >
+    <button
+      aria-selected="true"
+      className="UnderlineNav-item"
+      onClick={[Function]}
+      role="tab"
+      type="button"
+    >
+      Item 1
+    </button>
+    <button
+      className="UnderlineNav-item"
+      onClick={[Function]}
+      role="tab"
+      type="button"
+    >
+      Item 2
+    </button>
+    <button
+      className="UnderlineNav-item"
+      onClick={[Function]}
+      role="tab"
+      type="button"
+    >
+      Item 3
+    </button>
+    <button
+      className="UnderlineNav-item"
+      onClick={[Function]}
+      role="tab"
+      type="button"
+    >
+      Item 4
+    </button>
+  </div>
+</nav>
+`;
+
+exports[`<UnderlineNav /> Render must match rightAligned() 1`] = `
 <nav
   aria-label="Foo bar"
   className="UnderlineNav UnderlineNav--right"
@@ -136,7 +136,7 @@ exports[`<UnderlineNav /> Render must match renderRightAligned() 1`] = `
 </nav>
 `;
 
-exports[`<UnderlineNav /> Render must match renderRightAlignedWithActions() 1`] = `
+exports[`<UnderlineNav /> Render must match rightAlignedWithActions() 1`] = `
 <nav
   aria-label="Foo bar"
   className="UnderlineNav UnderlineNav--right"
@@ -184,7 +184,7 @@ exports[`<UnderlineNav /> Render must match renderRightAlignedWithActions() 1`] 
 </nav>
 `;
 
-exports[`<UnderlineNav /> Render must match renderWithActions() 1`] = `
+exports[`<UnderlineNav /> Render must match withActions() 1`] = `
 <nav
   aria-label="Foo bar"
   className="UnderlineNav"
@@ -232,7 +232,7 @@ exports[`<UnderlineNav /> Render must match renderWithActions() 1`] = `
 </nav>
 `;
 
-exports[`<UnderlineNav /> Render must match renderWithIcons() 1`] = `
+exports[`<UnderlineNav /> Render must match withIcons() 1`] = `
 <nav
   aria-label="Foo bar"
   className="UnderlineNav"

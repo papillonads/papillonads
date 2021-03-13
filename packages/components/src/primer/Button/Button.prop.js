@@ -1,4 +1,4 @@
-import { string, oneOf, shape, func } from 'prop-types'
+import { string, oneOf, shape, func, bool } from 'prop-types'
 import { iconName } from '../Icon/Icon.prop'
 
 export const buttonElement = {
@@ -22,8 +22,8 @@ export const buttonSize = {
 }
 
 export const buttonState = {
-  enabled: 'enabled',
-  disabled: 'disabled',
+  active: 'active',
+  inactive: 'inactive',
 }
 
 export const iconAlignment = {
@@ -36,10 +36,11 @@ export const buttonInputType = {
 }
 
 export const propTypes = {
+  dataTest: string,
   className: string,
   element: oneOf(Object.keys(buttonElement)),
   href: string,
-  text: string.isrequired,
+  text: string.isRequired,
   variant: oneOf(Object.keys(buttonVariant)),
   size: oneOf(Object.keys(buttonSize)),
   state: oneOf(Object.keys(buttonState)),
@@ -49,16 +50,19 @@ export const propTypes = {
   }),
   onClick: func.isRequired,
   inputType: oneOf(Object.keys(buttonInputType)),
+  autoFocus: bool,
 }
 
 export const defaultProps = {
+  dataTest: null,
   className: null,
   element: buttonElement.button,
   href: null,
   variant: buttonVariant.default,
   size: buttonSize.normal,
-  state: buttonState.enabled,
+  state: buttonState.active,
   icon: null,
   hasInput: false,
   inputType: null,
+  autoFocus: false,
 }

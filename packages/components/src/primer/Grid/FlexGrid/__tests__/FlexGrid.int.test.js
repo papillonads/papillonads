@@ -1,26 +1,46 @@
 import {
-  renderRadioWithSelection,
-  renderRadioWithoutSelection,
-  renderCheckboxWithSelection,
-  renderCheckboxWithoutSelection,
-} from './FlexGrid.int.render'
+  radioWithSelection,
+  radioWithSelectionInactive,
+  radioWithoutSelection,
+  radioWithoutSelectionInactive,
+  checkboxWithSelection,
+  checkboxWithSelectionInactive,
+  checkboxWithoutSelection,
+  checkboxWithoutSelectionInactive,
+} from './FlexGrid.int.story'
 
 describe('<FlexGrid />', () => {
   describe('Render', () => {
-    test('must match renderRadioWithSelection()', () => {
-      expect(global.renderToJSON(renderRadioWithSelection())).toMatchSnapshot()
+    test('must match radioWithSelection()', () => {
+      expect(global.renderToJSON(radioWithSelection())).toMatchSnapshot()
     })
 
-    test('must match renderRadioWithoutSelection()', () => {
-      expect(global.renderToJSON(renderRadioWithoutSelection())).toMatchSnapshot()
+    test('must match radioWithSelectionInactive()', () => {
+      expect(global.renderToJSON(radioWithSelectionInactive())).toMatchSnapshot()
     })
 
-    test('must match renderCheckboxWithSelection()', () => {
-      expect(global.renderToJSON(renderCheckboxWithSelection())).toMatchSnapshot()
+    test('must match radioWithoutSelection()', () => {
+      expect(global.renderToJSON(radioWithoutSelection())).toMatchSnapshot()
     })
 
-    test('must match renderCheckboxWithoutSelection()', () => {
-      expect(global.renderToJSON(renderCheckboxWithoutSelection())).toMatchSnapshot()
+    test('must match radioWithoutSelectionInactive()', () => {
+      expect(global.renderToJSON(radioWithoutSelectionInactive())).toMatchSnapshot()
+    })
+
+    test('must match checkboxWithSelection()', () => {
+      expect(global.renderToJSON(checkboxWithSelection())).toMatchSnapshot()
+    })
+
+    test('must match checkboxWithSelectionInactive()', () => {
+      expect(global.renderToJSON(checkboxWithSelectionInactive())).toMatchSnapshot()
+    })
+
+    test('must match checkboxWithoutSelection()', () => {
+      expect(global.renderToJSON(checkboxWithoutSelection())).toMatchSnapshot()
+    })
+
+    test('must match checkboxWithoutSelectionInactive()', () => {
+      expect(global.renderToJSON(checkboxWithoutSelectionInactive())).toMatchSnapshot()
     })
   })
 })

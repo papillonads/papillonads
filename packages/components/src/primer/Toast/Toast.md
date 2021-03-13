@@ -1,29 +1,38 @@
-# Button
-
-- Info
-- Success
-- Warning
-- Error
-- Dismissable
+# Toast
 
 > Toasts are used to show live, time-sensitive feedback to users.
 
+## Variants
+
+> - Info, Success, Warning, Error
+> - Dismissable
+
 ## Info
 
-📝 Coming soon 🐬
+```jsx
+<Toast variant={toastVariant.info} text={text.info} />
+```
 
 ## Success
 
-📝 Coming soon 🐬
+```jsx
+<Toast variant={toastVariant.success} text={text.success} />
+```
 
 ## Warning
 
-📝 Coming soon 🐬
+```jsx
+<Toast variant={toastVariant.warning} text={text.warning} />
+```
 
 ## Error
 
-📝 Coming soon 🐬
+```jsx
+<Toast variant={toastVariant.error} text={text.error} />
+```
 
-## Dismissable
+## IsDismissable
 
-📝 Coming soon 🐬
+```jsx
+<Toast variant={toastVariant.info} text={text.dismissable} isDismissable={true} onClick={action('onClick')} />
+```

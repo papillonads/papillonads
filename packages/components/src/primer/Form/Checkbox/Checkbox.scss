@@ -1,0 +1,9 @@
+@import '~@papillonads/css/build/primer/support/variables/colors.scss';
+@import '../../index.scss';
+
+// custom-style
+.checkbox-inactive {
+  @include inactive;
+
+  color: $gray-400 !important;
+}

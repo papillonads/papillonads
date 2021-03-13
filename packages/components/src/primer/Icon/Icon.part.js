@@ -12,6 +12,8 @@ import ArrowLeft16 from '../SVG/icon/arrow-left-16.svg'
 import ArrowLeft24 from '../SVG/icon/arrow-left-24.svg'
 import ArrowRight16 from '../SVG/icon/arrow-right-16.svg'
 import ArrowRight24 from '../SVG/icon/arrow-right-24.svg'
+import ArrowSwitch16 from '../SVG/icon/arrow-switch-16.svg'
+import ArrowSwitch24 from '../SVG/icon/arrow-switch-24.svg'
 import ArrowUp16 from '../SVG/icon/arrow-up-16.svg'
 import ArrowUp24 from '../SVG/icon/arrow-up-24.svg'
 import ArrowUpLeft24 from '../SVG/icon/arrow-up-left-24.svg'
@@ -39,6 +41,7 @@ import Broadcast16 from '../SVG/icon/broadcast-16.svg'
 import Broadcast24 from '../SVG/icon/broadcast-24.svg'
 import Browser16 from '../SVG/icon/browser-16.svg'
 import Bug16 from '../SVG/icon/bug-16.svg'
+import Bug24 from '../SVG/icon/bug-24.svg'
 import Calendar16 from '../SVG/icon/calendar-16.svg'
 import Calendar24 from '../SVG/icon/calendar-24.svg'
 import Check16 from '../SVG/icon/check-16.svg'
@@ -57,6 +60,7 @@ import ChevronRight16 from '../SVG/icon/chevron-right-16.svg'
 import ChevronRight24 from '../SVG/icon/chevron-right-24.svg'
 import ChevronUp16 from '../SVG/icon/chevron-up-16.svg'
 import ChevronUp24 from '../SVG/icon/chevron-up-24.svg'
+import Circle16 from '../SVG/icon/circle-16.svg'
 import Circle24 from '../SVG/icon/circle-24.svg'
 import CircleSlash16 from '../SVG/icon/circle-slash-16.svg'
 import CircleSlash24 from '../SVG/icon/circle-slash-24.svg'
@@ -75,6 +79,8 @@ import Comment24 from '../SVG/icon/comment-24.svg'
 import CommentDiscussion16 from '../SVG/icon/comment-discussion-16.svg'
 import CommentDiscussion24 from '../SVG/icon/comment-discussion-24.svg'
 import Commit24 from '../SVG/icon/commit-24.svg'
+import Container16 from '../SVG/icon/container-16.svg'
+import Container24 from '../SVG/icon/container-24.svg'
 import Copy24 from '../SVG/icon/copy-24.svg'
 import CPU16 from '../SVG/icon/cpu-16.svg'
 import CPU24 from '../SVG/icon/cpu-24.svg'
@@ -112,9 +118,11 @@ import Ellipsis16 from '../SVG/icon/ellipsis-16.svg'
 import Eye16 from '../SVG/icon/eye-16.svg'
 import Eye24 from '../SVG/icon/eye-24.svg'
 import EyeClosed16 from '../SVG/icon/eye-closed-16.svg'
+import EyeClosed24 from '../SVG/icon/eye-closed-24.svg'
 import EyeSlash24 from '../SVG/icon/eye-slash-24.svg'
 import File16 from '../SVG/icon/file-16.svg'
 import File24 from '../SVG/icon/file-24.svg'
+import FileBadge16 from '../SVG/icon/file-badge-16.svg'
 import FileBinary16 from '../SVG/icon/file-binary-16.svg'
 import FileBinary24 from '../SVG/icon/file-binary-24.svg'
 import FileCode16 from '../SVG/icon/file-code-16.svg'
@@ -129,12 +137,14 @@ import FileSubmodule16 from '../SVG/icon/file-submodule-16.svg'
 import FileSubmodule24 from '../SVG/icon/file-submodule-24.svg'
 import FileSymlink24 from '../SVG/icon/file-symlink-24.svg'
 import FileSymlinkFile16 from '../SVG/icon/file-symlink-file-16.svg'
+import FileSymlinkFile24 from '../SVG/icon/file-symlink-file-24.svg'
 import FileZip16 from '../SVG/icon/file-zip-16.svg'
 import FileZip24 from '../SVG/icon/file-zip-24.svg'
 import Filter16 from '../SVG/icon/filter-16.svg'
 import Filter24 from '../SVG/icon/filter-24.svg'
 import Fire24 from '../SVG/icon/fire-24.svg'
 import Flame16 from '../SVG/icon/flame-16.svg'
+import Flame24 from '../SVG/icon/flame-24.svg'
 import Fold16 from '../SVG/icon/fold-16.svg'
 import Fold24 from '../SVG/icon/fold-24.svg'
 import FoldDown16 from '../SVG/icon/fold-down-16.svg'
@@ -235,6 +245,8 @@ import Moon16 from '../SVG/icon/moon-16.svg'
 import Moon24 from '../SVG/icon/moon-24.svg'
 import MortarBoard16 from '../SVG/icon/mortar-board-16.svg'
 import MortarBoard24 from '../SVG/icon/mortar-board-24.svg'
+import MultiSelect16 from '../SVG/icon/multi-select-16.svg'
+import MultiSelect24 from '../SVG/icon/multi-select-24.svg'
 import Mute16 from '../SVG/icon/mute-16.svg'
 import Mute24 from '../SVG/icon/mute-24.svg'
 import NoEntry16 from '../SVG/icon/no-entry-16.svg'
@@ -243,6 +255,8 @@ import NorthStar16 from '../SVG/icon/north-star-16.svg'
 import NorthStar24 from '../SVG/icon/north-star-24.svg'
 import Note16 from '../SVG/icon/note-16.svg'
 import Note24 from '../SVG/icon/note-24.svg'
+import Number16 from '../SVG/icon/number-16.svg'
+import Number24 from '../SVG/icon/number-24.svg'
 import Octoface16 from '../SVG/icon/octoface-16.svg'
 import Octoface24 from '../SVG/icon/octoface-24.svg'
 import Organization16 from '../SVG/icon/organization-16.svg'
@@ -333,6 +347,7 @@ import Square24 from '../SVG/icon/square-24.svg'
 import SquareFill16 from '../SVG/icon/square-fill-16.svg'
 import SquareFill24 from '../SVG/icon/square-fill-24.svg'
 import Squirrel16 from '../SVG/icon/squirrel-16.svg'
+import Squirrel24 from '../SVG/icon/squirrel-24.svg'
 import Star16 from '../SVG/icon/star-16.svg'
 import Star24 from '../SVG/icon/star-24.svg'
 import StarFill16 from '../SVG/icon/star-fill-16.svg'
@@ -341,6 +356,8 @@ import Stop16 from '../SVG/icon/stop-16.svg'
 import Stop24 from '../SVG/icon/stop-24.svg'
 import Stopwatch16 from '../SVG/icon/stopwatch-16.svg'
 import Stopwatch24 from '../SVG/icon/stopwatch-24.svg'
+import Strikethrough16 from '../SVG/icon/strikethrough-16.svg'
+import Strikethrough24 from '../SVG/icon/strikethrough-24.svg'
 import Sun16 from '../SVG/icon/sun-16.svg'
 import Sun24 from '../SVG/icon/sun-24.svg'
 import Sync16 from '../SVG/icon/sync-16.svg'
@@ -361,6 +378,7 @@ import Thumbsup16 from '../SVG/icon/thumbsup-16.svg'
 import Thumbsup24 from '../SVG/icon/thumbsup-24.svg'
 import Tools16 from '../SVG/icon/tools-16.svg'
 import Tools24 from '../SVG/icon/tools-24.svg'
+import Trash16 from '../SVG/icon/trash-16.svg'
 import Trash24 from '../SVG/icon/trash-24.svg'
 import Trashcan16 from '../SVG/icon/trashcan-16.svg'
 import TriangleDown16 from '../SVG/icon/triangle-down-16.svg'
@@ -381,18 +399,23 @@ import Unmute16 from '../SVG/icon/unmute-16.svg'
 import Unmute24 from '../SVG/icon/unmute-24.svg'
 import Unverifed24 from '../SVG/icon/unverifed-24.svg'
 import Unverified16 from '../SVG/icon/unverified-16.svg'
+import Unverified24 from '../SVG/icon/unverified-24.svg'
 import Upload16 from '../SVG/icon/upload-16.svg'
 import Upload24 from '../SVG/icon/upload-24.svg'
 import Verified16 from '../SVG/icon/verified-16.svg'
 import Verified24 from '../SVG/icon/verified-24.svg'
 import Versions16 from '../SVG/icon/versions-16.svg'
 import Versions24 from '../SVG/icon/versions-24.svg'
+import Video16 from '../SVG/icon/video-16.svg'
+import Video24 from '../SVG/icon/video-24.svg'
 import Workflow16 from '../SVG/icon/workflow-16.svg'
 import Workflow24 from '../SVG/icon/workflow-24.svg'
 import X16 from '../SVG/icon/x-16.svg'
 import X24 from '../SVG/icon/x-24.svg'
+import XCircle16 from '../SVG/icon/x-circle-16.svg'
 import XCircle24 from '../SVG/icon/x-circle-24.svg'
-import xCircleFill24 from '../SVG/icon/x-circle-fill-24.svg'
+import XCircleFill16 from '../SVG/icon/x-circle-fill-16.svg'
+import XCircleFill24 from '../SVG/icon/x-circle-fill-24.svg'
 import Zap16 from '../SVG/icon/zap-16.svg'
 import Zap24 from '../SVG/icon/zap-24.svg'
 
@@ -411,6 +434,8 @@ export const iconComponents = {
   ArrowLeft24,
   ArrowRight16,
   ArrowRight24,
+  ArrowSwitch16,
+  ArrowSwitch24,
   ArrowUp16,
   ArrowUp24,
   ArrowUpLeft24,
@@ -438,6 +463,7 @@ export const iconComponents = {
   Broadcast24,
   Browser16,
   Bug16,
+  Bug24,
   Calendar16,
   Calendar24,
   Check16,
@@ -456,6 +482,7 @@ export const iconComponents = {
   ChevronRight24,
   ChevronUp16,
   ChevronUp24,
+  Circle16,
   Circle24,
   CircleSlash16,
   CircleSlash24,
@@ -474,6 +501,8 @@ export const iconComponents = {
   CommentDiscussion16,
   CommentDiscussion24,
   Commit24,
+  Container16,
+  Container24,
   Copy24,
   CPU16,
   CPU24,
@@ -511,9 +540,11 @@ export const iconComponents = {
   Eye16,
   Eye24,
   EyeClosed16,
+  EyeClosed24,
   EyeSlash24,
   File16,
   File24,
+  FileBadge16,
   FileBinary16,
   FileBinary24,
   FileCode16,
@@ -528,12 +559,14 @@ export const iconComponents = {
   FileSubmodule24,
   FileSymlink24,
   FileSymlinkFile16,
+  FileSymlinkFile24,
   FileZip16,
   FileZip24,
   Filter16,
   Filter24,
   Fire24,
   Flame16,
+  Flame24,
   Fold16,
   Fold24,
   FoldDown16,
@@ -634,6 +667,8 @@ export const iconComponents = {
   Moon24,
   MortarBoard16,
   MortarBoard24,
+  MultiSelect16,
+  MultiSelect24,
   Mute16,
   Mute24,
   NoEntry16,
@@ -642,6 +677,8 @@ export const iconComponents = {
   NorthStar24,
   Note16,
   Note24,
+  Number16,
+  Number24,
   Octoface16,
   Octoface24,
   Organization16,
@@ -732,6 +769,7 @@ export const iconComponents = {
   SquareFill16,
   SquareFill24,
   Squirrel16,
+  Squirrel24,
   Star16,
   Star24,
   StarFill16,
@@ -740,6 +778,8 @@ export const iconComponents = {
   Stop24,
   Stopwatch16,
   Stopwatch24,
+  Strikethrough16,
+  Strikethrough24,
   Sun16,
   Sun24,
   Sync16,
@@ -760,6 +800,7 @@ export const iconComponents = {
   Thumbsup24,
   Tools16,
   Tools24,
+  Trash16,
   Trash24,
   Trashcan16,
   TriangleDown16,
@@ -780,18 +821,23 @@ export const iconComponents = {
   Unmute24,
   Unverifed24,
   Unverified16,
+  Unverified24,
   Upload16,
   Upload24,
   Verified16,
   Verified24,
   Versions16,
   Versions24,
+  Video16,
+  Video24,
   Workflow16,
   Workflow24,
   X16,
   X24,
+  XCircle16,
   XCircle24,
-  xCircleFill24,
+  XCircleFill16,
+  XCircleFill24,
   Zap16,
   Zap24,
 }

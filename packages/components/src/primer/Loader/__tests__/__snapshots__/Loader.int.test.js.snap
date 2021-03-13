@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Loader /> Render must match renderButton() 1`] = `
+exports[`<Loader /> Render must match button() 1`] = `
 <button
   aria-disabled="true"
   className="btn mt-3"
@@ -15,7 +15,7 @@ exports[`<Loader /> Render must match renderButton() 1`] = `
 </button>
 `;
 
-exports[`<Loader /> Render must match renderHeading() 1`] = `
+exports[`<Loader /> Render must match heading() 1`] = `
 <h2
   className={null}
 >
@@ -28,7 +28,7 @@ exports[`<Loader /> Render must match renderHeading() 1`] = `
 </h2>
 `;
 
-exports[`<Loader /> Render must match renderLabel() 1`] = `
+exports[`<Loader /> Render must match label() 1`] = `
 <span
   className="Label bg-blue mt-3"
 >
@@ -41,7 +41,7 @@ exports[`<Loader /> Render must match renderLabel() 1`] = `
 </span>
 `;
 
-exports[`<Loader /> Render must match renderText() 1`] = `
+exports[`<Loader /> Render must match text() 1`] = `
 <span
   className="branch-name mt-2"
 >

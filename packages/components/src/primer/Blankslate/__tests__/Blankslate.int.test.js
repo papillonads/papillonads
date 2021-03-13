@@ -1,29 +1,29 @@
-import { renderDefault, renderNarrow, renderCapped, renderSpacious, renderLarge, renderCleanBackground } from './Blankslate.int.render'
+import { regular, narrow, capped, spacious, large, cleanBackground } from './Blankslate.int.story'
 
 describe('<Blankslate />', () => {
   describe('Render', () => {
-    test('must match renderDefault()', () => {
-      expect(global.renderToJSON(renderDefault())).toMatchSnapshot()
+    test('must match regular()', () => {
+      expect(global.renderToJSON(regular())).toMatchSnapshot()
     })
 
-    test('must match renderNarrow()', () => {
-      expect(global.renderToJSON(renderNarrow())).toMatchSnapshot()
+    test('must match narrow()', () => {
+      expect(global.renderToJSON(narrow())).toMatchSnapshot()
     })
 
-    test('must match renderCapped()', () => {
-      expect(global.renderToJSON(renderCapped())).toMatchSnapshot()
+    test('must match capped()', () => {
+      expect(global.renderToJSON(capped())).toMatchSnapshot()
     })
 
-    test('must match renderSpacious()', () => {
-      expect(global.renderToJSON(renderSpacious())).toMatchSnapshot()
+    test('must match spacious()', () => {
+      expect(global.renderToJSON(spacious())).toMatchSnapshot()
     })
 
-    test('must match renderLarge()', () => {
-      expect(global.renderToJSON(renderLarge())).toMatchSnapshot()
+    test('must match large()', () => {
+      expect(global.renderToJSON(large())).toMatchSnapshot()
     })
 
-    test('must match renderCleanBackground()', () => {
-      expect(global.renderToJSON(renderCleanBackground())).toMatchSnapshot()
+    test('must match cleanBackground()', () => {
+      expect(global.renderToJSON(cleanBackground())).toMatchSnapshot()
     })
   })
 })

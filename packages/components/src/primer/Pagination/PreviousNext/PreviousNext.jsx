@@ -1,12 +1,11 @@
 import React from 'react'
 import cx from 'classnames'
 import displayStyles from '@papillonads/css/build/primer/utilities/visibility-display.scss'
-import { pagination as paginationLibrary } from '@papillonads/library'
-import { propTypes, defaultProps } from './PreviousNext.prop'
+import { paginationActionTypes } from '@papillonads/library/pagination'
+import { propTypes, defaultProps, previousNextState } from './PreviousNext.prop'
 import styles from './PreviousNext.scss'
 
-export function PreviousNext({ className, ariaAttr, currentPage, previous, next, onClick }) {
-  const { paginationActionTypes } = paginationLibrary
+export function PreviousNext({ className, ariaAttr, currentPage, previous, next, onClick, state }) {
   const { label } = ariaAttr
 
   const { indexItems, currentIndex, canMoveBackwards, canMoveForward } = currentPage
@@ -18,7 +17,12 @@ export function PreviousNext({ className, ariaAttr, currentPage, previous, next,
   }
 
   return (
-    <nav className={cx(className, styles['paginate-container'])} aria-label={label}>
+    <nav
+      className={cx(className, styles['paginate-container'], {
+        [styles['previousnext-inactive']]: state === previousNextState.inactive,
+      })}
+      aria-label={label}
+    >
       <div className={cx(styles.pagination, displayStyles['d-flex'])}>
         {!canMoveBackwards ? (
           <span {...backwardsAriaProps}>{previous.text}</span>

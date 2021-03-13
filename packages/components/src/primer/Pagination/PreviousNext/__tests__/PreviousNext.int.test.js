@@ -1,4 +1,4 @@
-import { renderCustom, renderDefault } from './PreviousNext.int.render'
+import { custom, regular, inactive } from './PreviousNext.int.story'
 
 describe('<PreviousNext />', () => {
   const onClickMockFn = jest.fn()
@@ -8,7 +8,7 @@ describe('<PreviousNext />', () => {
 
   describe('Event', () => {
     test('must return new items without index when previous onClick()', () => {
-      const mountCustomRender = global.renderMount(renderCustom(onClickMockFn))
+      const mountCustomRender = global.renderMount(custom(onClickMockFn))
       mountCustomRender.find('a').first().simulate('click')
       expect(mountCustomRender.props().onClick).toBe(onClickMockFn)
       // expect(dispatchMockFn).toHaveBeenCalledWith('onBackwards')
@@ -16,7 +16,7 @@ describe('<PreviousNext />', () => {
     })
 
     test('must return new items without index when next onClick()', () => {
-      const mountCustomRender = global.renderMount(renderCustom(onClickMockFn))
+      const mountCustomRender = global.renderMount(custom(onClickMockFn))
       mountCustomRender.find('a').last().simulate('click')
       expect(mountCustomRender.props().onClick).toBe(onClickMockFn)
       // expect(dispatchMockFn).toHaveBeenCalledWith('onForward')
@@ -25,8 +25,12 @@ describe('<PreviousNext />', () => {
   })
 
   describe('Render', () => {
-    test('must match renderDefault()', () => {
-      expect(global.renderToJSON(renderDefault())).toMatchSnapshot()
+    test('must match regular()', () => {
+      expect(global.renderToJSON(regular())).toMatchSnapshot()
+    })
+
+    test('must match inactive()', () => {
+      expect(global.renderToJSON(inactive())).toMatchSnapshot()
     })
   })
 })

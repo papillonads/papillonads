@@ -1,24 +1,32 @@
-import { storiesOf } from '@storybook/react'
-import {
-  renderSpecificationsStandardsGuidelines,
-  renderOpenSourceDependencyProjects,
-  renderDesignSystemCore,
-  renderProductMicrosites,
-} from './Rendering.int.render'
-import notes from '../Rendering.md'
+import React from 'react'
+import { withTests } from '@storybook/addon-jest'
+import results from '../../../../../../../.jest-test-results.json'
 
-storiesOf('Primer|Atom/Concept/Rendering', module)
-  .add('SpecificationsStandardsGuidelines', renderSpecificationsStandardsGuidelines, {
-    notes,
-  })
-  .add('OpenSourceDependencyProjects', renderOpenSourceDependencyProjects, {
-    notes,
-  })
+const Rendering =
+  process.env.NODE_ENV === 'develop' || process.env.NODE_ENV === 'test'
+    ? require('../../../../index').primer.Concept.Rendering
+    : require('../../../../../build').primer.Concept.Rendering
 
-storiesOf('Primer|Atom/Concept/Rendering/Implementation', module)
-  .add('DesignSystemCore', renderDesignSystemCore, {
-    notes,
-  })
-  .add('ProductMicrosites', renderProductMicrosites, {
-    notes,
-  })
+export default {
+  title: 'Primer/Template/Concept/Rendering',
+  component: Rendering,
+  decorators: [withTests({ results })],
+  parameters: { jest: ['Rendering.int.test.js'] },
+  excludeStories: ['custom'],
+}
+
+export function specificationsStandardsGuidelines() {
+  return <Rendering.SpecificationsStandardsGuidelines />
+}
+
+export function openSourceDependencyProjects() {
+  return <Rendering.OpenSourceDependencyProjects />
+}
+
+export function designSystemCore() {
+  return <Rendering.Implementation.DesignSystemCore />
+}
+
+export function productMicrosites() {
+  return <Rendering.Implementation.ProductMicrosites />
+}

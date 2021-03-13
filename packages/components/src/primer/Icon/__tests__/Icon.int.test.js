@@ -1,13 +1,13 @@
-import { renderDefault, renderAllIcons } from './Icon.int.render'
+import { regular, allIcons } from './Icon.int.story'
 
 describe('<Icon />', () => {
   describe('Render', () => {
-    test('must match renderDefault()', () => {
-      expect(global.renderToJSON(renderDefault())).toMatchSnapshot()
+    test('must match regular()', () => {
+      expect(global.renderToJSON(regular({}))).toMatchSnapshot()
     })
 
-    test('must match renderAllIcons()', () => {
-      expect(global.renderToJSON(renderAllIcons())).toMatchSnapshot()
+    test('must match allIcons()', () => {
+      expect(global.renderToJSON(allIcons())).toMatchSnapshot()
     })
   })
 })

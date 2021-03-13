@@ -6,11 +6,18 @@ export function SpecificationsStandardsGuidelines({ className }) {
     <div className={className}>
       <h2>📗 Specifications/Standards/Guidelines</h2>
       <h3>📖. Service</h3>
-      <h4>📃. Travis CI</h4>
+      <h4>📃. CircleCI</h4>
       <h5>
-        📄. <a href="https://docs.travis-ci.com/">Travis CI Documentation</a>
+        📄. <a href="https://circleci.com/docs/">CircleCI Documentation</a>
       </h5>
-      <div>﹘ Use the tutorials, samples, how-to, and reference documentation to learn Travis CI</div>
+      <div>﹘ Use the tutorials, samples, how-to, and reference documentation to learn CircleCI</div>
+      <h5>
+        📄. <a href="https://circleci.com/docs/2.0/pipelines/">CircleCI Pipelines</a>
+      </h5>
+      <div>
+        ﹘ <strong>Viewing Pipelines</strong> This document provides a summary of the Pipelines page in the CircleCI app and documents some
+        of the changes to the CircleCI user interface.
+      </div>
       <h3>📖. Branching Model</h3>
       <h4>📃. Git Flow</h4>
       <h5>
@@ -62,15 +69,15 @@ export function OpenSourceDependencyProjects({ className }) {
   return (
     <div className={className}>
       <h2>📗 Open Source Dependency Projects</h2>
-      <h3>📖. Travis CI</h3>
+      <h3>📖. CircleCI</h3>
       <h4>
-        <a href="https://github.com/travis-ci">📃. Continuous Integration and Deployment</a>
+        <a href="https://github.com/circleci">📃. Continuous Integration and Deployment</a>
       </h4>
       <div>
-        ﹘ <a href="https://docs.travis-ci.com/">Documentation</a> for Travis CI
+        ﹘ <a href="https://github.com/circleci/circleci-doc">Documentation</a> for CircleCI
       </div>
       <div>
-        ﹘ <a href="https://docs.travis-ci.com/user/enterprise/">Installation resources</a> for Travis CI Enterprise
+        ﹘ <a href="https://github.com/circleci/enterprise-setup">Installation resources</a> for CircleCI Enterprise
       </div>
     </div>
   )

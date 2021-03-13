@@ -1,4 +1,9 @@
-import { string, shape, oneOf, func, bool } from 'prop-types'
+import { string, shape, oneOf, func } from 'prop-types'
+
+export const inputState = {
+  active: 'active',
+  inactive: 'inactive',
+}
 
 export const inputType = {
   text: 'text',
@@ -6,6 +11,7 @@ export const inputType = {
 }
 
 export const propTypes = {
+  dataTest: string,
   className: string,
   placeholder: string,
   ariaAttr: shape({
@@ -17,10 +23,11 @@ export const propTypes = {
   onKeyUp: func.isRequired,
   onFocus: func,
   onBlur: func,
-  readOnly: bool,
+  state: oneOf(Object.keys(inputState)),
 }
 
 export const defaultProps = {
+  dataTest: null,
   className: null,
   placeholder: null,
   ariaAttr: {
@@ -30,5 +37,5 @@ export const defaultProps = {
   initialValue: null,
   onFocus: () => {},
   onBlur: () => {},
-  readOnly: false,
+  state: inputState.active,
 }

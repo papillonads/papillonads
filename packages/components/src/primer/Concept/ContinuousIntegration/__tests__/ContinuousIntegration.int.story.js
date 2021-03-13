@@ -1,24 +1,32 @@
-import { storiesOf } from '@storybook/react'
-import {
-  renderSpecificationsStandardsGuidelines,
-  renderOpenSourceDependencyProjects,
-  renderDesignSystemCore,
-  renderProductMicrosites,
-} from './ContinuousIntegration.int.render'
-import notes from '../ContinuousIntegration.md'
+import React from 'react'
+import { withTests } from '@storybook/addon-jest'
+import results from '../../../../../../../.jest-test-results.json'
 
-storiesOf('Primer|Atom/Concept/ContinuousIntegration', module)
-  .add('SpecificationsStandardsGuidelines', renderSpecificationsStandardsGuidelines, {
-    notes,
-  })
-  .add('OpenSourceDependencyProjects', renderOpenSourceDependencyProjects, {
-    notes,
-  })
+const ContinuousIntegration =
+  process.env.NODE_ENV === 'develop' || process.env.NODE_ENV === 'test'
+    ? require('../../../../index').primer.Concept.ContinuousIntegration
+    : require('../../../../../build').primer.Concept.ContinuousIntegration
 
-storiesOf('Primer|Atom/Concept/ContinuousIntegration/Implementation', module)
-  .add('DesignSystemCore', renderDesignSystemCore, {
-    notes,
-  })
-  .add('ProductMicrosites', renderProductMicrosites, {
-    notes,
-  })
+export default {
+  title: 'Primer/Template/Concept/ContinuousIntegration',
+  component: ContinuousIntegration,
+  decorators: [withTests({ results })],
+  parameters: { jest: ['ContinuousIntegration.int.test.js'] },
+  excludeStories: ['custom'],
+}
+
+export function specificationsStandardsGuidelines() {
+  return <ContinuousIntegration.SpecificationsStandardsGuidelines />
+}
+
+export function openSourceDependencyProjects() {
+  return <ContinuousIntegration.OpenSourceDependencyProjects />
+}
+
+export function designSystemCore() {
+  return <ContinuousIntegration.Implementation.DesignSystemCore />
+}
+
+export function productMicrosites() {
+  return <ContinuousIntegration.Implementation.ProductMicrosites />
+}

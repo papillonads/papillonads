@@ -1,24 +1,32 @@
-import { storiesOf } from '@storybook/react'
-import {
-  renderSpecificationsStandardsGuidelines,
-  renderOpenSourceDependencyProjects,
-  renderDesignSystemCore,
-  renderProductMicrosites,
-} from './Language.int.render'
-import notes from '../Language.md'
+import React from 'react'
+import { withTests } from '@storybook/addon-jest'
+import results from '../../../../../../../.jest-test-results.json'
 
-storiesOf('Primer|Atom/Concept/Language', module)
-  .add('SpecificationsStandardsGuidelines', renderSpecificationsStandardsGuidelines, {
-    notes,
-  })
-  .add('OpenSourceDependencyProjects', renderOpenSourceDependencyProjects, {
-    notes,
-  })
+const Language =
+  process.env.NODE_ENV === 'develop' || process.env.NODE_ENV === 'test'
+    ? require('../../../../index').primer.Concept.Language
+    : require('../../../../../build').primer.Concept.Language
 
-storiesOf('Primer|Atom/Concept/Language/Implementation', module)
-  .add('DesignSystemCore', renderDesignSystemCore, {
-    notes,
-  })
-  .add('ProductMicrosites', renderProductMicrosites, {
-    notes,
-  })
+export default {
+  title: 'Primer/Template/Concept/Language',
+  component: Language,
+  decorators: [withTests({ results })],
+  parameters: { jest: ['Language.int.test.js'] },
+  excludeStories: ['custom'],
+}
+
+export function specificationsStandardsGuidelines() {
+  return <Language.SpecificationsStandardsGuidelines />
+}
+
+export function openSourceDependencyProjects() {
+  return <Language.OpenSourceDependencyProjects />
+}
+
+export function designSystemCore() {
+  return <Language.Implementation.DesignSystemCore />
+}
+
+export function productMicrosites() {
+  return <Language.Implementation.ProductMicrosites />
+}

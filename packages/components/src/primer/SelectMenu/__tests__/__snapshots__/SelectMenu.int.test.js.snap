@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<SelectMenu /> Render must match renderDefault() 1`] = `
+exports[`<SelectMenu /> Render must match regular() 1`] = `
 <details
   className="details-reset details-overlay"
 >

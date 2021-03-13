@@ -1,4 +1,9 @@
-import { arrayOf, shape, string, bool, func } from 'prop-types'
+import { arrayOf, oneOf, shape, string, bool, func } from 'prop-types'
+
+export const breadcrumbState = {
+  active: 'active',
+  inactive: 'inactive',
+}
 
 export const propTypes = {
   className: string,
@@ -14,8 +19,10 @@ export const propTypes = {
     }),
   ).isRequired,
   onClick: func.isRequired,
+  state: oneOf(Object.keys(breadcrumbState)),
 }
 
 export const defaultProps = {
   className: null,
+  state: breadcrumbState.active,
 }

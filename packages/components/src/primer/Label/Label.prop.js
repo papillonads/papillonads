@@ -19,7 +19,7 @@ export const labelTextColor = {
 
 export const propTypes = {
   className: string,
-  text: string.isrequired,
+  text: string.isRequired,
   variant: oneOf(Object.keys(labelVariant)),
   backgroundColor: oneOf(Object.keys(labelBackgroundColor)),
   textColor: oneOf(Object.keys(labelTextColor)),

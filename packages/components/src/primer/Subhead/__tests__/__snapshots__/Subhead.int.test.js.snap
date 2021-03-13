@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Subhead /> Render must match renderDefault() 1`] = `
+exports[`<Subhead /> Render must match plain() 1`] = `
 <div
   className="Subhead"
 >
@@ -12,7 +12,7 @@ exports[`<Subhead /> Render must match renderDefault() 1`] = `
 </div>
 `;
 
-exports[`<Subhead /> Render must match renderIsSpacious() 1`] = `
+exports[`<Subhead /> Render must match spacious() 1`] = `
 <div
   className="Subhead Subhead--spacious"
 >

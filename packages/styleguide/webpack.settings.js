@@ -6,7 +6,7 @@ require('dotenv').config()
 // Webpack settings exports
 module.exports = {
   name: 'Primer Styleguide Docs',
-  copyright: 'Papillon Ads',
+  copyright: 'MTS',
   paths: {
     src: {
       base: './src/',
@@ -17,7 +17,7 @@ module.exports = {
     },
   },
   urls: {
-    publicPath: '/',
+    publicPath: '/papillonads/styleguide/',
   },
   vars: {
     cssName: 'styles',

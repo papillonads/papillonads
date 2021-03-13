@@ -10,7 +10,7 @@ export const toastVariant = {
 export const propTypes = {
   className: string,
   variant: oneOf(Object.keys(toastVariant)),
-  text: string.isrequired,
+  text: string.isRequired,
   isDismissable: bool,
   onClick: func,
 }

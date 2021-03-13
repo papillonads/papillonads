@@ -1,21 +1,16 @@
-import { defaultItems as items, renderCustom, renderDefault, renderWithIcons, renderWithHeading } from './Menu.int.render'
+import { defaultItems as items, custom, regular, withIcons, withHeading } from './Menu.int.story'
 
-jest.mock('@papillonads/library', () => {
-  return {
-    hooks: {
-      react: {
-        useState: () => {},
-        useRef: () => {},
-      },
-    },
-    array: {
-      getIndexItems: () => {},
-      getIndexItemsWithSelected: () => {},
-    },
-  }
-})
+jest.mock('@papillonads/library/array', () => ({
+  getIndexItems: () => {},
+  getIndexItemsWithSelected: () => {},
+}))
 
-const libraryMockObject = require('@papillonads/library')
+jest.mock('@papillonads/library/hooks', () => ({
+  useState: () => {},
+}))
+
+const libraryArrayMockObject = require('@papillonads/library/array')
+const libraryHooksMockObject = require('@papillonads/library/hooks')
 
 describe('<Menu />', () => {
   let indexItemsDataObject = [
@@ -39,20 +34,18 @@ describe('<Menu />', () => {
   })
 
   beforeEach(() => {
-    jest.spyOn(libraryMockObject.hooks.react, 'useState').mockImplementation(() => {
-      return [indexItemsDataObject, setIndexItemsMockFn]
-    })
+    jest.spyOn(libraryArrayMockObject, 'getIndexItems').mockReturnValue(indexItemsDataObject)
 
-    jest.spyOn(libraryMockObject.array, 'getIndexItems').mockReturnValue(indexItemsDataObject)
+    jest.spyOn(libraryArrayMockObject, 'getIndexItemsWithSelected').mockReturnValue(newIndexItemsWithSelectedDataObject)
 
-    jest.spyOn(libraryMockObject.array, 'getIndexItemsWithSelected').mockReturnValue(newIndexItemsWithSelectedDataObject)
+    jest.spyOn(libraryHooksMockObject, 'useState').mockImplementation(() => [indexItemsDataObject, setIndexItemsMockFn])
   })
 
   afterEach(() => jest.clearAllMocks())
 
   describe('Event', () => {
     test('must return new items without index when onClick()', () => {
-      const mountCustomRender = global.renderMount(renderCustom(onClickMockFn))
+      const mountCustomRender = global.renderMount(custom(onClickMockFn))
       mountCustomRender.find('nav').first().find('a').first().simulate('click')
       expect(mountCustomRender.props().onClick).toBe(onClickMockFn)
       expect(mountCustomRender.props().onClick).toHaveBeenCalledWith(newIndexItemsWithSelectedDataObject)
@@ -60,22 +53,22 @@ describe('<Menu />', () => {
   })
 
   describe('Render', () => {
-    test('must match renderDefault()', () => {
-      expect(global.renderToJSON(renderDefault())).toMatchSnapshot()
+    test('must match regular()', () => {
+      expect(global.renderToJSON(regular())).toMatchSnapshot()
     })
 
-    test('must match renderWithIcons()', () => {
-      expect(global.renderToJSON(renderWithIcons())).toMatchSnapshot()
+    test('must match withIcons()', () => {
+      expect(global.renderToJSON(withIcons())).toMatchSnapshot()
     })
 
-    test('must match renderWithHeading()', () => {
-      expect(global.renderToJSON(renderWithHeading())).toMatchSnapshot()
+    test('must match withHeading()', () => {
+      expect(global.renderToJSON(withHeading())).toMatchSnapshot()
     })
   })
 
   describe('State', () => {
     test('must reset new items with index when onClick()', () => {
-      const mountCustomRender = global.renderMount(renderCustom(onClickMockFn))
+      const mountCustomRender = global.renderMount(custom(onClickMockFn))
       mountCustomRender.find('nav').first().find('a').first().simulate('click')
       expect(setIndexItemsMockFn).toHaveBeenCalledWith(newIndexItemsWithSelectedDataObject)
       expect(indexItemsDataObject).toBe(newIndexItemsWithSelectedDataObject)

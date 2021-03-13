@@ -1,13 +1,78 @@
-import { getCurrentIndex, getIndexItems, getIndexItemsWithSelected } from './item'
-import { paginate } from './paginate'
-import { getRandomItemFromArray } from './random'
-import { getRange } from './range'
+export function getCurrentIndex(indexItems) {
+  return indexItems?.filter((indexItem) => indexItem.isCurrent)[0]?.index ?? -1
+}
 
-export const array = {
-  getCurrentIndex,
-  getIndexItems,
-  getIndexItemsWithSelected,
-  getRandomItemFromArray,
-  getRange,
-  paginate,
+export function getIndexItems(items) {
+  return (
+    items?.map((item, index) => ({
+      ...item,
+      index,
+    })) ?? []
+  )
+}
+
+export function getIndexItemsWithSelected(indexItems, selectedItem) {
+  return (
+    indexItems?.map((indexItem) => ({
+      ...indexItem,
+      isSelected: indexItem.index === selectedItem.index,
+    })) ?? []
+  )
+}
+
+export function getRandomItemFromArray(array) {
+  return array?.[Math.floor(Math.random() * array?.length)]
+}
+
+export function getRange({ range, indexSeed = 0, valueSeed = 0 }) {
+  return Array(range)
+    .fill()
+    .map((_, index) => valueSeed + index + indexSeed)
+}
+
+export function getSelectedItem({ items }) {
+  return items?.find(({ isSelected }) => isSelected === true)
+}
+
+export function getSelectedItemText({ items }) {
+  return items?.find(({ isSelected }) => isSelected === true)?.text
+}
+
+export function getItemsDefaultSelected({ defaultItems, items }) {
+  return defaultItems
+    ? [
+        ...defaultItems?.map(({ id, name, ...rest }) => ({
+          id,
+          href: '#url',
+          text: name,
+          isSelected: name === defaultItems[0].name,
+          ...rest,
+        })),
+        ...items?.map(({ id, name, ...rest }) => ({
+          id,
+          href: '#url',
+          text: name,
+          isSelected: name === items[0].name,
+          ...rest,
+        })),
+      ]
+    : items?.map(({ id, name, ...rest }) => ({
+        id,
+        href: '#url',
+        text: name,
+        isSelected: name === items[0].name,
+        ...rest,
+      }))
+}
+
+export function getItemsRandomSelected({ items }) {
+  const randomItem = getRandomItemFromArray(items?.map(({ name }) => name))
+
+  return items.map(({ id, name, ...rest }) => ({
+    id,
+    href: '#url',
+    text: name,
+    isSelected: name === randomItem,
+    ...rest,
+  }))
 }

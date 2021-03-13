@@ -1,5 +1,5 @@
 import { AsyncConceptPage as AsyncConcept, ConceptPage as Concept } from './ConceptPage'
-import { AsyncAccesibilityPage as AsyncAccesibility, AccesibilityPage as Accesibility } from './AccesibilityPage'
+import { AsyncAccessibilityPage as AsyncAccessibility, AccessibilityPage as Accessibility } from './AccessibilityPage'
 import {
   AsyncApplicationArchitecturePage as AsyncApplicationArchitecture,
   ApplicationArchitecturePage as ApplicationArchitecture,
@@ -37,7 +37,7 @@ import { AsyncVersionControlPage as AsyncVersionControl, VersionControlPage as V
 
 export const ConceptPage = {
   Concept: { AsyncConcept, Concept },
-  Accesibility: { AsyncAccesibility, Accesibility },
+  Accessibility: { AsyncAccessibility, Accessibility },
   ApplicationArchitecture: { AsyncApplicationArchitecture, ApplicationArchitecture },
   Bootstrap: { AsyncBootstrap, Bootstrap },
   CodeStyle: { AsyncCodeStyle, CodeStyle },

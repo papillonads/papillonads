@@ -1,13 +1,8 @@
-import { string, arrayOf, shape, number } from 'prop-types'
+import { string, array, number } from 'prop-types'
 
 export const propTypes = {
   className: string,
-  items: arrayOf(
-    shape({
-      names: arrayOf(string),
-      values: arrayOf(string),
-    }),
-  ).isRequired,
+  items: array.isRequired,
   idIndex: number,
   isSelectedIndex: number,
 }

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Progress /> Render must match renderLarge() 1`] = `
+exports[`<Progress /> Render must match large() 1`] = `
 <span
   className="Progress Progress--large"
 >
@@ -15,7 +15,7 @@ exports[`<Progress /> Render must match renderLarge() 1`] = `
 </span>
 `;
 
-exports[`<Progress /> Render must match renderNormal() 1`] = `
+exports[`<Progress /> Render must match normal() 1`] = `
 <span
   className="Progress"
 >
@@ -30,7 +30,7 @@ exports[`<Progress /> Render must match renderNormal() 1`] = `
 </span>
 `;
 
-exports[`<Progress /> Render must match renderSmall() 1`] = `
+exports[`<Progress /> Render must match small() 1`] = `
 <span
   className="Progress Progress--small"
 >

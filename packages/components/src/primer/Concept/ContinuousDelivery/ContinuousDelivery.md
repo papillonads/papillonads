@@ -1,3 +1,0 @@
-# ContinuousDelivery
-
-📝 Coming soon 🐬

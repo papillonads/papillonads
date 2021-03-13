@@ -10,7 +10,7 @@ const path = require('path')
 const merge = require('webpack-merge').merge
 
 // webpack plugins
-const ManifestPlugin = require('webpack-manifest-plugin')
+const { WebpackManifestPlugin } = require('webpack-manifest-plugin')
 
 const CleanWebpackPlugin = require('clean-webpack-plugin').CleanWebpackPlugin
 const HtmlWebpackPlugin = require('html-webpack-plugin')
@@ -34,7 +34,7 @@ const configureBabelLoader = (browserList) => {
             {
               modules: false,
               useBuiltIns: 'entry',
-              corejs: '3.6.5',
+              corejs: '3.9.1',
               targets: {
                 browsers: browserList,
               },
@@ -132,7 +132,7 @@ const configureCleanWebpack = () => {
 // Configure Html webpack
 const configureHtml = () => {
   return {
-    title: 'Design System Documentation',
+    title: 'Papillon Ads Documentation',
     meta: {
       viewport: 'width=device-width, initial-scale=1, shrink-to-fit=no',
     },
@@ -168,7 +168,7 @@ const legacyConfig = {
   module: {
     rules: [configureBabelLoader(Object.values(pkg.browserslist.legacyBrowsers))],
   },
-  plugins: [new ManifestPlugin(configureManifest('manifest-legacy.json'))],
+  plugins: [new WebpackManifestPlugin(configureManifest('manifest-legacy.json'))],
 }
 
 // Modern webpack config
@@ -176,7 +176,7 @@ const modernConfig = {
   module: {
     rules: [configureBabelLoader(Object.values(pkg.browserslist.modernBrowsers))],
   },
-  plugins: [new ManifestPlugin(configureManifest('manifest.json'))],
+  plugins: [new WebpackManifestPlugin(configureManifest('manifest.json'))],
 }
 
 // Common module exports

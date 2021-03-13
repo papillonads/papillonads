@@ -1,5 +1,7 @@
-import { deepCloneObject } from './clone'
+export function deepCloneObject(obj) {
+  if (typeof obj !== 'object') {
+    return undefined
+  }
 
-export const object = {
-  deepCloneObject,
+  return JSON.parse(JSON.stringify(obj))
 }

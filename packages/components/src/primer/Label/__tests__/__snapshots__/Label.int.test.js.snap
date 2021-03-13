@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Label /> Render must match renderDefault() 1`] = `
+exports[`<Label /> Render must match regular() 1`] = `
 <span
   className="IssueLabel bg-blue text-white"
   title="Label: default label"

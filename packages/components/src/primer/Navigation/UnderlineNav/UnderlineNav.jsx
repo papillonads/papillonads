@@ -1,15 +1,15 @@
 import React from 'react'
 import cx from 'classnames'
 import { v1 as uuidv1 } from 'uuid'
-import { hooks, array as arrayLibrary } from '@papillonads/library'
+import { getIndexItems, getIndexItemsWithSelected } from '@papillonads/library/array'
+import { useState } from '@papillonads/library/hooks'
 import { propTypes, defaultProps, underlineNavAlignmentType } from './UnderlineNav.prop'
 import styles from './UnderlineNav.scss'
 import containerStyles from '../../Layout/container.scss'
 import { Icon, iconSize } from '../../Icon'
 
 export function UnderlineNav({ className, ariaAttr, items, itemType, actions, align, fullContainer, onClick }) {
-  const { getIndexItems, getIndexItemsWithSelected } = arrayLibrary
-  const [indexItems, setIndexItems] = hooks.react.useState(getIndexItems(items))
+  const [indexItems, setIndexItems] = useState(getIndexItems(items))
   const { label, selected, current } = ariaAttr
 
   function renderActions() {
