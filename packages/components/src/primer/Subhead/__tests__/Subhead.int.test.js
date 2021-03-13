@@ -1,13 +1,13 @@
-import { renderDefault, renderIsSpacious } from './Subhead.int.render'
+import { plain, spacious } from './Subhead.int.story'
 
 describe('<Subhead />', () => {
   describe('Render', () => {
-    test('must match renderDefault()', () => {
-      expect(global.renderToJSON(renderDefault())).toMatchSnapshot()
+    test('must match plain()', () => {
+      expect(global.renderToJSON(plain())).toMatchSnapshot()
     })
 
-    test('must match renderIsSpacious()', () => {
-      expect(global.renderToJSON(renderIsSpacious())).toMatchSnapshot()
+    test('must match spacious()', () => {
+      expect(global.renderToJSON(spacious())).toMatchSnapshot()
     })
   })
 })

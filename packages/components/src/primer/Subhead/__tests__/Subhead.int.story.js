@@ -1,5 +1,24 @@
-import { storiesOf } from '@storybook/react'
-import { renderDefault, renderIsSpacious } from './Subhead.int.render'
-import notes from '../Subhead.md'
+import React from 'react'
+import { withTests } from '@storybook/addon-jest'
+import results from '../../../../../../.jest-test-results.json'
 
-storiesOf('Primer|Atom/Subhead', module).add('Plain', renderDefault, { notes }).add('Spacious', renderIsSpacious, { notes })
+const Subhead =
+  process.env.NODE_ENV === 'develop' || process.env.NODE_ENV === 'test'
+    ? require('../../../index').primer.Subhead
+    : require('../../../../build').primer.Subhead
+
+export default {
+  title: 'Primer/Atom/Subhead',
+  component: Subhead,
+  decorators: [withTests({ results })],
+  parameters: { jest: ['Subhead.int.test.js'] },
+  excludeStories: ['custom'],
+}
+
+export function plain() {
+  return <Subhead heading="Plain subhead" />
+}
+
+export function spacious() {
+  return <Subhead heading="Spacious subhead" isSpacious={true} />
+}

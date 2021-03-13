@@ -2,7 +2,7 @@ import { string, bool } from 'prop-types'
 
 export const propTypes = {
   className: string,
-  heading: string.isrequired,
+  heading: string.isRequired,
   isSpacious: bool,
 }
 
