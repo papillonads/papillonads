@@ -12,6 +12,8 @@ import ArrowLeft16 from './arrow-left-16.svg'
 import ArrowLeft24 from './arrow-left-24.svg'
 import ArrowRight16 from './arrow-right-16.svg'
 import ArrowRight24 from './arrow-right-24.svg'
+import ArrowSwitch16 from './arrow-switch-16.svg'
+import ArrowSwitch24 from './arrow-switch-24.svg'
 import ArrowUp16 from './arrow-up-16.svg'
 import ArrowUp24 from './arrow-up-24.svg'
 import ArrowUpLeft24 from './arrow-up-left-24.svg'
@@ -57,6 +59,7 @@ import ChevronRight16 from './chevron-right-16.svg'
 import ChevronRight24 from './chevron-right-24.svg'
 import ChevronUp16 from './chevron-up-16.svg'
 import ChevronUp24 from './chevron-up-24.svg'
+import Circle16 from './circle-16.svg'
 import Circle24 from './circle-24.svg'
 import CircleSlash16 from './circle-slash-16.svg'
 import CircleSlash24 from './circle-slash-24.svg'
@@ -75,6 +78,8 @@ import Comment24 from './comment-24.svg'
 import CommentDiscussion16 from './comment-discussion-16.svg'
 import CommentDiscussion24 from './comment-discussion-24.svg'
 import Commit24 from './commit-24.svg'
+import Container16 from './container-16.svg'
+import Container24 from './container-24.svg'
 import Copy24 from './copy-24.svg'
 import CPU16 from './cpu-16.svg'
 import CPU24 from './cpu-24.svg'
@@ -112,9 +117,11 @@ import Ellipsis16 from './ellipsis-16.svg'
 import Eye16 from './eye-16.svg'
 import Eye24 from './eye-24.svg'
 import EyeClosed16 from './eye-closed-16.svg'
+import EyeClosed24 from './eye-closed-24.svg'
 import EyeSlash24 from './eye-slash-24.svg'
 import File16 from './file-16.svg'
 import File24 from './file-24.svg'
+import FileBadge16 from './file-badge-16.svg'
 import FileBinary16 from './file-binary-16.svg'
 import FileBinary24 from './file-binary-24.svg'
 import FileCode16 from './file-code-16.svg'
@@ -129,12 +136,14 @@ import FileSubmodule16 from './file-submodule-16.svg'
 import FileSubmodule24 from './file-submodule-24.svg'
 import FileSymlink24 from './file-symlink-24.svg'
 import FileSymlinkFile16 from './file-symlink-file-16.svg'
+import FileSymlinkFile24 from './file-symlink-file-24.svg'
 import FileZip16 from './file-zip-16.svg'
 import FileZip24 from './file-zip-24.svg'
 import Filter16 from './filter-16.svg'
 import Filter24 from './filter-24.svg'
 import Fire24 from './fire-24.svg'
 import Flame16 from './flame-16.svg'
+import Flame24 from './flame-24.svg'
 import Fold16 from './fold-16.svg'
 import Fold24 from './fold-24.svg'
 import FoldDown16 from './fold-down-16.svg'
@@ -333,6 +342,7 @@ import Square24 from './square-24.svg'
 import SquareFill16 from './square-fill-16.svg'
 import SquareFill24 from './square-fill-24.svg'
 import Squirrel16 from './squirrel-16.svg'
+import Squirrel24 from './squirrel-24.svg'
 import Star16 from './star-16.svg'
 import Star24 from './star-24.svg'
 import StarFill16 from './star-fill-16.svg'
@@ -341,6 +351,8 @@ import Stop16 from './stop-16.svg'
 import Stop24 from './stop-24.svg'
 import Stopwatch16 from './stopwatch-16.svg'
 import Stopwatch24 from './stopwatch-24.svg'
+import Strikethrough16 from './strikethrough-16.svg'
+import Strikethrough24 from './strikethrough-24.svg'
 import Sun16 from './sun-16.svg'
 import Sun24 from './sun-24.svg'
 import Sync16 from './sync-16.svg'
@@ -381,6 +393,7 @@ import Unmute16 from './unmute-16.svg'
 import Unmute24 from './unmute-24.svg'
 import Unverifed24 from './unverifed-24.svg'
 import Unverified16 from './unverified-16.svg'
+import Unverified24 from './unverified-24.svg'
 import Upload16 from './upload-16.svg'
 import Upload24 from './upload-24.svg'
 import Verified16 from './verified-16.svg'
@@ -391,7 +404,9 @@ import Workflow16 from './workflow-16.svg'
 import Workflow24 from './workflow-24.svg'
 import X16 from './x-16.svg'
 import X24 from './x-24.svg'
+import XCircle16 from './x-circle-16.svg'
 import XCircle24 from './x-circle-24.svg'
+import xCircleFill16 from './x-circle-fill-16.svg'
 import xCircleFill24 from './x-circle-fill-24.svg'
 import Zap16 from './zap-16.svg'
 import Zap24 from './zap-24.svg'
@@ -411,6 +426,8 @@ export const icon = {
   ArrowLeft24,
   ArrowRight16,
   ArrowRight24,
+  ArrowSwitch16,
+  ArrowSwitch24,
   ArrowUp16,
   ArrowUp24,
   ArrowUpLeft24,
@@ -456,6 +473,7 @@ export const icon = {
   ChevronRight24,
   ChevronUp16,
   ChevronUp24,
+  Circle16,
   Circle24,
   CircleSlash16,
   CircleSlash24,
@@ -474,6 +492,8 @@ export const icon = {
   CommentDiscussion16,
   CommentDiscussion24,
   Commit24,
+  Container16,
+  Container24,
   Copy24,
   CPU16,
   CPU24,
@@ -511,9 +531,11 @@ export const icon = {
   Eye16,
   Eye24,
   EyeClosed16,
+  EyeClosed24,
   EyeSlash24,
   File16,
   File24,
+  FileBadge16,
   FileBinary16,
   FileBinary24,
   FileCode16,
@@ -528,12 +550,14 @@ export const icon = {
   FileSubmodule24,
   FileSymlink24,
   FileSymlinkFile16,
+  FileSymlinkFile24,
   FileZip16,
   FileZip24,
   Filter16,
   Filter24,
   Fire24,
   Flame16,
+  Flame24,
   Fold16,
   Fold24,
   FoldDown16,
@@ -732,6 +756,7 @@ export const icon = {
   SquareFill16,
   SquareFill24,
   Squirrel16,
+  Squirrel24,
   Star16,
   Star24,
   StarFill16,
@@ -740,6 +765,8 @@ export const icon = {
   Stop24,
   Stopwatch16,
   Stopwatch24,
+  Strikethrough16,
+  Strikethrough24,
   Sun16,
   Sun24,
   Sync16,
@@ -780,6 +807,7 @@ export const icon = {
   Unmute24,
   Unverifed24,
   Unverified16,
+  Unverified24,
   Upload16,
   Upload24,
   Verified16,
@@ -790,7 +818,9 @@ export const icon = {
   Workflow24,
   X16,
   X24,
+  XCircle16,
   XCircle24,
+  xCircleFill16,
   xCircleFill24,
   Zap16,
   Zap24,
