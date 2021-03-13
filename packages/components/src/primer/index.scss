@@ -1,0 +1,8 @@
+@import '~@papillonads/css/build/primer/support/variables/colors.scss';
+
+@mixin inactive {
+  pointer-events: none;
+  color: $gray-200;
+  cursor: not-allowed;
+  user-select: none;
+}
