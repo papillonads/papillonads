@@ -1,6 +1,6 @@
 module.exports = {
   testMatch: ['**/?(*.)test.js?(x)'],
-  testPathIgnorePatterns: ['packages/docs/webpack.test.js'],
+  testPathIgnorePatterns: ['packages/docs/webpack.test.js', 'packages/styleguide/webpack.test.js'],
   roots: ['<rootDir>'],
   transform: {
     '^.+\\.jsx?$': 'babel-jest',
