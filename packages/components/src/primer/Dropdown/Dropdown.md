@@ -4,9 +4,9 @@
 
 # Variants
 
-> - Default, Inactive
+> - Regular, Inactive
 
-## Default
+## Regular
 
 ```jsx
 <Dropdown summary={summary} ariaAttr={ariaAttr} items={items} onClick={action('onClick')} />

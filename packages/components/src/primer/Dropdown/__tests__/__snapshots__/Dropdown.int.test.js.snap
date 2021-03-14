@@ -1,18 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Dropdown /> Render must match regular() 1`] = `
+exports[`<Dropdown /> Render must match inacive() 1`] = `
 <div
   className={null}
 >
   <details
-    className="dropdown details-reset details-overlay d-inline-block"
+    className="dropdown details-reset details-overlay d-inline-block dropdown-inactive"
   >
     <summary
       aria-haspopup={true}
       className="btn"
     >
       <div
-        className="d-flex flex-justify-between flex-items-center"
+        className="d-flex flex-justify-between flex-items-center dropdown-inactive"
       >
         <div>
           Dropdown
@@ -68,19 +68,19 @@ exports[`<Dropdown /> Render must match regular() 1`] = `
 </div>
 `;
 
-exports[`<Dropdown /> Render must match renderInacive() 1`] = `
+exports[`<Dropdown /> Render must match regular() 1`] = `
 <div
   className={null}
 >
   <details
-    className="dropdown details-reset details-overlay d-inline-block dropdown-inactive"
+    className="dropdown details-reset details-overlay d-inline-block"
   >
     <summary
       aria-haspopup={true}
       className="btn"
     >
       <div
-        className="d-flex flex-justify-between flex-items-center dropdown-inactive"
+        className="d-flex flex-justify-between flex-items-center"
       >
         <div>
           Dropdown

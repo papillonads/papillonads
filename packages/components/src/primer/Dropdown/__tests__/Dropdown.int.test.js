@@ -68,7 +68,7 @@ describe('<Dropdown />', () => {
       expect(global.renderToJSON(regular())).toMatchSnapshot()
     })
 
-    test('must match renderInacive()', () => {
+    test('must match inacive()', () => {
       expect(global.renderToJSON(inactive())).toMatchSnapshot()
     })
   })
