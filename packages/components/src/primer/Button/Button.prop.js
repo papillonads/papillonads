@@ -37,6 +37,7 @@ export const buttonInputType = {
 
 export const propTypes = {
   dataTest: string,
+  id: string,
   className: string,
   element: oneOf(Object.keys(buttonElement)),
   href: string,
@@ -55,6 +56,7 @@ export const propTypes = {
 
 export const defaultProps = {
   dataTest: null,
+  id: null,
   className: null,
   element: buttonElement.button,
   href: null,

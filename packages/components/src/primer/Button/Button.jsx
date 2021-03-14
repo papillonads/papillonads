@@ -15,7 +15,7 @@ import {
 import styles from './Button.scss'
 import { Icon, iconSize } from '../Icon'
 
-export function Button({ dataTest, className, element, href, text, variant, size, state, icon, onClick, inputType, autoFocus }) {
+export function Button({ dataTest, id, className, element, href, text, variant, size, state, icon, onClick, inputType, autoFocus }) {
   const stateProps = state === buttonState.inactive ? { ...{ 'aria-disabled': 'true' } } : null
   const fileInputRef = useRef(null)
 
@@ -23,6 +23,7 @@ export function Button({ dataTest, className, element, href, text, variant, size
     return (
       <button
         data-test={dataTest}
+        id={id}
         className={cx(className, styles.btn, {
           [styles['btn-sm']]: size === buttonSize.small,
           [styles['btn-large']]: size === buttonSize.large,
