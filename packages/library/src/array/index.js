@@ -39,30 +39,46 @@ export function getSelectedItemText({ items }) {
 }
 
 export function getItemsDefaultSelected({ defaultItems, items }) {
-  return defaultItems
-    ? [
-        ...defaultItems?.map(({ id, name, ...rest }) => ({
-          id,
-          href: '#url',
-          text: name,
-          isSelected: name === defaultItems[0].name,
-          ...rest,
-        })),
-        ...items?.map(({ id, name, ...rest }) => ({
-          id,
-          href: '#url',
-          text: name,
-          isSelected: name === items[0].name,
-          ...rest,
-        })),
-      ]
-    : items?.map(({ id, name, ...rest }) => ({
+  let result
+
+  if (defaultItems && items) {
+    result = [
+      ...defaultItems?.map(({ id, name, ...rest }) => ({
+        id,
+        href: '#url',
+        text: name,
+        isSelected: name === defaultItems[0].name,
+        ...rest,
+      })),
+      ...items?.map(({ id, name, ...rest }) => ({
         id,
         href: '#url',
         text: name,
         isSelected: name === items[0].name,
         ...rest,
-      }))
+      })),
+    ]
+  }
+
+  if (defaultItems && !items) {
+    result = null
+  }
+
+  if (!defaultItems && items) {
+    result = items?.map(({ id, name, ...rest }) => ({
+      id,
+      href: '#url',
+      text: name,
+      isSelected: name === items[0].name,
+      ...rest,
+    }))
+  }
+
+  if (!defaultItems && !items) {
+    result = null
+  }
+
+  return result
 }
 
 export function getItemsRandomSelected({ items }) {
