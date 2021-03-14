@@ -11,10 +11,11 @@ export function Select({ id, className, selectedText, items, onChange, state }) 
   const indexItems = getIndexItems(items)
 
   const handleOnChange = (event) => {
-    const newIndexItems = getIndexItemsWithSelected(indexItems, indexItems[event.target.value])
+    const indexItem = indexItems.find((item) => item.text === event.target.value)
+    const newIndexItems = getIndexItemsWithSelected(indexItems, indexItem)
 
     onChange({
-      selectedText: indexItems[event.target.value].text,
+      selectedText: indexItem.text,
       items: newIndexItems.map((newIndexItem) =>
         (({ text: newIndexItemText, isSelected: newIndexItemIsSelected }) => ({
           text: newIndexItemText,
@@ -37,10 +38,10 @@ export function Select({ id, className, selectedText, items, onChange, state }) 
       >
         {items &&
           indexItems.map((indexItem) => {
-            const { index, text } = indexItem
+            const { text, isSelected } = indexItem
 
             return (
-              <option key={uuidv1()} value={index}>
+              <option key={uuidv1()} value={text} selected={isSelected}>
                 {text}
               </option>
             )
