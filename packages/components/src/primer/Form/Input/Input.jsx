@@ -6,6 +6,7 @@ import formStyles from '../Form.scss'
 
 export function Input({
   dataTest,
+  id,
   className,
   placeholder,
   ariaAttr,
@@ -21,6 +22,7 @@ export function Input({
   return (
     <input
       data-test={dataTest}
+      id={id}
       className={cx(className, formStyles['form-control'], {
         [styles['input-inactive']]: state === inputState.inactive,
       })}

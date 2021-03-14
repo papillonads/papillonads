@@ -12,6 +12,7 @@ export const inputType = {
 
 export const propTypes = {
   dataTest: string,
+  id: string,
   className: string,
   placeholder: string,
   ariaAttr: shape({
@@ -28,6 +29,7 @@ export const propTypes = {
 
 export const defaultProps = {
   dataTest: null,
+  id: null,
   className: null,
   placeholder: null,
   ariaAttr: {
