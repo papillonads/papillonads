@@ -16,7 +16,7 @@ import styles from './Button.scss'
 import { Icon, iconSize } from '../Icon'
 
 export function Button({ dataTest, id, className, element, href, text, variant, size, state, icon, onClick, inputType, autoFocus }) {
-  const stateProps = state === buttonState.inactive ? { ...{ 'aria-disabled': 'true' } } : null
+  const stateProps = state === buttonState.inactive ? { ...{ disabled: 'true', 'aria-disabled': 'true' } } : null
   const fileInputRef = useRef(null)
 
   if (element === buttonElement.button) {
