@@ -8,7 +8,6 @@ app.sublime-workspace
 # Storybook
 .storybook-static-develop
 .storybook-static-release
-.jest-test-results.json
 
 # Test
 coverage
