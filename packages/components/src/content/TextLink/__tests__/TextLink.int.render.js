@@ -1,4 +1,3 @@
-import React from 'react'
 import { text, select, boolean } from '@storybook/addon-knobs'
 import { action } from '@storybook/addon-actions'
 import { iconName } from '../../Icon/Icon.prop'
