@@ -1,4 +1,3 @@
-import React from 'react'
 import cx from 'classnames'
 import { propTypes, defaultProps, blankslateVariant } from './Blankslate.prop'
 import styles from './Blankslate.scss'
