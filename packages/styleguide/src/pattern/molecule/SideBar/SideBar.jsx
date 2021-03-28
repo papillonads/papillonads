@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import { sideBarDefaultProps, sideBarPropTypes } from './SideBar.prop'
 import { supportPageRoute, utilityPageRoute, objectsPageRoute, componentsPageRoute } from '../../../route'
