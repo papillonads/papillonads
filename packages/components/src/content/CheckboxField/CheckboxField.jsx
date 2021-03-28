@@ -1,4 +1,3 @@
-import React from 'react'
 import { propTypes, defaultProps } from './CheckboxField.prop'
 import { ControlledInputField } from '../ControlledInputField'
 

@@ -54,4 +54,3 @@ export function renderDefault() {
     </FieldGroup>
   )
 }
-/* eslint-enable react-hooks/rules-of-hooks */
