@@ -1,4 +1,4 @@
-import React from 'react'
+import { Fragment } from 'react'
 import cx from 'classnames'
 import { v1 as uuidv1 } from 'uuid'
 import { getIndexItems, getIndexItemsWithSelected } from '@papillonads/library/array'
@@ -14,7 +14,7 @@ export function TabNav({ className, ariaAttr, items, actions, onClick, children,
   const indexItems = getIndexItems(items)
 
   function renderActions() {
-    return <React.Fragment>{actions}</React.Fragment>
+    return <Fragment>{actions}</Fragment>
   }
 
   return (

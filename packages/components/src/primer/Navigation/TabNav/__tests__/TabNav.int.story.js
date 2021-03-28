@@ -1,4 +1,3 @@
-import React from 'react'
 import cx from 'classnames'
 import { v1 as uuidv1 } from 'uuid'
 import { action } from '@storybook/addon-actions'
