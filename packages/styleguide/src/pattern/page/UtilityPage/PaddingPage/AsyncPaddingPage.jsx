@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './PaddingPage.prop'
 
-const LazyPaddingPage = React.lazy(() => import('./PaddingPage'))
+const LazyPaddingPage = lazy(() => import('./PaddingPage'))
 
 export function AsyncPaddingPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyPaddingPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

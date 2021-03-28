@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './DetailsPage.prop'
 
-const LazyDetailsPage = React.lazy(() => import('./DetailsPage'))
+const LazyDetailsPage = lazy(() => import('./DetailsPage'))
 
 export function AsyncDetailsPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyDetailsPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

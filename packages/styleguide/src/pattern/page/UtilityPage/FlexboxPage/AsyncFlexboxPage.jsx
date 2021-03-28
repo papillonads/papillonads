@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './FlexboxPage.prop'
 
-const LazyFlexboxPage = React.lazy(() => import('./FlexboxPage'))
+const LazyFlexboxPage = lazy(() => import('./FlexboxPage'))
 
 export function AsyncFlexboxPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyFlexboxPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

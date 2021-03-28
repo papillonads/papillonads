@@ -1,4 +1,3 @@
-import React from 'react'
 import { UtilityTemplate } from '../../../template/UtilityTemplate'
 import { defaultProps, propTypes } from './DetailsPage.prop'
 

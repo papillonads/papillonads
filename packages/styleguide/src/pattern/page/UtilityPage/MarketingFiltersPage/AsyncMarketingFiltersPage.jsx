@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './MarketingFiltersPage.prop'
 
-const LazyMarketingFiltersPage = React.lazy(() => import('./MarketingFiltersPage'))
+const LazyMarketingFiltersPage = lazy(() => import('./MarketingFiltersPage'))
 
 export function AsyncMarketingFiltersPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyMarketingFiltersPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 
