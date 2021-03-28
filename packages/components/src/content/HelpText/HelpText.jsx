@@ -1,4 +1,3 @@
-import React from 'react'
 import cx from 'classnames'
 import { propTypes, defaultProps } from './HelpText.prop'
 import styles from './HelpText.scss'
