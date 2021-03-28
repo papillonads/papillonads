@@ -1,4 +1,3 @@
-import React from 'react'
 import { ComponentsTemplate } from '../../../template/ComponentsTemplate'
 import { defaultProps, propTypes } from './FlashBannerPage.prop'
 

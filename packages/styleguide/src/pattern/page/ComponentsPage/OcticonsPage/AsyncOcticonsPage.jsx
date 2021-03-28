@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './OcticonsPage.prop'
 
-const LazyOcticonsPage = React.lazy(() => import('./OcticonsPage'))
+const LazyOcticonsPage = lazy(() => import('./OcticonsPage'))
 
 export function AsyncOcticonsPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyOcticonsPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

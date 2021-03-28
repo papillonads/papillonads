@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './SubheadPage.prop'
 
-const LazySubheadPage = React.lazy(() => import('./SubheadPage'))
+const LazySubheadPage = lazy(() => import('./SubheadPage'))
 
 export function AsyncSubheadPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazySubheadPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

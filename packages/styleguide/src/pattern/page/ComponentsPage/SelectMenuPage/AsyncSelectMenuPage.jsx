@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './SelectMenuPage.prop'
 
-const LazySelectMenuPage = React.lazy(() => import('./SelectMenuPage'))
+const LazySelectMenuPage = lazy(() => import('./SelectMenuPage'))
 
 export function AsyncSelectMenuPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazySelectMenuPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './MarkdownPage.prop'
 
-const LazyMarkdownPage = React.lazy(() => import('./MarkdownPage'))
+const LazyMarkdownPage = lazy(() => import('./MarkdownPage'))
 
 export function AsyncMarkdownPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyMarkdownPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

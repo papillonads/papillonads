@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './FlashBannerPage.prop'
 
-const LazyFlashBannerPage = React.lazy(() => import('./FlashBannerPage'))
+const LazyFlashBannerPage = lazy(() => import('./FlashBannerPage'))
 
 export function AsyncFlashBannerPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyFlashBannerPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

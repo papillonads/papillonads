@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './NavigationPage.prop'
 
-const LazyNavigationPage = React.lazy(() => import('./NavigationPage'))
+const LazyNavigationPage = lazy(() => import('./NavigationPage'))
 
 export function AsyncNavigationPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyNavigationPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

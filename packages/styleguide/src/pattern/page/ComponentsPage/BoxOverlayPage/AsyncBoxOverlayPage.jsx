@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './BoxOverlayPage.prop'
 
-const LazyBoxOverlayPage = React.lazy(() => import('./BoxOverlayPage'))
+const LazyBoxOverlayPage = lazy(() => import('./BoxOverlayPage'))
 
 export function AsyncBoxOverlayPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyBoxOverlayPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './PopoverPage.prop'
 
-const LazyPopoverPage = React.lazy(() => import('./PopoverPage'))
+const LazyPopoverPage = lazy(() => import('./PopoverPage'))
 
 export function AsyncPopoverPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyPopoverPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

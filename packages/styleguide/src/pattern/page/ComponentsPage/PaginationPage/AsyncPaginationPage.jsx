@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './PaginationPage.prop'
 
-const LazyPaginationPage = React.lazy(() => import('./PaginationPage'))
+const LazyPaginationPage = lazy(() => import('./PaginationPage'))
 
 export function AsyncPaginationPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyPaginationPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

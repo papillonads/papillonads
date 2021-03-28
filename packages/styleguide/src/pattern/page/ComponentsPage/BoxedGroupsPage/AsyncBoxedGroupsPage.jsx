@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './BoxedGroupsPage.prop'
 
-const LazyBoxedGroupsPage = React.lazy(() => import('./BoxedGroupsPage'))
+const LazyBoxedGroupsPage = lazy(() => import('./BoxedGroupsPage'))
 
 export function AsyncBoxedGroupsPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyBoxedGroupsPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

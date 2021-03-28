@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './LabelsPage.prop'
 
-const LazyLabelsPage = React.lazy(() => import('./LabelsPage'))
+const LazyLabelsPage = lazy(() => import('./LabelsPage'))
 
 export function AsyncLabelsPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyLabelsPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

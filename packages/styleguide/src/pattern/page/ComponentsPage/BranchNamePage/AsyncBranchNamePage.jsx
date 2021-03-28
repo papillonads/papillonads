@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './BranchNamePage.prop'
 
-const LazyBranchNamePage = React.lazy(() => import('./BranchNamePage'))
+const LazyBranchNamePage = lazy(() => import('./BranchNamePage'))
 
 export function AsyncBranchNamePage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyBranchNamePage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

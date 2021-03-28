@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './ProgressPage.prop'
 
-const LazyProgressPage = React.lazy(() => import('./ProgressPage'))
+const LazyProgressPage = lazy(() => import('./ProgressPage'))
 
 export function AsyncProgressPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyProgressPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

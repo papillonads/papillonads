@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './BlankslatePage.prop'
 
-const LazyBlankslatePage = React.lazy(() => import('./BlankslatePage'))
+const LazyBlankslatePage = lazy(() => import('./BlankslatePage'))
 
 export function AsyncBlankslatePage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyBlankslatePage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

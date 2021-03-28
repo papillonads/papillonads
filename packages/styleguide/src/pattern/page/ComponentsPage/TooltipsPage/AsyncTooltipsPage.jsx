@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './TooltipsPage.prop'
 
-const LazyTooltipsPage = React.lazy(() => import('./TooltipsPage'))
+const LazyTooltipsPage = lazy(() => import('./TooltipsPage'))
 
 export function AsyncTooltipsPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyTooltipsPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

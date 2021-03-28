@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './TruncatePage.prop'
 
-const LazyTruncatePage = React.lazy(() => import('./TruncatePage'))
+const LazyTruncatePage = lazy(() => import('./TruncatePage'))
 
 export function AsyncTruncatePage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyTruncatePage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 
