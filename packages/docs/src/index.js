@@ -1,5 +1,4 @@
 /* eslint-disable global-require */
-
 import './asset/npm/primer.css'
 import './asset/custom.css'
 import './asset/github/styleguide.css'
@@ -18,5 +17,3 @@ require('@babel/register')({
 require('whatwg-fetch')
 
 require('./clientRenderApp')
-
-/* eslint-enable global-require */
