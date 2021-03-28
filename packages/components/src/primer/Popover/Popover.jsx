@@ -1,4 +1,3 @@
-import React from 'react'
 import cx from 'classnames'
 import boxShadowStyles from '@papillonads/css/build/primer/utilities/box-shadow.scss'
 import layoutStyles from '@papillonads/css/build/primer/utilities/layout.scss'
