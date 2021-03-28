@@ -1,4 +1,3 @@
-import React from 'react'
 import { NotFoundTemplate } from '../../template/NotFoundTemplate'
 import { defaultProps, propTypes } from './NotFoundPage.prop'
 
