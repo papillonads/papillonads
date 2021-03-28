@@ -1,4 +1,4 @@
-import React from 'react'
+import { Fragment } from 'react'
 import { action } from '@storybook/addon-actions'
 import { withTests } from '@storybook/addon-jest'
 import { radioState } from '../Radio.prop'
@@ -25,18 +25,18 @@ export function custom(onChange) {
 
 export function regular() {
   return (
-    <React.Fragment>
+    <Fragment>
       <Radio name={name} onChange={action('onChange-white')} text="White" />
       <Radio name={name} isChecked={true} onChange={action('onChange-black')} text="Black" />
-    </React.Fragment>
+    </Fragment>
   )
 }
 
 export function inactive() {
   return (
-    <React.Fragment>
+    <Fragment>
       <Radio name={name} onChange={action('onChange-white')} text="White" state={radioState.inactive} />
       <Radio name={name} isChecked={true} onChange={action('onChange-black')} text="Black" state={radioState.inactive} />
-    </React.Fragment>
+    </Fragment>
   )
 }

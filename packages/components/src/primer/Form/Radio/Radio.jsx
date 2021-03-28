@@ -1,4 +1,3 @@
-import React from 'react'
 import cx from 'classnames'
 import marginStyles from '@papillonads/css/build/primer/utilities/margin.scss'
 import { propTypes, defaultProps, radioState } from './Radio.prop'
