@@ -1,4 +1,3 @@
-import React from 'react'
 import { asyncRender, defaultRender } from './NotFoundPage.int.render'
 
 jest.mock('react-router-dom', () => ({ Link: () => <div>some link</div> }))
