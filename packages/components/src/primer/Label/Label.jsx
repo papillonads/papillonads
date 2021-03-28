@@ -1,4 +1,3 @@
-import React from 'react'
 import cx from 'classnames'
 import colorStyles from '@papillonads/css/build/primer/utilities/colors.scss'
 import { propTypes, defaultProps, labelVariant, labelBackgroundColor, labelTextColor } from './Label.prop'
