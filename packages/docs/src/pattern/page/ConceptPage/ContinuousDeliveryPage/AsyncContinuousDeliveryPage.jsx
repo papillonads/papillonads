@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './ContinuousDeliveryPage.prop'
 
-const LazyContinuousDeliveryPage = React.lazy(() => import('./ContinuousDeliveryPage'))
+const LazyContinuousDeliveryPage = lazy(() => import('./ContinuousDeliveryPage'))
 
 export function AsyncContinuousDeliveryPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyContinuousDeliveryPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

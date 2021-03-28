@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './CrossBrowserCompatibilityPage.prop'
 
-const LazyCrossBrowserCompatibilityPage = React.lazy(() => import('./CrossBrowserCompatibilityPage'))
+const LazyCrossBrowserCompatibilityPage = lazy(() => import('./CrossBrowserCompatibilityPage'))
 
 export function AsyncCrossBrowserCompatibilityPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyCrossBrowserCompatibilityPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

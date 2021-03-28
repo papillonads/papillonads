@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './RenderingPage.prop'
 
-const LazyRenderingPage = React.lazy(() => import('./RenderingPage'))
+const LazyRenderingPage = lazy(() => import('./RenderingPage'))
 
 export function AsyncRenderingPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyRenderingPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

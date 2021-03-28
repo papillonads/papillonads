@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './RoutingPage.prop'
 
-const LazyRoutingPage = React.lazy(() => import('./RoutingPage'))
+const LazyRoutingPage = lazy(() => import('./RoutingPage'))
 
 export function AsyncRoutingPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyRoutingPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

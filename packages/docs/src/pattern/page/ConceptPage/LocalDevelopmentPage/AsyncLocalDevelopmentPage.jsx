@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './LocalDevelopmentPage.prop'
 
-const LazyLocalDevelopmentPage = React.lazy(() => import('./LocalDevelopmentPage'))
+const LazyLocalDevelopmentPage = lazy(() => import('./LocalDevelopmentPage'))
 
 export function AsyncLocalDevelopmentPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyLocalDevelopmentPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

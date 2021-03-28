@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './VersionControlPage.prop'
 
-const LazyVersionControlPage = React.lazy(() => import('./VersionControlPage'))
+const LazyVersionControlPage = lazy(() => import('./VersionControlPage'))
 
 export function AsyncVersionControlPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyVersionControlPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

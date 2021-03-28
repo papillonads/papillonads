@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './MonorepoPage.prop'
 
-const LazyMonorepoPage = React.lazy(() => import('./MonorepoPage'))
+const LazyMonorepoPage = lazy(() => import('./MonorepoPage'))
 
 export function AsyncMonorepoPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyMonorepoPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

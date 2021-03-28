@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './CodeStylePage.prop'
 
-const LazyCodeStylePage = React.lazy(() => import('./CodeStylePage'))
+const LazyCodeStylePage = lazy(() => import('./CodeStylePage'))
 
 export function AsyncCodeStylePage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyCodeStylePage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

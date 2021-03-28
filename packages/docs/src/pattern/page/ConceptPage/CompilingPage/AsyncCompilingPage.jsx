@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './CompilingPage.prop'
 
-const LazyCompilingPage = React.lazy(() => import('./CompilingPage'))
+const LazyCompilingPage = lazy(() => import('./CompilingPage'))
 
 export function AsyncCompilingPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyCompilingPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

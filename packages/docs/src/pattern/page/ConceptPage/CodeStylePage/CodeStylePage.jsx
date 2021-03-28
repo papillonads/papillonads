@@ -1,4 +1,3 @@
-import React from 'react'
 import { ConceptTemplate } from '../../../template/ConceptTemplate'
 import { defaultProps, propTypes } from './CodeStylePage.prop'
 

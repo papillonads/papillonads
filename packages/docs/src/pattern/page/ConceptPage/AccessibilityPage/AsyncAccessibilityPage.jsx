@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './AccessibilityPage.prop'
 
-const LazyAccessibilityPage = React.lazy(() => import('./AccessibilityPage'))
+const LazyAccessibilityPage = lazy(() => import('./AccessibilityPage'))
 
 export function AsyncAccessibilityPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyAccessibilityPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

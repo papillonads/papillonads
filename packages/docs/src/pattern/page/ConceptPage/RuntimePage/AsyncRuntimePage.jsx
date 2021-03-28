@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './RuntimePage.prop'
 
-const LazyRuntimePage = React.lazy(() => import('./RuntimePage'))
+const LazyRuntimePage = lazy(() => import('./RuntimePage'))
 
 export function AsyncRuntimePage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyRuntimePage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

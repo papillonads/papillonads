@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './CSSArchitecturePage.prop'
 
-const LazyCSSArchitecturePage = React.lazy(() => import('./CSSArchitecturePage'))
+const LazyCSSArchitecturePage = lazy(() => import('./CSSArchitecturePage'))
 
 export function AsyncCSSArchitecturePage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyCSSArchitecturePage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 
