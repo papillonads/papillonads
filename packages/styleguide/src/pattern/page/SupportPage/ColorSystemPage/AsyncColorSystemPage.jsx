@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './ColorSystemPage.prop'
 
-const LazyColorSystemPage = React.lazy(() => import('./ColorSystemPage'))
+const LazyColorSystemPage = lazy(() => import('./ColorSystemPage'))
 
 export function AsyncColorSystemPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyColorSystemPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

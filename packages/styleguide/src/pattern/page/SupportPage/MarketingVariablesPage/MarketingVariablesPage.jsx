@@ -1,4 +1,3 @@
-import React from 'react'
 import { SupportTemplate } from '../../../template/SupportTemplate'
 import { defaultProps, propTypes } from './MarketingVariablesPage.prop'
 

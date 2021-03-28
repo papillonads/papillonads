@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './SupportPage.prop'
 
-const LazySupportPage = React.lazy(() => import('./SupportPage'))
+const LazySupportPage = lazy(() => import('./SupportPage'))
 
 export function AsyncSupportPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazySupportPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 

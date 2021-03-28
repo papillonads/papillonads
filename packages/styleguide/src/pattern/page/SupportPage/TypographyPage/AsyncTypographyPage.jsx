@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './TypographyPage.prop'
 
-const LazyTypographyPage = React.lazy(() => import('./TypographyPage'))
+const LazyTypographyPage = lazy(() => import('./TypographyPage'))
 
 export function AsyncTypographyPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyTypographyPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 
