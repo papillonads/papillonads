@@ -1,4 +1,3 @@
-import React from 'react'
 import cx from 'classnames'
 import { propTypes, defaultProps } from './ControlledInputField.prop'
 import styles from './ControlledInputField.scss'

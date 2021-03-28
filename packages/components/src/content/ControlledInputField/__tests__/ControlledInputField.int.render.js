@@ -1,5 +1,3 @@
-import React from 'react'
-
 const ControlledInputField =
   process.env.NODE_ENV === 'develop' || process.env.NODE_ENV === 'test'
     ? require('../../../index').content.ControlledInputField
