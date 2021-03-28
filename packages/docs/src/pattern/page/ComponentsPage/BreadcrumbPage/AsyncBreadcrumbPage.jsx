@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './BreadcrumbPage.prop'
 
-const LazyBreadcrumbPage = React.lazy(() => import('./BreadcrumbPage'))
+const LazyBreadcrumbPage = lazy(() => import('./BreadcrumbPage'))
 
 export function AsyncBreadcrumbPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyBreadcrumbPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 
