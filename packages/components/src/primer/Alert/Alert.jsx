@@ -1,4 +1,4 @@
-import React from 'react'
+import { Fragment } from 'react'
 import { useState } from '@papillonads/library/hooks'
 import utilityStyles from '@papillonads/css/build/primer/utilities/margin.scss'
 import cx from 'classnames'
@@ -25,7 +25,7 @@ export function Alert({ dataTest, className, variant, children, consent }) {
           })}
         >
           {consent && (
-            <React.Fragment>
+            <Fragment>
               <Button
                 dataTest={dataTest?.cancel}
                 className={cx(buttonStyles.btn, buttonStyles['btn-sm'], buttonStyles.primary, styles['flash-action'])}
@@ -57,7 +57,7 @@ export function Alert({ dataTest, className, variant, children, consent }) {
                     : consent?.action?.approve
                 }
               />
-            </React.Fragment>
+            </Fragment>
           )}
           {variant === alertVariant.info && <Icon className={utilityStyles['mr-2']} icon={iconName.Info16} size={iconSize.small} />}
           {variant === alertVariant.warning && !consent && (
