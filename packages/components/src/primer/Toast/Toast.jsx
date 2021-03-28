@@ -1,4 +1,3 @@
-import React from 'react'
 import cx from 'classnames'
 import paddingStyles from '@papillonads/css/build/primer/utilities/padding.scss'
 import { propTypes, defaultProps, toastVariant } from './Toast.prop'
