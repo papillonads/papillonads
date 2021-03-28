@@ -73,6 +73,8 @@
     ],
     "react/jsx-fragments": 0,
     "react/jsx-props-no-spreading": 0,
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
     "semi": [
       "error",
       "never"
@@ -88,7 +90,7 @@
       }
     },
     "react": {
-      "version": "17.0.1"
+      "version": "17.0.2"
     }
   }
 }
