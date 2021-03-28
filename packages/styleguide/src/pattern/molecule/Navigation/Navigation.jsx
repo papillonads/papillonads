@@ -1,4 +1,3 @@
-import React from 'react'
 import { navigationDefaultProps, navigationPropTypes } from './Navigation.prop'
 
 export function Navigation() {
