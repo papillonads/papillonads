@@ -1,4 +1,3 @@
-import React from 'react'
 import cx from 'classnames'
 import { propTypes, defaultProps } from './TabFocusTrap.prop'
 import styles from './TabFocusTrap.scss'
