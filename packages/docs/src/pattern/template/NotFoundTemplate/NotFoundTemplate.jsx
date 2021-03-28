@@ -1,4 +1,4 @@
-import React from 'react'
+import { Fragment } from 'react'
 import { Link } from 'react-router-dom'
 import { primer } from '@papillonads/components'
 import { homePagePath } from '../../../route/path'
@@ -10,12 +10,12 @@ const {
 
 export function NotFoundTemplate({ location }) {
   return (
-    <React.Fragment>
+    <Fragment>
       <Alert className={alert} variant={alertVariant.error}>
         {`No match for '${location.pathname}'. Return to `}
         <Link to={homePagePath}>home page.</Link>
       </Alert>
-    </React.Fragment>
+    </Fragment>
   )
 }
 
