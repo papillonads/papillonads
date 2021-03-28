@@ -1,4 +1,3 @@
-import React from 'react'
 import cx from 'classnames'
 import { propTypes, defaultProps } from './FormLabel.prop'
 import styles from './FormLabel.scss'
