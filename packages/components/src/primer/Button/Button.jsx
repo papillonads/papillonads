@@ -1,4 +1,3 @@
-import React from 'react'
 import cx from 'classnames'
 import { useRef } from '@papillonads/library/hooks'
 import utilityStyles from '@papillonads/css/build/primer/utilities/margin.scss'
