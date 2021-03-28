@@ -1,4 +1,3 @@
-import React from 'react'
 import { withCssResources } from '@storybook/addon-cssresources'
 import { withTests } from '@storybook/addon-jest'
 import { Concepts } from '../Concepts'
