@@ -1,4 +1,3 @@
-import React from 'react'
 import cx from 'classnames'
 import { propTypes, defaultProps } from './Spinner.prop'
 import styles from './Spinner.scss'

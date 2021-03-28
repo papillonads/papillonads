@@ -1,4 +1,3 @@
-import React from 'react'
 import { text, number, select } from '@storybook/addon-knobs'
 
 const Spinner =
