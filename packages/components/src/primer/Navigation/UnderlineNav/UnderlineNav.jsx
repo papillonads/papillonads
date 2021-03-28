@@ -1,4 +1,4 @@
-import React from 'react'
+import { Fragment } from 'react'
 import cx from 'classnames'
 import { v1 as uuidv1 } from 'uuid'
 import { getIndexItems, getIndexItemsWithSelected } from '@papillonads/library/array'
@@ -18,7 +18,7 @@ export function UnderlineNav({ className, ariaAttr, items, itemType, actions, al
 
   function renderBody() {
     return (
-      <React.Fragment>
+      <Fragment>
         {align === underlineNavAlignmentType.right && actions && renderActions()}
         <div className={styles['UnderlineNav-body']} role="tablist">
           {indexItems.map((indexItem) => {
@@ -73,7 +73,7 @@ export function UnderlineNav({ className, ariaAttr, items, itemType, actions, al
           })}
         </div>
         {align === underlineNavAlignmentType.left && actions && renderActions()}
-      </React.Fragment>
+      </Fragment>
     )
   }
 

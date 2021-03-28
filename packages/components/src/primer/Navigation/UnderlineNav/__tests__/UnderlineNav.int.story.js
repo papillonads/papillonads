@@ -1,4 +1,4 @@
-import React from 'react'
+import { Fragment } from 'react'
 import { v1 as uuidv1 } from 'uuid'
 import { action } from '@storybook/addon-actions'
 import { withTests } from '@storybook/addon-jest'
@@ -47,10 +47,10 @@ export const iconItems = [
     href: '#url',
     icon: iconName.Tools16,
     html: (
-      <React.Fragment>
+      <Fragment>
         <span>Item 2</span>
         <span className={counterStyles.Counter}>10</span>
-      </React.Fragment>
+      </Fragment>
     ),
     isSelected: false,
   },
@@ -64,10 +64,10 @@ export const fullContainerItems = [
     href: '#url',
     icon: iconName.Tools16,
     html: (
-      <React.Fragment>
+      <Fragment>
         <span>Item 2</span>
         <span className={counterStyles.Counter}>10</span>
-      </React.Fragment>
+      </Fragment>
     ),
     isSelected: false,
   },
