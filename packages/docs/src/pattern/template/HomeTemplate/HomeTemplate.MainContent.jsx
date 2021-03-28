@@ -1,5 +1,3 @@
-import React from 'react'
-
 export function MainContent() {
   return (
     <div className="md-order-1 d-flex flex-lg-column flex-auto flex-wrap">
