@@ -1,4 +1,3 @@
-import React from 'react'
 import { propTypes, defaultProps } from './ContinuousDelivery.prop'
 
 export function SpecificationsStandardsGuidelines({ className }) {
