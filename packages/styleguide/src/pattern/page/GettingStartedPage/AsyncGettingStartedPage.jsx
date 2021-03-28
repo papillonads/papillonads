@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './GettingStartedPage.prop'
 
-const LazyGettingStartedPage = React.lazy(() => import('./GettingStartedPage'))
+const LazyGettingStartedPage = lazy(() => import('./GettingStartedPage'))
 
 export function AsyncGettingStartedPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyGettingStartedPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 
