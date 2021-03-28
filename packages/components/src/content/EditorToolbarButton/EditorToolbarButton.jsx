@@ -1,4 +1,4 @@
-import React from 'react'
+import { Fragment } from 'react'
 import cx from 'classnames'
 import { propTypes, defaultProps } from './EditorToolbarButton.prop'
 import styles from './EditorToolbarButton.scss'
@@ -10,7 +10,7 @@ export function EditorToolbarButton({ className, label, icon, iconButtonProps, i
   })
 
   return (
-    <React.Fragment>
+    <Fragment>
       <IconButton
         {...{ iconProps: { icon } }}
         buttonType="secondary"
@@ -22,7 +22,7 @@ export function EditorToolbarButton({ className, label, icon, iconButtonProps, i
         {...iconButtonProps}
         {...otherProps}
       />
-    </React.Fragment>
+    </Fragment>
   )
 }
 
