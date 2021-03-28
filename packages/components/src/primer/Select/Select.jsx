@@ -1,5 +1,4 @@
 /* eslint-disable jsx-a11y/no-onchange  */
-import React from 'react'
 import cx from 'classnames'
 import { v1 as uuidv1 } from 'uuid'
 import layoutStyles from '@papillonads/css/build/primer/utilities/layout.scss'
