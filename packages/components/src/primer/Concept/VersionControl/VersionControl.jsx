@@ -1,4 +1,3 @@
-import React from 'react'
 import { propTypes, defaultProps } from './VersionControl.prop'
 
 export function SpecificationsStandardsGuidelines({ className }) {
