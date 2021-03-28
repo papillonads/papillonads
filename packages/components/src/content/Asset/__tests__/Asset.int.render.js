@@ -1,4 +1,3 @@
-import React from 'react'
 import { text, select } from '@storybook/addon-knobs'
 import { assetType, assetState } from '../Asset.prop'
 
