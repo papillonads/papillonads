@@ -1,4 +1,3 @@
-import React from 'react'
 import { propTypes, defaultProps, iconSize, iconAlign } from './Icon.prop'
 import { iconComponents } from './Icon.part'
 
