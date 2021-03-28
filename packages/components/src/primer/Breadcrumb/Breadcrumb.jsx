@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
-import React from 'react'
 import cx from 'classnames'
 import { v1 as uuidv1 } from 'uuid'
 import utilityStyles from '@papillonads/css/build/primer/utilities/typography.scss'
@@ -59,5 +58,3 @@ export function Breadcrumb({ className, ariaAttr, items, onClick, state }) {
 Breadcrumb.propTypes = propTypes
 
 Breadcrumb.defaultProps = defaultProps
-/* eslint-enable jsx-a11y/no-noninteractive-element-interactions */
-/* eslint-enable jsx-a11y/click-events-have-key-events */
