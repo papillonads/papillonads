@@ -1,4 +1,3 @@
-import React from 'react'
 import { defaultProps, propTypes } from './GettingStartedTemplate.prop'
 
 export function GettingStartedTemplate() {
