@@ -1,4 +1,4 @@
-import React from 'react'
+import { Fragment } from 'react'
 import cx from 'classnames'
 import { v1 as uuidv1 } from 'uuid'
 import displayStyles from '@papillonads/css/build/primer/utilities/visibility-display.scss'
@@ -11,14 +11,14 @@ import { propTypes, defaultProps } from './DisplayTable.prop'
 
 export function DisplayTable({ className, items, idIndex, isSelectedIndex }) {
   return (
-    <React.Fragment>
+    <Fragment>
       <div className={cx(className, displayStyles['d-table'], gridStyles['col-12'], colorStyles['bg-blue-light'])}>
         {items[0].names.map((name, index) => {
           const isIdColumn = index === idIndex
           const isSelectedColumn = index === isSelectedIndex
 
           return (
-            <React.Fragment key={uuidv1()}>
+            <Fragment key={uuidv1()}>
               {!isIdColumn && (
                 <div
                   key={uuidv1()}
@@ -33,7 +33,7 @@ export function DisplayTable({ className, items, idIndex, isSelectedIndex }) {
                   {isSelectedColumn ? '' : name}
                 </div>
               )}
-            </React.Fragment>
+            </Fragment>
           )
         })}
       </div>
@@ -44,7 +44,7 @@ export function DisplayTable({ className, items, idIndex, isSelectedIndex }) {
             const isSelectedColumn = valueIndex === isSelectedIndex
 
             return (
-              <React.Fragment key={uuidv1()}>
+              <Fragment key={uuidv1()}>
                 {!isIdColumn && (
                   <div
                     key={uuidv1()}
@@ -53,12 +53,12 @@ export function DisplayTable({ className, items, idIndex, isSelectedIndex }) {
                     {isSelectedColumn ? '' : value?.value ?? value}
                   </div>
                 )}
-              </React.Fragment>
+              </Fragment>
             )
           })}
         </div>
       ))}
-    </React.Fragment>
+    </Fragment>
   )
 }
 

@@ -1,4 +1,3 @@
-import React from 'react'
 import { withTests } from '@storybook/addon-jest'
 import { filesObjects } from './DisplayTable.int.data'
 import results from '../../../../../../../.jest-test-results.json'
