@@ -1,4 +1,3 @@
-import React from 'react'
 import cx from 'classnames'
 import { propTypes, defaultProps } from './Icon.prop'
 import { iconComponents } from './Icon.part'
