@@ -1,4 +1,3 @@
-import React from 'react'
 import { Octokit } from '@octokit/rest'
 
 export function NotAuthorized() {
