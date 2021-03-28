@@ -1,4 +1,3 @@
-import React from 'react'
 import { ObjectsTemplate } from '../../../template/ObjectsTemplate'
 import { defaultProps, propTypes } from './LayoutPage.prop'
 

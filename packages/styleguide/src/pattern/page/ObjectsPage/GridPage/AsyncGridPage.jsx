@@ -1,13 +1,13 @@
-import React from 'react'
+import { lazy, Suspense } from 'react'
 import { defaultProps, propTypes } from './GridPage.prop'
 
-const LazyGridPage = React.lazy(() => import('./GridPage'))
+const LazyGridPage = lazy(() => import('./GridPage'))
 
 export function AsyncGridPage() {
   return (
-    <React.Suspense fallback={null}>
+    <Suspense fallback={null}>
       <LazyGridPage />
-    </React.Suspense>
+    </Suspense>
   )
 }
 
