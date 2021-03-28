@@ -1,4 +1,4 @@
-import React from 'react'
+import { Fragment } from 'react'
 import cx from 'classnames'
 import { v1 as uuidv1 } from 'uuid'
 import { getCapizalizedString } from '@papillonads/library/string'
@@ -76,7 +76,7 @@ export function FlexGrid({
           }
 
           return (
-            <React.Fragment key={uuidv1()}>
+            <Fragment key={uuidv1()}>
               {!isIdColumn && (
                 <div
                   className={cx(
@@ -124,7 +124,7 @@ export function FlexGrid({
                   )}
                 </div>
               )}
-            </React.Fragment>
+            </Fragment>
           )
         })}
       </div>
@@ -222,7 +222,7 @@ export function FlexGrid({
             const iconComponent = value?.icon ? <Icon icon={iconName[value.icon]} size={iconSize.small} fill={iconColor.object} /> : null
 
             return (
-              <React.Fragment key={uuidv1()}>
+              <Fragment key={uuidv1()}>
                 {!isIdColumn && (
                   <div
                     key={uuidv1()}
@@ -246,10 +246,10 @@ export function FlexGrid({
                     ) : (
                       <div className={cx(truncateStyles['css-truncate'], truncateStyles['css-truncate-overflow'])}>
                         {value?.icon && (
-                          <React.Fragment>
+                          <Fragment>
                             {iconComponent}
                             <span className={marginStyles['ml-2']}>{value.value}</span>
-                          </React.Fragment>
+                          </Fragment>
                         )}
                         {value instanceof Date && `${value.toLocaleDateString()} ${value.toLocaleTimeString()}`}
                         {Array.isArray(value) && value.find(({ isSelected }) => isSelected === true).text}
@@ -258,7 +258,7 @@ export function FlexGrid({
                     )}
                   </div>
                 )}
-              </React.Fragment>
+              </Fragment>
             )
           })}
         </div>
