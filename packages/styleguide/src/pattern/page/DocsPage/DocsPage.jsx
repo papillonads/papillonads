@@ -1,4 +1,3 @@
-import React from 'react'
 import { DocsTemplate } from '../../template/DocsTemplate'
 import { defaultProps, propTypes } from './DocsPage.prop'
 
