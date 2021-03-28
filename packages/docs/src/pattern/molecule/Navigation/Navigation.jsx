@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import { defaultProps, propTypes } from './Navigation.prop'
 import { homePagePath } from '../../../route/path'
