@@ -1,8 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/label-has-associated-control */
-import React from 'react'
-
 export function MainContent() {
   return (
     <main className="flex-row flex-lg-column main-content mt-4 mt-lg-6 pb-6 mx-auto px-3" id="js-pjax-container" data-pjax-container="">
@@ -2206,6 +2204,3 @@ export function MainContent() {
     </main>
   )
 }
-/* eslint-enable jsx-a11y/anchor-has-content */
-/* eslint-enable jsx-a11y/anchor-is-valid */
-/* eslint-enable jsx-a11y/label-has-associated-control */

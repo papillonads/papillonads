@@ -1,4 +1,4 @@
-import React from 'react'
+import { Fragment } from 'react'
 import { defaultProps, propTypes } from './FlashBannerTemplate.prop'
 import { Navigation } from '../../../molecule/Navigation'
 import { FlashAlert } from '../../../molecule/FlashAlert'
@@ -7,14 +7,14 @@ import { MainContent } from './FlashBannerTemplate.MainContent'
 
 export function FlashBannerTemplate() {
   return (
-    <React.Fragment>
+    <Fragment>
       <Navigation />
       <FlashAlert />
       <div className="d-flex flex-wrap flex-lg-nowrap">
         <MainContent />
         <SideBar />
       </div>
-    </React.Fragment>
+    </Fragment>
   )
 }
 
