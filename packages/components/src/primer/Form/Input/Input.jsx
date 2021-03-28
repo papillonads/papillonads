@@ -1,4 +1,3 @@
-import React from 'react'
 import cx from 'classnames'
 import { propTypes, defaultProps, inputState } from './Input.prop'
 import styles from './Input.scss'
