@@ -1,4 +1,3 @@
-import React from 'react'
 import { propTypes, defaultProps } from './AssetIcon.prop'
 import { Illustration } from '../Illustration'
 import { illustrationName } from '../Illustration/Illustration.prop'
