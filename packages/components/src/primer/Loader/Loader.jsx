@@ -1,4 +1,3 @@
-import React from 'react'
 import cx from 'classnames'
 import colorStyles from '@papillonads/css/build/primer/utilities/colors.scss'
 import marginStyles from '@papillonads/css/build/primer/utilities/margin.scss'
