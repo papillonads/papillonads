@@ -1,4 +1,3 @@
-import React from 'react'
 import { flashAlertDefaultProps, flashAlertPropTypes } from './FlashAlert.prop'
 
 export function FlashAlert() {
