@@ -1,4 +1,3 @@
-import React from 'react'
 import { text } from '@storybook/addon-knobs'
 
 const ValidationMessage =
