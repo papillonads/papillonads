@@ -191,5 +191,3 @@ module.exports = {
   legacyConfig: merge(legacyConfig, baseConfig),
   modernConfig: merge(modernConfig, baseConfig),
 }
-
-/* eslint-enable */
