@@ -1,5 +1,3 @@
-import React from 'react'
-
 export function MainContent() {
   return (
     <main className="flex-row flex-lg-column main-content mt-4 mt-lg-6 pb-6 mx-auto px-3" id="js-pjax-container" data-pjax-container="">
