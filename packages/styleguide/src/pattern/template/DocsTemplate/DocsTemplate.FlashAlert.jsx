@@ -1,5 +1,3 @@
-import React from 'react'
-
 export function FlashAlert() {
   return (
     <div className="flash flash-full text-center flash-error">
