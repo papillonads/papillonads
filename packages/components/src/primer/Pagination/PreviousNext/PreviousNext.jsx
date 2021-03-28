@@ -1,4 +1,3 @@
-import React from 'react'
 import cx from 'classnames'
 import displayStyles from '@papillonads/css/build/primer/utilities/visibility-display.scss'
 import { paginationActionTypes } from '@papillonads/library/pagination'

@@ -1,4 +1,3 @@
-import React from 'react'
 import { action } from '@storybook/addon-actions'
 import { withTests } from '@storybook/addon-jest'
 import { previousNextState } from '../PreviousNext.prop'
