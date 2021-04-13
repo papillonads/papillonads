@@ -115,7 +115,7 @@
     "enzyme": "^3.11.0",
     "eslint": "^7.24.0",
     "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-prettier": "^8.2.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jest": "^24.3.5",
     "eslint-plugin-jsx-a11y": "^6.4.1",
@@ -166,7 +166,7 @@
     "stylelint-scss": "^3.19.0",
     "terser-webpack-plugin": "^4.2.3",
     "webpack": "^4.46.0",
-    "webpack-bundle-analyzer": "^4.4.0",
+    "webpack-bundle-analyzer": "^4.4.1",
     "webpack-cli": "^3.3.12",
     "webpack-manifest-plugin": "^3.1.1",
     "webpack-merge": "^5.7.3"
