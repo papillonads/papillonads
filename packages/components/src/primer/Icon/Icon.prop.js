@@ -45,6 +45,7 @@ export const iconName = {
   Broadcast16: 'Broadcast16',
   Broadcast24: 'Broadcast24',
   Browser16: 'Browser16',
+  Browser24: 'Browser24',
   Bug16: 'Bug16',
   Bug24: 'Bug24',
   Calendar16: 'Calendar16',

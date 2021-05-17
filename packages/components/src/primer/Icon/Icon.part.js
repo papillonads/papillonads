@@ -42,6 +42,7 @@ import Briefcase24 from '../SVG/icon/briefcase-24.svg'
 import Broadcast16 from '../SVG/icon/broadcast-16.svg'
 import Broadcast24 from '../SVG/icon/broadcast-24.svg'
 import Browser16 from '../SVG/icon/browser-16.svg'
+import Browser24 from '../SVG/icon/browser-24.svg'
 import Bug16 from '../SVG/icon/bug-16.svg'
 import Bug24 from '../SVG/icon/bug-24.svg'
 import Calendar16 from '../SVG/icon/calendar-16.svg'
@@ -466,6 +467,7 @@ export const iconComponents = {
   Broadcast16,
   Broadcast24,
   Browser16,
+  Browser24,
   Bug16,
   Bug24,
   Calendar16,
