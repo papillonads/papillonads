@@ -304,6 +304,8 @@ export const iconName = {
   People24: 'People24',
   Person16: 'Person16',
   Person24: 'Person24',
+  PersonAdd16: 'PersonAdd16',
+  PersonAdd24: 'PersonAdd24',
   Pin16: 'Pin16',
   Pin24: 'Pin24',
   Play16: 'Play16',

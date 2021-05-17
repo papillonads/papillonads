@@ -301,6 +301,8 @@ import People16 from '../SVG/icon/people-16.svg'
 import People24 from '../SVG/icon/people-24.svg'
 import Person16 from '../SVG/icon/person-16.svg'
 import Person24 from '../SVG/icon/person-24.svg'
+import PersonAdd16 from '../SVG/icon/person-add-16.svg'
+import PersonAdd24 from '../SVG/icon/person-add-24.svg'
 import Pin16 from '../SVG/icon/pin-16.svg'
 import Pin24 from '../SVG/icon/pin-24.svg'
 import Play16 from '../SVG/icon/play-16.svg'
@@ -748,6 +750,8 @@ export const iconComponents = {
   People24,
   Person16,
   Person24,
+  PersonAdd16,
+  PersonAdd24,
   Pin16,
   Pin24,
   Play16,
