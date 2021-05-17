@@ -327,6 +327,7 @@ import Repo16 from '../SVG/icon/repo-16.svg'
 import Repo24 from '../SVG/icon/repo-24.svg'
 import RepoClone16 from '../SVG/icon/repo-clone-16.svg'
 import RepoForked16 from '../SVG/icon/repo-forked-16.svg'
+import RepoForked24 from '../SVG/icon/repo-forked-24.svg'
 import RepoPull16 from '../SVG/icon/repo-pull-16.svg'
 import RepoPush16 from '../SVG/icon/repo-push-16.svg'
 import RepoPush24 from '../SVG/icon/repo-push-24.svg'
@@ -776,6 +777,7 @@ export const iconComponents = {
   Repo24,
   RepoClone16,
   RepoForked16,
+  RepoForked24,
   RepoPull16,
   RepoPush16,
   RepoPush24,

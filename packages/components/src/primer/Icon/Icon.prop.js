@@ -330,6 +330,7 @@ export const iconName = {
   Repo24: 'Repo24',
   RepoClone16: 'RepoClone16',
   RepoForked16: 'RepoForked16',
+  RepoForked24: 'RepoForked24',
   RepoPull16: 'RepoPull16',
   RepoPush16: 'RepoPush16',
   RepoPush24: 'RepoPush24',
