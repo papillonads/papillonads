@@ -132,6 +132,8 @@ export const iconName = {
   DotFill24: 'DotFill24',
   Download16: 'Download16',
   Download24: 'Download24',
+  Duplicate16: 'Duplicate16',
+  Duplicate24: 'Duplicate24',
   Ellipsis16: 'Ellipsis16',
   Eye16: 'Eye16',
   Eye24: 'Eye24',

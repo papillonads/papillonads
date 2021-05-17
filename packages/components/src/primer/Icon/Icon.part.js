@@ -129,6 +129,8 @@ import DotFill16 from '../SVG/icon/dot-fill-16.svg'
 import DotFill24 from '../SVG/icon/dot-fill-24.svg'
 import Download16 from '../SVG/icon/download-16.svg'
 import Download24 from '../SVG/icon/download-24.svg'
+import Duplicate16 from '../SVG/icon/duplicate-16.svg'
+import Duplicate24 from '../SVG/icon/duplicate-24.svg'
 import Ellipsis16 from '../SVG/icon/ellipsis-16.svg'
 import Eye16 from '../SVG/icon/eye-16.svg'
 import Eye24 from '../SVG/icon/eye-24.svg'
@@ -566,6 +568,8 @@ export const iconComponents = {
   DotFill24,
   Download16,
   Download24,
+  Duplicate16,
+  Duplicate24,
   Ellipsis16,
   Eye16,
   Eye24,
