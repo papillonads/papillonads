@@ -365,6 +365,10 @@ import ShieldLock16 from '../SVG/icon/shield-lock-16.svg'
 import ShieldLock24 from '../SVG/icon/shield-lock-24.svg'
 import ShieldX16 from '../SVG/icon/shield-x-16.svg'
 import ShieldX24 from '../SVG/icon/shield-x-24.svg'
+import SidebarCollapse16 from '../SVG/icon/sidebar-collapse-16.svg'
+import SidebarCollapse24 from '../SVG/icon/sidebar-collapse-24.svg'
+import SidebarExpand16 from '../SVG/icon/sidebar-expand-16.svg'
+import SidebarExpand24 from '../SVG/icon/sidebar-expand-24.svg'
 import SignIn16 from '../SVG/icon/sign-in-16.svg'
 import SignIn24 from '../SVG/icon/sign-in-24.svg'
 import SignOut16 from '../SVG/icon/sign-out-16.svg'
@@ -818,6 +822,10 @@ export const iconComponents = {
   ShieldLock24,
   ShieldX16,
   ShieldX24,
+  SidebarCollapse16,
+  SidebarCollapse24,
+  SidebarExpand16,
+  SidebarExpand24,
   SignIn16,
   SignIn24,
   SignOut16,
