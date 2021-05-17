@@ -193,6 +193,8 @@ import Grabber16 from '../SVG/icon/grabber-16.svg'
 import Grabber24 from '../SVG/icon/grabber-24.svg'
 import Graph16 from '../SVG/icon/graph-16.svg'
 import Graph24 from '../SVG/icon/graph-24.svg'
+import Hash16 from '../SVG/icon/hash-16.svg'
+import Hash24 from '../SVG/icon/hash-24.svg'
 import Heading16 from '../SVG/icon/heading-16.svg'
 import Heading24 from '../SVG/icon/heading-24.svg'
 import Heart16 from '../SVG/icon/heart-16.svg'
@@ -636,6 +638,8 @@ export const iconComponents = {
   Grabber24,
   Graph16,
   Graph24,
+  Hash16,
+  Hash24,
   Heading16,
   Heading24,
   Heart16,

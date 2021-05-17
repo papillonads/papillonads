@@ -196,6 +196,8 @@ export const iconName = {
   Grabber24: 'Grabber24',
   Graph16: 'Graph16',
   Graph24: 'Graph24',
+  Hash16: 'Hash16',
+  Hash24: 'Hash24',
   Heading16: 'Heading16',
   Heading24: 'Heading24',
   Heart16: 'Heart16',
