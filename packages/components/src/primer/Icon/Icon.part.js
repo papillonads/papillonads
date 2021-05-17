@@ -103,6 +103,8 @@ import Dash16 from '../SVG/icon/dash-16.svg'
 import Dash24 from '../SVG/icon/dash-24.svg'
 import Database16 from '../SVG/icon/database-16.svg'
 import Database24 from '../SVG/icon/database-24.svg'
+import Dependabot16 from '../SVG/icon/dependabot-16.svg'
+import Dependabot24 from '../SVG/icon/dependabot-24.svg'
 import DesktopDownload16 from '../SVG/icon/desktop-download-16.svg'
 import DesktopDownload24 from '../SVG/icon/desktop-download-24.svg'
 import DeviceCamera16 from '../SVG/icon/device-camera-16.svg'
@@ -536,6 +538,8 @@ export const iconComponents = {
   Dash24,
   Database16,
   Database24,
+  Dependabot16,
+  Dependabot24,
   DesktopDownload16,
   DesktopDownload24,
   DeviceCamera16,

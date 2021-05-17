@@ -106,6 +106,8 @@ export const iconName = {
   Dash24: 'Dash24',
   Database16: 'Database16',
   Database24: 'Database24',
+  Dependabot16: 'Dependabot16',
+  Dependabot24: 'Dependabot24',
   DesktopDownload16: 'DesktopDownload16',
   DesktopDownload24: 'DesktopDownload24',
   DeviceCamera16: 'DeviceCamera16',
