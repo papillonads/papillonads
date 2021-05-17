@@ -80,6 +80,8 @@ export const iconName = {
   CodeReview24: 'CodeReview24',
   CodeSquare16: 'CodeSquare16',
   CodeSquare24: 'CodeSquare24',
+  CodeScan16: 'CodeScan16',
+  CodeScan24: 'CodeScan24',
   Comment16: 'Comment16',
   Comment24: 'Comment24',
   CommentDiscussion16: 'CommentDiscussion16',
