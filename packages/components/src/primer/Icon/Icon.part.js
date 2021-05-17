@@ -25,6 +25,8 @@ import Bell24 from '../SVG/icon/bell-24.svg'
 import BellFill24 from '../SVG/icon/bell-fill-24.svg'
 import BellSlash16 from '../SVG/icon/bell-slash-16.svg'
 import BellSlash24 from '../SVG/icon/bell-slash-24.svg'
+import Blocked16 from '../SVG/icon/blocked-16.svg'
+import Blocked24 from '../SVG/icon/blocked-24.svg'
 import Bold16 from '../SVG/icon/bold-16.svg'
 import Bold24 from '../SVG/icon/bold-24.svg'
 import Book16 from '../SVG/icon/book-16.svg'
@@ -447,6 +449,8 @@ export const iconComponents = {
   BellFill24,
   BellSlash16,
   BellSlash24,
+  Blocked16,
+  Blocked24,
   Bold16,
   Bold24,
   Book16,

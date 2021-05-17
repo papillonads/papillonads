@@ -28,6 +28,8 @@ export const iconName = {
   BellFill24: 'BellFill24',
   BellSlash16: 'BellSlash16',
   BellSlash24: 'BellSlash24',
+  Blocked16: 'Blocked16',
+  Blocked24: 'Blocked24',
   Bold16: 'Bold16',
   Bold24: 'Bold24',
   Book16: 'Book16',
