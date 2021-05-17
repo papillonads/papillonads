@@ -185,6 +185,8 @@ import GitPullRequest16 from '../SVG/icon/git-pull-request-16.svg'
 import GitPullRequest24 from '../SVG/icon/git-pull-request-24.svg'
 import GitPullRequestClosed16 from '../SVG/icon/git-pull-request-closed-16.svg'
 import GitPullRequestClosed24 from '../SVG/icon/git-pull-request-closed-24.svg'
+import GitPullRequestDraft16 from '../SVG/icon/git-pull-request-draft-16.svg'
+import GitPullRequestDraft24 from '../SVG/icon/git-pull-request-draft-24.svg'
 import Globe16 from '../SVG/icon/globe-16.svg'
 import Globe24 from '../SVG/icon/globe-24.svg'
 import Grabber16 from '../SVG/icon/grabber-16.svg'
@@ -626,6 +628,8 @@ export const iconComponents = {
   GitPullRequest24,
   GitPullRequestClosed16,
   GitPullRequestClosed24,
+  GitPullRequestDraft16,
+  GitPullRequestDraft24,
   Globe16,
   Globe24,
   Grabber16,
