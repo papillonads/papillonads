@@ -83,6 +83,8 @@ import CodeScanCheckmark16 from '../SVG/icon/codescan-checkmark-16.svg'
 import CodeScanCheckmark24 from '../SVG/icon/codescan-checkmark-24.svg'
 import CodeSpaces16 from '../SVG/icon/codespaces-16.svg'
 import CodeSpaces24 from '../SVG/icon/codespaces-24.svg'
+import Columns16 from '../SVG/icon/columns-16.svg'
+import Columns24 from '../SVG/icon/columns-24.svg'
 import Comment16 from '../SVG/icon/comment-16.svg'
 import Comment24 from '../SVG/icon/comment-24.svg'
 import CommentDiscussion16 from '../SVG/icon/comment-discussion-16.svg'
@@ -514,6 +516,8 @@ export const iconComponents = {
   CodeScanCheckmark24,
   CodeSpaces16,
   CodeSpaces24,
+  Columns16,
+  Columns24,
   Comment16,
   Comment24,
   CommentDiscussion16,
