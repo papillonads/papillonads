@@ -223,6 +223,8 @@ import Info24 from '../SVG/icon/info-24.svg'
 import Insights24 from '../SVG/icon/insights-24.svg'
 import IssueClosed16 from '../SVG/icon/issue-closed-16.svg'
 import IssueClosed24 from '../SVG/icon/issue-closed-24.svg'
+import IssueDraft16 from '../SVG/icon/issue-draft-16.svg'
+import IssueDraft24 from '../SVG/icon/issue-draft-24.svg'
 import IssueOpened16 from '../SVG/icon/issue-opened-16.svg'
 import IssueOpened24 from '../SVG/icon/issue-opened-24.svg'
 import IssueReopened16 from '../SVG/icon/issue-reopened-16.svg'
@@ -668,6 +670,8 @@ export const iconComponents = {
   Insights24,
   IssueClosed16,
   IssueClosed24,
+  IssueDraft16,
+  IssueDraft24,
   IssueOpened16,
   IssueOpened24,
   IssueReopened16,

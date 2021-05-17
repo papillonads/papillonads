@@ -226,6 +226,8 @@ export const iconName = {
   Insights24: 'Insights24',
   IssueClosed16: 'IssueClosed16',
   IssueClosed24: 'IssueClosed24',
+  IssueDraft16: 'IssueDraft16',
+  IssueDraft24: 'IssueDraft24',
   IssueOpened16: 'IssueOpened16',
   IssueOpened24: 'IssueOpened24',
   IssueReopened16: 'IssueReopened16',
