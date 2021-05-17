@@ -186,6 +186,8 @@ export const iconName = {
   GitMerge24: 'GitMerge24',
   GitPullRequest16: 'GitPullRequest16',
   GitPullRequest24: 'GitPullRequest24',
+  GitPullRequestClosed16: 'GitPullRequestClosed16',
+  GitPullRequestClosed24: 'GitPullRequestClosed24',
   Globe16: 'Globe16',
   Globe24: 'Globe24',
   Grabber16: 'Grabber16',
