@@ -5,8 +5,7 @@ import results from '../../../../../../.jest-test-results.json'
 
 const text = {
   custom: 'Toast message goes here',
-  info:
-    'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.Aenean massa. Cum sociis natoquepenatibus et ma',
+  info: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.Aenean massa. Cum sociis natoquepenatibus et ma',
   success: 'Success message goes here',
   warning: 'Warning message goes here',
   error: 'Error message goes here',
