@@ -402,6 +402,8 @@ export const iconName = {
   Sync16: 'Sync16',
   Sync24: 'Sync24',
   Tab24: 'Tab24',
+  Table16: 'Table16',
+  Table24: 'Table24',
   Tag16: 'Tag16',
   Tag24: 'Tag24',
   Tasklist16: 'Tasklist16',

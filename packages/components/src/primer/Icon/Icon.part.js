@@ -399,6 +399,8 @@ import Sun24 from '../SVG/icon/sun-24.svg'
 import Sync16 from '../SVG/icon/sync-16.svg'
 import Sync24 from '../SVG/icon/sync-24.svg'
 import Tab24 from '../SVG/icon/tab-24.svg'
+import Table16 from '../SVG/icon/table-16.svg'
+import Table24 from '../SVG/icon/table-24.svg'
 import Tag16 from '../SVG/icon/tag-16.svg'
 import Tag24 from '../SVG/icon/tag-24.svg'
 import Tasklist16 from '../SVG/icon/tasklist-16.svg'
@@ -857,6 +859,8 @@ export const iconComponents = {
   Sync16,
   Sync24,
   Tab24,
+  Table16,
+  Table24,
   Tag16,
   Tag24,
   Tasklist16,
