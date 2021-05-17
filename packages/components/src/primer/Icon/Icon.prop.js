@@ -117,6 +117,8 @@ export const iconName = {
   DeviceDesktop24: 'DeviceDesktop24',
   DeviceMobile16: 'DeviceMobile16',
   DeviceMobile24: 'DeviceMobile24',
+  Diamond16: 'Diamond16',
+  Diamond24: 'Diamond24',
   Diff16: 'Diff16',
   Diff24: 'Diff24',
   DiffAdded16: 'DiffAdded16',

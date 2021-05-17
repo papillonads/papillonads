@@ -114,6 +114,8 @@ import DeviceDesktop16 from '../SVG/icon/device-desktop-16.svg'
 import DeviceDesktop24 from '../SVG/icon/device-desktop-24.svg'
 import DeviceMobile16 from '../SVG/icon/device-mobile-16.svg'
 import DeviceMobile24 from '../SVG/icon/device-mobile-24.svg'
+import Diamond16 from '../SVG/icon/diamond-16.svg'
+import Diamond24 from '../SVG/icon/diamond-24.svg'
 import Diff16 from '../SVG/icon/diff-16.svg'
 import Diff24 from '../SVG/icon/diff-24.svg'
 import DiffAdded16 from '../SVG/icon/diff-added-16.svg'
@@ -549,6 +551,8 @@ export const iconComponents = {
   DeviceDesktop24,
   DeviceMobile16,
   DeviceMobile24,
+  Diamond16,
+  Diamond24,
   Diff16,
   Diff24,
   DiffAdded16,
