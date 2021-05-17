@@ -373,6 +373,7 @@ import SignIn16 from '../SVG/icon/sign-in-16.svg'
 import SignIn24 from '../SVG/icon/sign-in-24.svg'
 import SignOut16 from '../SVG/icon/sign-out-16.svg'
 import SignOut24 from '../SVG/icon/sign-out-24.svg'
+import SingleSelect24 from '../SVG/icon/single-select-24.svg'
 import Skip16 from '../SVG/icon/skip-16.svg'
 import Skip24 from '../SVG/icon/skip-24.svg'
 import Smiley16 from '../SVG/icon/smiley-16.svg'
@@ -830,6 +831,7 @@ export const iconComponents = {
   SignIn24,
   SignOut16,
   SignOut24,
+  SingleSelect24,
   Skip16,
   Skip24,
   Smiley16,

@@ -376,6 +376,7 @@ export const iconName = {
   SignIn24: 'SignIn24',
   SignOut16: 'SignOut16',
   SignOut24: 'SignOut24',
+  SingleSelect24: 'SingleSelect24',
   Skip16: 'Skip16',
   Skip24: 'Skip24',
   Smiley16: 'Smiley16',
