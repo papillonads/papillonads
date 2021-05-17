@@ -340,6 +340,8 @@ export const iconName = {
   Report24: 'Report24',
   Rocket16: 'Rocket16',
   Rocket24: 'Rocket24',
+  Rows16: 'Rows16',
+  Rows24: 'Rows24',
   RSS16: 'RSS16',
   RSS24: 'RSS24',
   Ruby16: 'Ruby16',

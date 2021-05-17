@@ -337,6 +337,8 @@ import Report16 from '../SVG/icon/report-16.svg'
 import Report24 from '../SVG/icon/report-24.svg'
 import Rocket16 from '../SVG/icon/rocket-16.svg'
 import Rocket24 from '../SVG/icon/rocket-24.svg'
+import Rows16 from '../SVG/icon/rows-16.svg'
+import Rows24 from '../SVG/icon/rows-24.svg'
 import RSS16 from '../SVG/icon/rss-16.svg'
 import RSS24 from '../SVG/icon/rss-24.svg'
 import Ruby16 from '../SVG/icon/ruby-16.svg'
@@ -787,6 +789,8 @@ export const iconComponents = {
   Report24,
   Rocket16,
   Rocket24,
+  Rows16,
+  Rows24,
   RSS16,
   RSS24,
   Ruby16,
