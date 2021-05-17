@@ -986,6 +986,76 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
         }
       }
     >
+      Blocked16
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      Blocked24
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
       Bold16
     </span>
   </div>
@@ -1477,6 +1547,41 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       }
     >
       Browser16
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      Browser24
     </span>
   </div>
   <div
@@ -2701,6 +2806,286 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
         }
       }
     >
+      CodeScan16
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      CodeScan24
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      CodeScanCheckmark16
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      CodeScanCheckmark24
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      CodeSpaces16
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      CodeSpaces24
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      Columns16
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      Columns24
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
       Comment16
     </span>
   </div>
@@ -3331,6 +3716,76 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
         }
       }
     >
+      Dependabot16
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      Dependabot24
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
       DesktopDownload16
     </span>
   </div>
@@ -3612,6 +4067,76 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       }
     >
       DeviceMobile24
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      Diamond16
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      Diamond24
     </span>
   </div>
   <div
@@ -4067,6 +4592,76 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       }
     >
       Download24
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      Duplicate16
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      Duplicate24
     </span>
   </div>
   <div
@@ -5921,6 +6516,146 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
         }
       }
     >
+      GitPullRequestClosed16
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      GitPullRequestClosed24
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      GitPullRequestDraft16
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      GitPullRequestDraft24
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
       Globe16
     </span>
   </div>
@@ -6097,6 +6832,76 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       }
     >
       Graph24
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      Hash16
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      Hash24
     </span>
   </div>
   <div
@@ -7077,6 +7882,76 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       }
     >
       IssueClosed24
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      IssueDraft16
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      IssueDraft24
     </span>
   </div>
   <div
@@ -9771,6 +10646,76 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
         }
       }
     >
+      PersonAdd16
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      PersonAdd24
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
       Pin16
     </span>
   </div>
@@ -10611,6 +11556,41 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
         }
       }
     >
+      RepoForked24
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
       RepoPull16
     </span>
   </div>
@@ -10892,6 +11872,76 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       }
     >
       Rocket24
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      Rows16
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      Rows24
     </span>
   </div>
   <div
@@ -11242,6 +12292,41 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       }
     >
       Search24
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      SelectSingle16
     </span>
   </div>
   <div
@@ -11801,6 +12886,146 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
         }
       }
     >
+      SidebarCollapse16
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      SidebarCollapse24
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      SidebarExpand16
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      SidebarExpand24
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
       SignIn16
     </span>
   </div>
@@ -11907,6 +13132,41 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       }
     >
       SignOut24
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      SingleSelect24
     </span>
   </div>
   <div
@@ -12782,6 +14042,76 @@ exports[`<Icon /> Render must match allIcons() 1`] = `
       }
     >
       Tab24
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      Table16
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "padding": "4px",
+      }
+    }
+  >
+    <mock-file
+      aria-hidden="true"
+      aria-label={null}
+      className="octicon"
+      height={16}
+      role="img"
+      style={
+        Object {
+          "marginRight": "4px",
+          "verticalAlign": "middle",
+        }
+      }
+      viewBox="0 0 16 16"
+      width={16}
+    />
+    <span
+      style={
+        Object {
+          "display": "inline-block",
+          "verticalAlign": "middle",
+        }
+      }
+    >
+      Table24
     </span>
   </div>
   <div
