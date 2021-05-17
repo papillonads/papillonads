@@ -352,6 +352,7 @@ export const iconName = {
   ScreenNormal24: 'ScreenNormal24',
   Search16: 'Search16',
   Search24: 'Search24',
+  SelectSingle16: 'SelectSingle16',
   Server16: 'Server16',
   Server24: 'Server24',
   Settings24: 'Settings24',

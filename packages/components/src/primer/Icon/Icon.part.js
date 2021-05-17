@@ -349,6 +349,7 @@ import ScreenNormal16 from '../SVG/icon/screen-normal-16.svg'
 import ScreenNormal24 from '../SVG/icon/screen-normal-24.svg'
 import Search16 from '../SVG/icon/search-16.svg'
 import Search24 from '../SVG/icon/search-24.svg'
+import SelectSingle16 from '../SVG/icon/select-single-16.svg'
 import Server16 from '../SVG/icon/server-16.svg'
 import Server24 from '../SVG/icon/server-24.svg'
 import Settings24 from '../SVG/icon/settings-24.svg'
@@ -801,6 +802,7 @@ export const iconComponents = {
   ScreenNormal24,
   Search16,
   Search24,
+  SelectSingle16,
   Server16,
   Server24,
   Settings24,
