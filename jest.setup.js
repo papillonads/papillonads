@@ -1,3 +1,4 @@
+import 'jsdom-global/register'
 import 'jest-enzyme'
 
 import renderer from 'react-test-renderer'

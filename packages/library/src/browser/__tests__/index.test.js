@@ -1,24 +1,28 @@
+/* eslint-disable no-global-assign */
+
 describe('index', () => {
   describe('isBrowser', () => {
-    let windowMockObject
+    // let windowMockObject
 
-    beforeEach(() => {
-      windowMockObject = jest.spyOn(window, 'window', 'get')
-    })
+    // beforeEach(() => {
+    //   windowMockObject = jest.spyOn(window, 'window', 'get')
+    // })
 
     afterEach(() => {
-      windowMockObject.mockRestore()
+      // windowMockObject.mockRestore()
       jest.resetModules()
     })
 
     test('must return true when there is a window object', async () => {
-      windowMockObject.mockReturnValue({})
+      // windowMockObject.mockReturnValue({})
+      window = {}
       const { isBrowser } = await import('../index')
       expect(isBrowser).toBeTruthy()
     })
 
     test('must return false when there is no window object', async () => {
-      windowMockObject.mockReturnValue(undefined)
+      // windowMockObject.mockReturnValue(undefined)
+      window = undefined
       const { isBrowser } = await import('../index')
       expect(isBrowser).toBeFalsy()
     })
