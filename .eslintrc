@@ -82,6 +82,12 @@
   },
   "settings": {
     "import/resolver": {
+      "alias" : {
+        "map" : [
+          ["@papillonads/components","@papillonads/components/build"]
+        ],
+        "extensions": [".js"]
+      },
       "node": {
         "extensions": [
           ".js",
