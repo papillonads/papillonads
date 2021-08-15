@@ -143,7 +143,7 @@ export function OpenSourceDependencyProjects({ className }) {
       <div>﹘JsPrettier is a Sublime Text Plug-in for Prettier, the opinionated code formatter.</div>
       <div>﹘JsPrettier is compatible with both Sublime Text 2 and 3, and all supported Operating Systems.</div>
       <div>
-        ﹘The easiest and recommended way to install Js​Prettier is using{' '}
+        ﹘The easiest and recommended way to install JsPrettier is using{' '}
         <a href="https://packagecontrol.io/packages/JsPrettier">Package Control</a>.
       </div>
       <h5>
