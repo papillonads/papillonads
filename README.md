@@ -1400,7 +1400,7 @@
                       <blockquote style="margin: 0; padding: 0 24px">
                         ✎ "lint:format": "npm-run-all lint format"<br />
                         ✎ "lint": "npm-run-all lint:js:jsx lint:scss"<br />
-                        ✎ "lint:scss": "stylelint \"packages/**/src/**/*.{css,scss}\" --syntax=scss --fix"<br />
+                        ✎ "lint:scss": "stylelint \"packages/**/src/**/*.{css,scss}\" --custom-syntax=postcss-scss --fix"<br />
                       </blockquote>
                     </details>
                     <details>

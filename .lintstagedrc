@@ -15,7 +15,7 @@
     "git add"
   ],
   "packages/components/src/**/*.scss": [
-    "stylelint \"packages/components/src/**/**/*.scss\" --syntax=scss --fix",
+    "stylelint \"packages/components/src/**/**/*.scss\" --custom-syntax=postcss-scss --fix",
     "prettier --write \"packages/components/src/**/**/*.scss\"",
     "git add"
   ]

@@ -422,7 +422,7 @@ exports[`<CodeStyle /> Render must match productMicrosites() 1`] = `
     {
     (css, scss)
     }
-    \\" --syntax=scss --fix"
+    \\" --custom-syntax=postcss-scss --fix"
   </div>
   <h6>
     📝. Knowledge base

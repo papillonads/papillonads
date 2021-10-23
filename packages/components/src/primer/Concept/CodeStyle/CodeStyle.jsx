@@ -254,7 +254,8 @@ export function ProductMicrosites({ className }) {
       <div>﹘ &quot;lint:format&quot;: &quot;npm-run-all lint format&quot;</div>
       <div>﹘ &quot;lint&quot;: &quot;npm-run-all lint:js:jsx lint:scss&quot;</div>
       <div>
-        ﹘ &quot;lint:scss&quot;: &quot;stylelint \&quot;packages/**/src/**/*.{'{'}(css, scss){'}'}\&quot; --syntax=scss --fix&quot;
+        ﹘ &quot;lint:scss&quot;: &quot;stylelint \&quot;packages/**/src/**/*.{'{'}(css, scss){'}'}\&quot; --custom-syntax=postcss-scss
+        --fix&quot;
       </div>
       <h6>📝. Knowledge base</h6>
       <div>﹘Coming soon...</div>
