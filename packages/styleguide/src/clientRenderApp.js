@@ -1,7 +1,7 @@
+/* eslint-disable import/no-import-module-exports */
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { withRouter } from 'react-router'
-import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
+import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom'
 import { checkAccessibilityIssues } from '@papillonads/library/a11y'
 import { primer } from '@papillonads/components'
 import {
@@ -21,294 +21,68 @@ export function App() {
   return (
     <ErrorBoundary>
       <BrowserRouter>
-        <Switch>
-          <Route exact={appRootRoute.exact} path={appRootRoute.path}>
-            <Redirect to={docsPageRoute.path} />
-          </Route>
-          <Route exact={docsPageRoute.exact} path={docsPageRoute.path} component={docsPageRoute.clientComponent} />
-          <Route
-            exact={gettingStartedPageRoute.exact}
-            path={gettingStartedPageRoute.path}
-            component={gettingStartedPageRoute.clientComponent}
-          />
-          <Route
-            exact={supportPageRoute.support.exact}
-            path={supportPageRoute.support.path}
-            component={supportPageRoute.support.clientComponent}
-          />
-          <Route
-            exact={supportPageRoute.breakpoints.exact}
-            path={supportPageRoute.breakpoints.path}
-            component={supportPageRoute.breakpoints.clientComponent}
-          />
-          <Route
-            exact={supportPageRoute.colorSystem.exact}
-            path={supportPageRoute.colorSystem.path}
-            component={supportPageRoute.colorSystem.clientComponent}
-          />
-          <Route
-            exact={supportPageRoute.spacing.exact}
-            path={supportPageRoute.spacing.path}
-            component={supportPageRoute.spacing.clientComponent}
-          />
-          <Route
-            exact={supportPageRoute.typography.exact}
-            path={supportPageRoute.typography.path}
-            component={supportPageRoute.typography.clientComponent}
-          />
-          <Route
-            exact={supportPageRoute.marketingVariables.exact}
-            path={supportPageRoute.marketingVariables.path}
-            component={supportPageRoute.marketingVariables.clientComponent}
-          />
-          <Route
-            exact={utilityPageRoute.utility.exact}
-            path={utilityPageRoute.utility.path}
-            component={utilityPageRoute.utility.clientComponent}
-          />
-          <Route
-            exact={utilityPageRoute.animations.exact}
-            path={utilityPageRoute.animations.path}
-            component={utilityPageRoute.animations.clientComponent}
-          />
-          <Route
-            exact={utilityPageRoute.borders.exact}
-            path={utilityPageRoute.borders.path}
-            component={utilityPageRoute.borders.clientComponent}
-          />
-          <Route
-            exact={utilityPageRoute.marketingBorders.exact}
-            path={utilityPageRoute.marketingBorders.path}
-            component={utilityPageRoute.marketingBorders.clientComponent}
-          />
-          <Route
-            exact={utilityPageRoute.boxShadow.exact}
-            path={utilityPageRoute.boxShadow.path}
-            component={utilityPageRoute.boxShadow.clientComponent}
-          />
-          <Route
-            exact={utilityPageRoute.colors.exact}
-            path={utilityPageRoute.colors.path}
-            component={utilityPageRoute.colors.clientComponent}
-          />
-          <Route
-            exact={utilityPageRoute.details.exact}
-            path={utilityPageRoute.details.path}
-            component={utilityPageRoute.details.clientComponent}
-          />
-          <Route
-            exact={utilityPageRoute.marketingFilters.exact}
-            path={utilityPageRoute.marketingFilters.path}
-            component={utilityPageRoute.marketingFilters.clientComponent}
-          />
-          <Route
-            exact={utilityPageRoute.flexbox.exact}
-            path={utilityPageRoute.flexbox.path}
-            component={utilityPageRoute.flexbox.clientComponent}
-          />
-          <Route
-            exact={utilityPageRoute.layout.exact}
-            path={utilityPageRoute.layout.path}
-            component={utilityPageRoute.layout.clientComponent}
-          />
-          <Route
-            exact={utilityPageRoute.marketingLayout.exact}
-            path={utilityPageRoute.marketingLayout.path}
-            component={utilityPageRoute.marketingLayout.clientComponent}
-          />
-          <Route
-            exact={utilityPageRoute.margin.exact}
-            path={utilityPageRoute.margin.path}
-            component={utilityPageRoute.margin.clientComponent}
-          />
-          <Route
-            exact={utilityPageRoute.marketingMargin.exact}
-            path={utilityPageRoute.marketingMargin.path}
-            component={utilityPageRoute.marketingMargin.clientComponent}
-          />
-          <Route
-            exact={utilityPageRoute.padding.exact}
-            path={utilityPageRoute.padding.path}
-            component={utilityPageRoute.padding.clientComponent}
-          />
-          <Route
-            exact={utilityPageRoute.marketingPadding.exact}
-            path={utilityPageRoute.marketingPadding.path}
-            component={utilityPageRoute.marketingPadding.clientComponent}
-          />
-          <Route
-            exact={utilityPageRoute.typography.exact}
-            path={utilityPageRoute.typography.path}
-            component={utilityPageRoute.typography.clientComponent}
-          />
-          <Route
-            exact={utilityPageRoute.marketingTypography.exact}
-            path={utilityPageRoute.marketingTypography.path}
-            component={utilityPageRoute.marketingTypography.clientComponent}
-          />
-          <Route
-            exact={objectsPageRoute.objects.exact}
-            path={objectsPageRoute.objects.path}
-            component={objectsPageRoute.objects.clientComponent}
-          />
-          <Route exact={objectsPageRoute.grid.exact} path={objectsPageRoute.grid.path} component={objectsPageRoute.grid.clientComponent} />
-          <Route
-            exact={objectsPageRoute.layout.exact}
-            path={objectsPageRoute.layout.path}
-            component={objectsPageRoute.layout.clientComponent}
-          />
-          <Route
-            exact={objectsPageRoute.tableObject.exact}
-            path={objectsPageRoute.tableObject.path}
-            component={objectsPageRoute.tableObject.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.components.exact}
-            path={componentsPageRoute.components.path}
-            component={componentsPageRoute.components.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.alerts.exact}
-            path={componentsPageRoute.alerts.path}
-            component={componentsPageRoute.alerts.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.avatars.exact}
-            path={componentsPageRoute.avatars.path}
-            component={componentsPageRoute.avatars.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.blankslate.exact}
-            path={componentsPageRoute.blankslate.path}
-            component={componentsPageRoute.blankslate.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.box.exact}
-            path={componentsPageRoute.box.path}
-            component={componentsPageRoute.box.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.boxOverlay.exact}
-            path={componentsPageRoute.boxOverlay.path}
-            component={componentsPageRoute.boxOverlay.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.boxedGroups.exact}
-            path={componentsPageRoute.boxedGroups.path}
-            component={componentsPageRoute.boxedGroups.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.branchName.exact}
-            path={componentsPageRoute.branchName.path}
-            component={componentsPageRoute.branchName.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.breadcrumb.exact}
-            path={componentsPageRoute.breadcrumb.path}
-            component={componentsPageRoute.breadcrumb.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.buttons.exact}
-            path={componentsPageRoute.buttons.path}
-            component={componentsPageRoute.buttons.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.dropdown.exact}
-            path={componentsPageRoute.dropdown.path}
-            component={componentsPageRoute.dropdown.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.flashBanner.exact}
-            path={componentsPageRoute.flashBanner.path}
-            component={componentsPageRoute.flashBanner.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.forms.exact}
-            path={componentsPageRoute.forms.path}
-            component={componentsPageRoute.forms.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.labels.exact}
-            path={componentsPageRoute.labels.path}
-            component={componentsPageRoute.labels.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.markdown.exact}
-            path={componentsPageRoute.markdown.path}
-            component={componentsPageRoute.markdown.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.marketingButtons.exact}
-            path={componentsPageRoute.marketingButtons.path}
-            component={componentsPageRoute.marketingButtons.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.navigation.exact}
-            path={componentsPageRoute.navigation.path}
-            component={componentsPageRoute.navigation.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.octicons.exact}
-            path={componentsPageRoute.octicons.path}
-            component={componentsPageRoute.octicons.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.pageHeaders.exact}
-            path={componentsPageRoute.pageHeaders.path}
-            component={componentsPageRoute.pageHeaders.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.pageSections.exact}
-            path={componentsPageRoute.pageSections.path}
-            component={componentsPageRoute.pageSections.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.pagehead.exact}
-            path={componentsPageRoute.pagehead.path}
-            component={componentsPageRoute.pagehead.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.pagination.exact}
-            path={componentsPageRoute.pagination.path}
-            component={componentsPageRoute.pagination.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.popover.exact}
-            path={componentsPageRoute.popover.path}
-            component={componentsPageRoute.popover.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.progress.exact}
-            path={componentsPageRoute.progress.path}
-            component={componentsPageRoute.progress.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.selectMenu.exact}
-            path={componentsPageRoute.selectMenu.path}
-            component={componentsPageRoute.selectMenu.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.subhead.exact}
-            path={componentsPageRoute.subhead.path}
-            component={componentsPageRoute.subhead.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.tables.exact}
-            path={componentsPageRoute.tables.path}
-            component={componentsPageRoute.tables.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.tooltips.exact}
-            path={componentsPageRoute.tooltips.path}
-            component={componentsPageRoute.tooltips.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.truncate.exact}
-            path={componentsPageRoute.truncate.path}
-            component={componentsPageRoute.truncate.clientComponent}
-          />
-          <Route component={withRouter(notFoundPageRoute.clientComponent)} />
-        </Switch>
+        <Routes>
+          <Route path={appRootRoute.path} element={docsPageRoute.clientComponent()} />
+          <Route path={docsPageRoute.path} element={docsPageRoute.clientComponent()} />
+          <Route path={gettingStartedPageRoute.path} element={gettingStartedPageRoute.clientComponent()} />
+          <Route path={supportPageRoute.support.path} element={supportPageRoute.support.clientComponent()} />
+          <Route path={supportPageRoute.breakpoints.path} element={supportPageRoute.breakpoints.clientComponent()} />
+          <Route path={supportPageRoute.colorSystem.path} element={supportPageRoute.colorSystem.clientComponent()} />
+          <Route path={supportPageRoute.spacing.path} element={supportPageRoute.spacing.clientComponent()} />
+          <Route path={supportPageRoute.typography.path} element={supportPageRoute.typography.clientComponent()} />
+          <Route path={supportPageRoute.marketingVariables.path} element={supportPageRoute.marketingVariables.clientComponent()} />
+          <Route path={utilityPageRoute.utility.path} element={utilityPageRoute.utility.clientComponent()} />
+          <Route path={utilityPageRoute.animations.path} element={utilityPageRoute.animations.clientComponent()} />
+          <Route path={utilityPageRoute.borders.path} element={utilityPageRoute.borders.clientComponent()} />
+          <Route path={utilityPageRoute.marketingBorders.path} element={utilityPageRoute.marketingBorders.clientComponent()} />
+          <Route path={utilityPageRoute.boxShadow.path} element={utilityPageRoute.boxShadow.clientComponent()} />
+          <Route path={utilityPageRoute.colors.path} element={utilityPageRoute.colors.clientComponent()} />
+          <Route path={utilityPageRoute.details.path} element={utilityPageRoute.details.clientComponent()} />
+          <Route path={utilityPageRoute.marketingFilters.path} element={utilityPageRoute.marketingFilters.clientComponent()} />
+          <Route path={utilityPageRoute.flexbox.path} element={utilityPageRoute.flexbox.clientComponent()} />
+          <Route path={utilityPageRoute.layout.path} element={utilityPageRoute.layout.clientComponent()} />
+          <Route path={utilityPageRoute.marketingLayout.path} element={utilityPageRoute.marketingLayout.clientComponent()} />
+          <Route path={utilityPageRoute.margin.path} element={utilityPageRoute.margin.clientComponent()} />
+          <Route path={utilityPageRoute.marketingMargin.path} element={utilityPageRoute.marketingMargin.clientComponent()} />
+          <Route path={utilityPageRoute.padding.path} element={utilityPageRoute.padding.clientComponent()} />
+          <Route path={utilityPageRoute.marketingPadding.path} element={utilityPageRoute.marketingPadding.clientComponent()} />
+          <Route path={utilityPageRoute.typography.path} element={utilityPageRoute.typography.clientComponent()} />
+          <Route path={utilityPageRoute.marketingTypography.path} element={utilityPageRoute.marketingTypography.clientComponent()} />
+          <Route path={objectsPageRoute.objects.path} element={objectsPageRoute.objects.clientComponent()} />
+          <Route path={objectsPageRoute.grid.path} element={objectsPageRoute.grid.clientComponent()} />
+          <Route path={objectsPageRoute.layout.path} element={objectsPageRoute.layout.clientComponent()} />
+          <Route path={objectsPageRoute.tableObject.path} element={objectsPageRoute.tableObject.clientComponent()} />
+          <Route path={componentsPageRoute.components.path} element={componentsPageRoute.components.clientComponent()} />
+          <Route path={componentsPageRoute.alerts.path} element={componentsPageRoute.alerts.clientComponent()} />
+          <Route path={componentsPageRoute.avatars.path} element={componentsPageRoute.avatars.clientComponent()} />
+          <Route path={componentsPageRoute.blankslate.path} element={componentsPageRoute.blankslate.clientComponent()} />
+          <Route path={componentsPageRoute.box.path} element={componentsPageRoute.box.clientComponent()} />
+          <Route path={componentsPageRoute.boxOverlay.path} element={componentsPageRoute.boxOverlay.clientComponent()} />
+          <Route path={componentsPageRoute.boxedGroups.path} element={componentsPageRoute.boxedGroups.clientComponent()} />
+          <Route path={componentsPageRoute.branchName.path} element={componentsPageRoute.branchName.clientComponent()} />
+          <Route path={componentsPageRoute.breadcrumb.path} element={componentsPageRoute.breadcrumb.clientComponent()} />
+          <Route path={componentsPageRoute.buttons.path} element={componentsPageRoute.buttons.clientComponent()} />
+          <Route path={componentsPageRoute.dropdown.path} element={componentsPageRoute.dropdown.clientComponent()} />
+          <Route path={componentsPageRoute.flashBanner.path} element={componentsPageRoute.flashBanner.clientComponent()} />
+          <Route path={componentsPageRoute.forms.path} element={componentsPageRoute.forms.clientComponent()} />
+          <Route path={componentsPageRoute.labels.path} element={componentsPageRoute.labels.clientComponent()} />
+          <Route path={componentsPageRoute.markdown.path} element={componentsPageRoute.markdown.clientComponent()} />
+          <Route path={componentsPageRoute.marketingButtons.path} element={componentsPageRoute.marketingButtons.clientComponent()} />
+          <Route path={componentsPageRoute.navigation.path} element={componentsPageRoute.navigation.clientComponent()} />
+          <Route path={componentsPageRoute.octicons.path} element={componentsPageRoute.octicons.clientComponent()} />
+          <Route path={componentsPageRoute.pageHeaders.path} element={componentsPageRoute.pageHeaders.clientComponent()} />
+          <Route path={componentsPageRoute.pageSections.path} element={componentsPageRoute.pageSections.clientComponent()} />
+          <Route path={componentsPageRoute.pagehead.path} element={componentsPageRoute.pagehead.clientComponent()} />
+          <Route path={componentsPageRoute.pagination.path} element={componentsPageRoute.pagination.clientComponent()} />
+          <Route path={componentsPageRoute.popover.path} element={componentsPageRoute.popover.clientComponent()} />
+          <Route path={componentsPageRoute.progress.path} element={componentsPageRoute.progress.clientComponent()} />
+          <Route path={componentsPageRoute.selectMenu.path} element={componentsPageRoute.selectMenu.clientComponent()} />
+          <Route path={componentsPageRoute.subhead.path} element={componentsPageRoute.subhead.clientComponent()} />
+          <Route path={componentsPageRoute.tables.path} element={componentsPageRoute.tables.clientComponent()} />
+          <Route path={componentsPageRoute.tooltips.path} element={componentsPageRoute.tooltips.clientComponent()} />
+          <Route path={componentsPageRoute.truncate.path} element={componentsPageRoute.truncate.clientComponent()} />
+          <Route path="*" element={notFoundPageRoute.clientComponent()} />
+        </Routes>
       </BrowserRouter>
     </ErrorBoundary>
   )
