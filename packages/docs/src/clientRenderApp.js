@@ -1,7 +1,7 @@
+/* eslint-disable import/no-import-module-exports */
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { withRouter } from 'react-router'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { checkAccessibilityIssues } from '@papillonads/library/a11y'
 import { primer } from '@papillonads/components'
 import { NotAuthorized, isUserAuthenticatedPapillonAdsOrganizationMember } from '@papillonads/library/auth'
@@ -18,125 +18,42 @@ export function App() {
   return (
     <ErrorBoundary>
       <BrowserRouter>
-        <Switch>
-          <Route exact={homePageRoute.exact} path={homePageRoute.path} component={homePageRoute.clientComponent} />
+        <Routes>
+          <Route path={homePageRoute.path} element={homePageRoute.clientComponent()} />
+          <Route path={conceptPageRoute.concept.path} element={conceptPageRoute.concept.clientComponent()} />
+          <Route path={conceptPageRoute.accessibility.path} element={conceptPageRoute.accessibility.clientComponent()} />
           <Route
-            exact={conceptPageRoute.concept.exact}
-            path={conceptPageRoute.concept.path}
-            component={conceptPageRoute.concept.clientComponent}
-          />
-          <Route
-            exact={conceptPageRoute.accessibility.exact}
-            path={conceptPageRoute.accessibility.path}
-            component={conceptPageRoute.accessibility.clientComponent}
-          />
-          <Route
-            exact={conceptPageRoute.applicationArchitecture.exact}
             path={conceptPageRoute.applicationArchitecture.path}
-            component={conceptPageRoute.applicationArchitecture.clientComponent}
+            element={conceptPageRoute.applicationArchitecture.clientComponent()}
           />
+          <Route path={conceptPageRoute.bootstrap.path} element={conceptPageRoute.bootstrap.clientComponent()} />
+          <Route path={conceptPageRoute.codeStyle.path} element={conceptPageRoute.codeStyle.clientComponent()} />
+          <Route path={conceptPageRoute.compiling.path} element={conceptPageRoute.compiling.clientComponent()} />
+          <Route path={conceptPageRoute.componentDesign.path} element={conceptPageRoute.componentDesign.clientComponent()} />
           <Route
-            exact={conceptPageRoute.bootstrap.exact}
-            path={conceptPageRoute.bootstrap.path}
-            component={conceptPageRoute.bootstrap.clientComponent}
-          />
-          <Route
-            exact={conceptPageRoute.codeStyle.exact}
-            path={conceptPageRoute.codeStyle.path}
-            component={conceptPageRoute.codeStyle.clientComponent}
-          />
-          <Route
-            exact={conceptPageRoute.compiling.exact}
-            path={conceptPageRoute.compiling.path}
-            component={conceptPageRoute.compiling.clientComponent}
-          />
-          <Route
-            exact={conceptPageRoute.componentDesign.exact}
-            path={conceptPageRoute.componentDesign.path}
-            component={conceptPageRoute.componentDesign.clientComponent}
-          />
-          <Route
-            exact={conceptPageRoute.componentDrivenDevelopment.exact}
             path={conceptPageRoute.componentDrivenDevelopment.path}
-            component={conceptPageRoute.componentDrivenDevelopment.clientComponent}
+            element={conceptPageRoute.componentDrivenDevelopment.clientComponent()}
           />
+          <Route path={conceptPageRoute.continuousDelivery.path} element={conceptPageRoute.continuousDelivery.clientComponent()} />
+          <Route path={conceptPageRoute.continuousIntegration.path} element={conceptPageRoute.continuousIntegration.clientComponent()} />
           <Route
-            exact={conceptPageRoute.continuousDelivery.exact}
-            path={conceptPageRoute.continuousDelivery.path}
-            component={conceptPageRoute.continuousDelivery.clientComponent}
-          />
-          <Route
-            exact={conceptPageRoute.continuousIntegration.exact}
-            path={conceptPageRoute.continuousIntegration.path}
-            component={conceptPageRoute.continuousIntegration.clientComponent}
-          />
-          <Route
-            exact={conceptPageRoute.crossBrowserCompatibility.exact}
             path={conceptPageRoute.crossBrowserCompatibility.path}
-            component={conceptPageRoute.crossBrowserCompatibility.clientComponent}
+            element={conceptPageRoute.crossBrowserCompatibility.clientComponent()}
           />
-          <Route
-            exact={conceptPageRoute.cssArchitecture.exact}
-            path={conceptPageRoute.cssArchitecture.path}
-            component={conceptPageRoute.cssArchitecture.clientComponent}
-          />
-          <Route
-            exact={conceptPageRoute.language.exact}
-            path={conceptPageRoute.language.path}
-            component={conceptPageRoute.language.clientComponent}
-          />
-          <Route
-            exact={conceptPageRoute.localDevelopment.exact}
-            path={conceptPageRoute.localDevelopment.path}
-            component={conceptPageRoute.localDevelopment.clientComponent}
-          />
-          <Route
-            exact={conceptPageRoute.microsite.exact}
-            path={conceptPageRoute.microsite.path}
-            component={conceptPageRoute.microsite.clientComponent}
-          />
-          <Route
-            exact={conceptPageRoute.monorepo.exact}
-            path={conceptPageRoute.monorepo.path}
-            component={conceptPageRoute.monorepo.clientComponent}
-          />
-          <Route
-            exact={conceptPageRoute.rendering.exact}
-            path={conceptPageRoute.rendering.path}
-            component={conceptPageRoute.rendering.clientComponent}
-          />
-          <Route
-            exact={conceptPageRoute.routing.exact}
-            path={conceptPageRoute.routing.path}
-            component={conceptPageRoute.routing.clientComponent}
-          />
-          <Route
-            exact={conceptPageRoute.runtime.exact}
-            path={conceptPageRoute.runtime.path}
-            component={conceptPageRoute.runtime.clientComponent}
-          />
-          <Route
-            exact={conceptPageRoute.testing.exact}
-            path={conceptPageRoute.testing.path}
-            component={conceptPageRoute.testing.clientComponent}
-          />
-          <Route
-            exact={conceptPageRoute.versionControl.exact}
-            path={conceptPageRoute.versionControl.path}
-            component={conceptPageRoute.versionControl.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.components.exact}
-            path={componentsPageRoute.components.path}
-            component={componentsPageRoute.components.clientComponent}
-          />
-          <Route
-            exact={componentsPageRoute.breadcrumb.exact}
-            path={componentsPageRoute.breadcrumb.path}
-            component={componentsPageRoute.breadcrumb.clientComponent}
-          />
-          <Route component={withRouter(notFoundPageRoute.clientComponent)} />
-        </Switch>
+          <Route path={conceptPageRoute.cssArchitecture.path} element={conceptPageRoute.cssArchitecture.clientComponent()} />
+          <Route path={conceptPageRoute.language.path} element={conceptPageRoute.language.clientComponent()} />
+          <Route path={conceptPageRoute.localDevelopment.path} element={conceptPageRoute.localDevelopment.clientComponent()} />
+          <Route path={conceptPageRoute.microsite.path} element={conceptPageRoute.microsite.clientComponent()} />
+          <Route path={conceptPageRoute.monorepo.path} element={conceptPageRoute.monorepo.clientComponent()} />
+          <Route path={conceptPageRoute.rendering.path} element={conceptPageRoute.rendering.clientComponent()} />
+          <Route path={conceptPageRoute.routing.path} element={conceptPageRoute.routing.clientComponent()} />
+          <Route path={conceptPageRoute.runtime.path} element={conceptPageRoute.runtime.clientComponent()} />
+          <Route path={conceptPageRoute.testing.path} element={conceptPageRoute.testing.clientComponent()} />
+          <Route path={conceptPageRoute.versionControl.path} element={conceptPageRoute.versionControl.clientComponent()} />
+          <Route path={componentsPageRoute.components.path} element={componentsPageRoute.components.clientComponent()} />
+          <Route path={componentsPageRoute.breadcrumb.path} element={componentsPageRoute.breadcrumb.clientComponent()} />
+          <Route path="*" element={notFoundPageRoute.clientComponent()} />
+        </Routes>
       </BrowserRouter>
     </ErrorBoundary>
   )
