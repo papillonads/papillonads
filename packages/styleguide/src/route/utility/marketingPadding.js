@@ -3,7 +3,6 @@ import { utilityPagePath } from '../path'
 
 export const marketingPaddingRoute = {
   path: utilityPagePath.marketingPadding,
-  exact: true,
   clientComponent: UtilityPage.MarketingPadding.AsyncMarketingPadding,
   serverComponent: UtilityPage.MarketingPadding.MarketingPadding,
 }

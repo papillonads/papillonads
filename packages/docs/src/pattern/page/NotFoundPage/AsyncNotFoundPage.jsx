@@ -3,10 +3,10 @@ import { defaultProps, propTypes } from './NotFoundPage.prop'
 
 const LazyNotFoundPage = lazy(() => import('./NotFoundPage'))
 
-export function AsyncNotFoundPage({ location }) {
+export function AsyncNotFoundPage() {
   return (
     <Suspense fallback={null}>
-      <LazyNotFoundPage location={location} />
+      <LazyNotFoundPage />
     </Suspense>
   )
 }

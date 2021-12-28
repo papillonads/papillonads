@@ -3,7 +3,6 @@ import { conceptPagePath } from '../path'
 
 export const continuousDeliveryRoute = {
   path: conceptPagePath.continuousDelivery,
-  exact: true,
   clientComponent: ConceptPage.ContinuousDelivery.AsyncContinuousDelivery,
   serverComponent: ConceptPage.ContinuousDelivery.ContinuousDelivery,
 }

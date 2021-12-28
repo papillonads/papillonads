@@ -116,7 +116,7 @@ export function FlexGrid({
                       </div>
                       <div className={cx(displayStyles['d-flex'], flexboxStyles['flex-items-start'], marginStyles['ml-1'])}>
                         {sortComponent}
-                        {nameIndex < items?.[0]?.names.length - 1 ? (
+                        {nameIndex < items?.[0]?.names.length - 1 ? ( // eslint-disable-line no-unsafe-optional-chaining
                           <span className={cx(marginStyles['ml-1'], colorStyles['text-gray-light'])}> |</span>
                         ) : null}
                       </div>

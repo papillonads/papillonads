@@ -3,7 +3,6 @@ import { conceptPagePath } from '../path'
 
 export const componentDrivenDevelopmentRoute = {
   path: conceptPagePath.componentDrivenDevelopment,
-  exact: true,
   clientComponent: ConceptPage.ComponentDrivenDevelopment.AsyncComponentDrivenDevelopment,
   serverComponent: ConceptPage.ComponentDrivenDevelopment.ComponentDrivenDevelopment,
 }

@@ -14,7 +14,7 @@ export function TabNav({ className, ariaAttr, items, actions, onClick, children,
   const indexItems = getIndexItems(items)
 
   function renderActions() {
-    return <Fragment>{actions}</Fragment>
+    return <Fragment>{actions}</Fragment> // eslint-disable-line react/jsx-no-useless-fragment
   }
 
   return (
