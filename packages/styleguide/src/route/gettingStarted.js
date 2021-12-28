@@ -3,7 +3,6 @@ import { gettingStartedPagePath } from './path'
 
 export const gettingStartedPageRoute = {
   path: gettingStartedPagePath,
-  exact: true,
   clientComponent: AsyncGettingStartedPage,
   serverComponent: GettingStartedPage,
 }
