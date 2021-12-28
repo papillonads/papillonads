@@ -1,8 +1,8 @@
 import { NotFoundTemplate } from '../../template/NotFoundTemplate'
 import { defaultProps, propTypes } from './NotFoundPage.prop'
 
-export function NotFoundPage({ location }) {
-  return <NotFoundTemplate location={location} />
+export function NotFoundPage() {
+  return <NotFoundTemplate />
 }
 
 NotFoundPage.defaultProps = defaultProps
