@@ -77,7 +77,8 @@ const configureEntries = () => {
 
 const configureSVGLoader = () => {
   return {
-    test: /\.svg$/,
+    test: /\.svg$/i,
+    issuer: /\.[jt]sx?$/,
     use: ['@svgr/webpack'],
   }
 }
