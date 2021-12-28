@@ -21,7 +21,7 @@ export function getIndexItemsWithSelected(indexItems, selectedItem) {
 }
 
 export function getRandomItemFromArray(array) {
-  return array?.[Math.floor(Math.random() * array?.length)]
+  return array?.[Math.floor(Math.random() * array?.length)] // eslint-disable-line no-unsafe-optional-chaining
 }
 
 export function getRange({ range, indexSeed = 0, valueSeed = 0 }) {
@@ -43,6 +43,7 @@ export function getItemsDefaultSelected({ defaultItems, items }) {
 
   if (defaultItems && items) {
     result = [
+      // eslint-disable-next-line no-unsafe-optional-chaining
       ...defaultItems?.map(({ id, name, ...rest }) => ({
         id,
         href: '#url',
@@ -50,6 +51,7 @@ export function getItemsDefaultSelected({ defaultItems, items }) {
         isSelected: name === defaultItems[0].name,
         ...rest,
       })),
+      // eslint-disable-next-line no-unsafe-optional-chaining
       ...items?.map(({ id, name, ...rest }) => ({
         id,
         href: '#url',

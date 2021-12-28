@@ -1,4 +1,4 @@
-export function throttle(delay = 200, fn) {
+export function throttle(fn, delay = 200) {
   let lastCall = 0
 
   const throttleExec = (...args) => {

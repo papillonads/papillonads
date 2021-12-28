@@ -19,10 +19,10 @@ export function InViewport({
   let nodeRef = React.createRef()
   let lastOverflowAt
 
-  const tOnOverflowTop = onOverflowTop && throttle(100, onOverflowTop)
-  const tOnOverflowBottom = onOverflowBottom && throttle(100, onOverflowBottom)
-  const tOnOverflowRight = onOverflowRight && throttle(100, onOverflowRight)
-  const tOnOverflowLeft = onOverflowLeft && throttle(100, onOverflowLeft)
+  const tOnOverflowTop = onOverflowTop && throttle(onOverflowTop, 100)
+  const tOnOverflowBottom = onOverflowBottom && throttle(onOverflowBottom, 100)
+  const tOnOverflowRight = onOverflowRight && throttle(onOverflowRight, 100)
+  const tOnOverflowLeft = onOverflowLeft && throttle(onOverflowLeft, 100)
 
   function handleOverflow(boundingClientRect, windowWidth, windowHeight) {
     const { top, left, bottom, right } = boundingClientRect
@@ -60,7 +60,7 @@ export function InViewport({
   }
 
   function bindEventListeners() {
-    tGetDomPosition = throttle(600, getDomPosition)
+    tGetDomPosition = throttle(getDomPosition, 600)
     if (isBrowser) {
       window.addEventListener('scroll', tGetDomPosition, true)
       window.addEventListener('resize', tGetDomPosition)
