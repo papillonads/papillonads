@@ -22,7 +22,7 @@ export function App() {
     <ErrorBoundary>
       <BrowserRouter>
         <Routes>
-          <Route path={appRootRoute.path} element={docsPageRoute.clientComponent()} />
+          <Route path={appRootRoute.path} element={<Navigate to={docsPageRoute.path} />} />
           <Route path={docsPageRoute.path} element={docsPageRoute.clientComponent()} />
           <Route path={gettingStartedPageRoute.path} element={gettingStartedPageRoute.clientComponent()} />
           <Route path={supportPageRoute.support.path} element={supportPageRoute.support.clientComponent()} />
