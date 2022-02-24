@@ -3,7 +3,7 @@
 @import '~@papillonads/css/build/primer/support/variables/misc.scss';
 
 // A nice way to display branch names inside the UI. Can be a link or not.
-// stylelint-disable selector-max-type
+// stylelint-disable selector-max-type, function-no-unknown
 .branch-name {
   display: inline-block;
   // stylelint-disable-next-line primer/spacing
