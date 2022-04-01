@@ -1,6 +1,6 @@
 /* eslint-disable import/no-import-module-exports */
 import React from 'react'
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom'
 import { checkAccessibilityIssues } from '@papillonads/library/a11y'
 import { primer } from '@papillonads/components'
@@ -92,7 +92,7 @@ export function App() {
 function renderApp() {
   checkAccessibilityIssues(React, ReactDOM, 1000)
 
-  ReactDOM.hydrate(<App />, document.getElementById('app'))
+  ReactDOM.hydrateRoot(document.getElementById('app'), <App />)
 
   if (module.hot) {
     module.hot.accept()
