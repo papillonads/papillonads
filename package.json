@@ -51,7 +51,7 @@
   },
   "dependencies": {
     "@axe-core/react": "^4.4.2",
-    "@papillonads/components": "^1.16.0",
+    "@papillonads/components": "^1.17.0",
     "@papillonads/library": "^1.14.0",
     "classnames": "^2.3.1",
     "prop-types": "^15.8.1",
