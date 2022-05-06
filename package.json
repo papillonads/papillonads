@@ -2,8 +2,8 @@
   "name": "papillonads",
   "description": "Papillon Ads",
   "engines": {
-    "node": "14.19.1",
-    "npm": "6.14.16"
+    "node": "14.19.2",
+    "npm": "6.14.17"
   },
   "homepage": "https://github.com/papillonads/papillonads#readme",
   "repository": {
@@ -106,7 +106,7 @@
     "acorn": "^8.7.1",
     "acorn-dynamic-import": "^4.0.0",
     "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "^28.0.3",
+    "babel-jest": "^28.1.0",
     "babel-loader": "^8.2.5",
     "babel-plugin-css-modules-transform": "^1.6.2",
     "babel-plugin-syntax-async-functions": "^6.13.0",
@@ -145,7 +145,7 @@
     "imagemin-webp": "^7.0.0",
     "imagemin-webp-webpack-plugin": "^3.3.6",
     "img-loader": "^4.0.0",
-    "jest": "^28.0.3",
+    "jest": "^28.1.0",
     "jest-axe": "^6.0.0",
     "jest-enzyme": "^7.1.2",
     "jsdom": "^19.0.0",
@@ -165,7 +165,7 @@
     "regenerator-runtime": "^0.13.9",
     "sass-loader": "^10.2.1",
     "style-loader": "^2.0.0",
-    "stylelint": "^14.8.1",
+    "stylelint": "^14.8.2",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^25.0.0",
     "stylelint-order": "^5.0.0",
