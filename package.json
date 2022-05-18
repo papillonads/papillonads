@@ -2,7 +2,7 @@
   "name": "papillonads",
   "description": "Papillon Ads",
   "engines": {
-    "node": "14.19.2",
+    "node": "14.19.3",
     "npm": "6.14.17"
   },
   "homepage": "https://github.com/papillonads/papillonads#readme",
