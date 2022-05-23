@@ -1,37 +1,29 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<NotFoundPage /> Snaphot must match asyncRender 1`] = `null`;
+exports[`<NotFoundPage /> Snaphot must match asyncRender 1`] = `<div />`;
 
 exports[`<NotFoundPage /> Snaphot must match defaultRender 1`] = `
-<div
-  className={[Function]}
->
-  <div
-    className="flash-messages"
-  >
+<div>
+  <div>
     <div
-      className="flash flash-error"
+      class="flash-messages"
     >
-      <mock-file
-        aria-hidden="true"
-        aria-label={null}
-        className="mr-2"
-        height={16}
-        role="img"
-        style={
-          Object {
-            "display": "inline-block",
-            "fill": "currentColor",
-            "userSelect": "none",
-            "verticalAlign": "text-bottom",
-          }
-        }
-        viewBox="0 0 16 16"
-        width={16}
-      />
-      No match for route. Return to 
-      <div>
-        some link
+      <div
+        class="flash flash-error"
+      >
+        <mock-file
+          aria-hidden="true"
+          classname="mr-2"
+          height="16"
+          role="img"
+          style="display: inline-block; fill: currentColor; user-select: none; vertical-align: text-bottom;"
+          viewbox="0 0 16 16"
+          width="16"
+        />
+        No match for route. Return to 
+        <div>
+          some link
+        </div>
       </div>
     </div>
   </div>

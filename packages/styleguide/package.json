@@ -53,9 +53,5 @@
       "not Edge < 15"
     ]
   },
-  "devDependencies": {
-    "nodemon": "^2.0.16",
-    "webpack": "^4.46.0",
-    "webpack-dev-server": "^3.11.3"
-  }
+  "devDependencies": {}
 }

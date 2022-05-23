@@ -1,76 +1,76 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Rendering /> Render must match designSystemCore() 1`] = `
-<div
-  className={null}
->
-  <h2>
-    📗 Papillon Ads Implementation
-  </h2>
-  <h3>
-    📖. Design System Core
-  </h3>
-  <h4>
-    📃. Setup file(s)
-  </h4>
+<div>
   <div>
-    ﹘ Coming soon.
-  </div>
-  <h4>
-    📃. Knowledge base
-  </h4>
-  <div>
-    ﹘ Coming soon.
+    <h2>
+      📗 Papillon Ads Implementation
+    </h2>
+    <h3>
+      📖. Design System Core
+    </h3>
+    <h4>
+      📃. Setup file(s)
+    </h4>
+    <div>
+      ﹘ Coming soon.
+    </div>
+    <h4>
+      📃. Knowledge base
+    </h4>
+    <div>
+      ﹘ Coming soon.
+    </div>
   </div>
 </div>
 `;
 
 exports[`<Rendering /> Render must match openSourceDependencyProjects() 1`] = `
-<div
-  className={null}
->
-  <h2>
-    📗 Open Source Dependency Projects
-  </h2>
-  <h3>
-    📖. React
-  </h3>
-  📝 Coming soon 🐬
+<div>
+  <div>
+    <h2>
+      📗 Open Source Dependency Projects
+    </h2>
+    <h3>
+      📖. React
+    </h3>
+    📝 Coming soon 🐬
+  </div>
 </div>
 `;
 
 exports[`<Rendering /> Render must match productMicrosites() 1`] = `
-<div
-  className={null}
->
-  <h2>
-    📗 Papillon Ads Implementation
-  </h2>
-  <h3>
-    📖. Product Microsites
-  </h3>
-  <h4>
-    📃. Setup file(s)
-  </h4>
+<div>
   <div>
-    ﹘ Coming soon.
-  </div>
-  <h4>
-    📃. Knowledge base
-  </h4>
-  <div>
-    ﹘ Coming soon.
+    <h2>
+      📗 Papillon Ads Implementation
+    </h2>
+    <h3>
+      📖. Product Microsites
+    </h3>
+    <h4>
+      📃. Setup file(s)
+    </h4>
+    <div>
+      ﹘ Coming soon.
+    </div>
+    <h4>
+      📃. Knowledge base
+    </h4>
+    <div>
+      ﹘ Coming soon.
+    </div>
   </div>
 </div>
 `;
 
 exports[`<Rendering /> Render must match specificationsStandardsGuidelines() 1`] = `
-<div
-  className={null}
->
-  <h2>
-    📗 Specifications/Standards/Guidelines
-  </h2>
-  Coming soon...
+<div>
+  <div>
+    <h2>
+      📗 Specifications/Standards/Guidelines
+    </h2>
+    Coming soon...
+  </div>
 </div>
 `;
