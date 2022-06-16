@@ -34,7 +34,7 @@ const configureBabelLoader = (browserList) => {
             {
               modules: false,
               useBuiltIns: 'entry',
-              corejs: '3.22.8',
+              corejs: '3.23.1',
               targets: {
                 browsers: browserList,
               },
